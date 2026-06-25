@@ -1,11 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/nika-s-digital-garden/","tags":["gardenEntry"],"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/nika-s-digital-garden/","title":"Мой цифровой сад","tags":["главная","приветствие","gardenEntry"],"dg-note-properties":{"title":"Мой цифровой сад","description":"Добро пожаловать в мой сад заметок","tags":["главная","приветствие","gardenEntry"]}}
 ---
 
-
-# Nika's digital garden
-
-Мяу мяу! Добро пожаловать в мой цифровой сад 🌱
-
-Здесь вы можете узнать:
-- [[USA in the 1950-60s\|USA in the 1950-60s]] — мои заметки об истории США
+# 🌱 Добро пожаловать в мой цифровой сад!
+Здесь я собираю свои мысли, идеи и заметки.
+## Мои заметки
+- [[США в 1950-60-х\|США в 1950-60-х]] — мои заметки об истории США.
+---
+*Обновлено: 2026-06-26*
