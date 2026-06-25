@@ -1,5 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/usa-in-the-1950-60s/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/usa-in-the-1950-60s/","title":"Моя первая заметка","tags":["цифровой-сад","заметка"],"dg-note-properties":{"title":"Моя первая заметка","description":"Это описание моей заметки для поисковиков","tags":["цифровой-сад","заметка"]}}
 ---
 
-Veronica Lake
+# Привет! Это моя первая заметка в цифровом саду
+Здесь может быть любой текст.
