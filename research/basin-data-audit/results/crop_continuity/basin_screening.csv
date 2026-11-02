@@ -1,0 +1,23 @@
+BCODE,Basin_Name,n_bcu_any,n_countries_any,n_bcu_eligible,n_countries_eligible,n_eligible_bcu_crop_seasons,eligible_crops,cross_country_comparable_pairs,max_crossborder_common_years,max_crossborder_consecutive_years,cross_country_minimum_data_met,suggested_role
+NGER,Niger,7,7,6,6,17,Maize;Rice;Sorghum,40,35,31,True,crossborder-panel-candidate
+LKCH,Lake Chad,6,6,5,5,11,Maize;Rice;Sorghum,12,37,37,True,crossborder-panel-candidate
+VOLT,Volta,4,4,4,4,11,Maize;Rice;Sorghum,15,26,26,True,crossborder-panel-candidate
+NILE,Nile,8,8,4,4,13,Maize;Rice;Sorghum,8,21,10,True,crossborder-panel-candidate
+ZAMB,Zambezi,5,5,3,3,10,Maize;Rice;Sorghum,7,36,19,True,crossborder-panel-candidate
+JUBA,Juba-Shibeli,3,3,3,3,12,Maize;Sorghum,6,30,30,True,crossborder-panel-candidate
+CNGO,Congo/Zaire,7,7,3,3,6,Maize;Rice;Sorghum,4,20,17,True,crossborder-panel-candidate
+MONO,Mono,2,2,2,2,4,Maize;Rice;Sorghum,1,21,21,True,crossborder-panel-candidate
+SENG,Senegal,3,3,2,2,7,Maize;Rice;Sorghum,2,16,11,True,crossborder-panel-candidate
+AWSH,Awash,1,1,1,1,2,Maize;Sorghum,0,0,0,False,single-country-or-case-study-candidate
+GAMB,Gambia,1,1,1,1,3,Maize;Rice;Sorghum,0,0,0,False,single-country-or-case-study-candidate
+GLNA,Galana,1,1,1,1,2,Maize;Sorghum,0,0,0,False,single-country-or-case-study-candidate
+KMOE,Komoe,1,1,1,1,3,Maize;Rice;Sorghum,0,0,0,False,single-country-or-case-study-candidate
+LKCW,Lake Chilwa,1,1,1,1,3,Maize;Rice;Sorghum,0,0,0,False,single-country-or-case-study-candidate
+LKTK,Lake Turkana,2,2,1,1,2,Maize;Sorghum,0,0,0,False,single-country-or-case-study-candidate
+ORAN,Orange,2,2,1,1,2,Maize;Sorghum,0,0,0,False,single-country-or-case-study-candidate
+OUEM,Oueme,1,1,1,1,3,Maize;Rice;Sorghum,0,0,0,False,single-country-or-case-study-candidate
+BENT,Benito/Ntem,1,1,0,0,0,,0,0,0,False,data-sparse-exclude-from-main-panel
+CROS,Cross,2,2,0,0,0,,0,0,0,False,data-sparse-exclude-from-main-panel
+LMPO,Limpopo,3,3,0,0,0,,0,0,0,False,data-sparse-exclude-from-main-panel
+MOAX,Moa,1,1,0,0,0,,0,0,0,False,data-sparse-exclude-from-main-panel
+SANA,Sanaga,1,1,0,0,0,,0,0,0,False,data-sparse-exclude-from-main-panel

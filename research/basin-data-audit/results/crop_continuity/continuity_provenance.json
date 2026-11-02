@@ -1,0 +1,63 @@
+{
+  "started_utc": "2026-11-02T23:59:22.448952+00:00",
+  "source": "https://raw.githubusercontent.com/HarvestStat/HarvestStat-Africa/5b62fb5/public/hvstat_africa_data_v1.2.csv",
+  "pinned_sha256": "f659e121e315b9d8656699e4b16421ed3b313e4c8d09d15199452000836dbef9",
+  "crops": [
+    "Maize",
+    "Sorghum",
+    "Rice"
+  ],
+  "window_inclusive": [
+    1981,
+    2024
+  ],
+  "code_version": "crop_continuity_v1",
+  "definitions": {
+    "valid_row": "qc_flag==0 and yield>0 and area>0 and production>0, non-null harvest year",
+    "district_series": "fnid x crop x season_name x crop_production_system; seasons/systems never averaged together",
+    "duplicated_year_in_series": "if >1 source row has same fnid/crop/season/system/year, exclude that year from continuity",
+    "longest_run": "maximum strictly consecutive run of distinct valid harvest years (no filled missing years)",
+    "bcu_eligible": "at least 2 districts with 8+ valid years each AND >=10 harvest years containing >=2 distinct districts in same season/system, longest such stretch >=6 years",
+    "basin_eligible": "at least 2 eligible BCU of distinct countries with >=8 overlapping qualifying harvest years for a common crop; based on *year*, season/system may differ between countries",
+    "geographic_assignment": "previous audit's single >=80%-area-dominant BCU crosswalk, not irrigated acreage",
+    "uncertainties": "qc_flag=0 only means not flagged, not a guarantee of truth; crop seasons are calendar metadata not exact phenology; nonrandom reporting gaps; historical borders; no institutional effectiveness inferred"
+  },
+  "status": "COMPLETE",
+  "full_source_rows": 217487,
+  "selected_crop_and_period_rows": 55719,
+  "per_crop_raw_counts": {
+    "Maize": 24785,
+    "Rice": 12334,
+    "Sorghum": 18600
+  },
+  "selected_valid_rows": 51547,
+  "selected_qc_counts": {
+    "0": 55020,
+    "2": 527,
+    "1": 172
+  },
+  "selected_valid_with_ge80_bcu": 35353,
+  "ambiguous_duplicate_series_year_keys": 0,
+  "ambiguous_duplicate_rows": 0,
+  "district_crop_season_series": 2671,
+  "qualified_district_crop_season_series": 1359,
+  "bcu_crop_season_series": 330,
+  "eligible_bcu_crop_season_series": 111,
+  "eligible_distinct_bcu": 40,
+  "basin_screen": {
+    "basins_with_any_3crop_data": 22,
+    "basins_with_eligible_bcu": 17,
+    "cross_country_basins_meeting_strict_panel_criterion": 9,
+    "basins_with_strict_crossborder_panel": [
+      "NGER",
+      "LKCH",
+      "VOLT",
+      "NILE",
+      "ZAMB",
+      "JUBA",
+      "CNGO",
+      "MONO",
+      "SENG"
+    ]
+  }
+}
