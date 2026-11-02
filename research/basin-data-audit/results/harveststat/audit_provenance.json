@@ -1,0 +1,65 @@
+{
+  "run_utc": "2026-11-02T23:49:00.636958+00:00",
+  "inputs": {
+    "harveststat_csv": {
+      "url": "https://raw.githubusercontent.com/HarvestStat/HarvestStat-Africa/5b62fb5/public/hvstat_africa_data_v1.2.csv",
+      "sha256": "f659e121e315b9d8656699e4b16421ed3b313e4c8d09d15199452000836dbef9",
+      "size_bytes": 25312039
+    },
+    "harveststat_boundaries": {
+      "url": "https://raw.githubusercontent.com/HarvestStat/HarvestStat-Africa/5b62fb5/public/hvstat_africa_boundary_v1.2.gpkg",
+      "sha256": "259e152dcae5b8629b2b76f789abb114219e07347a1dc1efaf8185281f7d028e",
+      "size_bytes": 8486912
+    },
+    "tfdd2024": {
+      "url": "https://transboundarywaters.ceoas.oregonstate.edu/sites/transboundarywaters.ceoas.oregonstate.edu/files/2024-08/TFDDSpatialDatabase_20240807.zip",
+      "sha256": "379392939ea9bd306ddaf44def8dc04dee419a1a8f310268157fe16b97a87369",
+      "size_bytes": 67965338
+    }
+  },
+  "versions": {
+    "python": "3.11.17",
+    "pandas": "2.3.3",
+    "geopandas": "1.2.0"
+  },
+  "definitions": {
+    "baseline_valid": "yield > 0, area > 0, production > 0, qc_flag == 0, harvest_year present",
+    "spatial_fraction": "geodesic-style equal-area EPSG:6933 polygon intersection in km2 / admin polygon area; NOT irrigated/cropped share",
+    "dominant_assignment": "unique highest-overlap BCU, same country, share>=0.8; never replicate one harveststat row into multiple BCU",
+    "uncertainties": "polygon overlap is NOT farmland location; historical admin boundaries may not match historical years; institutions not yet joined"
+  },
+  "harveststat": {
+    "total_rows": 217487,
+    "countries": 33,
+    "admin_fnid": 1041,
+    "crops": 92,
+    "observed_years": 67,
+    "year_min": "1960",
+    "year_max": "2026",
+    "positive_yield_rows": 201259,
+    "positive_area_rows": 204862,
+    "positive_production_rows": 213774,
+    "joint_valid_rows": 198014,
+    "missing_harvest_year": 0,
+    "qc_counts": {
+      "0": 214242,
+      "2": 2558,
+      "1": 687
+    },
+    "ratio_mismatch_20pct_flag": 0,
+    "duplicate_fnid_crop_season_year": 0
+  },
+  "spatial": {
+    "admin_geometries": 1128,
+    "bcu_geometries": 818,
+    "country_codes_unmatched": [],
+    "administrative_units_intersecting_bcu": 984,
+    "with_dominant_bcu": 984,
+    "dominant_share_ge_80pct": 695,
+    "admin_units_ambiguous_or_not_in_bcu": 433,
+    "bcu_with_at_least_one_valid_admin_crop_year": 63,
+    "distinct_bcu_with_any_polygon_overlap": 147,
+    "valid_fnid_crop_year_rows_assigned_80pct": 134300
+  },
+  "status": "COMPLETE"
+}
