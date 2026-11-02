@@ -1,0 +1,20 @@
+{
+  "timestamp_utc": "2026-11-02T23:09:08.344116+00:00",
+  "sources": {
+    "tfdd2024": {
+      "status": "downloaded_and_zip_verified",
+      "url": "https://transboundarywaters.ceoas.oregonstate.edu/sites/transboundarywaters.ceoas.oregonstate.edu/files/2024-08/TFDDSpatialDatabase_20240807.zip",
+      "bytes": 67965338,
+      "sha256": "379392939ea9bd306ddaf44def8dc04dee419a1a8f310268157fe16b97a87369",
+      "zip_members": 25
+    },
+    "gdhy_aligned": {
+      "status": "downloaded_and_zip_verified",
+      "url": "https://store.pangaea.de/Publications/IizumiT_2019/gdhy_v1.2_v1.3_20190128.zip",
+      "bytes": 15989683,
+      "sha256": "731d03171ff9a5afb4837f51d6941fb58085ee69c62e767810e9395756648c76",
+      "zip_members": 370
+    }
+  },
+  "errors": []
+}

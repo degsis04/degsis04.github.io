@@ -1,0 +1,167 @@
+{
+  "nc_files": 360,
+  "season_file_counts": {
+    "maize": 36,
+    "maize_major": 36,
+    "maize_second": 36,
+    "rice": 36,
+    "rice_major": 36,
+    "rice_second": 36,
+    "soybean": 36,
+    "wheat": 36,
+    "wheat_spring": 36,
+    "wheat_winter": 36
+  },
+  "first_25": [
+    "maize/yield_1981.nc4",
+    "maize/yield_1982.nc4",
+    "maize/yield_1983.nc4",
+    "maize/yield_1984.nc4",
+    "maize/yield_1985.nc4",
+    "maize/yield_1986.nc4",
+    "maize/yield_1987.nc4",
+    "maize/yield_1988.nc4",
+    "maize/yield_1989.nc4",
+    "maize/yield_1990.nc4",
+    "maize/yield_1991.nc4",
+    "maize/yield_1992.nc4",
+    "maize/yield_1993.nc4",
+    "maize/yield_1994.nc4",
+    "maize/yield_1995.nc4",
+    "maize/yield_1996.nc4",
+    "maize/yield_1997.nc4",
+    "maize/yield_1998.nc4",
+    "maize/yield_1999.nc4",
+    "maize/yield_2000.nc4",
+    "maize/yield_2001.nc4",
+    "maize/yield_2002.nc4",
+    "maize/yield_2003.nc4",
+    "maize/yield_2004.nc4",
+    "maize/yield_2005.nc4"
+  ],
+  "netcdf_samples": [
+    {
+      "file": "maize/yield_1981.nc4",
+      "dimensions": {
+        "lon": 720,
+        "lat": 360
+      },
+      "variables": {
+        "lon": {
+          "shape": [
+            720
+          ],
+          "dimensions": [
+            "lon"
+          ],
+          "units": "degrees_east",
+          "fill": null
+        },
+        "lat": {
+          "shape": [
+            360
+          ],
+          "dimensions": [
+            "lat"
+          ],
+          "units": "degrees_north",
+          "fill": null
+        },
+        "var": {
+          "shape": [
+            360,
+            720
+          ],
+          "dimensions": [
+            "lat",
+            "lon"
+          ],
+          "units": null,
+          "fill": "-9.99e+08"
+        }
+      }
+    },
+    {
+      "file": "maize/yield_1995.nc4",
+      "dimensions": {
+        "lon": 720,
+        "lat": 360
+      },
+      "variables": {
+        "lon": {
+          "shape": [
+            720
+          ],
+          "dimensions": [
+            "lon"
+          ],
+          "units": "degrees_east",
+          "fill": null
+        },
+        "lat": {
+          "shape": [
+            360
+          ],
+          "dimensions": [
+            "lat"
+          ],
+          "units": "degrees_north",
+          "fill": null
+        },
+        "var": {
+          "shape": [
+            360,
+            720
+          ],
+          "dimensions": [
+            "lat",
+            "lon"
+          ],
+          "units": null,
+          "fill": "-9.99e+08"
+        }
+      }
+    },
+    {
+      "file": "maize_major/yield_1995.nc4",
+      "dimensions": {
+        "lon": 720,
+        "lat": 360
+      },
+      "variables": {
+        "lon": {
+          "shape": [
+            720
+          ],
+          "dimensions": [
+            "lon"
+          ],
+          "units": "degrees_east",
+          "fill": null
+        },
+        "lat": {
+          "shape": [
+            360
+          ],
+          "dimensions": [
+            "lat"
+          ],
+          "units": "degrees_north",
+          "fill": null
+        },
+        "var": {
+          "shape": [
+            360,
+            720
+          ],
+          "dimensions": [
+            "lat",
+            "lon"
+          ],
+          "units": null,
+          "fill": "-9.99e+08"
+        }
+      }
+    }
+  ]
+}
