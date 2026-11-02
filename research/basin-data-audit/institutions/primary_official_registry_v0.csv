@@ -1,0 +1,12 @@
+basin,mechanism,source_instrument,year_of_document,formal_rule_evidenced,implementation_verified,scope,official_source,notes
+Senegal,international_joint_management,OMVS founding convention,1972,yes,not_checked,OMVS members,https://www.omvs.org/a-propos/,Formal establishment is not proof of effective allocation
+Senegal,water_allocation,Charte des eaux du fleuve Sénégal,2002,yes,not_checked,Uses and sectors,https://www.omvs.org/conventions-de-base/,Formal distribution framework; drought-specific algorithm not verified
+Senegal,coordination_and_water_allocation,Commission Permanente des Eaux,,yes,not_checked,OMVS water users,https://www.omvs.org/gouvernance/,Year of commission's specific procedural powers not yet coded
+Niger,international_joint_management,Niger Basin Authority founding convention,1980,yes,not_checked,NBA basin,https://www.abn.ne/fr/abn/historique.html,Revised convention 1987
+Niger,information_exchange,Decision on information exchange,2002,yes,not_checked,NBA member states,https://www.abn.ne/index.php/files/17/Charte-de-l-eau-fr-FR/10/La-Copie-Certifiee-de-la-Charte-de-l-Eau-du-Bassin-du-Niger.pdf,Water charter preamble cites information exchange decision 16 February 2002; verify implementation
+Niger,coordinated_dam_management,Annex 2 to water charter,,yes,not_checked,NBA structural dams,https://www.abn.ne/index.php/fr/component/dropfiles/?catid%5B0%5D=17&view=frontlist,Publication page shows document; effective date not yet established
+Mekong,international_joint_management,1995 Mekong Agreement,1995,yes,not_checked,Cambodia Laos Thailand Vietnam,https://www.mrcmekong.org/publications/1995-mekong-agreement-and-procedures/,Does not cover China and Myanmar as full members
+Mekong,data_exchange,PDIES,2001,yes,not_checked,MRC member countries,https://www.mrcmekong.org/procedures/,Information exchange framework
+Mekong,prior_consultation,PNPCA,2003,yes,not_checked,Potentially significant water use projects,https://www.mrcmekong.org/procedures/,Notification is not veto or guaranteed compliance
+Mekong,water_use_monitoring,PWUM,2003,yes,not_checked,MRC member countries,https://www.mrcmekong.org/procedures/,Monitoring provisions not independently validated
+Mekong,maintenance_of_flow_regime,PMFM,2006,yes,not_checked,Mekong mainstream,https://www.mrcmekong.org/procedures/,Hydrological flow procedure not equivalent to fixed allocations during drought
