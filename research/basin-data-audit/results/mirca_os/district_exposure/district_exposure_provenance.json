@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-11-03T00:37:40.792390+00:00",
+  "dataset": "MIRCA-OS v2 annual harvested area, original global 5arcmin grids",
+  "version": "district crop exposure v0.1",
+  "status": "COMPLETE",
+  "errors": [],
+  "units": "Harvested area in ha per raster cell; fraction of irrigated vs irrigated+rainfed harvested area",
+  "note": "Administrative bounding data and MIRCA-OS are reconstructed/modelled and not field-level observed irrigation. At 5arcmin many small districts have zero pixel centers; do not infer zero cultivation without raster support.",
+  "source_checks": {
+    "archive_sha256_matches_verified": true,
+    "HarvestStat_boundaries_sha256_matches_verified": true
+  },
+  "n_administrative_districts": 253,
+  "districts_by_basin": {
+    "NGER": 108,
+    "VOLT": 58,
+    "ZAMB": 87
+  },
+  "n_panel_rows": 1518,
+  "n_positive_crop_panel": 1495,
+  "n_missing_pixel_support_panel": 12,
+  "n_positive_irrigated_panel": 712
+}
