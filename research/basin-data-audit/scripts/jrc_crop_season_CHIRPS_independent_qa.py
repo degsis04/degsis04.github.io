@@ -25,10 +25,34 @@ try:
  lookup=c.set_index(["fnid","period"]).rainfall_mm_month
  check("source_rows_29744",len(s)==29744,len(s))
  check("all_raw_nonneg",s.precip_total_mm.dropna().ge(0).all())
- check("1981_missing_only_crossyear",len(s.loc[s.window_data_status.ne("COMPLETE")])==350 and
+ check("1981_missing_only_anchored_full_crop_cycle",
        s.loc[s.window_data_status.ne("COMPLETE"),"harvest_year"].eq(1981).all() and
-       s.loc[s.window_data_status.ne("COMPLETE"),"crosses_calendar_year"].all())
+       s.loc[s.window_data_status.ne("COMPLETE"),"full_crop_cycle_crosses_year"].all(),
+       {"n_missing":int(s.window_data_status.ne("COMPLETE").sum())})
  check("weather_years_44",set(s.harvest_year)==set(range(1981,2025)))
+ # Independent FULL SEASON anchor check. A core window can be entirely in
+ # preceding calendar year even when it does not itself cross December.
+ sos=s.JRC_sos_start_dekad.astype(int)
+ d0=s.JRC_sos_end_dekad.astype(int);d1=s.JRC_eos_start_dekad.astype(int)
+ cropcross=s.JRC_eos_end_dekad.astype(int).lt(sos)
+ core=s.loc[s.window.eq("core")].copy()
+ anchor=s.loc[s.window.eq("core"),"harvest_year"].astype(int) - cropcross.loc[core.index].astype(int)
+ expected_from_year=anchor + d0.loc[core.index].lt(sos.loc[core.index]).astype(int)
+ expected_to_year=anchor + d1.loc[core.index].lt(sos.loc[core.index]).astype(int)
+ check("independent_anchor_start_year_all_core_rows",bool(core.from_year.astype(int).eq(expected_from_year).all()),
+       {"n_checked":len(core),"n_bad":int((~core.from_year.astype(int).eq(expected_from_year)).sum())})
+ check("independent_anchor_end_year_all_core_rows",bool(core.to_year.astype(int).eq(expected_to_year).all()),
+       {"n_checked":len(core),"n_bad":int((~core.to_year.astype(int).eq(expected_to_year)).sum())})
+ gh=s.loc[(s.country_code=="GH") & (s.jrc_crop_season=="Maize (Second)") &
+          s.window.eq("core")&s.harvest_year.eq(2020)]
+ check("ghana_second_maize_growth_2020_must_be_2019",bool(len(gh)>0 and
+       gh.from_year.eq(2019).all() and gh.to_year.eq(2019).all()),
+       {"n_checked":len(gh)})
+ ml=s.loc[(s.country_code=="ML")&(s.jrc_crop_season=="Rice (Rainfed)") &
+          s.window.eq("core")&s.harvest_year.eq(2020)&s.full_crop_cycle_crosses_year]
+ check("mali_season_rice_growth_2020_must_be_2019",bool(len(ml)>0 and
+       ml.from_year.eq(2019).all() and ml.to_year.eq(2019).all()),
+       {"n_checked":len(ml)})
  check("one_per_source_season_year_window",not s.duplicated(["fnid","jrc_crop_season","window","harvest_year"]).any())
  selected=[]
  for cc in sorted(s.country_code.unique()):
