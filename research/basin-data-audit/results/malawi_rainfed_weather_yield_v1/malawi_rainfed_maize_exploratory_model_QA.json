@@ -1,0 +1,363 @@
+{
+  "utc": "2026-11-03T16:08:03.774040+00:00",
+  "status": "COMPLETE",
+  "sources": {
+    "yield": "results/malawi_maize_calendar_sensitivity_v1/malawi_maize_observed_yield_4_weather_windows_NO_REGRESSION.csv",
+    "eligibility": "results/malawi_maize_semantics_v1/main_rainfed_only_district_eligibility.csv",
+    "original_HarvestStat_QA": "results/malawi_maize_semantics_v1/Malawi_915_primary_original_source_QA.json",
+    "independent_HarvestStat_QA": "results/malawi_maize_semantics_v1/Malawi_915_INDEPENDENT_standard_library_QA.json"
+  },
+  "design": {
+    "study": "Weather and rainfed maize yield association, Malawi, one cross-border Zambezi country only",
+    "source_outcome": "log(yield tonne per hectare), 1983-2020, Main and Rainfed (PS) only",
+    "weather_z": "CHIRPS v3 actual district precipitation sum standardized versus each window's 1981–2010 reference",
+    "prior_windows": [
+      "broad",
+      "core",
+      "waha_broad",
+      "waha_growth"
+    ],
+    "primary_sample": "16 FNIDs selected for >=30 observed years, <=5% gaps before regression",
+    "secondary_sample": "all 23 source FNIDs, sample stability",
+    "main_model": "OLS log(yield) ~ window_z + categorical district FE + categorical harvest-year FE",
+    "standard_errors": "district-clustered and year-clustered as separate small-sample sensitivity diagnostics",
+    "core_relevance": "district rainfall / rainfed output, not upstream flow, treaty treatment or irrigated crops",
+    "deliberately_no_institutions": true,
+    "one_rainfall_unit": "+1 within-FNID/window standardized seasonal rainfall unit",
+    "pvalue_policy": "descriptive, exploratory; district clusters only 16, p values not confirmatory"
+  },
+  "caveats": [
+    "Malawi's observed Main/Rainfed series predates Annual/All coding break.",
+    "District rainfall is spatially correlated, 16 district clusters few; cluster-robust t with df=#clusters-1 exploratory.",
+    "With district+year fixed effects, identification uses relative within-year district anomalies; shared national drought variation is absorbed.",
+    "Year-indexed harvest may not be exact biological maize harvest year.",
+    "Crop areas and yields come from harmonized FEWSNET records, not field-level repeated measurement.",
+    "Rainfall/yield contemporaneous does not establish causal precipitation effect (other covarying interventions possible).",
+    "Mali, Malawi, Niger/Volta institutions cannot be evaluated with a single-country rainfed maize regression.",
+    "Do not select climate calendar or sample based on preferred coefficient/p-value."
+  ],
+  "checks": {
+    "original_915_rows": {
+      "pass": true,
+      "details": 915
+    },
+    "original_strata_main_rainfed_812": {
+      "pass": true,
+      "details": null
+    },
+    "prior_years_eligible_16_districts": {
+      "pass": true,
+      "details": [
+        "MW2018A20101",
+        "MW2018A20102",
+        "MW2018A20104",
+        "MW2018A20107",
+        "MW2018A20109",
+        "MW2018A20110",
+        "MW2018A20211",
+        "MW2018A20212",
+        "MW2018A20214",
+        "MW2018A20318",
+        "MW2018A20319",
+        "MW2018A20321",
+        "MW2018A20324",
+        "MW2018A20325",
+        "MW2018A20326",
+        "MW2018A20328"
+      ]
+    },
+    "all_sub_qc0_and_plausible": {
+      "pass": true,
+      "details": {
+        "n": 812,
+        "min": 0.030524071372461,
+        "max": 3.440302176925484
+      }
+    },
+    "source_MW_maize_1983_2020": {
+      "pass": true,
+      "details": null
+    },
+    "no_duplicated_outcome_key": {
+      "pass": true,
+      "details": null
+    },
+    "rainfall_all_four_completely_observed": {
+      "pass": true,
+      "details": null
+    },
+    "all_8_pre_registered_two_way_FE_models": {
+      "pass": true,
+      "details": 8
+    },
+    "all_source_outcome_rows_represented": {
+      "pass": true,
+      "details": null
+    },
+    "strict16_has_sufficient_obs": {
+      "pass": true,
+      "details": 584
+    },
+    "leave_one_out_16x4_models": {
+      "pass": true,
+      "details": 64
+    },
+    "models_estimates_finite": {
+      "pass": true,
+      "details": null
+    }
+  },
+  "errors": [],
+  "counts": {
+    "original_outcome_915": 915,
+    "eligible_rainfed_main_812": 812,
+    "strict_16_rows": 584,
+    "strict_16_districts": 16,
+    "all23_districts": 23,
+    "FE_specs_2cohorts_x_4windows": 8,
+    "leave_one_district_out_specs": 64,
+    "period_sensitive_specs": 8,
+    "model_coefficients": [
+      {
+        "sample": "strict16",
+        "window": "broad",
+        "n_rows": 584,
+        "n_fnids": 16,
+        "n_harvest_years": 38,
+        "min_harvest_year": 1983,
+        "max_harvest_year": 2020,
+        "beta_log_yield_per_plus_1_z": 0.1030478053413435,
+        "exp_beta_minus_one_pct": 10.854440215286042,
+        "district_cluster_se": 0.02167981939358401,
+        "year_cluster_se": 0.038033610614331616,
+        "t_cluster_district_dfGminus1_p_EXPLORATORY": 0.00025641762617006225,
+        "t_cluster_year_dfTminus1_p_EXPLORATORY": 0.010152123130412366,
+        "r2_including_all_FE": 0.6813119204072562,
+        "condition_number": 112.19807014756849,
+        "nonlinear_causality_not_claimed": true
+      },
+      {
+        "sample": "strict16",
+        "window": "core",
+        "n_rows": 584,
+        "n_fnids": 16,
+        "n_harvest_years": 38,
+        "min_harvest_year": 1983,
+        "max_harvest_year": 2020,
+        "beta_log_yield_per_plus_1_z": 0.09042224650479153,
+        "exp_beta_minus_one_pct": 9.463639252718925,
+        "district_cluster_se": 0.02168808212162871,
+        "year_cluster_se": 0.038471822161530826,
+        "t_cluster_district_dfGminus1_p_EXPLORATORY": 0.0008225207766740938,
+        "t_cluster_year_dfTminus1_p_EXPLORATORY": 0.024197675113038566,
+        "r2_including_all_FE": 0.6794166760106901,
+        "condition_number": 111.5165601026657,
+        "nonlinear_causality_not_claimed": true
+      },
+      {
+        "sample": "strict16",
+        "window": "waha_broad",
+        "n_rows": 584,
+        "n_fnids": 16,
+        "n_harvest_years": 38,
+        "min_harvest_year": 1983,
+        "max_harvest_year": 2020,
+        "beta_log_yield_per_plus_1_z": 0.09597296485188828,
+        "exp_beta_minus_one_pct": 10.072930521191687,
+        "district_cluster_se": 0.022787176220070916,
+        "year_cluster_se": 0.04101556002388118,
+        "t_cluster_district_dfGminus1_p_EXPLORATORY": 0.0007548421087175003,
+        "t_cluster_year_dfTminus1_p_EXPLORATORY": 0.024791933066779577,
+        "r2_including_all_FE": 0.68028321802752,
+        "condition_number": 111.52637180838524,
+        "nonlinear_causality_not_claimed": true
+      },
+      {
+        "sample": "strict16",
+        "window": "waha_growth",
+        "n_rows": 584,
+        "n_fnids": 16,
+        "n_harvest_years": 38,
+        "min_harvest_year": 1983,
+        "max_harvest_year": 2020,
+        "beta_log_yield_per_plus_1_z": 0.10309369831640744,
+        "exp_beta_minus_one_pct": 10.859527772087235,
+        "district_cluster_se": 0.022184062928604236,
+        "year_cluster_se": 0.04059400942686978,
+        "t_cluster_district_dfGminus1_p_EXPLORATORY": 0.0003160195249694716,
+        "t_cluster_year_dfTminus1_p_EXPLORATORY": 0.015430163618387336,
+        "r2_including_all_FE": 0.681922004412403,
+        "condition_number": 111.51529309571987,
+        "nonlinear_causality_not_claimed": true
+      },
+      {
+        "sample": "all23",
+        "window": "broad",
+        "n_rows": 812,
+        "n_fnids": 23,
+        "n_harvest_years": 38,
+        "min_harvest_year": 1983,
+        "max_harvest_year": 2020,
+        "beta_log_yield_per_plus_1_z": 0.08559128253891249,
+        "exp_beta_minus_one_pct": 8.936099644320004,
+        "district_cluster_se": 0.018347199627439227,
+        "year_cluster_se": 0.026908123596744143,
+        "t_cluster_district_dfGminus1_p_EXPLORATORY": 0.00011889493304369991,
+        "t_cluster_year_dfTminus1_p_EXPLORATORY": 0.0029686730670410322,
+        "r2_including_all_FE": 0.7011252083851403,
+        "condition_number": 131.02826636056164,
+        "nonlinear_causality_not_claimed": true
+      },
+      {
+        "sample": "all23",
+        "window": "core",
+        "n_rows": 812,
+        "n_fnids": 23,
+        "n_harvest_years": 38,
+        "min_harvest_year": 1983,
+        "max_harvest_year": 2020,
+        "beta_log_yield_per_plus_1_z": 0.07654598666845064,
+        "exp_beta_minus_one_pct": 7.9551834187953165,
+        "district_cluster_se": 0.01740151381094341,
+        "year_cluster_se": 0.02677168587672234,
+        "t_cluster_district_dfGminus1_p_EXPLORATORY": 0.00022774934648669049,
+        "t_cluster_year_dfTminus1_p_EXPLORATORY": 0.006938679780764014,
+        "r2_including_all_FE": 0.6999671321118005,
+        "condition_number": 130.37625144903458,
+        "nonlinear_causality_not_claimed": true
+      },
+      {
+        "sample": "all23",
+        "window": "waha_broad",
+        "n_rows": 812,
+        "n_fnids": 23,
+        "n_harvest_years": 38,
+        "min_harvest_year": 1983,
+        "max_harvest_year": 2020,
+        "beta_log_yield_per_plus_1_z": 0.080410362831288,
+        "exp_beta_minus_one_pct": 8.373169964712524,
+        "district_cluster_se": 0.018658118433723444,
+        "year_cluster_se": 0.02828244106992645,
+        "t_cluster_district_dfGminus1_p_EXPLORATORY": 0.00028317695770881666,
+        "t_cluster_year_dfTminus1_p_EXPLORATORY": 0.007231673940498124,
+        "r2_including_all_FE": 0.7005651947330689,
+        "condition_number": 130.3687313442659,
+        "nonlinear_causality_not_claimed": true
+      },
+      {
+        "sample": "all23",
+        "window": "waha_growth",
+        "n_rows": 812,
+        "n_fnids": 23,
+        "n_harvest_years": 38,
+        "min_harvest_year": 1983,
+        "max_harvest_year": 2020,
+        "beta_log_yield_per_plus_1_z": 0.08553250045396177,
+        "exp_beta_minus_one_pct": 8.929696341458103,
+        "district_cluster_se": 0.01868628484604984,
+        "year_cluster_se": 0.02778619671586709,
+        "t_cluster_district_dfGminus1_p_EXPLORATORY": 0.00014728733925480054,
+        "t_cluster_year_dfTminus1_p_EXPLORATORY": 0.003909780716415815,
+        "r2_including_all_FE": 0.7017361411832531,
+        "condition_number": 130.35955877110337,
+        "nonlinear_causality_not_claimed": true
+      }
+    ],
+    "district_omission_range": [
+      {
+        "window": "broad",
+        "full_16_beta": 0.1030478053413435,
+        "min_leave_one_district_beta": 0.08948586876305287,
+        "max_leave_one_district_beta": 0.11388884874125407,
+        "same_sign_all_16_deletions": true
+      },
+      {
+        "window": "core",
+        "full_16_beta": 0.09042224650479153,
+        "min_leave_one_district_beta": 0.07659095249690344,
+        "max_leave_one_district_beta": 0.10368307209921154,
+        "same_sign_all_16_deletions": true
+      },
+      {
+        "window": "waha_broad",
+        "full_16_beta": 0.09597296485188828,
+        "min_leave_one_district_beta": 0.08334248140397837,
+        "max_leave_one_district_beta": 0.10990104176637056,
+        "same_sign_all_16_deletions": true
+      },
+      {
+        "window": "waha_growth",
+        "full_16_beta": 0.10309369831640744,
+        "min_leave_one_district_beta": 0.09218354235585859,
+        "max_leave_one_district_beta": 0.11694473506594878,
+        "same_sign_all_16_deletions": true
+      }
+    ],
+    "period_associations": [
+      {
+        "period": "early_1983_2000",
+        "window": "broad",
+        "n_rows": 270,
+        "districts": 16,
+        "years": 18,
+        "beta": 0.10043174191202195
+      },
+      {
+        "period": "early_1983_2000",
+        "window": "core",
+        "n_rows": 270,
+        "districts": 16,
+        "years": 18,
+        "beta": 0.0933808755053314
+      },
+      {
+        "period": "early_1983_2000",
+        "window": "waha_broad",
+        "n_rows": 270,
+        "districts": 16,
+        "years": 18,
+        "beta": 0.09452791883371146
+      },
+      {
+        "period": "early_1983_2000",
+        "window": "waha_growth",
+        "n_rows": 270,
+        "districts": 16,
+        "years": 18,
+        "beta": 0.09960261467084511
+      },
+      {
+        "period": "late_2001_2020",
+        "window": "broad",
+        "n_rows": 314,
+        "districts": 16,
+        "years": 20,
+        "beta": 0.1121707563896576
+      },
+      {
+        "period": "late_2001_2020",
+        "window": "core",
+        "n_rows": 314,
+        "districts": 16,
+        "years": 20,
+        "beta": 0.09496934383142334
+      },
+      {
+        "period": "late_2001_2020",
+        "window": "waha_broad",
+        "n_rows": 314,
+        "districts": 16,
+        "years": 20,
+        "beta": 0.10469320384145414
+      },
+      {
+        "period": "late_2001_2020",
+        "window": "waha_growth",
+        "n_rows": 314,
+        "districts": 16,
+        "years": 20,
+        "beta": 0.1114641077189798
+      }
+    ]
+  }
+}
