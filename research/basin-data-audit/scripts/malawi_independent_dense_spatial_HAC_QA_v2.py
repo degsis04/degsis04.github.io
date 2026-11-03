@@ -112,6 +112,6 @@ try:
     LOG["status"]="PASS"
 except Exception as ex:
     LOG["status"]="FAILED";LOG["error"]=repr(ex)
-Q.write_text(json.dumps(LOG,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+Q.write_text(json.dumps(LOG,ensure_ascii=False,indent=2,default=lambda v: v.item() if isinstance(v,np.generic) else str(v))+"\n",encoding="utf-8")
 print(json.dumps({k:v for k,v in LOG.items() if k!="checks"},ensure_ascii=False))
 if LOG["status"]!="PASS":raise RuntimeError(LOG.get("error","independent QA FAILED"))
