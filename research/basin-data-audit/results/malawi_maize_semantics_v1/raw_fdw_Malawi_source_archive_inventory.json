@@ -1,0 +1,27 @@
+{
+  "run_utc": "2026-11-03T15:46:51.573378+00:00",
+  "status": "UNAVAILABLE",
+  "all_candidates": [
+    "https://github.com/HarvestStat/HarvestStat-Africa/releases/download/v1.2/fdw_raw_data_v1.2.zip",
+    "https://raw.githubusercontent.com/HarvestStat/HarvestStat-Africa/5b62fb5/public/fdw_raw_data_v1.2.zip"
+  ],
+  "attempts": [
+    {
+      "url": "https://github.com/HarvestStat/HarvestStat-Africa/releases/download/v1.2/fdw_raw_data_v1.2.zip",
+      "http_status": 404,
+      "error": "HTTPError('404 Client Error: Not Found for url: https://github.com/HarvestStat/HarvestStat-Africa/releases/download/v1.2/fdw_raw_data_v1.2.zip')"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/HarvestStat/HarvestStat-Africa/5b62fb5/public/fdw_raw_data_v1.2.zip",
+      "http_status": 404,
+      "error": "HTTPError('404 Client Error: Not Found for url: https://raw.githubusercontent.com/HarvestStat/HarvestStat-Africa/5b62fb5/public/fdw_raw_data_v1.2.zip')"
+    }
+  ],
+  "limits": [
+    "An original FDW extract, if available, is itself a FEWSNET harmonized archive; may lack primary Malawi APES questionnaires.",
+    "A source record labelled Rainfed in FDW does not verify field-level irrigation for all district crops.",
+    "No raw individual farmer observations are exported.",
+    "No source values are overwritten, corrected or removed."
+  ],
+  "reason": "Raw FDW ZIP unavailable from two verified upstream candidate URLs; cannot claim original FDW provenance verified."
+}
