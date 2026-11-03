@@ -35,7 +35,7 @@ log={"date_utc":dt.datetime.now(dt.timezone.utc).isoformat(),"status":"STARTED",
        "surface_pct":"percent of equipped area assigned to surface-water source; spatially coarse census-derived",
        "groundwater_pct":"percent of equipped area assigned to groundwater source; spatially coarse census-derived",
        "surface_water_proxy":"sum of equipped hectares × surface_percent / 100 for pixels with valid source percentage; NOT actual surface water withdrawals",
-       "spatial_method":"cell-center polygon extraction on ~5-arcminute raster; boundary fractions approximated; no crop-specific allocation",
+       "spatial_method":"cell-center polygon extraction on ~5-arcminute geographic raster (EPSG:4326 specified by FAO metadata; not embedded in ASCII); boundary fractions approximated; no crop-specific allocation",
        "causality":"No claim that source water originates in transboundary river; no model of river connectivity or annual water availability"}}
 def qa(name, condition, detail=None):
  log["checks"][name]={"passed":bool(condition),"detail":detail}
@@ -65,7 +65,7 @@ def raster_for(key):
  with rasterio.open(path) as src:
   qa(key+"_grid_size",src.width==4320 and src.height==2160,
     {"width":src.width,"height":src.height,"res":src.res,"crs":str(src.crs),"nodata":src.nodata})
-  qa(key+"_crs",src.crs is not None,str(src.crs))
+  qa(key+"_coordinate_domain_matches_official_geographic_grid", abs(src.bounds.left+180)<.001 and abs(src.bounds.right-180)<.001 and abs(src.bounds.top-90)<.001 and abs(src.bounds.bottom+90)<.001,{"bounds":tuple(src.bounds),"CRS_in_ASCII":str(src.crs),"assigned_CRS":"EPSG:4326 per FAO GMIA v5 documentation"})
  return path
 try:
  aei=raster_for("aei_ha")
@@ -86,8 +86,8 @@ try:
   qa("same_raster_shape",fa.shape==fs.shape==fg.shape,
      [fa.shape,fs.shape,fg.shape])
   qa("same_raster_geotransform",fa.transform==fs.transform==fg.transform)
-  qa("same_raster_crs",fa.crs==fs.crs==fg.crs)
-  projected=bcu.to_crs(fa.crs)
+  qa("same_raster_crs",fa.crs==fs.crs==fg.crs,{"note":"Arc/Info ASCII grid has no embedded CRS; official FAO metadata specifies geographic coordinates in decimal degrees"})
+  projected=bcu.to_crs("EPSG:4326") # Explicit: FAO official GMIA v5 geographic grid, 5 arcminutes
   for ent in projected.itertuples(index=False):
    av,_=mask(fa,[ent.geometry],crop=True,filled=False,all_touched=False)
    sv,_=mask(fs,[ent.geometry],crop=True,filled=False,all_touched=False)
