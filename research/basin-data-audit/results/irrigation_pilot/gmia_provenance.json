@@ -1,0 +1,165 @@
+{
+  "date_utc": "2026-11-03T00:20:59.816194+00:00",
+  "status": "FAILED",
+  "source": "FAO AQUASTAT GMIA v5, c.2005 (Siebert et al. 2013)",
+  "basins": [
+    "NGER",
+    "VOLT",
+    "ZAMB"
+  ],
+  "source_files": [
+    {
+      "key": "aei_ha",
+      "url": "https://firebasestorage.googleapis.com/v0/b/fao-aquastat.appspot.com/o/GIS%2Fgmia_v5_aei_ha_asc.zip?alt=media&token=416b27f5-fcb5-4178-ab49-1658d5c2c3ad",
+      "sha256": "665ba1c4bb7fdde23d073bf839d7d30dd227ffaa34b3414a901bca21c18d3cf7",
+      "bytes": 2315570
+    },
+    {
+      "key": "aeisw_pct",
+      "url": "https://firebasestorage.googleapis.com/v0/b/fao-aquastat.appspot.com/o/GIS%2Fgmia_v5_aeisw_pct_aei_asc.zip?alt=media&token=38b7da06-ddfa-4500-90df-2db65e27c9a7",
+      "sha256": "e3aee000e1821e423e065bd27d3044a5875e020de6f64cd9fbfd6649ce8567ab",
+      "bytes": 1161573
+    },
+    {
+      "key": "aeigw_pct",
+      "url": "https://firebasestorage.googleapis.com/v0/b/fao-aquastat.appspot.com/o/GIS%2Fgmia_v5_aeigw_pct_aei_asc.zip?alt=media&token=ee5bd6d1-c8e2-44fd-a4cf-58d7563abbf6",
+      "sha256": "79b5df6204bdccf609d362c6c28be26c8ab15c01866923fcca508baf1adf6f75",
+      "bytes": 1114011
+    },
+    {
+      "key": "tfdd",
+      "url": "https://transboundarywaters.ceoas.oregonstate.edu/sites/transboundarywaters.ceoas.oregonstate.edu/files/2024-08/TFDDSpatialDatabase_20240807.zip",
+      "sha256": "379392939ea9bd306ddaf44def8dc04dee419a1a8f310268157fe16b97a87369",
+      "bytes": 67965338
+    }
+  ],
+  "checks": {
+    "raster_zip_member_aei_ha": {
+      "passed": true,
+      "detail": {
+        "member_names": [
+          "gmia_v5_aei_ha.asc"
+        ]
+      }
+    },
+    "aei_ha_grid_size": {
+      "passed": true,
+      "detail": {
+        "width": 4320,
+        "height": 2160,
+        "res": [
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "crs": "None",
+        "nodata": -9.0
+      }
+    },
+    "aei_ha_crs": {
+      "passed": false,
+      "detail": "None"
+    },
+    "raster_zip_member_aeisw_pct": {
+      "passed": true,
+      "detail": {
+        "member_names": [
+          "gmia_v5_aeisw_pct_aei.asc"
+        ]
+      }
+    },
+    "aeisw_pct_grid_size": {
+      "passed": true,
+      "detail": {
+        "width": 4320,
+        "height": 2160,
+        "res": [
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "crs": "None",
+        "nodata": -9.0
+      }
+    },
+    "aeisw_pct_crs": {
+      "passed": false,
+      "detail": "None"
+    },
+    "raster_zip_member_aeigw_pct": {
+      "passed": true,
+      "detail": {
+        "member_names": [
+          "gmia_v5_aeigw_pct_aei.asc"
+        ]
+      }
+    },
+    "aeigw_pct_grid_size": {
+      "passed": true,
+      "detail": {
+        "width": 4320,
+        "height": 2160,
+        "res": [
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "crs": "None",
+        "nodata": -9.0
+      }
+    },
+    "aeigw_pct_crs": {
+      "passed": false,
+      "detail": "None"
+    },
+    "tfdd_source_sha": {
+      "passed": true,
+      "detail": null
+    },
+    "three_basins_loaded": {
+      "passed": true,
+      "detail": [
+        "NGER",
+        "VOLT",
+        "ZAMB"
+      ]
+    },
+    "same_raster_shape": {
+      "passed": true,
+      "detail": [
+        [
+          2160,
+          4320
+        ],
+        [
+          2160,
+          4320
+        ],
+        [
+          2160,
+          4320
+        ]
+      ]
+    },
+    "same_raster_geotransform": {
+      "passed": true,
+      "detail": null
+    },
+    "same_raster_crs": {
+      "passed": true,
+      "detail": null
+    }
+  },
+  "errors": [
+    "aei_ha_crs",
+    "aeisw_pct_crs",
+    "aeigw_pct_crs",
+    "ValueError('Must pass either crs or epsg.')"
+  ],
+  "interpretation": {
+    "area": "hectares equipped for irrigation; NOT actual annual irrigated or harvested area",
+    "surface_pct": "percent of equipped area assigned to surface-water source; spatially coarse census-derived",
+    "groundwater_pct": "percent of equipped area assigned to groundwater source; spatially coarse census-derived",
+    "surface_water_proxy": "sum of equipped hectares × surface_percent / 100 for pixels with valid source percentage; NOT actual surface water withdrawals",
+    "spatial_method": "cell-center polygon extraction on ~5-arcminute raster; boundary fractions approximated; no crop-specific allocation",
+    "causality": "No claim that source water originates in transboundary river; no model of river connectivity or annual water availability"
+  },
+  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/degsis04.github.io/degsis04.github.io/research/basin-data-audit/scripts/gmia_irrigation_source_pilot.py\", line 90, in <module>\n    projected=bcu.to_crs(fa.crs)\n              ^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/geopandas/geodataframe.py\", line 1884, in to_crs\n    geom = df.geometry.to_crs(crs=crs, epsg=epsg)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/geopandas/geoseries.py\", line 1269, in to_crs\n    self.values.to_crs(crs=crs, epsg=epsg), index=self.index, name=self.name\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/geopandas/_compat.py\", line 84, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/geopandas/array.py\", line 1178, in to_crs\n    raise ValueError(\"Must pass either crs or epsg.\")\nValueError: Must pass either crs or epsg.\n"
+}
