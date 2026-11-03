@@ -25,6 +25,10 @@ for key,u in urls.items():
   c=r.text
   out["endpoints"][key]={"url":u,"status":r.status_code,"content_type":r.headers.get("content-type"),
     "bytes":len(r.content),"final_url":r.url,"first_3500":c[:3500]}
+  if key=="file_listing" and r.status_code==200:
+   raw=r.json()
+   out["full_file_listing"]=[{"file_name":i.get("file_name"),"size":i.get("size"),"url":i.get("url"),"checksum":i.get("checksum"),"content_type":i.get("content_type")} for i in raw.get("results",[])]
+   out["file_listing_count"]=raw.get("count")
   if key=="resource_page":
    soup=BeautifulSoup(c,"html.parser")
    hrefs=[(a.get("href") or "") for a in soup.find_all("a")]
