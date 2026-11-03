@@ -71,6 +71,10 @@ try:
   for m in list(re.finditer(re.escape(token),ii))[:7]:
    hits.append({"token":token,"context":ii[max(0,m.start()-110):m.end()+170]})
  R["independently_extracted_IIED_contexts"]=hits[:28]
+ check("IIED_exact_2015_CTGS_followup_meeting",
+       "comite transfrontalier existe et sest reuni en decembre 2015" in ii,
+       {"original_review_excerpt":"Le comite transfrontalier existe et s'est reuni en decembre 2015, deux ans apres la premiere reunion.",
+        "relative_first_meeting_year":2013})
  R["checks"]["IIED_has_source_year_2013"]={"pass":"2013" in ii,
    "detail":"Year present (no specific event validated from this condition alone)"}
  R["checks"]["IIED_has_source_year_2015"]={"pass":"2015" in ii,
