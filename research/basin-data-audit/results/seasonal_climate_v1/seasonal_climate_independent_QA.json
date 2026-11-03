@@ -1,5 +1,5 @@
 {
-  "utc": "2026-11-03T11:21:51.371924+00:00",
+  "utc": "2026-11-03T11:23:27.759101+00:00",
   "status": "PASS",
   "checks": {
     "source_rows_29744": {
@@ -404,8 +404,8 @@
       "to": "1981-01",
       "n_months": 6,
       "source_recorded_n_months": 6,
-      "recalculated_mm": NaN,
-      "stored_mm": NaN,
+      "recalculated_mm": null,
+      "stored_mm": null,
       "is_equal": true
     },
     {
@@ -544,8 +544,8 @@
       "to": "1981-01",
       "n_months": 8,
       "source_recorded_n_months": 8,
-      "recalculated_mm": NaN,
-      "stored_mm": NaN,
+      "recalculated_mm": null,
+      "stored_mm": null,
       "is_equal": true
     },
     {
@@ -614,8 +614,8 @@
       "to": "1981-05",
       "n_months": 6,
       "source_recorded_n_months": 6,
-      "recalculated_mm": NaN,
-      "stored_mm": NaN,
+      "recalculated_mm": null,
+      "stored_mm": null,
       "is_equal": true
     },
     {
@@ -684,8 +684,8 @@
       "to": "1981-07",
       "n_months": 10,
       "source_recorded_n_months": 10,
-      "recalculated_mm": NaN,
-      "stored_mm": NaN,
+      "recalculated_mm": null,
+      "stored_mm": null,
       "is_equal": true
     },
     {
@@ -894,8 +894,8 @@
       "to": "1981-05",
       "n_months": 7,
       "source_recorded_n_months": 7,
-      "recalculated_mm": NaN,
-      "stored_mm": NaN,
+      "recalculated_mm": null,
+      "stored_mm": null,
       "is_equal": true
     },
     {
@@ -964,8 +964,8 @@
       "to": "1981-07",
       "n_months": 10,
       "source_recorded_n_months": 10,
-      "recalculated_mm": NaN,
-      "stored_mm": NaN,
+      "recalculated_mm": null,
+      "stored_mm": null,
       "is_equal": true
     },
     {
@@ -1034,8 +1034,8 @@
       "to": "1981-05",
       "n_months": 6,
       "source_recorded_n_months": 6,
-      "recalculated_mm": NaN,
-      "stored_mm": NaN,
+      "recalculated_mm": null,
+      "stored_mm": null,
       "is_equal": true
     },
     {
@@ -1104,8 +1104,8 @@
       "to": "1981-07",
       "n_months": 9,
       "source_recorded_n_months": 9,
-      "recalculated_mm": NaN,
-      "stored_mm": NaN,
+      "recalculated_mm": null,
+      "stored_mm": null,
       "is_equal": true
     },
     {
