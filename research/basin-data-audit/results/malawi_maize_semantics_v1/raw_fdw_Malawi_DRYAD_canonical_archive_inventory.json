@@ -1,10 +1,10 @@
 {
-  "run_utc": "2026-11-03T15:50:43.437282+00:00",
+  "run_utc": "2026-11-03T15:51:54.448401+00:00",
   "status": "UNAVAILABLE",
   "api_endpoint": "https://datadryad.org/api/v2",
   "doi": "10.5061/dryad.vq83bk42w",
   "errors": [
-    "ValueError('No official Dryad raw file ID')"
+    "HTTPError('401 Client Error: Unauthorized for url: https://datadryad.org/api/v2/files/4864377/download')"
   ],
   "publication": "v1.2 source archive published July 2026",
   "warnings": [
@@ -89,11 +89,12 @@
   ],
   "raw_file": {
     "version_id": 452999,
-    "file_id": null,
+    "file_id": 4864377,
     "path": "fdw_raw_data_v1.2.zip",
+    "file_link": "/api/v2/files/4864377",
     "size": 54698516,
     "digestType": "sha-256",
     "digest": "6e8128f8854f38172aea24583e537395242abafab4382441b3d53805c44b452b"
   },
-  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/degsis04.github.io/degsis04.github.io/research/basin-data-audit/scripts/malawi_raw_FDW_Dryad_inventory.py\", line 64, in <module>\n    if not fileid:raise ValueError(\"No official Dryad raw file ID\")\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: No official Dryad raw file ID\n"
+  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/degsis04.github.io/degsis04.github.io/research/basin-data-audit/scripts/malawi_raw_FDW_Dryad_inventory.py\", line 71, in <module>\n    resp=s.get(url,timeout=(30,180),stream=True);resp.raise_for_status()\n                                                 ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/requests/models.py\", line 1167, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://datadryad.org/api/v2/files/4864377/download\n"
 }
