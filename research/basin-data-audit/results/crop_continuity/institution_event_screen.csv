@@ -1,0 +1,15 @@
+BCODE,event,event_date,date_interpretation,mechanism,official_source,bcu_series,bcu_with_pre8_post5,countries_with_evidence,max_pre_years,max_post_years,is_causal_impact_estimate
+CNGO,Addendum extending CICOS mandate to IWRM,2007-02-22,signature,water_management_mandate,https://www.cicos.int/la-cicos/mandat/,6,4,3,22,10,False
+CNGO,Agreement establishing CICOS,1999-11-06,signature,basin_commission,https://www.cicos.int/non-classe/historique/,6,1,3,15,18,False
+LKCH,Cameroon ratified Lake Chad Water Charter,2014-12-31,ratification,water_charter_country_ratification,https://prc.cm/fr/actualites/actes/decrets/1106-decret-n-2014-608-du-31-decembre-2014-portant-ratification-de-la-charte-de-l-eau-du-bassin-du-lac-tchad-adoptee-a-n-djamena-le-30-avril-2012,11,4,5,33,9,False
+LKCH,Lake Chad Basin Water Charter,2012-04-30,adoption,water_charter,https://prc.cm/fr/actualites/actes/decrets/1106-decret-n-2014-608-du-31-decembre-2014-portant-ratification-de-la-charte-de-l-eau-du-bassin-du-lac-tchad-adoptee-a-n-djamena-le-30-avril-2012,11,9,5,31,11,False
+NGER,Convention creating Niger Basin Authority,1982-12-03,entry_into_force,basin_organization,https://treaties.un.org/Pages/showDetails.aspx?objid=08000002800d826d,17,0,6,1,39,False
+NILE,Nile Basin Initiative,1999-02-22,creation,basin_platform,https://nilebasin.org/about-us/history,13,6,4,18,25,False
+NILE,Nile Basin Interim Procedures for Data and Information Exchange,2009,document_year,information_sharing,https://nilebasin.org/policy-portal/basin-monitoring-water-resources-assessment-reporting-and-information-sharing,13,12,4,28,15,False
+ORAN,Agreement establishing ORASECOM,2000-11-03,signature,basin_commission,https://orasecom.org/wp-content/uploads/2020/09/ORASECOM_Agreement_Reprint-August-2012.pdf,2,2,1,18,20,False
+SENG,Charte des eaux du fleuve Senegal,2002-05-28,adoption,sectoral_water_sharing,https://www.omvs.org/conventions-de-base/,7,3,2,19,16,False
+SENG,OMVS founding convention,1972-03-11,signature,basin_organization,https://www.omvs.org/conventions-de-base/,7,0,2,0,32,False
+VOLT,Volta Basin Authority convention,2009-08-14,entry_into_force,basin_commission,https://abv.int/en/historical/,11,9,4,25,14,False
+VOLT,Volta Basin Water Charter approved by Council of Ministers,2019-05-10,approval_NOT_entry_into_force,water_charter_data_exchange,https://abv.int/en/volta-basin-water-charter/,11,0,4,31,4,False
+ZAMB,ZAMCOM Agreement,2011-06-19,entry_into_force,basin_commission,https://africanlii.org/en/akn/aa-sadc/act/agreement/2004/establishment-of-the-zambezi-watercourse-commission/eng%402004-07-13,10,7,3,28,12,False
+ZAMB,ZAMCOM Rules and Procedures for Data Sharing,2016-02-25,adoption,operational_data_sharing,https://www.zambezicommission.org/publications/instruments-for-cooperation,10,2,3,33,7,False

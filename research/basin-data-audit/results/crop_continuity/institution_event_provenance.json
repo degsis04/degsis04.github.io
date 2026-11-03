@@ -1,0 +1,19 @@
+{
+  "utc": "2026-11-03T00:01:52.907127+00:00",
+  "status": "COMPLETE",
+  "definition": "For each dated documentary event, harvest years < event year are PRE, years > event year POST; event year excluded. 8 pre-years and 5 post-years are a data sufficiency screen only, not causal identification.",
+  "document_events": 14,
+  "bcu_event_crop_series": 135,
+  "event_rows_with_sufficient_before_after": 59,
+  "institutional_basin_codes": [
+    "CNGO",
+    "LKCH",
+    "NGER",
+    "NILE",
+    "ORAN",
+    "SENG",
+    "VOLT",
+    "ZAMB"
+  ],
+  "IMPORTANT": "Only counts harvest years; implementation, exposure, station quality and parallel trends unverified."
+}
