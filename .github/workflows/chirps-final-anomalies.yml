@@ -1,0 +1,37 @@
+name: Verify complete CHIRPS source panel and compute climatological anomalies
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/chirps-final-anomalies.yml'
+      - 'research/basin-data-audit/scripts/chirps_monthly_anomalies_v1.py'
+      - 'research/basin-data-audit/results/climate_panel/chirps_v3_district_monthly_*.csv'
+permissions:
+  contents: write
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install 'numpy>=1.26,<3' 'pandas>=2.2,<3'
+      - name: Verify complete monthly sources and derive season-independent anomalies
+        run: python research/basin-data-audit/scripts/chirps_monthly_anomalies_v1.py
+      - name: Commit complete panel only after all shards validate
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/basin-data-audit/results/climate_panel/full_climate_monthly_qa.json
+          if [ -f research/basin-data-audit/results/climate_panel/district_chirps_v3_monthly_1981_2024_with_anomalies.csv ]; then
+            git add research/basin-data-audit/results/climate_panel/district_chirps_v3_monthly_1981_2024_with_anomalies.csv
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'climate: verified complete CHIRPS monthly panel and baseline anomalies'
+            for retry in 1 2 3 4 5; do
+              git pull --rebase && git push && break || sleep 5
+            done
+          fi
