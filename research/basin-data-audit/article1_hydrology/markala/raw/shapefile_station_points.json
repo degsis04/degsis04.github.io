@@ -1,0 +1,34 @@
+[
+  {
+    "station_id": "1271500142",
+    "longitude": -7.55,
+    "latitude": 12.8667,
+    "crs": "EPSG:4326",
+    "source_member": "SIEREM_FleuveNiger_Basins/Koulikoro/1271500142.zip!KoulikoroPt.shp",
+    "point_file_sha256": "358bcda1a6ef58ef3d9a0831b5723c6678c99678fefd0d971b2df11ef4ac7927"
+  },
+  {
+    "station_id": "1271500136",
+    "longitude": -6.05,
+    "latitude": 13.7,
+    "crs": "EPSG:4326",
+    "source_member": "SIEREM_FleuveNiger_Basins/KirangoAval/1271500136.zip!KirangoAvalPt.shp",
+    "point_file_sha256": "f67c6fc9a09c42cb4a45ffaed3289486da3b63d788e9632506e4d4ead1941c16"
+  },
+  {
+    "station_id": "1271500110",
+    "longitude": -8.6667,
+    "latitude": 11.6833,
+    "crs": "EPSG:4326",
+    "source_member": "SIEREM_FleuveNiger_Basins/Banankoro/1271500110.zip!BanankoroPt.shp",
+    "point_file_sha256": "8f308893f773c3f85b883777a042143a9c76a2b6d1c729723152f81289efcfe8"
+  },
+  {
+    "station_id": "1271502010",
+    "longitude": -8.1667,
+    "latitude": 11.5833,
+    "crs": "EPSG:4326",
+    "source_member": "SIEREM_FleuveNiger_Basins/Selingue/1271502010.zip!SelinguePt.shp",
+    "point_file_sha256": "dc86bb6d40346c2ac52f472200676af71790cf78b2cd1756710e790df7198f78"
+  }
+]

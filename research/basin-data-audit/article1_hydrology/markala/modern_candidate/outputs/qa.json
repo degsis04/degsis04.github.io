@@ -1,0 +1,33 @@
+{
+  "status": "STRUCTURE_PASS_PHYSICAL_INTERPRETATION_BLOCKED",
+  "source_md5_verified": true,
+  "source_bytes": 67779,
+  "sheets": [
+    "Discharge",
+    "ETP",
+    "Rainfall",
+    "LULC",
+    "Monthly Outputs"
+  ],
+  "calendar_months": 168,
+  "start_month": "2009-01",
+  "end_month": "2022-12",
+  "source_numeric_values": 816,
+  "source_missing_values": 24,
+  "date_interpretation": "MM/DD/YYYY; all dates month-start; 12 months per year",
+  "cross_sheet_months": 156,
+  "max_withdrawal_absolute_delta": 1.0269562977782698e-15,
+  "max_inflow_absolute_delta": 4.990000000426598e-07,
+  "discharge_sheet_formulas": 0,
+  "confirmed_units": false,
+  "confirmed_markala_upstream_or_downstream": false,
+  "field_boundaries_acquired": false,
+  "withdrawal_measurement_location_confirmed": false,
+  "daily_coverage_known": false,
+  "excluded_outputs": [
+    "m3/s conversion",
+    "irrigation deficit",
+    "reliability",
+    "field-level attribution"
+  ]
+}

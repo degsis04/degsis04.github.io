@@ -1,0 +1,39 @@
+{
+  "release_date": "2026-11-03",
+  "inherited_source_commit": "3284f1d571b7b3709582f7022d2b22440da428a1",
+  "station_source_doi": "https://doi.org/10.1016/j.ejrh.2022.101143",
+  "station_source_url": "https://eprints.soton.ac.uk/467633/1/1_s2.0_S2214581822001562_main.pdf",
+  "raw_pdf_downloaded": false,
+  "inputs": [
+    {
+      "path": "results/climate_panel/chirps_v3_district_monthly_1981_1991.csv",
+      "bytes": 3984304,
+      "sha256": "9adf28cb2ec2832f456dd142ba9cf66a7e407a2220734c9eb5f3165ffd1a989f"
+    },
+    {
+      "path": "results/climate_panel/chirps_v3_district_monthly_1992_2002.csv",
+      "bytes": 3989781,
+      "sha256": "27f52a176fd988d03c1f1aa36560cd64e10555f5988b198443e2133cff0e7d23"
+    },
+    {
+      "path": "results/climate_panel/chirps_v3_district_monthly_2003_2013.csv",
+      "bytes": 4003308,
+      "sha256": "f45efb37197a89c09803759807187a2e12eddb45591f904da5a56a996e333a54"
+    },
+    {
+      "path": "results/climate_panel/chirps_v3_district_monthly_2014_2024.csv",
+      "bytes": 4000029,
+      "sha256": "1dd62bdb100816fe3a820b04afad7ef09dfd5c8660da73495009dac241780948"
+    },
+    {
+      "path": "institutions/irrigation_schemes_water_source_evidence_v1.csv",
+      "bytes": 5564,
+      "sha256": "4bbf90224509ad24754d192d5f97f5d97a6b6b989239d1805d1228309f4c09a2"
+    },
+    {
+      "path": "article1_hydrology/inputs/volta_stations_literature.csv",
+      "bytes": 2604,
+      "sha256": "a0569df975c95c2930eef5cbadaaefd125f912dd093c5be44e0324a74b628144"
+    }
+  ]
+}

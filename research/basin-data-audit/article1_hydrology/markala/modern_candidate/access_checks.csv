@@ -1,0 +1,7 @@
+checked_date,resource,url,result,interpretation
+2026-11-03,FAO official beta link,https://www.fao.org/in-action/remote-sensing-for-water-productivity/country-activities/tools-in-co-development/en,LINK_FOUND,Public lead to Tableau beta
+2026-11-03,Tableau view shell,https://public.tableau.com/views/IWMI_IPADT_Dashboard_20240320/Overview?:showVizHome=no,HTTP_200_HTML_6765_BYTES,Shell only; no data obtained
+2026-11-03,Tableau CSV export,https://public.tableau.com/views/IWMI_IPADT_Dashboard_20240320/Overview.csv,HTTP_404,No export through tested URL; not proof of global unavailability
+2026-11-03,Tableau TWB export,https://public.tableau.com/workbooks/IWMI_IPADT_Dashboard_20240320.twb,HTTP_404,No export through tested URL
+2026-11-03,Tableau TWBX export,https://public.tableau.com/workbooks/IWMI_IPADT_Dashboard_20240320.twbx,HTTP_404,No export through tested URL
+2026-11-03,Zenodo record,https://zenodo.org/records/18404364,DOWNLOADED_MD5_MATCH,Workbook preserved; license cc-by-4.0 in API

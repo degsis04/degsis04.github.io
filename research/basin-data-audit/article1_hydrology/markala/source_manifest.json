@@ -1,0 +1,47 @@
+{
+  "doi": "10.23708/FWC87Z",
+  "version": "2.0",
+  "license": "CC BY 4.0",
+  "access_date": "2026-11-03",
+  "archive_url": "https://dataverse.ird.fr/api/access/datafile/45088",
+  "archive_md5": "3122f157092c54854d99dd0d212b76fc",
+  "archive_sha256": "8ed723d4890a6aa3fc9021332542b3852d777ec92b08f546e930f6d3f20b8fe5",
+  "files": [
+    {
+      "local": "raw/1271500142.txt",
+      "archive_member": "SIEREM_FleuveNiger_Basins/Koulikoro/1271500142.txt",
+      "sha256": "ae89d91be4e5a7bc2c94f51afb091b09aaf2e8161aa4134178fbed535e2543ee",
+      "bytes": 17997
+    },
+    {
+      "local": "raw/1271500136.txt",
+      "archive_member": "SIEREM_FleuveNiger_Basins/KirangoAval/1271500136.txt",
+      "sha256": "e51a3d0e44cc9b0a7dcfc2a118d852658e433f16f9787c866d9b0c0e7bf8fbb5",
+      "bytes": 9588
+    },
+    {
+      "local": "raw/1271500110.txt",
+      "archive_member": "SIEREM_FleuveNiger_Basins/Banankoro/1271500110.txt",
+      "sha256": "efa8fff15b98f67f116896e13470f50f488a4ea4e04b2af9dbf10ea23a1f3349",
+      "bytes": 5525
+    },
+    {
+      "local": "raw/1271502010.txt",
+      "archive_member": "SIEREM_FleuveNiger_Basins/Selingue/1271502010.txt",
+      "sha256": "b30538ccba3d42702f0053100454451bccc37fc5c87c2ac38a8b2924da142284",
+      "bytes": 6473
+    },
+    {
+      "local": "raw/stations_original.csv",
+      "sha256": "2b915e9de9763e68f66e6d8de595ef9d70cab7b9265afc777f99d61751f8f0d4",
+      "md5": "1cf006d256801ebea85606fc271f8151",
+      "bytes": 8092
+    },
+    {
+      "local": "raw/dataset_readme.txt",
+      "sha256": "75669ba40f666289e8689042e03d6bacf5388ccf6bcede7425e465cfa85cae8f",
+      "md5": "506e944a5bc44b84641be31c76bd8777",
+      "bytes": 3580
+    }
+  ]
+}

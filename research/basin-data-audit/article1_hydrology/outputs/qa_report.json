@@ -1,0 +1,23 @@
+{
+  "status": "PASS_WITH_SOURCE_METADATA_WARNINGS",
+  "full_climate_rows_checked": 133584,
+  "full_climate_districts": 253,
+  "candidate_sites": 11,
+  "candidate_climate_rows": 5808,
+  "station_metadata_records": 39,
+  "discharge_observations": 0,
+  "denominator_review": [
+    "Pwalagu",
+    "Lawra"
+  ],
+  "missing_rain": 0,
+  "duplicate_climate_keys": 0,
+  "station_coordinates_verified_against_registry": false,
+  "verified_station_intake_links": 0,
+  "limitations": [
+    "No upstream catchment delineation yet",
+    "District rainfall is not scheme rainfall or river supply",
+    "Station dates and missingness are literature metadata only",
+    "No hydrological deficit or irrigation reliability calculated"
+  ]
+}
