@@ -1,0 +1,458 @@
+{
+  "status": "PASS",
+  "source": {
+    "url": "https://raw.githubusercontent.com/HarvestStat/HarvestStat-Africa/5b62fb5/public/hvstat_africa_boundary_v1.2.gpkg",
+    "sha256": "259e152dcae5b8629b2b76f789abb114219e07347a1dc1efaf8185281f7d028e",
+    "size_bytes": 8486912
+  },
+  "start_utc": "2026-11-03T22:20:04.021868+00:00",
+  "checks": {
+    "812_source_rows": {
+      "pass": true,
+      "details": null
+    },
+    "no_duplicate_fnid_year": {
+      "pass": true,
+      "details": null
+    },
+    "23_16_ids": {
+      "pass": true,
+      "details": [
+        23,
+        16
+      ]
+    },
+    "original_gpkg_bytes": {
+      "pass": true,
+      "details": 8486912
+    },
+    "original_gpkg_sha": {
+      "pass": true,
+      "details": "259e152dcae5b8629b2b76f789abb114219e07347a1dc1efaf8185281f7d028e"
+    },
+    "geo_crs_defined": {
+      "pass": true,
+      "details": "EPSG:4326"
+    },
+    "geo_fnid_unique": {
+      "pass": true,
+      "details": null
+    },
+    "exact_all_23_fnids": {
+      "pass": true,
+      "details": []
+    },
+    "only_malawi_source_polygons": {
+      "pass": true,
+      "details": [
+        "MW"
+      ]
+    },
+    "source_polygons_valid": {
+      "pass": true,
+      "details": null
+    },
+    "source_polygons_not_empty": {
+      "pass": true,
+      "details": null
+    },
+    "original_equal_area_nonzero": {
+      "pass": true,
+      "details": null
+    },
+    "all_geocentroids_in_geographic_bounds": {
+      "pass": true,
+      "details": null
+    },
+    "climate_unique_key": {
+      "pass": true,
+      "details": null
+    },
+    "all_four_windows_available": {
+      "pass": true,
+      "details": null
+    },
+    "climate_reconciles_source_and_model": {
+      "pass": true,
+      "details": 4.440892098500626e-16
+    },
+    "lag_source_nonmissing": {
+      "pass": true,
+      "details": null
+    },
+    "cohort_rows_strict16": {
+      "pass": true,
+      "details": null
+    },
+    "beta_matches_original_strict16": {
+      "pass": true,
+      "details": 0.10304780534134347
+    },
+    "conley_finite_strict16_broad_100_0": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_broad_100_1": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_broad_100_2": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_broad_200_0": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_broad_200_1": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_broad_200_2": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_broad_300_0": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_broad_300_1": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_broad_300_2": {
+      "pass": true,
+      "details": null
+    },
+    "centroid_interior_ratio_strict16_broad": {
+      "pass": true,
+      "details": null
+    },
+    "independent_pairwise_conley_omega": {
+      "pass": true,
+      "details": 1.0842021724855044e-19
+    },
+    "conley_finite_strict16_core_100_0": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_core_100_1": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_core_100_2": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_core_200_0": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_core_200_1": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_core_200_2": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_core_300_0": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_core_300_1": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_core_300_2": {
+      "pass": true,
+      "details": null
+    },
+    "centroid_interior_ratio_strict16_core": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_waha_broad_100_0": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_waha_broad_100_1": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_waha_broad_100_2": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_waha_broad_200_0": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_waha_broad_200_1": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_waha_broad_200_2": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_waha_broad_300_0": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_waha_broad_300_1": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_waha_broad_300_2": {
+      "pass": true,
+      "details": null
+    },
+    "centroid_interior_ratio_strict16_waha_broad": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_waha_growth_100_0": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_waha_growth_100_1": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_waha_growth_100_2": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_waha_growth_200_0": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_waha_growth_200_1": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_waha_growth_200_2": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_waha_growth_300_0": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_waha_growth_300_1": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_strict16_waha_growth_300_2": {
+      "pass": true,
+      "details": null
+    },
+    "centroid_interior_ratio_strict16_waha_growth": {
+      "pass": true,
+      "details": null
+    },
+    "cohort_rows_all23": {
+      "pass": true,
+      "details": null
+    },
+    "beta_matches_original_all23": {
+      "pass": true,
+      "details": 0.08559128253891166
+    },
+    "conley_finite_all23_broad_100_0": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_broad_100_1": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_broad_100_2": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_broad_200_0": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_broad_200_1": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_broad_200_2": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_broad_300_0": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_broad_300_1": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_broad_300_2": {
+      "pass": true,
+      "details": null
+    },
+    "centroid_interior_ratio_all23_broad": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_core_100_0": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_core_100_1": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_core_100_2": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_core_200_0": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_core_200_1": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_core_200_2": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_core_300_0": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_core_300_1": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_core_300_2": {
+      "pass": true,
+      "details": null
+    },
+    "centroid_interior_ratio_all23_core": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_waha_broad_100_0": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_waha_broad_100_1": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_waha_broad_100_2": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_waha_broad_200_0": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_waha_broad_200_1": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_waha_broad_200_2": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_waha_broad_300_0": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_waha_broad_300_1": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_waha_broad_300_2": {
+      "pass": true,
+      "details": null
+    },
+    "centroid_interior_ratio_all23_waha_broad": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_waha_growth_100_0": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_waha_growth_100_1": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_waha_growth_100_2": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_waha_growth_200_0": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_waha_growth_200_1": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_waha_growth_200_2": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_waha_growth_300_0": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_waha_growth_300_1": {
+      "pass": true,
+      "details": null
+    },
+    "conley_finite_all23_waha_growth_300_2": {
+      "pass": true,
+      "details": null
+    },
+    "centroid_interior_ratio_all23_waha_growth": {
+      "pass": true,
+      "details": null
+    }
+  },
+  "limits": [
+    "historical yields use a modern common admin boundary; historical polygon stability unknown",
+    "Conley bandwidths prespecified sensitivity, not valid as confirmed causal standard errors",
+    "monthly calendars are nominal not observed yearly crop phenology",
+    "do not infer river-water treatment"
+  ],
+  "geometry": {
+    "n_source_polygons": 23,
+    "sha256": "259e152dcae5b8629b2b76f789abb114219e07347a1dc1efaf8185281f7d028e",
+    "strict_16": [
+      "MW2018A20101",
+      "MW2018A20102",
+      "MW2018A20104",
+      "MW2018A20107",
+      "MW2018A20109",
+      "MW2018A20110",
+      "MW2018A20211",
+      "MW2018A20212",
+      "MW2018A20214",
+      "MW2018A20318",
+      "MW2018A20319",
+      "MW2018A20321",
+      "MW2018A20324",
+      "MW2018A20325",
+      "MW2018A20326",
+      "MW2018A20328"
+    ],
+    "modern_polygon_applied_to_1983_2020": true
+  },
+  "counts": {
+    "conley_specifications": 72,
+    "lead_lag_specifications": 16,
+    "max_reconciled_climate_difference": 4.440892098500626e-16
+  }
+}
