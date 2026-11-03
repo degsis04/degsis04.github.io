@@ -1,0 +1,280 @@
+{
+  "run_utc": "2026-11-03T00:09:11.689485+00:00",
+  "status": "COMPLETE",
+  "definition": "area-weighted monthly precipitation inside TFDD BCU, not upstream contributing catchment or river discharge",
+  "variable": "CHIRPS v3 final monthly rainfall in mm/month",
+  "sampling": "Only Jan/Aug 1985 and 2010 as raster/geography/unit smoke test; NOT a drought index or complete sample",
+  "reference": "https://www.chc.ucsb.edu/data/chirps3",
+  "source_doi": "https://doi.org/10.15780/G2JQ0P",
+  "source_urls": [
+    {
+      "url": "https://transboundarywaters.ceoas.oregonstate.edu/sites/transboundarywaters.ceoas.oregonstate.edu/files/2024-08/TFDDSpatialDatabase_20240807.zip",
+      "sha256": "379392939ea9bd306ddaf44def8dc04dee419a1a8f310268157fe16b97a87369",
+      "bytes": 67965338
+    },
+    {
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.1985.01.tif",
+      "sha256": "233d1165d966d9155e7dea837e654c6afde991f7dfc4c2cf0daf1d4999f6c7fb",
+      "bytes": 5425428
+    },
+    {
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.1985.08.tif",
+      "sha256": "d380cd973e5ed44e7104a573f0dc977741526248fa24938f72581631c0394478",
+      "bytes": 5585472
+    },
+    {
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2010.01.tif",
+      "sha256": "deb72ab162027fd3ddbe7505cefcba90499e4b60e2859571e49e9d3d0434bf4b",
+      "bytes": 4906866
+    },
+    {
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2010.08.tif",
+      "sha256": "81500d7f000ffce4a5e9cf59a04806f42ce741ff976f8a19c2b24d88decea0b2",
+      "bytes": 5650012
+    }
+  ],
+  "checks": [
+    {
+      "name": "TFDD source matches verified SHA-256",
+      "pass": true
+    },
+    {
+      "name": "5 named basins represented",
+      "pass": true
+    },
+    {
+      "name": "Unique BCU identifiers",
+      "pass": true
+    },
+    {
+      "name": "1985.01 single-band precipitation",
+      "pass": true
+    },
+    {
+      "name": "1985.01 CRS recognized",
+      "pass": true
+    },
+    {
+      "name": "1985.01 resolution ~0.05 degree",
+      "pass": true
+    },
+    {
+      "name": "1985.01 nonzero raster shape",
+      "pass": true
+    },
+    {
+      "name": "1985.08 single-band precipitation",
+      "pass": true
+    },
+    {
+      "name": "1985.08 CRS recognized",
+      "pass": true
+    },
+    {
+      "name": "1985.08 resolution ~0.05 degree",
+      "pass": true
+    },
+    {
+      "name": "1985.08 nonzero raster shape",
+      "pass": true
+    },
+    {
+      "name": "2010.01 single-band precipitation",
+      "pass": true
+    },
+    {
+      "name": "2010.01 CRS recognized",
+      "pass": true
+    },
+    {
+      "name": "2010.01 resolution ~0.05 degree",
+      "pass": true
+    },
+    {
+      "name": "2010.01 nonzero raster shape",
+      "pass": true
+    },
+    {
+      "name": "2010.08 single-band precipitation",
+      "pass": true
+    },
+    {
+      "name": "2010.08 CRS recognized",
+      "pass": true
+    },
+    {
+      "name": "2010.08 resolution ~0.05 degree",
+      "pass": true
+    },
+    {
+      "name": "2010.08 nonzero raster shape",
+      "pass": true
+    },
+    {
+      "name": "At least one BCU/month valid",
+      "pass": true
+    },
+    {
+      "name": "No negative area-average rainfall",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "raster_metadata": {
+    "1985.01": {
+      "CRS": "EPSG:4326",
+      "width": 1500,
+      "height": 1600,
+      "transform": [
+        0.05000000074505806,
+        0.0,
+        -20.0,
+        0.0,
+        -0.05000000074505806,
+        40.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dtype": "float32",
+      "nodata": null,
+      "tags": {
+        "TIFFTAG_DOCUMENTNAME": "/home/CHIRPS/v3.0/monthly/africa/chirps-v3.0.1985.01.tif",
+        "TIFFTAG_IMAGEDESCRIPTION": "IDL TIFF file",
+        "TIFFTAG_SOFTWARE": "IDL 8.9.0, L3Harris Geospatial Solutions, Inc.",
+        "TIFFTAG_DATETIME": "2024:11:27 17:06:31",
+        "TIFFTAG_XRESOLUTION": "100",
+        "TIFFTAG_YRESOLUTION": "100",
+        "TIFFTAG_RESOLUTIONUNIT": "2 (pixels/inch)",
+        "AREA_OR_POINT": "Area"
+      },
+      "resolution": [
+        0.05000000074505806,
+        0.05000000074505806
+      ],
+      "bounds": [
+        -20.0,
+        -40.000001192092896,
+        55.00000111758709,
+        40.0
+      ]
+    },
+    "1985.08": {
+      "CRS": "EPSG:4326",
+      "width": 1500,
+      "height": 1600,
+      "transform": [
+        0.05000000074505806,
+        0.0,
+        -20.0,
+        0.0,
+        -0.05000000074505806,
+        40.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dtype": "float32",
+      "nodata": null,
+      "tags": {
+        "TIFFTAG_DOCUMENTNAME": "/home/CHIRPS/v3.0/monthly/africa/chirps-v3.0.1985.08.tif",
+        "TIFFTAG_IMAGEDESCRIPTION": "IDL TIFF file",
+        "TIFFTAG_SOFTWARE": "IDL 8.9.0, L3Harris Geospatial Solutions, Inc.",
+        "TIFFTAG_DATETIME": "2024:11:27 17:20:02",
+        "TIFFTAG_XRESOLUTION": "100",
+        "TIFFTAG_YRESOLUTION": "100",
+        "TIFFTAG_RESOLUTIONUNIT": "2 (pixels/inch)",
+        "AREA_OR_POINT": "Area"
+      },
+      "resolution": [
+        0.05000000074505806,
+        0.05000000074505806
+      ],
+      "bounds": [
+        -20.0,
+        -40.000001192092896,
+        55.00000111758709,
+        40.0
+      ]
+    },
+    "2010.01": {
+      "CRS": "EPSG:4326",
+      "width": 1500,
+      "height": 1600,
+      "transform": [
+        0.05000000074505806,
+        0.0,
+        -20.0,
+        0.0,
+        -0.05000000074505806,
+        40.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dtype": "float32",
+      "nodata": null,
+      "tags": {
+        "TIFFTAG_DOCUMENTNAME": "/home/CHIRPS/v3.0/monthly/africa/chirps-v3.0.2010.01.tif",
+        "TIFFTAG_IMAGEDESCRIPTION": "IDL TIFF file",
+        "TIFFTAG_SOFTWARE": "IDL 8.9.0, L3Harris Geospatial Solutions, Inc.",
+        "TIFFTAG_DATETIME": "2024:11:27 17:57:06",
+        "TIFFTAG_XRESOLUTION": "100",
+        "TIFFTAG_YRESOLUTION": "100",
+        "TIFFTAG_RESOLUTIONUNIT": "2 (pixels/inch)",
+        "AREA_OR_POINT": "Area"
+      },
+      "resolution": [
+        0.05000000074505806,
+        0.05000000074505806
+      ],
+      "bounds": [
+        -20.0,
+        -40.000001192092896,
+        55.00000111758709,
+        40.0
+      ]
+    },
+    "2010.08": {
+      "CRS": "EPSG:4326",
+      "width": 1500,
+      "height": 1600,
+      "transform": [
+        0.05000000074505806,
+        0.0,
+        -20.0,
+        0.0,
+        -0.05000000074505806,
+        40.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dtype": "float32",
+      "nodata": null,
+      "tags": {
+        "TIFFTAG_DOCUMENTNAME": "/home/CHIRPS/v3.0/monthly/africa/chirps-v3.0.2010.08.tif",
+        "TIFFTAG_IMAGEDESCRIPTION": "IDL TIFF file",
+        "TIFFTAG_SOFTWARE": "IDL 8.9.0, L3Harris Geospatial Solutions, Inc.",
+        "TIFFTAG_DATETIME": "2024:11:27 18:04:31",
+        "TIFFTAG_XRESOLUTION": "100",
+        "TIFFTAG_YRESOLUTION": "100",
+        "TIFFTAG_RESOLUTIONUNIT": "2 (pixels/inch)",
+        "AREA_OR_POINT": "Area"
+      },
+      "resolution": [
+        0.05000000074505806,
+        0.05000000074505806
+      ],
+      "bounds": [
+        -20.0,
+        -40.000001192092896,
+        55.00000111758709,
+        40.0
+      ]
+    }
+  },
+  "n_BCU": 47,
+  "n_rows": 188,
+  "valid_bcu_months": 188
+}
