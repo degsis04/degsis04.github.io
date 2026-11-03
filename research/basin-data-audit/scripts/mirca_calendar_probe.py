@@ -22,7 +22,7 @@ try:
      if chunk:f.write(chunk)
   assert fn.stat().st_size==src["size"],f"Bad size {name}"
   with fn.open("rb") as f:sha=hashlib.file_digest(f,"sha256").hexdigest()
-  data=pd.read_csv(fn,low_memory=False)
+  data=pd.read_csv(fn,low_memory=False,encoding='latin1')
   textcols=[c for c in data if data[c].dtype==object]
   masks={}
   for crop in ("Maize","Rice","Sorghum"):
@@ -35,7 +35,7 @@ try:
    "crop_matches":masks})
  rep["status"]="COMPLETE"
 except Exception as e:
- rep["status"]="FAILED";rep["error"]=repr(e);rep["traceback"]=traceback.format_exc()
+ rep["status"]="FAILED";rep["error"]=str(e)[:500];rep["traceback"]=traceback.format_exc()[-2500:]
 (OUT/"crop_calendar_schema_2015.json").write_text(json.dumps(rep,ensure_ascii=False,indent=2,default=str)+"\n")
 print(json.dumps({"status":rep["status"],"error":rep["error"],"sources":[{"name":x["name"],"rows":x["rows"],"cols":x["columns"],"crop_counts":{k:v["rows_with_crop_label"] for k,v in x["crop_matches"].items()}} for x in rep["sources"]]},ensure_ascii=False,indent=2))
 if rep["status"]!="COMPLETE":raise SystemExit(1)
