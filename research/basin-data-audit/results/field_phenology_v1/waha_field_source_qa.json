@@ -1,0 +1,376 @@
+{
+  "utc": "2026-11-03T13:44:54.573734+00:00",
+  "status": "FAILED",
+  "source": {
+    "url": "https://raw.githubusercontent.com/koendvos/AfricanCropCalendar/main/AfricanCropCalendar.csv",
+    "doi": "https://doi.org/10.1038/s41597-026-07906-9",
+    "github_blob_sha1": "7d6ed8d701d2bf2188bd48a68e9e3fe0c94b43fd",
+    "expected_bytes": 93628545,
+    "actual_github_blob_sha": "7d6ed8d701d2bf2188bd48a68e9e3fe0c94b43fd",
+    "sha256": "86128b72d31fc82db49c3b51f53f062c4ea8dfae76b1dc92d949e2c458b2581c",
+    "actual_bytes": 93628545,
+    "row_count": 462347,
+    "columns": [
+      "hhID",
+      "fieldID",
+      "plotID",
+      "crop",
+      "crop_simplified",
+      "crop_area_share",
+      "planting_month",
+      "planting_year",
+      "harvest_month_begin",
+      "harvest_year_begin",
+      "harvest_month_end",
+      "harvest_year_end",
+      "country",
+      "adm1",
+      "adm2",
+      "adm3",
+      "adm4",
+      "lat",
+      "lon",
+      "GPS_level",
+      "plot_area_reported_localUnit",
+      "localUnit_area",
+      "plot_area_measured_ha",
+      "plot_area_reported_ha",
+      "dataset_name",
+      "dataset_doi"
+    ],
+    "country_counts": {
+      "Uganda": 133603,
+      "Malawi": 124457,
+      "Ethiopia": 107072,
+      "Nigeria": 37633,
+      "Mali": 34978,
+      "Niger": 24604
+    },
+    "crop_examples": {
+      "maize": 88893,
+      "cassava": 34375,
+      "sorghum": 31291,
+      "bean": 29721,
+      "banana": 24784,
+      "groundnut": 24731,
+      "millet": 21960,
+      "sweet potato": 14318,
+      "pigeon pea": 13350,
+      "coffee": 12548,
+      "pumpkin leave": 12383,
+      "cowpea": 12120,
+      "rice": 9671,
+      "mango": 9397,
+      "teff": 7545,
+      "soybean": 7219,
+      "enset": 6311,
+      "wheat": 4827,
+      "other": 4763,
+      "barley": 4555,
+      "chat": 4314,
+      "sesame": 4193,
+      "finger millet": 3695,
+      "cotton": 3646,
+      "yam": 3530,
+      "kale": 3491,
+      "tobacco": 3370,
+      "potato": 3339,
+      "taro": 2962,
+      "horse bean": 2865
+    },
+    "country_resolution_unresolved": 0
+  },
+  "redaction": "Aggregate country×crop or admin1×crop only; never export GPS/household/plot rows",
+  "method": "Unweighted observational survey month-of-year distributions; NOT national crop-area representative; no year imputations",
+  "warnings": [
+    "Mali planting_year missing by source design; survey years not harvest/planting years",
+    "Niger planting and harvest years missing; do not infer complete crop-year intervals",
+    "Survey points may be anonymized / displaced up to 10km rural: do not spatially intersect raw GPS against small schemes",
+    "Survey is predominantly rainfed in Mali according to authors; no validation of irrigated rice specificity",
+    "Field-reported monthly dates subject to recall, survey waves differ, and some years missing",
+    "Do not infer that a national field survey crop calendar matches every subnational JRC polygon",
+    "Never join Waha survey outcomes directly to HarvestStat yields; purpose is external timing validation"
+  ],
+  "checks": {
+    "original_expected_file_size": {
+      "pass": true,
+      "detail": 93628545
+    },
+    "original_github_blob_sha": {
+      "pass": true,
+      "detail": "7d6ed8d701d2bf2188bd48a68e9e3fe0c94b43fd"
+    },
+    "expected_raw_rows_451550": {
+      "pass": false,
+      "detail": 462347
+    },
+    "essential_source_columns_present": {
+      "pass": true,
+      "detail": []
+    },
+    "all_countries_recognized": {
+      "pass": true,
+      "detail": 0
+    },
+    "no_sensitive_coordinates_exported": {
+      "pass": true,
+      "detail": null
+    }
+  },
+  "errors": [
+    "expected_raw_rows_451550"
+  ],
+  "counts": {
+    "three_crop_field_rows": 129855,
+    "survey_countries": 6,
+    "Mali_planting_year_present": 0,
+    "country_crop_summary_rows": 18,
+    "adm1_crop_summary_rows_n30": 157,
+    "country_crop_table": [
+      {
+        "country": "Ethiopia",
+        "crop": "Maize",
+        "n_source_field_records": 12026,
+        "n_valid_plant_month": 11944,
+        "n_valid_harvest_begin_month": 8347,
+        "plant_modal_month": 5,
+        "harvest_modal_month": 7
+      },
+      {
+        "country": "Ethiopia",
+        "crop": "Rice",
+        "n_source_field_records": 132,
+        "n_valid_plant_month": 132,
+        "n_valid_harvest_begin_month": 111,
+        "plant_modal_month": 6,
+        "harvest_modal_month": 11
+      },
+      {
+        "country": "Ethiopia",
+        "crop": "Sorghum",
+        "n_source_field_records": 9785,
+        "n_valid_plant_month": 9722,
+        "n_valid_harvest_begin_month": 6693,
+        "plant_modal_month": 4,
+        "harvest_modal_month": 7
+      },
+      {
+        "country": "Malawi",
+        "crop": "Maize",
+        "n_source_field_records": 43231,
+        "n_valid_plant_month": 42956,
+        "n_valid_harvest_begin_month": 42474,
+        "plant_modal_month": 12,
+        "harvest_modal_month": 4
+      },
+      {
+        "country": "Malawi",
+        "crop": "Rice",
+        "n_source_field_records": 2498,
+        "n_valid_plant_month": 2495,
+        "n_valid_harvest_begin_month": 2433,
+        "plant_modal_month": 1,
+        "harvest_modal_month": 6
+      },
+      {
+        "country": "Malawi",
+        "crop": "Sorghum",
+        "n_source_field_records": 3588,
+        "n_valid_plant_month": 3579,
+        "n_valid_harvest_begin_month": 3516,
+        "plant_modal_month": 12,
+        "harvest_modal_month": 6
+      },
+      {
+        "country": "Mali",
+        "crop": "Maize",
+        "n_source_field_records": 5115,
+        "n_valid_plant_month": 5115,
+        "n_valid_harvest_begin_month": 5084,
+        "plant_modal_month": 6,
+        "harvest_modal_month": 10
+      },
+      {
+        "country": "Mali",
+        "crop": "Rice",
+        "n_source_field_records": 4211,
+        "n_valid_plant_month": 4211,
+        "n_valid_harvest_begin_month": 4087,
+        "plant_modal_month": 7,
+        "harvest_modal_month": 12
+      },
+      {
+        "country": "Mali",
+        "crop": "Sorghum",
+        "n_source_field_records": 5483,
+        "n_valid_plant_month": 5483,
+        "n_valid_harvest_begin_month": 5444,
+        "plant_modal_month": 6,
+        "harvest_modal_month": 11
+      },
+      {
+        "country": "Niger",
+        "crop": "Maize",
+        "n_source_field_records": 118,
+        "n_valid_plant_month": 118,
+        "n_valid_harvest_begin_month": 37,
+        "plant_modal_month": 6,
+        "harvest_modal_month": 10
+      },
+      {
+        "country": "Niger",
+        "crop": "Rice",
+        "n_source_field_records": 170,
+        "n_valid_plant_month": 170,
+        "n_valid_harvest_begin_month": 49,
+        "plant_modal_month": 7,
+        "harvest_modal_month": 11
+      },
+      {
+        "country": "Niger",
+        "crop": "Sorghum",
+        "n_source_field_records": 4758,
+        "n_valid_plant_month": 4758,
+        "n_valid_harvest_begin_month": 1887,
+        "plant_modal_month": 6,
+        "harvest_modal_month": 10
+      },
+      {
+        "country": "Nigeria",
+        "crop": "Maize",
+        "n_source_field_records": 6380,
+        "n_valid_plant_month": 6342,
+        "n_valid_harvest_begin_month": 6026,
+        "plant_modal_month": 5,
+        "harvest_modal_month": 10
+      },
+      {
+        "country": "Nigeria",
+        "crop": "Rice",
+        "n_source_field_records": 1608,
+        "n_valid_plant_month": 1596,
+        "n_valid_harvest_begin_month": 1503,
+        "plant_modal_month": 6,
+        "harvest_modal_month": 11
+      },
+      {
+        "country": "Nigeria",
+        "crop": "Sorghum",
+        "n_source_field_records": 4022,
+        "n_valid_plant_month": 4004,
+        "n_valid_harvest_begin_month": 3884,
+        "plant_modal_month": 6,
+        "harvest_modal_month": 11
+      },
+      {
+        "country": "Uganda",
+        "crop": "Maize",
+        "n_source_field_records": 22023,
+        "n_valid_plant_month": 17753,
+        "n_valid_harvest_begin_month": 10559,
+        "plant_modal_month": 3,
+        "harvest_modal_month": 6
+      },
+      {
+        "country": "Uganda",
+        "crop": "Rice",
+        "n_source_field_records": 1052,
+        "n_valid_plant_month": 918,
+        "n_valid_harvest_begin_month": 380,
+        "plant_modal_month": 4,
+        "harvest_modal_month": 12
+      },
+      {
+        "country": "Uganda",
+        "crop": "Sorghum",
+        "n_source_field_records": 3655,
+        "n_valid_plant_month": 3241,
+        "n_valid_harvest_begin_month": 1692,
+        "plant_modal_month": 4,
+        "harvest_modal_month": 12
+      }
+    ],
+    "adm1_by_country": [
+      {
+        "country": "Ethiopia",
+        "crop": "Maize",
+        "adm1_count": 10
+      },
+      {
+        "country": "Ethiopia",
+        "crop": "Rice",
+        "adm1_count": 1
+      },
+      {
+        "country": "Ethiopia",
+        "crop": "Sorghum",
+        "adm1_count": 9
+      },
+      {
+        "country": "Malawi",
+        "crop": "Maize",
+        "adm1_count": 3
+      },
+      {
+        "country": "Malawi",
+        "crop": "Rice",
+        "adm1_count": 3
+      },
+      {
+        "country": "Malawi",
+        "crop": "Sorghum",
+        "adm1_count": 2
+      },
+      {
+        "country": "Mali",
+        "crop": "Maize",
+        "adm1_count": 4
+      },
+      {
+        "country": "Mali",
+        "crop": "Rice",
+        "adm1_count": 7
+      },
+      {
+        "country": "Mali",
+        "crop": "Sorghum",
+        "adm1_count": 6
+      },
+      {
+        "country": "Niger",
+        "crop": "Sorghum",
+        "adm1_count": 5
+      },
+      {
+        "country": "Nigeria",
+        "crop": "Maize",
+        "adm1_count": 6
+      },
+      {
+        "country": "Nigeria",
+        "crop": "Rice",
+        "adm1_count": 4
+      },
+      {
+        "country": "Nigeria",
+        "crop": "Sorghum",
+        "adm1_count": 3
+      },
+      {
+        "country": "Uganda",
+        "crop": "Maize",
+        "adm1_count": 77
+      },
+      {
+        "country": "Uganda",
+        "crop": "Rice",
+        "adm1_count": 1
+      },
+      {
+        "country": "Uganda",
+        "crop": "Sorghum",
+        "adm1_count": 16
+      }
+    ]
+  }
+}
