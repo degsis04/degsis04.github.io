@@ -1,22 +1,139 @@
 {
-  "run_utc": "2026-11-03T16:57:13.379563+00:00",
-  "status": "FAILED",
-  "files": {},
-  "checks": {},
-  "errors": [
-    "HTTPError('404 Client Error: Not Found for url: https://www.gefieo.org/sites/default/files/documents/projects/tes/1111-terminal-evaluation.pdf')"
-  ],
-  "definitions": {
-    "implementation_evidence": "Documentary establishment and activities of Sourou bilateral committees",
-    "not_demonstrated": "Actual dam water sharing, river withdrawals and harvested-rice effect",
-    "negative_evidence": "UNEP: actual demonstration projects not implemented in transboundary manner",
-    "2013_signed_date": "From FAOLEX list, independently cross-referenced to contemporaneous newspaper; available 2012 PDF is draft",
-    "2015_activity": "Independent IIED external review says committee met again December 2015"
+  "utc": "2026-11-03T17:00:25.212930+00:00",
+  "status": "PARTIAL_SOURCE_QA",
+  "errors": [],
+  "checks": {
+    "IIED_independent_review_original_pdf_hashed": {
+      "pass": true,
+      "detail": {
+        "text_chars": 261573,
+        "sha256": "97692b1eb641b47917ce5178c2fa9c3f545aab3cbd2958ef9e5b073eb663f9e7"
+      }
+    },
+    "IIED_has_source_year_2013": {
+      "pass": true,
+      "detail": "Year present (no specific event validated from this condition alone)"
+    },
+    "IIED_has_source_year_2015": {
+      "pass": true,
+      "detail": "Year present (no specific event validated from this condition alone)"
+    },
+    "registered_events_have_legal_vs_operational_vs_water_caveat": {
+      "pass": true,
+      "detail": {
+        "n_events": 12
+      }
+    }
   },
-  "caveats": [
-    "A source quote does not imply project success or implementation of a water-allocation treaty.",
-    "Original signed/stamped legal copies need additional verification before treating instruments as authenticated.",
-    "Institutional event in 2013 and observed direct irrigated rice category in 2015–2023 have no same-category pre-event counterfactual."
+  "files": {
+    "IIED_G04090_2016_external_review": {
+      "url": "https://www.iied.org/sites/default/files/pdfs/migrate/G04090.pdf",
+      "status": "PARSED_PDF",
+      "status_code": 200,
+      "bytes": 1529159,
+      "sha256": "97692b1eb641b47917ce5178c2fa9c3f545aab3cbd2958ef9e5b073eb663f9e7",
+      "pdftotext_chars": 261573,
+      "has_sourou": true,
+      "first_sourou_excerpt": " jones (2011)_______ 77 annexe 3. interventions de gwi-1 dans le sous-bassin du sourou (burkina faso mali) _____ 78 annexe 4. portefeuille dactivites de gwi (accent sur activites pertinentes pour la revue) ___ 79 annexe 5. liste des personnes contactees __________________________________________ 81 2 liste des sigles 2ie : institut intern"
+    },
+    "UNEP_2016_terminal_eval_GEF_mirror": {
+      "url": "https://www.gefieo.org/sites/default/files/documents/projects/tes/1111-terminal-evaluation.pdf",
+      "status": "BLOCKED_DOWNLOAD",
+      "status_code": 404,
+      "error": "404 Client Error: Not Found for url: https://www.gefieo.org/sites/default/files/documents/projects/tes/1111-terminal-evaluation.pdf"
+    },
+    "UNEP_2016_terminal_eval_original": {
+      "url": "https://wedocs.unep.org/bitstream/handle/20.500.11822/20812/1111_2016_te_unep_regional_iw_fsp_volta_river.pdf",
+      "status": "BLOCKED_HTML_NOT_PDF",
+      "status_code": 200,
+      "bytes": 516285,
+      "sha256": "8cfe07be73cb5e68108aaf247009af8c43edd13968f93d47c8efd67cb05c87b3",
+      "first_bytes": "<!DOCTYPE html><html data-critters-container=\"\" lang=\"en\"><head>\n  <meta charset=\"UTF-8\">\n  <base hr"
+    },
+    "IIED_G04226_2012_agreement_publication": {
+      "url": "https://www.iied.org/sites/default/files/pdfs/migrate/G04226.pdf",
+      "status": "PARSED_PDF",
+      "status_code": 200,
+      "bytes": 101290,
+      "sha256": "3f7eccd031cfedb7a3aa3b77abc5666026a0bca13a4a6416611513ad7f3ace85",
+      "pdftotext_chars": 6489,
+      "has_sourou": true,
+      "first_sourou_excerpt": "n comite transfrontalier de gestion integree des ressources en eau du bassin du sourou (ctgs) le gouverneur de la region de mopti au mali et le gouverneur de la region de la boucle du mouhoun au burkina faso preambule : considerant que : - le sourou constitue une ressource partagee entre le mali et le burkina faso et a cet effet constitue"
+    }
+  },
+  "factual_limitations": [
+    "UNEP published March 2016 draft-evaluation PDF has a DRAFT ONE cover despite later official posting.",
+    "A 2012 online legal template or IIED publication is not by itself an authenticated copy with actual June 2013 signatures.",
+    "Meeting implementation is documentary evidence of consultation, not controlled river releases or agricultural yield effects.",
+    "When hosted PDFs are only available through indexed web search rather than direct bytes, original checksum cannot be independently confirmed by this CI runner.",
+    "FEWSNET direct-irrigated rice series is only 2015-2023, after 2013 committee setup; no compatible before period."
   ],
-  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/degsis04.github.io/degsis04.github.io/research/basin-data-audit/scripts/sourou_institution_primary_docs_QA_v2.py\", line 43, in <module>\n    r.raise_for_status()\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/requests/models.py\", line 1167, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.gefieo.org/sites/default/files/documents/projects/tes/1111-terminal-evaluation.pdf\n"
+  "web_verified_sources_not_machine_verified": [
+    "UNEP GEF official indexed 2016 original, paragraph 83 negative/demo and paragraph 86 committee 2013 (web search)",
+    "FAOLEX catalog agreement date June 20 2013 (web search)",
+    "Contemporaneous press first CTGS assembly 2013 (web search)"
+  ],
+  "independently_extracted_IIED_contexts": [
+    {
+      "token": "sourou",
+      "context": "agements de gwi dans la grille jones (2011)_______ 77 annexe 3. interventions de gwi-1 dans le sous-bassin du sourou (burkina faso mali) _____ 78 annexe 4. portefeuille dactivites de gwi (accent sur activites pertinentes pour la revue) ___ 79 annexe 5. liste des personnes contactees __"
+    },
+    {
+      "token": "sourou",
+      "context": "iques peu avant le niveau 1 (changement dattitude) 77 annexe 3. interventions de gwi-1 dans le sous-bassin du sourou (burkina faso mali) a.3.1. planification et gestion integree du sous-bassin sourou au mali meme si le code de leau du mali qui date de 2002 fait reference47 au schema di"
+    },
+    {
+      "token": "sourou",
+      "context": "i-1 dans le sous-bassin du sourou (burkina faso mali) a.3.1. planification et gestion integree du sous-bassin sourou au mali meme si le code de leau du mali qui date de 2002 fait reference47 au schema directeur damenagement et de gestion des eaux (sdage) comme moyen de planification et"
+    },
+    {
+      "token": "sourou",
+      "context": "s dont le mali est membre). entierement finance par gwi entre 2010 et 2012, le sdage de la partie malienne du sourou a ete finalise et adopte en conseil des ministres par letat du mali en mai 2015. ceci est un resultat important de changement de politique. meme si cela va au-dela de le"
+    },
+    {
+      "token": "sourou",
+      "context": "nal adjoint, dnh- mali, il existe des possibilites dappui a la gouvernance de leau dans la partie malienne du sourou dans le cadre du programme dappui conjoint a la gire (pagire) cofinance par la suede et les pays- bas. a.3.2. sous-bassin sourou/mali-burkina faso cest en 2010 que debut"
+    },
+    {
+      "token": "sourou",
+      "context": "e du programme dappui conjoint a la gire (pagire) cofinance par la suede et les pays- bas. a.3.2. sous-bassin sourou/mali-burkina faso cest en 2010 que debute lappui de gwi pour la mise en place de cadres de cooperation entre le burkina faso et le mali sur le bassin du sourou. cest ain"
+    },
+    {
+      "token": "sourou",
+      "context": "appui de gwi pour la mise en place de cadres de cooperation entre le burkina faso et le mali sur le bassin du sourou. cest ainsi quun forum transfrontalier sera organise en 2011. en 2012 un accord sera signe au niveau ministeriel portant creation dun comite technique conjoint pour la g"
+    },
+    {
+      "token": "decembre 2015",
+      "context": "llaboration transfrontaliere sur le sourou et sen felicite. le comite transfrontalier existe et sest reuni en decembre 2015, deux ans apres la premiere reunion. en termes de changement de politiques, la mise en place formelle du comite technique conjoint et du comite transfrontaliers sont des"
+    },
+    {
+      "token": "2013",
+      "context": "___________________________________________ 74 annexe 1. engagements de gwi dans la strategie quinquennale de 2013 (ajustee en 2014) __ 75 annexe 2. tableau classement des engagements de gwi dans la grille jones (2011)_______ 77 annexe 3. interventions de gwi-1 dans le sous-bassin du"
+    },
+    {
+      "token": "2013",
+      "context": " mi-parcours pour 2015 et 13 realisations finales a la fin du programme en 2017. un document de gwi soumis en 2013 a hgbf2, apportera quelques modifications dans la formulation de certains des resultats strategiques, et definira 10 resultats intermediaires. on peut donc dire que les "
+    },
+    {
+      "token": "2013",
+      "context": "wi west africa water for agriculture: 5-year strategy and fy13 operating plan. iied iucn.30 september; 2 gwi. 2013. gwi west africa water for agriculture. fy 14 operating plan and budget, fy 15-17 outline budget. iied iucn. 24 july 3 jones, h. 2011. a guide to monitoring and evaluati"
+    },
+    {
+      "token": "2013",
+      "context": "ines interventions prevues dans le document strategique 2012-2017 (septembre 2012) et dans la note de juillet 2013 de gwi preparee pour hgbf nont pas encore ete mises en uvre. par contre il y a beaucoup dinitiatives ne figurant pas dans ces documents de strategie qui ont ete lancees."
+    },
+    {
+      "token": "2013",
+      "context": "lus intelligentes, la revue a collecte peu dinformations. dans la proposition (west africa proposal) fy14-17 (2013), il est mentionne que gwi allait travailler avec bagrepole (burkina faso) pour developper des indicateurs et elaborer un cadre de suivi des contrats relatifs aux invest"
+    },
+    {
+      "token": "2013",
+      "context": "au national par les pays en developpement) a ete change par la suite (west africa proposal fy14-17 de juillet 2013) pour devenir variabilite climatique (pour laquelle les etats ne preparent en principe pas de strategies dadaptation). en dehors dune etude sur la question dont il a fai"
+    },
+    {
+      "token": "2013",
+      "context": "niques ciblant la securite alimentaire dans un contexte de variabilite climatique 9 fisher, s. and archer, d. 2013. review of sahelian climate change adaptation policies and their support for large scale irrigation investments. iied. septembre. 17 de facon generale gwi fait face a de"
+    }
+  ],
+  "evidence_scope": "ONLY_IIED_DOCUMENT_BYTES_CONFIRMED_UNEP_INDEXED_WEB_NOT_MACHINE_CHECKED"
 }
