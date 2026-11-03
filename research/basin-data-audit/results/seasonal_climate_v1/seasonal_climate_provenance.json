@@ -1,5 +1,5 @@
 {
-  "utc": "2026-11-03T11:19:42.150189+00:00",
+  "utc": "2026-11-03T11:27:36.803831+00:00",
   "status": "COMPLETE",
   "source_calendar": "EC JRC ASAP v2018 FAO+FPAR, GAUL1; 80% geometry crosswalk with HarvestStat districts",
   "source_climate": "CHIRPS v3 final monthly rainfall, original 1981-2024 GeoTIFF source-hash validated",
@@ -18,7 +18,7 @@
     "baseline_min_valid_years": 25,
     "baseline_min_sd_mm": 5,
     "pixel_valid_threshold": 3,
-    "cross_year": "months in calendar year before declared harvest year when start dekad > end dekad"
+    "cross_year": "Each phase anchored to full crop cycle sos_s→eos_e and harvest year; phase may lie wholly in prior year"
   },
   "errors": [],
   "counts": {
@@ -30,13 +30,15 @@
       "Sorghum": 128
     },
     "seasonal_year_rows": 29744,
-    "valid_precip_totals": 29394,
-    "complete_spatial_precip_windows": 29394,
+    "valid_precip_totals": 29390,
+    "complete_spatial_precip_windows": 29390,
     "low_pixel_support_windows": 0,
-    "incomplete_source_windows": 350,
-    "valid_seasonal_z": 29394,
+    "incomplete_source_windows": 354,
+    "valid_seasonal_z": 29390,
     "crossyear_rows": 15400,
+    "full_crop_cycle_crossyear_rows": 15576,
     "crossyear_distinct_source_seasons": 350,
+    "full_crop_cycle_crossyear_assignments": 177,
     "years": 44
   },
   "qa": {

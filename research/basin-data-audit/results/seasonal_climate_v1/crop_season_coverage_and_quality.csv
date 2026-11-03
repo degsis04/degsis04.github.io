@@ -14,7 +14,7 @@ NGER,BJ,Sorghum,Sorghum,core,7,308,308,308,0,0
 NGER,ML,Maize,Maize,broad,2,88,88,88,0,0
 NGER,ML,Maize,Maize,core,2,88,88,88,0,0
 NGER,ML,Rice,Rice (Rainfed),broad,2,88,87,87,44,7
-NGER,ML,Rice,Rice (Rainfed),core,2,88,88,88,0,0
+NGER,ML,Rice,Rice (Rainfed),core,2,88,87,87,0,5
 NGER,ML,Sorghum,Sorghum,broad,2,88,88,88,0,0
 NGER,ML,Sorghum,Sorghum,core,2,88,88,88,0,0
 VOLT,BF,Maize,Maize,broad,31,1364,1364,1364,0,0
@@ -30,7 +30,7 @@ VOLT,BJ,Rice,Rice (Irrigated),core,6,264,264,264,0,0
 VOLT,BJ,Sorghum,Sorghum,broad,6,264,264,264,0,0
 VOLT,BJ,Sorghum,Sorghum,core,6,264,264,264,0,0
 VOLT,GH,Maize,Maize (Second),broad,6,264,261,261,132,15
-VOLT,GH,Maize,Maize (Second),core,6,264,264,264,0,0
+VOLT,GH,Maize,Maize (Second),core,6,264,261,261,0,10
 VOLT,GH,Maize,Maize (South/Main),broad,2,88,88,88,0,0
 VOLT,GH,Maize,Maize (South/Main),core,2,88,88,88,0,0
 VOLT,GH,Rice,Rice (North),broad,5,220,220,220,0,0
