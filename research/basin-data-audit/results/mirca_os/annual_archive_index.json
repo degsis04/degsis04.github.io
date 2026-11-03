@@ -1,0 +1,2626 @@
+{
+  "utc": "2026-11-03T00:28:59.320701+00:00",
+  "stage": "official annual RAR index",
+  "status": "COMPLETE",
+  "errors": [],
+  "official_catalog_metadata": {
+    "url": "https://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/data/contents/Annual%20Harvested%20Area%20Grids/Annual%20Harvested%20Area%20Grids.rar",
+    "file_name": "Annual Harvested Area Grids.rar",
+    "size": 284005995,
+    "checksum": "c9243bf18d1b31b50ebd9cbfa0f9b3ab"
+  },
+  "final_download_url": "https://storage.googleapis.com/hydroshare-403701-prod-cloud-native-resource/e4582ca0042148338bb5e0148b749ed6/data/contents/Annual%20Harvested%20Area%20Grids/Annual%20Harvested%20Area%20Grids.rar?response-content-disposition=attachment%3B%20filename%3D%22Annual%20Harvested%20Area%20Grids.rar%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=GOOG1EFQKHV3ZV2K2CYOFUFZZ7JR5N4WVWE2VRKOWYYXNMSH76H3MWGICDNVT%2F20261103%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261103T002901Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=886cc02788faddd65078b39e83d378662fea21a315f442b37e553bc63f3022d7",
+  "content_type": "binary/octet-stream",
+  "download_bytes": 284005995,
+  "sha256": "a8843d0214735fb4285cfe0863c16eebd85da2a7934dbe0b337a1703c4128202",
+  "md5": "c9243bf18d1b31b50ebd9cbfa0f9b3ab",
+  "magic_first_12": "526172211a0701009b5c747a",
+  "size_matches_catalog": true,
+  "md5_matches_catalog": true,
+  "archive_listing_exit_code": 0,
+  "raster_members": [
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Barley_2005_ir_30arcmin_v2.tif",
+      "size": 72114,
+      "packed_size": 52276
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Barley_2005_rf_30arcmin_v2.tif",
+      "size": 133120,
+      "packed_size": 112666
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Cassava_2005_ir_30arcmin_v2.tif",
+      "size": 34633,
+      "packed_size": 13465
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Cassava_2005_rf_30arcmin_v2.tif",
+      "size": 88681,
+      "packed_size": 67955
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Cocoa_2005_ir_30arcmin_v2.tif",
+      "size": 26422,
+      "packed_size": 4720
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Cocoa_2005_rf_30arcmin_v2.tif",
+      "size": 59309,
+      "packed_size": 38547
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Coffee_2005_ir_30arcmin_v2.tif",
+      "size": 34601,
+      "packed_size": 13825
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Coffee_2005_rf_30arcmin_v2.tif",
+      "size": 83416,
+      "packed_size": 62697
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Cotton_2005_ir_30arcmin_v2.tif",
+      "size": 67566,
+      "packed_size": 47865
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Cotton_2005_rf_30arcmin_v2.tif",
+      "size": 104934,
+      "packed_size": 84456
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Fodder_2005_ir_30arcmin_v2.tif",
+      "size": 91189,
+      "packed_size": 71814
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Fodder_2005_rf_30arcmin_v2.tif",
+      "size": 126674,
+      "packed_size": 105886
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Groundnuts_2005_ir_30arcmin_v2.tif",
+      "size": 58797,
+      "packed_size": 38838
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Groundnuts_2005_rf_30arcmin_v2.tif",
+      "size": 112323,
+      "packed_size": 91647
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Maize_2005_ir_30arcmin_v2.tif",
+      "size": 114204,
+      "packed_size": 94522
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Maize_2005_rf_30arcmin_v2.tif",
+      "size": 168844,
+      "packed_size": 148025
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Millet_2005_ir_30arcmin_v2.tif",
+      "size": 48104,
+      "packed_size": 26993
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Millet_2005_rf_30arcmin_v2.tif",
+      "size": 100138,
+      "packed_size": 79355
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Oil palm_2005_ir_30arcmin_v2.tif",
+      "size": 34148,
+      "packed_size": 12987
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Oil palm_2005_rf_30arcmin_v2.tif",
+      "size": 68611,
+      "packed_size": 47654
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Others annual_2005_ir_30arcmin_v2.tif",
+      "size": 138167,
+      "packed_size": 118781
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Others annual_2005_rf_30arcmin_v2.tif",
+      "size": 191581,
+      "packed_size": 170085
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Others perennial_2005_ir_30arcmin_v2.tif",
+      "size": 147223,
+      "packed_size": 119339
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Others perennial_2005_rf_30arcmin_v2.tif",
+      "size": 162866,
+      "packed_size": 142511
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Potatoes_2005_ir_30arcmin_v2.tif",
+      "size": 105249,
+      "packed_size": 86275
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Potatoes_2005_rf_30arcmin_v2.tif",
+      "size": 153237,
+      "packed_size": 133413
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Pulses_2005_ir_30arcmin_v2.tif",
+      "size": 89991,
+      "packed_size": 70391
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Pulses_2005_rf_30arcmin_v2.tif",
+      "size": 177089,
+      "packed_size": 155807
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Rapeseed_2005_ir_30arcmin_v2.tif",
+      "size": 36679,
+      "packed_size": 15417
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Rapeseed_2005_rf_30arcmin_v2.tif",
+      "size": 103060,
+      "packed_size": 82904
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Rice_2005_ir_30arcmin_v2.tif",
+      "size": 87406,
+      "packed_size": 67762
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Rice_2005_rf_30arcmin_v2.tif",
+      "size": 111687,
+      "packed_size": 90462
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Rye_2005_ir_30arcmin_v2.tif",
+      "size": 46691,
+      "packed_size": 25725
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Rye_2005_rf_30arcmin_v2.tif",
+      "size": 92637,
+      "packed_size": 72669
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Sorghum_2005_ir_30arcmin_v2.tif",
+      "size": 61678,
+      "packed_size": 41904
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Sorghum_2005_rf_30arcmin_v2.tif",
+      "size": 126899,
+      "packed_size": 106598
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Soybeans_2005_ir_30arcmin_v2.tif",
+      "size": 65603,
+      "packed_size": 45572
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Soybeans_2005_rf_30arcmin_v2.tif",
+      "size": 128311,
+      "packed_size": 107611
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Sugar beet_2005_ir_30arcmin_v2.tif",
+      "size": 54588,
+      "packed_size": 34006
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Sugar beet_2005_rf_30arcmin_v2.tif",
+      "size": 67883,
+      "packed_size": 47024
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Sugar cane_2005_ir_30arcmin_v2.tif",
+      "size": 69788,
+      "packed_size": 50189
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Sugar cane_2005_rf_30arcmin_v2.tif",
+      "size": 98139,
+      "packed_size": 77700
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Sunflower_2005_ir_30arcmin_v2.tif",
+      "size": 58411,
+      "packed_size": 38105
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Sunflower_2005_rf_30arcmin_v2.tif",
+      "size": 102643,
+      "packed_size": 82335
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Wheat_2005_ir_30arcmin_v2.tif",
+      "size": 99967,
+      "packed_size": 79842
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Wheat_2005_rf_30arcmin_v2.tif",
+      "size": 159689,
+      "packed_size": 138473
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Barley_2005_ir_v2.tif",
+      "size": 1071903,
+      "packed_size": 622924
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Barley_2005_rf_v2.tif",
+      "size": 2346486,
+      "packed_size": 1895095
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Cassava_2005_ir_v2.tif",
+      "size": 605804,
+      "packed_size": 132379
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Cassava_2005_rf_v2.tif",
+      "size": 1665669,
+      "packed_size": 1204676
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Cocoa_2005_ir_v2.tif",
+      "size": 510332,
+      "packed_size": 39502
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Cocoa_2005_rf_v2.tif",
+      "size": 1023898,
+      "packed_size": 563493
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Coffee_2005_ir_v2.tif",
+      "size": 622520,
+      "packed_size": 154322
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Coffee_2005_rf_v2.tif",
+      "size": 1456332,
+      "packed_size": 996895
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Cotton_2005_ir_v2.tif",
+      "size": 1074574,
+      "packed_size": 618861
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Cotton_2005_rf_v2.tif",
+      "size": 1895353,
+      "packed_size": 1446343
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Fodder_2005_ir_v2.tif",
+      "size": 1402925,
+      "packed_size": 949686
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Fodder_2005_rf_v2.tif",
+      "size": 2328543,
+      "packed_size": 1876188
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Groundnuts_2005_ir_v2.tif",
+      "size": 970816,
+      "packed_size": 513597
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Groundnuts_2005_rf_v2.tif",
+      "size": 2001567,
+      "packed_size": 1551958
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Maize_2005_ir_v2.tif",
+      "size": 1777524,
+      "packed_size": 1331351
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Maize_2005_rf_v2.tif",
+      "size": 3196807,
+      "packed_size": 2745132
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Millet_2005_ir_v2.tif",
+      "size": 802782,
+      "packed_size": 338124
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Millet_2005_rf_v2.tif",
+      "size": 1855230,
+      "packed_size": 1395777
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Oil palm_2005_ir_v2.tif",
+      "size": 601526,
+      "packed_size": 133178
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Oil palm_2005_rf_v2.tif",
+      "size": 1197834,
+      "packed_size": 733777
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Others annual_2005_ir_v2.tif",
+      "size": 2096765,
+      "packed_size": 1657206
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Others annual_2005_rf_v2.tif",
+      "size": 3517368,
+      "packed_size": 3064928
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Others perennial_2005_ir_v2.tif",
+      "size": 2304554,
+      "packed_size": 1495848
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Others perennial_2005_rf_v2.tif",
+      "size": 2846225,
+      "packed_size": 2407636
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Potatoes_2005_ir_v2.tif",
+      "size": 1501829,
+      "packed_size": 1065850
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Potatoes_2005_rf_v2.tif",
+      "size": 2554444,
+      "packed_size": 2122497
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Pulses_2005_ir_v2.tif",
+      "size": 1394300,
+      "packed_size": 944385
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Pulses_2005_rf_v2.tif",
+      "size": 3208064,
+      "packed_size": 2767791
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Rapeseed_2005_ir_v2.tif",
+      "size": 679245,
+      "packed_size": 206960
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Rapeseed_2005_rf_v2.tif",
+      "size": 1840087,
+      "packed_size": 1378597
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Rice_2005_ir_v2.tif",
+      "size": 1433468,
+      "packed_size": 975453
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Rice_2005_rf_v2.tif",
+      "size": 2120408,
+      "packed_size": 1660319
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Rye_2005_ir_v2.tif",
+      "size": 764508,
+      "packed_size": 299421
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Rye_2005_rf_v2.tif",
+      "size": 1569706,
+      "packed_size": 1120849
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Sorghum_2005_ir_v2.tif",
+      "size": 988470,
+      "packed_size": 533539
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Sorghum_2005_rf_v2.tif",
+      "size": 2296912,
+      "packed_size": 1848300
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Soybeans_2005_ir_v2.tif",
+      "size": 1159764,
+      "packed_size": 694550
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Soybeans_2005_rf_v2.tif",
+      "size": 2363265,
+      "packed_size": 1909034
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Sugar beet_2005_ir_v2.tif",
+      "size": 861234,
+      "packed_size": 405338
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Sugar beet_2005_rf_v2.tif",
+      "size": 1180569,
+      "packed_size": 720880
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Sugar cane_2005_ir_v2.tif",
+      "size": 1109715,
+      "packed_size": 657826
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Sugar cane_2005_rf_v2.tif",
+      "size": 1698643,
+      "packed_size": 1246312
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Sunflower_2005_ir_v2.tif",
+      "size": 942030,
+      "packed_size": 483631
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Sunflower_2005_rf_v2.tif",
+      "size": 1869010,
+      "packed_size": 1412314
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Wheat_2005_ir_v2.tif",
+      "size": 1564145,
+      "packed_size": 1112986
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Wheat_2005_rf_v2.tif",
+      "size": 3056212,
+      "packed_size": 2587590
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Barley_2010_ir_30arcmin_v2.tif",
+      "size": 71378,
+      "packed_size": 51856
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Barley_2010_rf_30arcmin_v2.tif",
+      "size": 129737,
+      "packed_size": 109610
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Cassava_2010_ir_30arcmin_v2.tif",
+      "size": 36147,
+      "packed_size": 15106
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Cassava_2010_rf_30arcmin_v2.tif",
+      "size": 87810,
+      "packed_size": 67140
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Cocoa_2010_ir_30arcmin_v2.tif",
+      "size": 28619,
+      "packed_size": 7199
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Cocoa_2010_rf_30arcmin_v2.tif",
+      "size": 59616,
+      "packed_size": 38827
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Coffee_2010_ir_30arcmin_v2.tif",
+      "size": 37199,
+      "packed_size": 16493
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Coffee_2010_rf_30arcmin_v2.tif",
+      "size": 84067,
+      "packed_size": 63302
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Cotton_2010_ir_30arcmin_v2.tif",
+      "size": 72061,
+      "packed_size": 52262
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Cotton_2010_rf_30arcmin_v2.tif",
+      "size": 97120,
+      "packed_size": 76784
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Fodder_2010_ir_30arcmin_v2.tif",
+      "size": 91995,
+      "packed_size": 72587
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Fodder_2010_rf_30arcmin_v2.tif",
+      "size": 125180,
+      "packed_size": 104188
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Groundnuts_2010_ir_30arcmin_v2.tif",
+      "size": 58178,
+      "packed_size": 38294
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Groundnuts_2010_rf_30arcmin_v2.tif",
+      "size": 113458,
+      "packed_size": 92874
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Maize_2010_ir_30arcmin_v2.tif",
+      "size": 114914,
+      "packed_size": 95142
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Maize_2010_rf_30arcmin_v2.tif",
+      "size": 164864,
+      "packed_size": 144124
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Millet_2010_ir_30arcmin_v2.tif",
+      "size": 49323,
+      "packed_size": 28236
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Millet_2010_rf_30arcmin_v2.tif",
+      "size": 90978,
+      "packed_size": 69859
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Oil palm_2010_ir_30arcmin_v2.tif",
+      "size": 34794,
+      "packed_size": 13663
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Oil palm_2010_rf_30arcmin_v2.tif",
+      "size": 68409,
+      "packed_size": 47456
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Others annual_2010_ir_30arcmin_v2.tif",
+      "size": 138578,
+      "packed_size": 118954
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Others annual_2010_rf_30arcmin_v2.tif",
+      "size": 188951,
+      "packed_size": 167497
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Others perennial_2010_ir_30arcmin_v2.tif",
+      "size": 128698,
+      "packed_size": 109201
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Others perennial_2010_rf_30arcmin_v2.tif",
+      "size": 164297,
+      "packed_size": 144042
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Potatoes_2010_ir_30arcmin_v2.tif",
+      "size": 124682,
+      "packed_size": 97007
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Potatoes_2010_rf_30arcmin_v2.tif",
+      "size": 151686,
+      "packed_size": 131636
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Pulses_2010_ir_30arcmin_v2.tif",
+      "size": 91157,
+      "packed_size": 71546
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Pulses_2010_rf_30arcmin_v2.tif",
+      "size": 175097,
+      "packed_size": 153974
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Rapeseed_2010_ir_30arcmin_v2.tif",
+      "size": 37155,
+      "packed_size": 15915
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Rapeseed_2010_rf_30arcmin_v2.tif",
+      "size": 110223,
+      "packed_size": 89556
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Rice_2010_ir_30arcmin_v2.tif",
+      "size": 88374,
+      "packed_size": 68519
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Rice_2010_rf_30arcmin_v2.tif",
+      "size": 105280,
+      "packed_size": 84272
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Rye_2010_ir_30arcmin_v2.tif",
+      "size": 46797,
+      "packed_size": 25886
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Rye_2010_rf_30arcmin_v2.tif",
+      "size": 86208,
+      "packed_size": 66068
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Sorghum_2010_ir_30arcmin_v2.tif",
+      "size": 62052,
+      "packed_size": 42271
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Sorghum_2010_rf_30arcmin_v2.tif",
+      "size": 122826,
+      "packed_size": 102475
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Soybeans_2010_ir_30arcmin_v2.tif",
+      "size": 67462,
+      "packed_size": 47559
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Soybeans_2010_rf_30arcmin_v2.tif",
+      "size": 129910,
+      "packed_size": 109371
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Sugar beet_2010_ir_30arcmin_v2.tif",
+      "size": 55045,
+      "packed_size": 34305
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Sugar beet_2010_rf_30arcmin_v2.tif",
+      "size": 63754,
+      "packed_size": 42534
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Sugar cane_2010_ir_30arcmin_v2.tif",
+      "size": 69771,
+      "packed_size": 50089
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Sugar cane_2010_rf_30arcmin_v2.tif",
+      "size": 98896,
+      "packed_size": 78560
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Sunflower_2010_ir_30arcmin_v2.tif",
+      "size": 59780,
+      "packed_size": 39302
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Sunflower_2010_rf_30arcmin_v2.tif",
+      "size": 105539,
+      "packed_size": 85123
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Wheat_2010_ir_30arcmin_v2.tif",
+      "size": 100151,
+      "packed_size": 80007
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Wheat_2010_rf_30arcmin_v2.tif",
+      "size": 153582,
+      "packed_size": 132519
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Barley_2010_ir_v2.tif",
+      "size": 1043268,
+      "packed_size": 594186
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Barley_2010_rf_v2.tif",
+      "size": 2280734,
+      "packed_size": 1829588
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Cassava_2010_ir_v2.tif",
+      "size": 624130,
+      "packed_size": 150755
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Cassava_2010_rf_v2.tif",
+      "size": 1662619,
+      "packed_size": 1202536
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Cocoa_2010_ir_v2.tif",
+      "size": 539425,
+      "packed_size": 69033
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Cocoa_2010_rf_v2.tif",
+      "size": 1036742,
+      "packed_size": 576066
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Coffee_2010_ir_v2.tif",
+      "size": 648425,
+      "packed_size": 179403
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Coffee_2010_rf_v2.tif",
+      "size": 1469353,
+      "packed_size": 1009517
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Cotton_2010_ir_v2.tif",
+      "size": 1086670,
+      "packed_size": 635175
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Cotton_2010_rf_v2.tif",
+      "size": 1756926,
+      "packed_size": 1305859
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Fodder_2010_ir_v2.tif",
+      "size": 1382704,
+      "packed_size": 932332
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Fodder_2010_rf_v2.tif",
+      "size": 2315673,
+      "packed_size": 1861768
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Groundnuts_2010_ir_v2.tif",
+      "size": 924755,
+      "packed_size": 468039
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Groundnuts_2010_rf_v2.tif",
+      "size": 2013174,
+      "packed_size": 1561838
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Maize_2010_ir_v2.tif",
+      "size": 1756608,
+      "packed_size": 1310699
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Maize_2010_rf_v2.tif",
+      "size": 3158652,
+      "packed_size": 2704593
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Millet_2010_ir_v2.tif",
+      "size": 788566,
+      "packed_size": 325254
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Millet_2010_rf_v2.tif",
+      "size": 1711521,
+      "packed_size": 1248976
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Oil palm_2010_ir_v2.tif",
+      "size": 603753,
+      "packed_size": 136556
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Oil palm_2010_rf_v2.tif",
+      "size": 1197703,
+      "packed_size": 732898
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Others annual_2010_ir_v2.tif",
+      "size": 2064722,
+      "packed_size": 1626321
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Others annual_2010_rf_v2.tif",
+      "size": 3457246,
+      "packed_size": 3004219
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Others perennial_2010_ir_v2.tif",
+      "size": 1878209,
+      "packed_size": 1441881
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Others perennial_2010_rf_v2.tif",
+      "size": 2865955,
+      "packed_size": 2428816
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Potatoes_2010_ir_v2.tif",
+      "size": 1994801,
+      "packed_size": 1184927
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Potatoes_2010_rf_v2.tif",
+      "size": 2503901,
+      "packed_size": 2073038
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Pulses_2010_ir_v2.tif",
+      "size": 1365022,
+      "packed_size": 918473
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Pulses_2010_rf_v2.tif",
+      "size": 3159676,
+      "packed_size": 2722631
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Rapeseed_2010_ir_v2.tif",
+      "size": 663705,
+      "packed_size": 192233
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Rapeseed_2010_rf_v2.tif",
+      "size": 2014811,
+      "packed_size": 1553472
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Rice_2010_ir_v2.tif",
+      "size": 1403277,
+      "packed_size": 947847
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Rice_2010_rf_v2.tif",
+      "size": 2042446,
+      "packed_size": 1581568
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Rye_2010_ir_v2.tif",
+      "size": 753530,
+      "packed_size": 288514
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Rye_2010_rf_v2.tif",
+      "size": 1459349,
+      "packed_size": 1007760
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Sorghum_2010_ir_v2.tif",
+      "size": 969461,
+      "packed_size": 514767
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Sorghum_2010_rf_v2.tif",
+      "size": 2198832,
+      "packed_size": 1750758
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Soybeans_2010_ir_v2.tif",
+      "size": 1161086,
+      "packed_size": 698936
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Soybeans_2010_rf_v2.tif",
+      "size": 2399670,
+      "packed_size": 1946851
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Sugar beet_2010_ir_v2.tif",
+      "size": 868975,
+      "packed_size": 411991
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Sugar beet_2010_rf_v2.tif",
+      "size": 1096949,
+      "packed_size": 635460
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Sugar cane_2010_ir_v2.tif",
+      "size": 1082536,
+      "packed_size": 631086
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Sugar cane_2010_rf_v2.tif",
+      "size": 1718538,
+      "packed_size": 1267767
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Sunflower_2010_ir_v2.tif",
+      "size": 931271,
+      "packed_size": 474624
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Sunflower_2010_rf_v2.tif",
+      "size": 1910436,
+      "packed_size": 1455764
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Wheat_2010_ir_v2.tif",
+      "size": 1533654,
+      "packed_size": 1083707
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Wheat_2010_rf_v2.tif",
+      "size": 2972747,
+      "packed_size": 2503385
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Barley_2015_ir_30arcmin_v2.tif",
+      "size": 68672,
+      "packed_size": 49131
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Barley_2015_rf_30arcmin_v2.tif",
+      "size": 132095,
+      "packed_size": 111656
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Cassava_2015_ir_30arcmin_v2.tif",
+      "size": 35120,
+      "packed_size": 14067
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Cassava_2015_rf_30arcmin_v2.tif",
+      "size": 85836,
+      "packed_size": 65039
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Cocoa_2015_ir_30arcmin_v2.tif",
+      "size": 28546,
+      "packed_size": 7099
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Cocoa_2015_rf_30arcmin_v2.tif",
+      "size": 59244,
+      "packed_size": 38545
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Coffee_2015_ir_30arcmin_v2.tif",
+      "size": 36280,
+      "packed_size": 15596
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Coffee_2015_rf_30arcmin_v2.tif",
+      "size": 83856,
+      "packed_size": 62780
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Cotton_2015_ir_30arcmin_v2.tif",
+      "size": 69562,
+      "packed_size": 50028
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Cotton_2015_rf_30arcmin_v2.tif",
+      "size": 98017,
+      "packed_size": 77471
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Fodder_2015_ir_30arcmin_v2.tif",
+      "size": 90206,
+      "packed_size": 70934
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Fodder_2015_rf_30arcmin_v2.tif",
+      "size": 124095,
+      "packed_size": 103217
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Groundnuts_2015_ir_30arcmin_v2.tif",
+      "size": 57333,
+      "packed_size": 37544
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Groundnuts_2015_rf_30arcmin_v2.tif",
+      "size": 112273,
+      "packed_size": 91529
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Maize_2015_ir_30arcmin_v2.tif",
+      "size": 111793,
+      "packed_size": 92274
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Maize_2015_rf_30arcmin_v2.tif",
+      "size": 164726,
+      "packed_size": 143794
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Millet_2015_ir_30arcmin_v2.tif",
+      "size": 49953,
+      "packed_size": 28834
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Millet_2015_rf_30arcmin_v2.tif",
+      "size": 93022,
+      "packed_size": 72040
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Oil palm_2015_ir_30arcmin_v2.tif",
+      "size": 35574,
+      "packed_size": 14458
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Oil palm_2015_rf_30arcmin_v2.tif",
+      "size": 66867,
+      "packed_size": 45919
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Others annual_2015_ir_30arcmin_v2.tif",
+      "size": 151051,
+      "packed_size": 130026
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Others annual_2015_rf_30arcmin_v2.tif",
+      "size": 191581,
+      "packed_size": 170085
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Others perennial_2015_ir_30arcmin_v2.tif",
+      "size": 129114,
+      "packed_size": 109896
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Others perennial_2015_rf_30arcmin_v2.tif",
+      "size": 154257,
+      "packed_size": 134134
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Potatoes_2015_ir_30arcmin_v2.tif",
+      "size": 112269,
+      "packed_size": 92415
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Potatoes_2015_rf_30arcmin_v2.tif",
+      "size": 154924,
+      "packed_size": 134820
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Pulses_2015_ir_30arcmin_v2.tif",
+      "size": 102261,
+      "packed_size": 81917
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Pulses_2015_rf_30arcmin_v2.tif",
+      "size": 175016,
+      "packed_size": 154087
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Rapeseed_2015_ir_30arcmin_v2.tif",
+      "size": 39044,
+      "packed_size": 17916
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Rapeseed_2015_rf_30arcmin_v2.tif",
+      "size": 116041,
+      "packed_size": 95230
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Rice_2015_ir_30arcmin_v2.tif",
+      "size": 85242,
+      "packed_size": 65831
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Rice_2015_rf_30arcmin_v2.tif",
+      "size": 110066,
+      "packed_size": 88960
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Rye_2015_ir_30arcmin_v2.tif",
+      "size": 46125,
+      "packed_size": 25198
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Rye_2015_rf_30arcmin_v2.tif",
+      "size": 89166,
+      "packed_size": 69436
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Sorghum_2015_ir_30arcmin_v2.tif",
+      "size": 61495,
+      "packed_size": 41716
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Sorghum_2015_rf_30arcmin_v2.tif",
+      "size": 129058,
+      "packed_size": 108391
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Soybeans_2015_ir_30arcmin_v2.tif",
+      "size": 67315,
+      "packed_size": 47495
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Soybeans_2015_rf_30arcmin_v2.tif",
+      "size": 131008,
+      "packed_size": 110135
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Sugar beet_2015_ir_30arcmin_v2.tif",
+      "size": 53867,
+      "packed_size": 33087
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Sugar beet_2015_rf_30arcmin_v2.tif",
+      "size": 65450,
+      "packed_size": 44799
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Sugar cane_2015_ir_30arcmin_v2.tif",
+      "size": 64312,
+      "packed_size": 44716
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Sugar cane_2015_rf_30arcmin_v2.tif",
+      "size": 96804,
+      "packed_size": 76341
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Sunflower_2015_ir_30arcmin_v2.tif",
+      "size": 59224,
+      "packed_size": 38997
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Sunflower_2015_rf_30arcmin_v2.tif",
+      "size": 103340,
+      "packed_size": 82960
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Wheat_2015_ir_30arcmin_v2.tif",
+      "size": 97389,
+      "packed_size": 77442
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Wheat_2015_rf_30arcmin_v2.tif",
+      "size": 156255,
+      "packed_size": 135066
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Barley_2015_ir_v2.tif",
+      "size": 1018546,
+      "packed_size": 569215
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Barley_2015_rf_v2.tif",
+      "size": 2322266,
+      "packed_size": 1873002
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Cassava_2015_ir_v2.tif",
+      "size": 600981,
+      "packed_size": 129530
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Cassava_2015_rf_v2.tif",
+      "size": 1639378,
+      "packed_size": 1177596
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Cocoa_2015_ir_v2.tif",
+      "size": 533261,
+      "packed_size": 63291
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Cocoa_2015_rf_v2.tif",
+      "size": 1025660,
+      "packed_size": 566120
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Coffee_2015_ir_v2.tif",
+      "size": 613483,
+      "packed_size": 145649
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Coffee_2015_rf_v2.tif",
+      "size": 1466189,
+      "packed_size": 1007763
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Cotton_2015_ir_v2.tif",
+      "size": 1039062,
+      "packed_size": 586879
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Cotton_2015_rf_v2.tif",
+      "size": 1788364,
+      "packed_size": 1335260
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Fodder_2015_ir_v2.tif",
+      "size": 1347084,
+      "packed_size": 895634
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Fodder_2015_rf_v2.tif",
+      "size": 2284080,
+      "packed_size": 1831809
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Groundnuts_2015_ir_v2.tif",
+      "size": 915947,
+      "packed_size": 458521
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Groundnuts_2015_rf_v2.tif",
+      "size": 2006728,
+      "packed_size": 1552261
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Maize_2015_ir_v2.tif",
+      "size": 1690849,
+      "packed_size": 1244218
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Maize_2015_rf_v2.tif",
+      "size": 3200299,
+      "packed_size": 2744356
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Millet_2015_ir_v2.tif",
+      "size": 823338,
+      "packed_size": 359016
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Millet_2015_rf_v2.tif",
+      "size": 1736766,
+      "packed_size": 1275822
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Oil palm_2015_ir_v2.tif",
+      "size": 620708,
+      "packed_size": 153273
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Oil palm_2015_rf_v2.tif",
+      "size": 1178764,
+      "packed_size": 715142
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Others annual_2015_ir_v2.tif",
+      "size": 2448896,
+      "packed_size": 1951650
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Others annual_2015_rf_v2.tif",
+      "size": 3517368,
+      "packed_size": 3064928
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Others perennial_2015_ir_v2.tif",
+      "size": 1897652,
+      "packed_size": 1462158
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Others perennial_2015_rf_v2.tif",
+      "size": 2703691,
+      "packed_size": 2266130
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Potatoes_2015_ir_v2.tif",
+      "size": 1705101,
+      "packed_size": 1224301
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Potatoes_2015_rf_v2.tif",
+      "size": 2565353,
+      "packed_size": 2133975
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Pulses_2015_ir_v2.tif",
+      "size": 1667742,
+      "packed_size": 1180559
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Pulses_2015_rf_v2.tif",
+      "size": 3178601,
+      "packed_size": 2740437
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Rapeseed_2015_ir_v2.tif",
+      "size": 725279,
+      "packed_size": 248703
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Rapeseed_2015_rf_v2.tif",
+      "size": 2100369,
+      "packed_size": 1641768
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Rice_2015_ir_v2.tif",
+      "size": 1331391,
+      "packed_size": 877057
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Rice_2015_rf_v2.tif",
+      "size": 2122151,
+      "packed_size": 1662460
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Rye_2015_ir_v2.tif",
+      "size": 747676,
+      "packed_size": 282060
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Rye_2015_rf_v2.tif",
+      "size": 1499510,
+      "packed_size": 1052057
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Sorghum_2015_ir_v2.tif",
+      "size": 978461,
+      "packed_size": 524121
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Sorghum_2015_rf_v2.tif",
+      "size": 2357802,
+      "packed_size": 1910166
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Soybeans_2015_ir_v2.tif",
+      "size": 1131627,
+      "packed_size": 671031
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Soybeans_2015_rf_v2.tif",
+      "size": 2471556,
+      "packed_size": 2016854
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Sugar beet_2015_ir_v2.tif",
+      "size": 838348,
+      "packed_size": 381828
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Sugar beet_2015_rf_v2.tif",
+      "size": 1117264,
+      "packed_size": 658798
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Sugar cane_2015_ir_v2.tif",
+      "size": 984154,
+      "packed_size": 530690
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Sugar cane_2015_rf_v2.tif",
+      "size": 1711964,
+      "packed_size": 1259034
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Sunflower_2015_ir_v2.tif",
+      "size": 913341,
+      "packed_size": 457467
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Sunflower_2015_rf_v2.tif",
+      "size": 1882614,
+      "packed_size": 1425671
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Wheat_2015_ir_v2.tif",
+      "size": 1475120,
+      "packed_size": 1025686
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Wheat_2015_rf_v2.tif",
+      "size": 3013105,
+      "packed_size": 2541959
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Barley_2020_ir_30arcmin_v2.tif",
+      "size": 70629,
+      "packed_size": 51033
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Barley_2020_rf_30arcmin_v2.tif",
+      "size": 142277,
+      "packed_size": 121625
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Cassava_2020_ir_30arcmin_v2.tif",
+      "size": 33828,
+      "packed_size": 12799
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Cassava_2020_rf_30arcmin_v2.tif",
+      "size": 96991,
+      "packed_size": 75581
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Cocoa_2020_ir_30arcmin_v2.tif",
+      "size": 27932,
+      "packed_size": 6347
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Cocoa_2020_rf_30arcmin_v2.tif",
+      "size": 56203,
+      "packed_size": 35484
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Coffee_2020_ir_30arcmin_v2.tif",
+      "size": 34605,
+      "packed_size": 13453
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Coffee_2020_rf_30arcmin_v2.tif",
+      "size": 81687,
+      "packed_size": 60971
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Cotton_2020_ir_30arcmin_v2.tif",
+      "size": 68293,
+      "packed_size": 48647
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Cotton_2020_rf_30arcmin_v2.tif",
+      "size": 97136,
+      "packed_size": 76618
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Fodder_2020_ir_30arcmin_v2.tif",
+      "size": 88128,
+      "packed_size": 68759
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Fodder_2020_rf_30arcmin_v2.tif",
+      "size": 99437,
+      "packed_size": 79174
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Groundnuts_2020_ir_30arcmin_v2.tif",
+      "size": 57163,
+      "packed_size": 37440
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Groundnuts_2020_rf_30arcmin_v2.tif",
+      "size": 109785,
+      "packed_size": 89407
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Maize_2020_ir_30arcmin_v2.tif",
+      "size": 114230,
+      "packed_size": 94745
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Maize_2020_rf_30arcmin_v2.tif",
+      "size": 172116,
+      "packed_size": 150574
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Millet_2020_ir_30arcmin_v2.tif",
+      "size": 47191,
+      "packed_size": 25912
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Millet_2020_rf_30arcmin_v2.tif",
+      "size": 99369,
+      "packed_size": 78334
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Oil palm_2020_ir_30arcmin_v2.tif",
+      "size": 35720,
+      "packed_size": 14503
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Oil palm_2020_rf_30arcmin_v2.tif",
+      "size": 68057,
+      "packed_size": 47423
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Others annual_2020_ir_30arcmin_v2.tif",
+      "size": 137740,
+      "packed_size": 118113
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Others annual_2020_rf_30arcmin_v2.tif",
+      "size": 192687,
+      "packed_size": 171354
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Others perennial_2020_ir_30arcmin_v2.tif",
+      "size": 128464,
+      "packed_size": 108827
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Others perennial_2020_rf_30arcmin_v2.tif",
+      "size": 163233,
+      "packed_size": 142910
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Potatoes_2020_ir_30arcmin_v2.tif",
+      "size": 106463,
+      "packed_size": 87163
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Potatoes_2020_rf_30arcmin_v2.tif",
+      "size": 158620,
+      "packed_size": 138564
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Pulses_2020_ir_30arcmin_v2.tif",
+      "size": 91450,
+      "packed_size": 72257
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Pulses_2020_rf_30arcmin_v2.tif",
+      "size": 182724,
+      "packed_size": 161414
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Rapeseed_2020_ir_30arcmin_v2.tif",
+      "size": 37715,
+      "packed_size": 16474
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Rapeseed_2020_rf_30arcmin_v2.tif",
+      "size": 111451,
+      "packed_size": 90307
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Rice_2020_ir_30arcmin_v2.tif",
+      "size": 84527,
+      "packed_size": 65267
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Rice_2020_rf_30arcmin_v2.tif",
+      "size": 108850,
+      "packed_size": 87860
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Rye_2020_ir_30arcmin_v2.tif",
+      "size": 45367,
+      "packed_size": 24557
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Rye_2020_rf_30arcmin_v2.tif",
+      "size": 91589,
+      "packed_size": 71301
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Sorghum_2020_ir_30arcmin_v2.tif",
+      "size": 59269,
+      "packed_size": 39556
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Sorghum_2020_rf_30arcmin_v2.tif",
+      "size": 123564,
+      "packed_size": 103367
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Soybeans_2020_ir_30arcmin_v2.tif",
+      "size": 71833,
+      "packed_size": 52033
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Soybeans_2020_rf_30arcmin_v2.tif",
+      "size": 136904,
+      "packed_size": 116078
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Sugar beet_2020_ir_30arcmin_v2.tif",
+      "size": 55063,
+      "packed_size": 34069
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Sugar beet_2020_rf_30arcmin_v2.tif",
+      "size": 67255,
+      "packed_size": 46646
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Sugar cane_2020_ir_30arcmin_v2.tif",
+      "size": 66051,
+      "packed_size": 46467
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Sugar cane_2020_rf_30arcmin_v2.tif",
+      "size": 100481,
+      "packed_size": 80081
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Sunflower_2020_ir_30arcmin_v2.tif",
+      "size": 61023,
+      "packed_size": 41046
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Sunflower_2020_rf_30arcmin_v2.tif",
+      "size": 105828,
+      "packed_size": 85409
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Wheat_2020_ir_30arcmin_v2.tif",
+      "size": 101745,
+      "packed_size": 81664
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Wheat_2020_rf_30arcmin_v2.tif",
+      "size": 152954,
+      "packed_size": 132148
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Barley_2020_ir_v2.tif",
+      "size": 1054783,
+      "packed_size": 604925
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Barley_2020_rf_v2.tif",
+      "size": 2501581,
+      "packed_size": 2052088
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Cassava_2020_ir_v2.tif",
+      "size": 591781,
+      "packed_size": 120002
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Cassava_2020_rf_v2.tif",
+      "size": 1806785,
+      "packed_size": 1344350
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Cocoa_2020_ir_v2.tif",
+      "size": 522710,
+      "packed_size": 53109
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Cocoa_2020_rf_v2.tif",
+      "size": 971694,
+      "packed_size": 511178
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Coffee_2020_ir_v2.tif",
+      "size": 593223,
+      "packed_size": 125889
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Coffee_2020_rf_v2.tif",
+      "size": 1383381,
+      "packed_size": 924104
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Cotton_2020_ir_v2.tif",
+      "size": 1032194,
+      "packed_size": 577787
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Cotton_2020_rf_v2.tif",
+      "size": 1719145,
+      "packed_size": 1264800
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Fodder_2020_ir_v2.tif",
+      "size": 1354879,
+      "packed_size": 901878
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Fodder_2020_rf_v2.tif",
+      "size": 1936968,
+      "packed_size": 1474558
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Groundnuts_2020_ir_v2.tif",
+      "size": 936537,
+      "packed_size": 478317
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Groundnuts_2020_rf_v2.tif",
+      "size": 1963062,
+      "packed_size": 1509259
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Maize_2020_ir_v2.tif",
+      "size": 1764386,
+      "packed_size": 1320647
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Maize_2020_rf_v2.tif",
+      "size": 3329784,
+      "packed_size": 2870124
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Millet_2020_ir_v2.tif",
+      "size": 788185,
+      "packed_size": 322298
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Millet_2020_rf_v2.tif",
+      "size": 1820208,
+      "packed_size": 1362084
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Oil palm_2020_ir_v2.tif",
+      "size": 620644,
+      "packed_size": 152908
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Oil palm_2020_rf_v2.tif",
+      "size": 1188341,
+      "packed_size": 723418
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Others annual_2020_ir_v2.tif",
+      "size": 2112833,
+      "packed_size": 1671492
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Others annual_2020_rf_v2.tif",
+      "size": 3500519,
+      "packed_size": 3048997
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Others perennial_2020_ir_v2.tif",
+      "size": 1873435,
+      "packed_size": 1437737
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Others perennial_2020_rf_v2.tif",
+      "size": 2799798,
+      "packed_size": 2359888
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Potatoes_2020_ir_v2.tif",
+      "size": 1516154,
+      "packed_size": 1078853
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Potatoes_2020_rf_v2.tif",
+      "size": 2580819,
+      "packed_size": 2153857
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Pulses_2020_ir_v2.tif",
+      "size": 1358827,
+      "packed_size": 912022
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Pulses_2020_rf_v2.tif",
+      "size": 3278363,
+      "packed_size": 2840325
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Rapeseed_2020_ir_v2.tif",
+      "size": 697676,
+      "packed_size": 225452
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Rapeseed_2020_rf_v2.tif",
+      "size": 2043733,
+      "packed_size": 1587962
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Rice_2020_ir_v2.tif",
+      "size": 1346060,
+      "packed_size": 893339
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Rice_2020_rf_v2.tif",
+      "size": 2015200,
+      "packed_size": 1557582
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Rye_2020_ir_v2.tif",
+      "size": 738995,
+      "packed_size": 272599
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Rye_2020_rf_v2.tif",
+      "size": 1536427,
+      "packed_size": 1089988
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Sorghum_2020_ir_v2.tif",
+      "size": 963719,
+      "packed_size": 506365
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Sorghum_2020_rf_v2.tif",
+      "size": 2239797,
+      "packed_size": 1789703
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Soybeans_2020_ir_v2.tif",
+      "size": 1215915,
+      "packed_size": 752868
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Soybeans_2020_rf_v2.tif",
+      "size": 2557423,
+      "packed_size": 2103742
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Sugar beet_2020_ir_v2.tif",
+      "size": 852173,
+      "packed_size": 396246
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Sugar beet_2020_rf_v2.tif",
+      "size": 1147863,
+      "packed_size": 689167
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Sugar cane_2020_ir_v2.tif",
+      "size": 1012162,
+      "packed_size": 560575
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Sugar cane_2020_rf_v2.tif",
+      "size": 1704888,
+      "packed_size": 1256197
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Sunflower_2020_ir_v2.tif",
+      "size": 943702,
+      "packed_size": 486340
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Sunflower_2020_rf_v2.tif",
+      "size": 1920327,
+      "packed_size": 1463877
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Wheat_2020_ir_v2.tif",
+      "size": 1571734,
+      "packed_size": 1121716
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Wheat_2020_rf_v2.tif",
+      "size": 2942611,
+      "packed_size": 2472855
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Barley_2000_ir_30arcmin_v2.tif",
+      "size": 72549,
+      "packed_size": 52936
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Barley_2000_rf_30arcmin_v2.tif",
+      "size": 134593,
+      "packed_size": 114107
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Cassava_2000_ir_30arcmin_v2.tif",
+      "size": 32760,
+      "packed_size": 11490
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Cassava_2000_rf_30arcmin_v2.tif",
+      "size": 88889,
+      "packed_size": 67885
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Cocoa_2000_ir_30arcmin_v2.tif",
+      "size": 25484,
+      "packed_size": 3248
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Cocoa_2000_rf_30arcmin_v2.tif",
+      "size": 59465,
+      "packed_size": 38574
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Coffee_2000_ir_30arcmin_v2.tif",
+      "size": 31609,
+      "packed_size": 10589
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Coffee_2000_rf_30arcmin_v2.tif",
+      "size": 84917,
+      "packed_size": 63833
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Cotton_2000_ir_30arcmin_v2.tif",
+      "size": 64377,
+      "packed_size": 44533
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Cotton_2000_rf_30arcmin_v2.tif",
+      "size": 101839,
+      "packed_size": 81317
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Fodder_2000_ir_30arcmin_v2.tif",
+      "size": 87694,
+      "packed_size": 68394
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Fodder_2000_rf_30arcmin_v2.tif",
+      "size": 128877,
+      "packed_size": 108046
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Groundnuts_2000_ir_30arcmin_v2.tif",
+      "size": 55065,
+      "packed_size": 34849
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Groundnuts_2000_rf_30arcmin_v2.tif",
+      "size": 114382,
+      "packed_size": 93842
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Maize_2000_ir_30arcmin_v2.tif",
+      "size": 110390,
+      "packed_size": 90811
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Maize_2000_rf_30arcmin_v2.tif",
+      "size": 162400,
+      "packed_size": 141725
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Millet_2000_ir_30arcmin_v2.tif",
+      "size": 48318,
+      "packed_size": 27188
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Millet_2000_rf_30arcmin_v2.tif",
+      "size": 99473,
+      "packed_size": 78583
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Oil palm_2000_ir_30arcmin_v2.tif",
+      "size": 32820,
+      "packed_size": 11609
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Oil palm_2000_rf_30arcmin_v2.tif",
+      "size": 67364,
+      "packed_size": 46408
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Others annual_2000_ir_30arcmin_v2.tif",
+      "size": 134533,
+      "packed_size": 115307
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Others annual_2000_rf_30arcmin_v2.tif",
+      "size": 189605,
+      "packed_size": 168398
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Others perennial_2000_ir_30arcmin_v2.tif",
+      "size": 125047,
+      "packed_size": 105681
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Others perennial_2000_rf_30arcmin_v2.tif",
+      "size": 160366,
+      "packed_size": 140112
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Potatoes_2000_ir_30arcmin_v2.tif",
+      "size": 100575,
+      "packed_size": 81553
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Potatoes_2000_rf_30arcmin_v2.tif",
+      "size": 149899,
+      "packed_size": 130043
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Pulses_2000_ir_30arcmin_v2.tif",
+      "size": 85713,
+      "packed_size": 66137
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Pulses_2000_rf_30arcmin_v2.tif",
+      "size": 178054,
+      "packed_size": 156867
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Rapeseed_2000_ir_30arcmin_v2.tif",
+      "size": 36990,
+      "packed_size": 15637
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Rapeseed_2000_rf_30arcmin_v2.tif",
+      "size": 104748,
+      "packed_size": 84513
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Rice_2000_ir_30arcmin_v2.tif",
+      "size": 86291,
+      "packed_size": 66684
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Rice_2000_rf_30arcmin_v2.tif",
+      "size": 107919,
+      "packed_size": 87099
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Rye_2000_ir_30arcmin_v2.tif",
+      "size": 48632,
+      "packed_size": 27705
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Rye_2000_rf_30arcmin_v2.tif",
+      "size": 91370,
+      "packed_size": 71346
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Sorghum_2000_ir_30arcmin_v2.tif",
+      "size": 60379,
+      "packed_size": 40596
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Sorghum_2000_rf_30arcmin_v2.tif",
+      "size": 126526,
+      "packed_size": 106283
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Soybeans_2000_ir_30arcmin_v2.tif",
+      "size": 62413,
+      "packed_size": 42450
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Soybeans_2000_rf_30arcmin_v2.tif",
+      "size": 124934,
+      "packed_size": 104552
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Sugar beet_2000_ir_30arcmin_v2.tif",
+      "size": 53623,
+      "packed_size": 32820
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Sugar beet_2000_rf_30arcmin_v2.tif",
+      "size": 64816,
+      "packed_size": 43587
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Sugar cane_2000_ir_30arcmin_v2.tif",
+      "size": 64523,
+      "packed_size": 44908
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Sugar cane_2000_rf_30arcmin_v2.tif",
+      "size": 93563,
+      "packed_size": 72918
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Sunflower_2000_ir_30arcmin_v2.tif",
+      "size": 56924,
+      "packed_size": 36767
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Sunflower_2000_rf_30arcmin_v2.tif",
+      "size": 98824,
+      "packed_size": 78594
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Wheat_2000_ir_30arcmin_v2.tif",
+      "size": 99666,
+      "packed_size": 79469
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Wheat_2000_rf_30arcmin_v2.tif",
+      "size": 154900,
+      "packed_size": 134027
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Barley_2000_ir_v2.tif",
+      "size": 1095476,
+      "packed_size": 646699
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Barley_2000_rf_v2.tif",
+      "size": 2369590,
+      "packed_size": 1917597
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Cassava_2000_ir_v2.tif",
+      "size": 579621,
+      "packed_size": 105986
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Cassava_2000_rf_v2.tif",
+      "size": 1656598,
+      "packed_size": 1195432
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Cocoa_2000_ir_v2.tif",
+      "size": 496436,
+      "packed_size": 24853
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Cocoa_2000_rf_v2.tif",
+      "size": 1028535,
+      "packed_size": 567188
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Coffee_2000_ir_v2.tif",
+      "size": 568235,
+      "packed_size": 98667
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Coffee_2000_rf_v2.tif",
+      "size": 1460373,
+      "packed_size": 1003571
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Cotton_2000_ir_v2.tif",
+      "size": 996684,
+      "packed_size": 542390
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Cotton_2000_rf_v2.tif",
+      "size": 1859906,
+      "packed_size": 1407449
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Fodder_2000_ir_v2.tif",
+      "size": 1339071,
+      "packed_size": 887206
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Fodder_2000_rf_v2.tif",
+      "size": 2379759,
+      "packed_size": 1928983
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Groundnuts_2000_ir_v2.tif",
+      "size": 899447,
+      "packed_size": 441450
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Groundnuts_2000_rf_v2.tif",
+      "size": 2016617,
+      "packed_size": 1566989
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Maize_2000_ir_v2.tif",
+      "size": 1683417,
+      "packed_size": 1238770
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Maize_2000_rf_v2.tif",
+      "size": 3085340,
+      "packed_size": 2633305
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Millet_2000_ir_v2.tif",
+      "size": 814492,
+      "packed_size": 349068
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Millet_2000_rf_v2.tif",
+      "size": 1873982,
+      "packed_size": 1412855
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Oil palm_2000_ir_v2.tif",
+      "size": 577203,
+      "packed_size": 109418
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Oil palm_2000_rf_v2.tif",
+      "size": 1183638,
+      "packed_size": 718537
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Others annual_2000_ir_v2.tif",
+      "size": 2005643,
+      "packed_size": 1567898
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Others annual_2000_rf_v2.tif",
+      "size": 3486754,
+      "packed_size": 3035839
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Others perennial_2000_ir_v2.tif",
+      "size": 1808207,
+      "packed_size": 1374007
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Others perennial_2000_rf_v2.tif",
+      "size": 2795425,
+      "packed_size": 2357080
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Potatoes_2000_ir_v2.tif",
+      "size": 1439415,
+      "packed_size": 1000832
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Potatoes_2000_rf_v2.tif",
+      "size": 2475433,
+      "packed_size": 2042051
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Pulses_2000_ir_v2.tif",
+      "size": 1331812,
+      "packed_size": 881216
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Pulses_2000_rf_v2.tif",
+      "size": 3201318,
+      "packed_size": 2763432
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Rapeseed_2000_ir_v2.tif",
+      "size": 685618,
+      "packed_size": 212830
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Rapeseed_2000_rf_v2.tif",
+      "size": 1844449,
+      "packed_size": 1384207
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Rice_2000_ir_v2.tif",
+      "size": 1379245,
+      "packed_size": 924263
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Rice_2000_rf_v2.tif",
+      "size": 2068980,
+      "packed_size": 1606123
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Rye_2000_ir_v2.tif",
+      "size": 809974,
+      "packed_size": 345883
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Rye_2000_rf_v2.tif",
+      "size": 1579160,
+      "packed_size": 1128230
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Sorghum_2000_ir_v2.tif",
+      "size": 983894,
+      "packed_size": 528640
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Sorghum_2000_rf_v2.tif",
+      "size": 2321621,
+      "packed_size": 1872388
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Soybeans_2000_ir_v2.tif",
+      "size": 1073009,
+      "packed_size": 611384
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Soybeans_2000_rf_v2.tif",
+      "size": 2268123,
+      "packed_size": 1812403
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Sugar beet_2000_ir_v2.tif",
+      "size": 855062,
+      "packed_size": 397745
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Sugar beet_2000_rf_v2.tif",
+      "size": 1116823,
+      "packed_size": 657136
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Sugar cane_2000_ir_v2.tif",
+      "size": 998351,
+      "packed_size": 545429
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Sugar cane_2000_rf_v2.tif",
+      "size": 1647022,
+      "packed_size": 1191860
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Sunflower_2000_ir_v2.tif",
+      "size": 924091,
+      "packed_size": 465967
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Sunflower_2000_rf_v2.tif",
+      "size": 1817644,
+      "packed_size": 1362291
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Wheat_2000_ir_v2.tif",
+      "size": 1542293,
+      "packed_size": 1092030
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Wheat_2000_rf_v2.tif",
+      "size": 2985086,
+      "packed_size": 2516212
+    }
+  ],
+  "member_count": 460,
+  "relevant_candidates": [
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Maize_2005_ir_30arcmin_v2.tif",
+      "size": 114204,
+      "packed_size": 94522
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Maize_2005_rf_30arcmin_v2.tif",
+      "size": 168844,
+      "packed_size": 148025
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Rice_2005_ir_30arcmin_v2.tif",
+      "size": 87406,
+      "packed_size": 67762
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Rice_2005_rf_30arcmin_v2.tif",
+      "size": 111687,
+      "packed_size": 90462
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Sorghum_2005_ir_30arcmin_v2.tif",
+      "size": 61678,
+      "packed_size": 41904
+    },
+    {
+      "path": "05/30-arcminute/MIRCA-OS_Sorghum_2005_rf_30arcmin_v2.tif",
+      "size": 126899,
+      "packed_size": 106598
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Maize_2005_ir_v2.tif",
+      "size": 1777524,
+      "packed_size": 1331351
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Maize_2005_rf_v2.tif",
+      "size": 3196807,
+      "packed_size": 2745132
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Rice_2005_ir_v2.tif",
+      "size": 1433468,
+      "packed_size": 975453
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Rice_2005_rf_v2.tif",
+      "size": 2120408,
+      "packed_size": 1660319
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Sorghum_2005_ir_v2.tif",
+      "size": 988470,
+      "packed_size": 533539
+    },
+    {
+      "path": "05/5-arcminute/MIRCA-OS_Sorghum_2005_rf_v2.tif",
+      "size": 2296912,
+      "packed_size": 1848300
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Maize_2010_ir_30arcmin_v2.tif",
+      "size": 114914,
+      "packed_size": 95142
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Maize_2010_rf_30arcmin_v2.tif",
+      "size": 164864,
+      "packed_size": 144124
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Rice_2010_ir_30arcmin_v2.tif",
+      "size": 88374,
+      "packed_size": 68519
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Rice_2010_rf_30arcmin_v2.tif",
+      "size": 105280,
+      "packed_size": 84272
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Sorghum_2010_ir_30arcmin_v2.tif",
+      "size": 62052,
+      "packed_size": 42271
+    },
+    {
+      "path": "10/30-arcminute/MIRCA-OS_Sorghum_2010_rf_30arcmin_v2.tif",
+      "size": 122826,
+      "packed_size": 102475
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Maize_2010_ir_v2.tif",
+      "size": 1756608,
+      "packed_size": 1310699
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Maize_2010_rf_v2.tif",
+      "size": 3158652,
+      "packed_size": 2704593
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Rice_2010_ir_v2.tif",
+      "size": 1403277,
+      "packed_size": 947847
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Rice_2010_rf_v2.tif",
+      "size": 2042446,
+      "packed_size": 1581568
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Sorghum_2010_ir_v2.tif",
+      "size": 969461,
+      "packed_size": 514767
+    },
+    {
+      "path": "10/5-arcminute/MIRCA-OS_Sorghum_2010_rf_v2.tif",
+      "size": 2198832,
+      "packed_size": 1750758
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Maize_2015_ir_30arcmin_v2.tif",
+      "size": 111793,
+      "packed_size": 92274
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Maize_2015_rf_30arcmin_v2.tif",
+      "size": 164726,
+      "packed_size": 143794
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Rice_2015_ir_30arcmin_v2.tif",
+      "size": 85242,
+      "packed_size": 65831
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Rice_2015_rf_30arcmin_v2.tif",
+      "size": 110066,
+      "packed_size": 88960
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Sorghum_2015_ir_30arcmin_v2.tif",
+      "size": 61495,
+      "packed_size": 41716
+    },
+    {
+      "path": "15/30-arcminute/MIRCA-OS_Sorghum_2015_rf_30arcmin_v2.tif",
+      "size": 129058,
+      "packed_size": 108391
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Maize_2015_ir_v2.tif",
+      "size": 1690849,
+      "packed_size": 1244218
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Maize_2015_rf_v2.tif",
+      "size": 3200299,
+      "packed_size": 2744356
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Rice_2015_ir_v2.tif",
+      "size": 1331391,
+      "packed_size": 877057
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Rice_2015_rf_v2.tif",
+      "size": 2122151,
+      "packed_size": 1662460
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Sorghum_2015_ir_v2.tif",
+      "size": 978461,
+      "packed_size": 524121
+    },
+    {
+      "path": "15/5-arcminute/MIRCA-OS_Sorghum_2015_rf_v2.tif",
+      "size": 2357802,
+      "packed_size": 1910166
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Maize_2020_ir_30arcmin_v2.tif",
+      "size": 114230,
+      "packed_size": 94745
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Maize_2020_rf_30arcmin_v2.tif",
+      "size": 172116,
+      "packed_size": 150574
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Rice_2020_ir_30arcmin_v2.tif",
+      "size": 84527,
+      "packed_size": 65267
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Rice_2020_rf_30arcmin_v2.tif",
+      "size": 108850,
+      "packed_size": 87860
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Sorghum_2020_ir_30arcmin_v2.tif",
+      "size": 59269,
+      "packed_size": 39556
+    },
+    {
+      "path": "20/30-arcminute/MIRCA-OS_Sorghum_2020_rf_30arcmin_v2.tif",
+      "size": 123564,
+      "packed_size": 103367
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Maize_2020_ir_v2.tif",
+      "size": 1764386,
+      "packed_size": 1320647
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Maize_2020_rf_v2.tif",
+      "size": 3329784,
+      "packed_size": 2870124
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Rice_2020_ir_v2.tif",
+      "size": 1346060,
+      "packed_size": 893339
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Rice_2020_rf_v2.tif",
+      "size": 2015200,
+      "packed_size": 1557582
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Sorghum_2020_ir_v2.tif",
+      "size": 963719,
+      "packed_size": 506365
+    },
+    {
+      "path": "20/5-arcminute/MIRCA-OS_Sorghum_2020_rf_v2.tif",
+      "size": 2239797,
+      "packed_size": 1789703
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Maize_2000_ir_30arcmin_v2.tif",
+      "size": 110390,
+      "packed_size": 90811
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Maize_2000_rf_30arcmin_v2.tif",
+      "size": 162400,
+      "packed_size": 141725
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Rice_2000_ir_30arcmin_v2.tif",
+      "size": 86291,
+      "packed_size": 66684
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Rice_2000_rf_30arcmin_v2.tif",
+      "size": 107919,
+      "packed_size": 87099
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Sorghum_2000_ir_30arcmin_v2.tif",
+      "size": 60379,
+      "packed_size": 40596
+    },
+    {
+      "path": "00/30-arcminute/MIRCA-OS_Sorghum_2000_rf_30arcmin_v2.tif",
+      "size": 126526,
+      "packed_size": 106283
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Maize_2000_ir_v2.tif",
+      "size": 1683417,
+      "packed_size": 1238770
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Maize_2000_rf_v2.tif",
+      "size": 3085340,
+      "packed_size": 2633305
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Rice_2000_ir_v2.tif",
+      "size": 1379245,
+      "packed_size": 924263
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Rice_2000_rf_v2.tif",
+      "size": 2068980,
+      "packed_size": 1606123
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Sorghum_2000_ir_v2.tif",
+      "size": 983894,
+      "packed_size": 528640
+    },
+    {
+      "path": "00/5-arcminute/MIRCA-OS_Sorghum_2000_rf_v2.tif",
+      "size": 2321621,
+      "packed_size": 1872388
+    }
+  ]
+}
