@@ -79,7 +79,14 @@ try:
  df=pd.read_csv(file,low_memory=False,encoding="utf-8-sig")
  LOG["source"]["row_count"]=len(df)
  LOG["source"]["columns"]=list(df.columns)
- ck("expected_raw_rows_451550",len(df)==451550,len(df))
+ ck("source_table2_total_rows_462347",len(df)==462347,len(df))
+ LOG["publication_provenance_note"]={
+  "paper_Table2_total_rows":462347,
+  "paper_Data_Records_prose_rows":451550,
+  "current_pinned_GitHub_rows":len(df),
+  "prose_minus_current":451550-len(df),
+  "interpretation":"Peer-reviewed article Table 2 agrees with pinned GitHub file, while its Data Records narrative (451550) disagrees. Treat as source-internal inconsistency; do NOT silently replace the file to match narrative."
+ }
  required=["country","crop_simplified","planting_month","harvest_month_begin",
            "harvest_month_end","adm1"]
  ck("essential_source_columns_present",all(x in df for x in required),
@@ -94,7 +101,7 @@ try:
  ck("all_countries_recognized",df.country_name_verified.ne("UNRESOLVED").all(),
     LOG["source"]["country_resolution_unresolved"])
  for v in ["planting_month","harvest_month_begin","harvest_month_end",
-           "planting_year","year_harvest_begin","harvest_year_end"]:
+           "planting_year","harvest_year_begin","harvest_year_end"]:
   if v in df:
    df[v]=pd.to_numeric(df[v],errors="coerce")
    df[v+"_valid"]=df[v].between(1,12) if "month" in v else df[v].between(1900,2025)
