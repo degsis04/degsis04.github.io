@@ -144,7 +144,13 @@ try:
  chkkeys=["fnid","harvest_year","window"]
  check("alternative_unique_district_year_window",not alt.duplicated(chkkeys).any())
  check("alternative_expected_26x44x2",len(alt)==26*44*2,len(alt))
- old=old.loc[old.fnid.isin(info.fnid)&old.window.isin(["broad","core"])].copy()
+ # Explicit crop+reference-season key (not just FNID): all three crops
+ # share the same district IDs in the JRC table. Filtering FNID alone
+ # incorrectly triples the rows and invalidates the study design.
+ old=old.merge(info[["fnid","jrc_crop_season"]].drop_duplicates(),
+      on=["fnid","jrc_crop_season"],how="inner",validate="many_to_one")
+ old=old.loc[old.window.isin(["broad","core"])].copy()
+ check("JRC_comparison_crop_name_only_maize",old.jrc_crop_season.eq("Maize").all())
  check("old_reference_26x44x2",len(old)==26*44*2,len(old))
  old=old.rename(columns={"window_data_status":"status"})
  # Verify each existing JRC total by re-summing original independent source months
