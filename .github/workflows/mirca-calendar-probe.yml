@@ -1,0 +1,27 @@
+name: MIRCA-OS v2 crop calendar 2015 metadata
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/mirca-calendar-probe.yml'
+      - 'research/basin-data-audit/scripts/mirca_calendar_probe.py'
+permissions:
+  contents: write
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install 'requests>=2.31,<3' 'pandas>=2.2,<3'
+      - run: python research/basin-data-audit/scripts/mirca_calendar_probe.py
+      - name: Commit dataset-schema metadata
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/basin-data-audit/results/mirca_os/
+          git diff --cached --quiet || (git commit -m 'data: MIRCA-OS 2015 cropping calendar schema verification' && git pull --rebase && git push)
