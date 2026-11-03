@@ -1,0 +1,27 @@
+name: Independent numeric verification of full CHIRPS monthly drought anomalies
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/chirps-anomaly-independent-qa.yml'
+      - 'research/basin-data-audit/scripts/chirps_anomaly_independent_qa_v1.py'
+permissions:
+  contents: write
+jobs:
+  verify-anomalies:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install 'numpy>=1.26,<3' 'pandas>=2.2,<3'
+      - run: python research/basin-data-audit/scripts/chirps_anomaly_independent_qa_v1.py
+      - name: Save independent model diagnostics or failure reason
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/basin-data-audit/results/climate_validation/
+          git diff --cached --quiet || (git commit -m 'qa: independent rainfall anomaly arithmetic and temporal windows' && git pull --rebase && git push)
