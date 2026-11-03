@@ -28,11 +28,17 @@ try:
  vlist=vv.get("_embedded",{}).get("stash:versions",[])
  if not vlist:vlist=vv.get("_embedded",{}).get("versions",[])
  if not vlist:vlist=vv.get("versions",[])
- L["versions_metadata"]=[{"id":v.get("id"),"created":v.get("created"),"versionNumber":v.get("versionNumber"),
+ L["versions_metadata"]=[{"id":v.get("id"),"version_link":v.get("_links",{}).get("self",{}).get("href"),
+    "created":v.get("created"),"versionNumber":v.get("versionNumber"),
     "versionStatus":v.get("versionStatus"),"publicationDate":v.get("publicationDate")} for v in vlist]
+ L["dataset_metadata"]["links"]=dat.get("_links",{})
  candidates=[]
  for v in vlist:
   if v.get("id"):candidates.append(v["id"])
+  link=v.get("_links",{}).get("self",{}).get("href","")
+  if "/versions/" in link:
+   tail=link.rstrip("/").rsplit("/",1)[-1]
+   if tail.isdigit():candidates.append(int(tail))
  if dat.get("lastSubmittedVersion"):candidates.append(dat["lastSubmittedVersion"])
  if dat.get("versionId"):candidates.append(dat["versionId"])
  if not candidates:raise ValueError("Unable to discover Dryad version ID from official API")
