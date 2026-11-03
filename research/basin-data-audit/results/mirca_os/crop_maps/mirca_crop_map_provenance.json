@@ -1,0 +1,1520 @@
+{
+  "run_utc": "2026-11-03T00:33:06.307231+00:00",
+  "product": "MIRCA-OS v2 annual harvested area maps, March 2026",
+  "source": "https://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/",
+  "script_version": "1.0",
+  "source_files": [
+    {
+      "url": "https://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/data/contents/Annual%20Harvested%20Area%20Grids/Annual%20Harvested%20Area%20Grids.rar",
+      "bytes": 284005995,
+      "sha256": "a8843d0214735fb4285cfe0863c16eebd85da2a7934dbe0b337a1703c4128202"
+    },
+    {
+      "url": "https://transboundarywaters.ceoas.oregonstate.edu/sites/transboundarywaters.ceoas.oregonstate.edu/files/2024-08/TFDDSpatialDatabase_20240807.zip",
+      "bytes": 67965338,
+      "sha256": "379392939ea9bd306ddaf44def8dc04dee419a1a8f310268157fe16b97a87369"
+    }
+  ],
+  "checks": {
+    "archive_sha_matches_verified_prior_inventory": {
+      "passed": true,
+      "details": {
+        "sha256": "a8843d0214735fb4285cfe0863c16eebd85da2a7934dbe0b337a1703c4128202"
+      }
+    },
+    "archive_md5_matches_official_catalog": {
+      "passed": true,
+      "details": {
+        "md5": "c9243bf18d1b31b50ebd9cbfa0f9b3ab"
+      }
+    },
+    "exactly_30_source_geotiffs": {
+      "passed": true,
+      "details": 30
+    },
+    "TFDD_SHA_2024": {
+      "passed": true,
+      "details": {
+        "sha": "379392939ea9bd306ddaf44def8dc04dee419a1a8f310268157fe16b97a87369"
+      }
+    },
+    "BCU_count_25": {
+      "passed": true,
+      "details": 25
+    },
+    "BCU_unique_IDs": {
+      "passed": true,
+      "details": 25
+    },
+    "raster_2000_Maize_ir_CRS": {
+      "passed": true,
+      "details": {
+        "crs": "EPSG:4326",
+        "units": null
+      }
+    },
+    "raster_2000_Maize_ir_grid_resolution": {
+      "passed": true,
+      "details": {
+        "res": [
+          0.083333333333333,
+          0.083333333333333
+        ],
+        "grid_shape": [
+          2160,
+          4320
+        ]
+      }
+    },
+    "raster_2000_Maize_rf_CRS": {
+      "passed": true,
+      "details": {
+        "crs": "EPSG:4326",
+        "units": null
+      }
+    },
+    "raster_2000_Maize_rf_grid_resolution": {
+      "passed": true,
+      "details": {
+        "res": [
+          0.083333333333333,
+          0.083333333333333
+        ],
+        "grid_shape": [
+          2160,
+          4320
+        ]
+      }
+    },
+    "raster_2000_Rice_ir_CRS": {
+      "passed": true,
+      "details": {
+        "crs": "EPSG:4326",
+        "units": null
+      }
+    },
+    "raster_2000_Rice_ir_grid_resolution": {
+      "passed": true,
+      "details": {
+        "res": [
+          0.083333333333333,
+          0.083333333333333
+        ],
+        "grid_shape": [
+          2160,
+          4320
+        ]
+      }
+    },
+    "raster_2000_Rice_rf_CRS": {
+      "passed": true,
+      "details": {
+        "crs": "EPSG:4326",
+        "units": null
+      }
+    },
+    "raster_2000_Rice_rf_grid_resolution": {
+      "passed": true,
+      "details": {
+        "res": [
+          0.083333333333333,
+          0.083333333333333
+        ],
+        "grid_shape": [
+          2160,
+          4320
+        ]
+      }
+    },
+    "raster_2000_Sorghum_ir_CRS": {
+      "passed": true,
+      "details": {
+        "crs": "EPSG:4326",
+        "units": null
+      }
+    },
+    "raster_2000_Sorghum_ir_grid_resolution": {
+      "passed": true,
+      "details": {
+        "res": [
+          0.083333333333333,
+          0.083333333333333
+        ],
+        "grid_shape": [
+          2160,
+          4320
+        ]
+      }
+    },
+    "raster_2000_Sorghum_rf_CRS": {
+      "passed": true,
+      "details": {
+        "crs": "EPSG:4326",
+        "units": null
+      }
+    },
+    "raster_2000_Sorghum_rf_grid_resolution": {
+      "passed": true,
+      "details": {
+        "res": [
+          0.083333333333333,
+          0.083333333333333
+        ],
+        "grid_shape": [
+          2160,
+          4320
+        ]
+      }
+    },
+    "raster_2005_Maize_ir_CRS": {
+      "passed": true,
+      "details": {
+        "crs": "EPSG:4326",
+        "units": null
+      }
+    },
+    "raster_2005_Maize_ir_grid_resolution": {
+      "passed": true,
+      "details": {
+        "res": [
+          0.083333333333333,
+          0.083333333333333
+        ],
+        "grid_shape": [
+          2160,
+          4320
+        ]
+      }
+    },
+    "raster_2005_Maize_rf_CRS": {
+      "passed": true,
+      "details": {
+        "crs": "EPSG:4326",
+        "units": null
+      }
+    },
+    "raster_2005_Maize_rf_grid_resolution": {
+      "passed": true,
+      "details": {
+        "res": [
+          0.083333333333333,
+          0.083333333333333
+        ],
+        "grid_shape": [
+          2160,
+          4320
+        ]
+      }
+    },
+    "raster_2005_Rice_ir_CRS": {
+      "passed": true,
+      "details": {
+        "crs": "EPSG:4326",
+        "units": null
+      }
+    },
+    "raster_2005_Rice_ir_grid_resolution": {
+      "passed": true,
+      "details": {
+        "res": [
+          0.083333333333333,
+          0.083333333333333
+        ],
+        "grid_shape": [
+          2160,
+          4320
+        ]
+      }
+    },
+    "raster_2005_Rice_rf_CRS": {
+      "passed": true,
+      "details": {
+        "crs": "EPSG:4326",
+        "units": null
+      }
+    },
+    "raster_2005_Rice_rf_grid_resolution": {
+      "passed": true,
+      "details": {
+        "res": [
+          0.083333333333333,
+          0.083333333333333
+        ],
+        "grid_shape": [
+          2160,
+          4320
+        ]
+      }
+    },
+    "raster_2005_Sorghum_ir_CRS": {
+      "passed": true,
+      "details": {
+        "crs": "EPSG:4326",
+        "units": null
+      }
+    },
+    "raster_2005_Sorghum_ir_grid_resolution": {
+      "passed": true,
+      "details": {
+        "res": [
+          0.083333333333333,
+          0.083333333333333
+        ],
+        "grid_shape": [
+          2160,
+          4320
+        ]
+      }
+    },
+    "raster_2005_Sorghum_rf_CRS": {
+      "passed": true,
+      "details": {
+        "crs": "EPSG:4326",
+        "units": null
+      }
+    },
+    "raster_2005_Sorghum_rf_grid_resolution": {
+      "passed": true,
+      "details": {
+        "res": [
+          0.083333333333333,
+          0.083333333333333
+        ],
+        "grid_shape": [
+          2160,
+          4320
+        ]
+      }
+    },
+    "raster_2010_Maize_ir_CRS": {
+      "passed": true,
+      "details": {
+        "crs": "EPSG:4326",
+        "units": null
+      }
+    },
+    "raster_2010_Maize_ir_grid_resolution": {
+      "passed": true,
+      "details": {
+        "res": [
+          0.083333333333333,
+          0.083333333333333
+        ],
+        "grid_shape": [
+          2160,
+          4320
+        ]
+      }
+    },
+    "raster_2010_Maize_rf_CRS": {
+      "passed": true,
+      "details": {
+        "crs": "EPSG:4326",
+        "units": null
+      }
+    },
+    "raster_2010_Maize_rf_grid_resolution": {
+      "passed": true,
+      "details": {
+        "res": [
+          0.083333333333333,
+          0.083333333333333
+        ],
+        "grid_shape": [
+          2160,
+          4320
+        ]
+      }
+    },
+    "raster_2010_Rice_ir_CRS": {
+      "passed": true,
+      "details": {
+        "crs": "EPSG:4326",
+        "units": null
+      }
+    },
+    "raster_2010_Rice_ir_grid_resolution": {
+      "passed": true,
+      "details": {
+        "res": [
+          0.083333333333333,
+          0.083333333333333
+        ],
+        "grid_shape": [
+          2160,
+          4320
+        ]
+      }
+    },
+    "raster_2010_Rice_rf_CRS": {
+      "passed": true,
+      "details": {
+        "crs": "EPSG:4326",
+        "units": null
+      }
+    },
+    "raster_2010_Rice_rf_grid_resolution": {
+      "passed": true,
+      "details": {
+        "res": [
+          0.083333333333333,
+          0.083333333333333
+        ],
+        "grid_shape": [
+          2160,
+          4320
+        ]
+      }
+    },
+    "raster_2010_Sorghum_ir_CRS": {
+      "passed": true,
+      "details": {
+        "crs": "EPSG:4326",
+        "units": null
+      }
+    },
+    "raster_2010_Sorghum_ir_grid_resolution": {
+      "passed": true,
+      "details": {
+        "res": [
+          0.083333333333333,
+          0.083333333333333
+        ],
+        "grid_shape": [
+          2160,
+          4320
+        ]
+      }
+    },
+    "raster_2010_Sorghum_rf_CRS": {
+      "passed": true,
+      "details": {
+        "crs": "EPSG:4326",
+        "units": null
+      }
+    },
+    "raster_2010_Sorghum_rf_grid_resolution": {
+      "passed": true,
+      "details": {
+        "res": [
+          0.083333333333333,
+          0.083333333333333
+        ],
+        "grid_shape": [
+          2160,
+          4320
+        ]
+      }
+    },
+    "raster_2015_Maize_ir_CRS": {
+      "passed": true,
+      "details": {
+        "crs": "EPSG:4326",
+        "units": null
+      }
+    },
+    "raster_2015_Maize_ir_grid_resolution": {
+      "passed": true,
+      "details": {
+        "res": [
+          0.083333333333333,
+          0.083333333333333
+        ],
+        "grid_shape": [
+          2160,
+          4320
+        ]
+      }
+    },
+    "raster_2015_Maize_rf_CRS": {
+      "passed": true,
+      "details": {
+        "crs": "EPSG:4326",
+        "units": null
+      }
+    },
+    "raster_2015_Maize_rf_grid_resolution": {
+      "passed": true,
+      "details": {
+        "res": [
+          0.083333333333333,
+          0.083333333333333
+        ],
+        "grid_shape": [
+          2160,
+          4320
+        ]
+      }
+    },
+    "raster_2015_Rice_ir_CRS": {
+      "passed": true,
+      "details": {
+        "crs": "EPSG:4326",
+        "units": null
+      }
+    },
+    "raster_2015_Rice_ir_grid_resolution": {
+      "passed": true,
+      "details": {
+        "res": [
+          0.083333333333333,
+          0.083333333333333
+        ],
+        "grid_shape": [
+          2160,
+          4320
+        ]
+      }
+    },
+    "raster_2015_Rice_rf_CRS": {
+      "passed": true,
+      "details": {
+        "crs": "EPSG:4326",
+        "units": null
+      }
+    },
+    "raster_2015_Rice_rf_grid_resolution": {
+      "passed": true,
+      "details": {
+        "res": [
+          0.083333333333333,
+          0.083333333333333
+        ],
+        "grid_shape": [
+          2160,
+          4320
+        ]
+      }
+    },
+    "raster_2015_Sorghum_ir_CRS": {
+      "passed": true,
+      "details": {
+        "crs": "EPSG:4326",
+        "units": null
+      }
+    },
+    "raster_2015_Sorghum_ir_grid_resolution": {
+      "passed": true,
+      "details": {
+        "res": [
+          0.083333333333333,
+          0.083333333333333
+        ],
+        "grid_shape": [
+          2160,
+          4320
+        ]
+      }
+    },
+    "raster_2015_Sorghum_rf_CRS": {
+      "passed": true,
+      "details": {
+        "crs": "EPSG:4326",
+        "units": null
+      }
+    },
+    "raster_2015_Sorghum_rf_grid_resolution": {
+      "passed": true,
+      "details": {
+        "res": [
+          0.083333333333333,
+          0.083333333333333
+        ],
+        "grid_shape": [
+          2160,
+          4320
+        ]
+      }
+    },
+    "raster_2020_Maize_ir_CRS": {
+      "passed": true,
+      "details": {
+        "crs": "EPSG:4326",
+        "units": null
+      }
+    },
+    "raster_2020_Maize_ir_grid_resolution": {
+      "passed": true,
+      "details": {
+        "res": [
+          0.083333333333333,
+          0.083333333333333
+        ],
+        "grid_shape": [
+          2160,
+          4320
+        ]
+      }
+    },
+    "raster_2020_Maize_rf_CRS": {
+      "passed": true,
+      "details": {
+        "crs": "EPSG:4326",
+        "units": null
+      }
+    },
+    "raster_2020_Maize_rf_grid_resolution": {
+      "passed": true,
+      "details": {
+        "res": [
+          0.083333333333333,
+          0.083333333333333
+        ],
+        "grid_shape": [
+          2160,
+          4320
+        ]
+      }
+    },
+    "raster_2020_Rice_ir_CRS": {
+      "passed": true,
+      "details": {
+        "crs": "EPSG:4326",
+        "units": null
+      }
+    },
+    "raster_2020_Rice_ir_grid_resolution": {
+      "passed": true,
+      "details": {
+        "res": [
+          0.083333333333333,
+          0.083333333333333
+        ],
+        "grid_shape": [
+          2160,
+          4320
+        ]
+      }
+    },
+    "raster_2020_Rice_rf_CRS": {
+      "passed": true,
+      "details": {
+        "crs": "EPSG:4326",
+        "units": null
+      }
+    },
+    "raster_2020_Rice_rf_grid_resolution": {
+      "passed": true,
+      "details": {
+        "res": [
+          0.083333333333333,
+          0.083333333333333
+        ],
+        "grid_shape": [
+          2160,
+          4320
+        ]
+      }
+    },
+    "raster_2020_Sorghum_ir_CRS": {
+      "passed": true,
+      "details": {
+        "crs": "EPSG:4326",
+        "units": null
+      }
+    },
+    "raster_2020_Sorghum_ir_grid_resolution": {
+      "passed": true,
+      "details": {
+        "res": [
+          0.083333333333333,
+          0.083333333333333
+        ],
+        "grid_shape": [
+          2160,
+          4320
+        ]
+      }
+    },
+    "raster_2020_Sorghum_rf_CRS": {
+      "passed": true,
+      "details": {
+        "crs": "EPSG:4326",
+        "units": null
+      }
+    },
+    "raster_2020_Sorghum_rf_grid_resolution": {
+      "passed": true,
+      "details": {
+        "res": [
+          0.083333333333333,
+          0.083333333333333
+        ],
+        "grid_shape": [
+          2160,
+          4320
+        ]
+      }
+    },
+    "375_BCU_crop_reference_year_rows": {
+      "passed": true,
+      "details": 375
+    },
+    "all_nonnegative_harvested_area": {
+      "passed": true,
+      "details": null
+    },
+    "irrigated_share_within_0_1": {
+      "passed": true,
+      "details": null
+    }
+  },
+  "errors": [],
+  "status": "COMPLETE",
+  "units": "hectares HARVESTED per 5-arcminute grid cell (not %; verified against dataset README)",
+  "description": "3 crops x 5 modeled reference-year snapshots x irrigation/rainfed x 25 TFDD BCU",
+  "geospatial_method": "pixel-centre in polygon, sum annual harvested area in ha without area weighting; no fractional boundary correction; all_touched=False",
+  "source_limitations": "MIRCA maps are statistically downscaled; not measured field polygons, not evidence of transboundary source, not annual observations between 5-year snapshots.",
+  "source_selected_members": [
+    {
+      "year": 2000,
+      "crop": "Maize",
+      "system": "ir",
+      "path": "00/5-arcminute/MIRCA-OS_Maize_2000_ir_v2.tif",
+      "size": 1683417
+    },
+    {
+      "year": 2000,
+      "crop": "Maize",
+      "system": "rf",
+      "path": "00/5-arcminute/MIRCA-OS_Maize_2000_rf_v2.tif",
+      "size": 3085340
+    },
+    {
+      "year": 2000,
+      "crop": "Rice",
+      "system": "ir",
+      "path": "00/5-arcminute/MIRCA-OS_Rice_2000_ir_v2.tif",
+      "size": 1379245
+    },
+    {
+      "year": 2000,
+      "crop": "Rice",
+      "system": "rf",
+      "path": "00/5-arcminute/MIRCA-OS_Rice_2000_rf_v2.tif",
+      "size": 2068980
+    },
+    {
+      "year": 2000,
+      "crop": "Sorghum",
+      "system": "ir",
+      "path": "00/5-arcminute/MIRCA-OS_Sorghum_2000_ir_v2.tif",
+      "size": 983894
+    },
+    {
+      "year": 2000,
+      "crop": "Sorghum",
+      "system": "rf",
+      "path": "00/5-arcminute/MIRCA-OS_Sorghum_2000_rf_v2.tif",
+      "size": 2321621
+    },
+    {
+      "year": 2005,
+      "crop": "Maize",
+      "system": "ir",
+      "path": "05/5-arcminute/MIRCA-OS_Maize_2005_ir_v2.tif",
+      "size": 1777524
+    },
+    {
+      "year": 2005,
+      "crop": "Maize",
+      "system": "rf",
+      "path": "05/5-arcminute/MIRCA-OS_Maize_2005_rf_v2.tif",
+      "size": 3196807
+    },
+    {
+      "year": 2005,
+      "crop": "Rice",
+      "system": "ir",
+      "path": "05/5-arcminute/MIRCA-OS_Rice_2005_ir_v2.tif",
+      "size": 1433468
+    },
+    {
+      "year": 2005,
+      "crop": "Rice",
+      "system": "rf",
+      "path": "05/5-arcminute/MIRCA-OS_Rice_2005_rf_v2.tif",
+      "size": 2120408
+    },
+    {
+      "year": 2005,
+      "crop": "Sorghum",
+      "system": "ir",
+      "path": "05/5-arcminute/MIRCA-OS_Sorghum_2005_ir_v2.tif",
+      "size": 988470
+    },
+    {
+      "year": 2005,
+      "crop": "Sorghum",
+      "system": "rf",
+      "path": "05/5-arcminute/MIRCA-OS_Sorghum_2005_rf_v2.tif",
+      "size": 2296912
+    },
+    {
+      "year": 2010,
+      "crop": "Maize",
+      "system": "ir",
+      "path": "10/5-arcminute/MIRCA-OS_Maize_2010_ir_v2.tif",
+      "size": 1756608
+    },
+    {
+      "year": 2010,
+      "crop": "Maize",
+      "system": "rf",
+      "path": "10/5-arcminute/MIRCA-OS_Maize_2010_rf_v2.tif",
+      "size": 3158652
+    },
+    {
+      "year": 2010,
+      "crop": "Rice",
+      "system": "ir",
+      "path": "10/5-arcminute/MIRCA-OS_Rice_2010_ir_v2.tif",
+      "size": 1403277
+    },
+    {
+      "year": 2010,
+      "crop": "Rice",
+      "system": "rf",
+      "path": "10/5-arcminute/MIRCA-OS_Rice_2010_rf_v2.tif",
+      "size": 2042446
+    },
+    {
+      "year": 2010,
+      "crop": "Sorghum",
+      "system": "ir",
+      "path": "10/5-arcminute/MIRCA-OS_Sorghum_2010_ir_v2.tif",
+      "size": 969461
+    },
+    {
+      "year": 2010,
+      "crop": "Sorghum",
+      "system": "rf",
+      "path": "10/5-arcminute/MIRCA-OS_Sorghum_2010_rf_v2.tif",
+      "size": 2198832
+    },
+    {
+      "year": 2015,
+      "crop": "Maize",
+      "system": "ir",
+      "path": "15/5-arcminute/MIRCA-OS_Maize_2015_ir_v2.tif",
+      "size": 1690849
+    },
+    {
+      "year": 2015,
+      "crop": "Maize",
+      "system": "rf",
+      "path": "15/5-arcminute/MIRCA-OS_Maize_2015_rf_v2.tif",
+      "size": 3200299
+    },
+    {
+      "year": 2015,
+      "crop": "Rice",
+      "system": "ir",
+      "path": "15/5-arcminute/MIRCA-OS_Rice_2015_ir_v2.tif",
+      "size": 1331391
+    },
+    {
+      "year": 2015,
+      "crop": "Rice",
+      "system": "rf",
+      "path": "15/5-arcminute/MIRCA-OS_Rice_2015_rf_v2.tif",
+      "size": 2122151
+    },
+    {
+      "year": 2015,
+      "crop": "Sorghum",
+      "system": "ir",
+      "path": "15/5-arcminute/MIRCA-OS_Sorghum_2015_ir_v2.tif",
+      "size": 978461
+    },
+    {
+      "year": 2015,
+      "crop": "Sorghum",
+      "system": "rf",
+      "path": "15/5-arcminute/MIRCA-OS_Sorghum_2015_rf_v2.tif",
+      "size": 2357802
+    },
+    {
+      "year": 2020,
+      "crop": "Maize",
+      "system": "ir",
+      "path": "20/5-arcminute/MIRCA-OS_Maize_2020_ir_v2.tif",
+      "size": 1764386
+    },
+    {
+      "year": 2020,
+      "crop": "Maize",
+      "system": "rf",
+      "path": "20/5-arcminute/MIRCA-OS_Maize_2020_rf_v2.tif",
+      "size": 3329784
+    },
+    {
+      "year": 2020,
+      "crop": "Rice",
+      "system": "ir",
+      "path": "20/5-arcminute/MIRCA-OS_Rice_2020_ir_v2.tif",
+      "size": 1346060
+    },
+    {
+      "year": 2020,
+      "crop": "Rice",
+      "system": "rf",
+      "path": "20/5-arcminute/MIRCA-OS_Rice_2020_rf_v2.tif",
+      "size": 2015200
+    },
+    {
+      "year": 2020,
+      "crop": "Sorghum",
+      "system": "ir",
+      "path": "20/5-arcminute/MIRCA-OS_Sorghum_2020_ir_v2.tif",
+      "size": 963719
+    },
+    {
+      "year": 2020,
+      "crop": "Sorghum",
+      "system": "rf",
+      "path": "20/5-arcminute/MIRCA-OS_Sorghum_2020_rf_v2.tif",
+      "size": 2239797
+    }
+  ],
+  "n_irrigated_positive_crop_BCU_years": 222,
+  "n_BCU_with_any_irrigated_crop_in_2020": 22,
+  "n_reference_year_rows": 375,
+  "raster_metadata": [
+    {
+      "year": 2000,
+      "crop": "Maize",
+      "system": "ir",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.083333333333333,
+        0.083333333333333
+      ],
+      "width": 4320,
+      "height": 2160,
+      "nodata": 0.0,
+      "band_unit_tag": null,
+      "dtype": "float32",
+      "bounds": [
+        -180.0,
+        -90.0,
+        179.99999999999852,
+        89.99999999999926
+      ]
+    },
+    {
+      "year": 2000,
+      "crop": "Maize",
+      "system": "rf",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.083333333333333,
+        0.083333333333333
+      ],
+      "width": 4320,
+      "height": 2160,
+      "nodata": 0.0,
+      "band_unit_tag": null,
+      "dtype": "float32",
+      "bounds": [
+        -180.0,
+        -90.0,
+        179.99999999999852,
+        89.99999999999926
+      ]
+    },
+    {
+      "year": 2000,
+      "crop": "Rice",
+      "system": "ir",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.083333333333333,
+        0.083333333333333
+      ],
+      "width": 4320,
+      "height": 2160,
+      "nodata": 0.0,
+      "band_unit_tag": null,
+      "dtype": "float32",
+      "bounds": [
+        -180.0,
+        -90.0,
+        179.99999999999852,
+        89.99999999999926
+      ]
+    },
+    {
+      "year": 2000,
+      "crop": "Rice",
+      "system": "rf",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.083333333333333,
+        0.083333333333333
+      ],
+      "width": 4320,
+      "height": 2160,
+      "nodata": 0.0,
+      "band_unit_tag": null,
+      "dtype": "float32",
+      "bounds": [
+        -180.0,
+        -90.0,
+        179.99999999999852,
+        89.99999999999926
+      ]
+    },
+    {
+      "year": 2000,
+      "crop": "Sorghum",
+      "system": "ir",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.083333333333333,
+        0.083333333333333
+      ],
+      "width": 4320,
+      "height": 2160,
+      "nodata": 0.0,
+      "band_unit_tag": null,
+      "dtype": "float32",
+      "bounds": [
+        -180.0,
+        -90.0,
+        179.99999999999852,
+        89.99999999999926
+      ]
+    },
+    {
+      "year": 2000,
+      "crop": "Sorghum",
+      "system": "rf",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.083333333333333,
+        0.083333333333333
+      ],
+      "width": 4320,
+      "height": 2160,
+      "nodata": 0.0,
+      "band_unit_tag": null,
+      "dtype": "float32",
+      "bounds": [
+        -180.0,
+        -90.0,
+        179.99999999999852,
+        89.99999999999926
+      ]
+    },
+    {
+      "year": 2005,
+      "crop": "Maize",
+      "system": "ir",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.083333333333333,
+        0.083333333333333
+      ],
+      "width": 4320,
+      "height": 2160,
+      "nodata": 0.0,
+      "band_unit_tag": null,
+      "dtype": "float32",
+      "bounds": [
+        -180.0,
+        -90.0,
+        179.99999999999852,
+        89.99999999999926
+      ]
+    },
+    {
+      "year": 2005,
+      "crop": "Maize",
+      "system": "rf",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.083333333333333,
+        0.083333333333333
+      ],
+      "width": 4320,
+      "height": 2160,
+      "nodata": 0.0,
+      "band_unit_tag": null,
+      "dtype": "float32",
+      "bounds": [
+        -180.0,
+        -90.0,
+        179.99999999999852,
+        89.99999999999926
+      ]
+    },
+    {
+      "year": 2005,
+      "crop": "Rice",
+      "system": "ir",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.083333333333333,
+        0.083333333333333
+      ],
+      "width": 4320,
+      "height": 2160,
+      "nodata": 0.0,
+      "band_unit_tag": null,
+      "dtype": "float32",
+      "bounds": [
+        -180.0,
+        -90.0,
+        179.99999999999852,
+        89.99999999999926
+      ]
+    },
+    {
+      "year": 2005,
+      "crop": "Rice",
+      "system": "rf",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.083333333333333,
+        0.083333333333333
+      ],
+      "width": 4320,
+      "height": 2160,
+      "nodata": 0.0,
+      "band_unit_tag": null,
+      "dtype": "float32",
+      "bounds": [
+        -180.0,
+        -90.0,
+        179.99999999999852,
+        89.99999999999926
+      ]
+    },
+    {
+      "year": 2005,
+      "crop": "Sorghum",
+      "system": "ir",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.083333333333333,
+        0.083333333333333
+      ],
+      "width": 4320,
+      "height": 2160,
+      "nodata": 0.0,
+      "band_unit_tag": null,
+      "dtype": "float32",
+      "bounds": [
+        -180.0,
+        -90.0,
+        179.99999999999852,
+        89.99999999999926
+      ]
+    },
+    {
+      "year": 2005,
+      "crop": "Sorghum",
+      "system": "rf",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.083333333333333,
+        0.083333333333333
+      ],
+      "width": 4320,
+      "height": 2160,
+      "nodata": 0.0,
+      "band_unit_tag": null,
+      "dtype": "float32",
+      "bounds": [
+        -180.0,
+        -90.0,
+        179.99999999999852,
+        89.99999999999926
+      ]
+    },
+    {
+      "year": 2010,
+      "crop": "Maize",
+      "system": "ir",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.083333333333333,
+        0.083333333333333
+      ],
+      "width": 4320,
+      "height": 2160,
+      "nodata": 0.0,
+      "band_unit_tag": null,
+      "dtype": "float32",
+      "bounds": [
+        -180.0,
+        -90.0,
+        179.99999999999852,
+        89.99999999999926
+      ]
+    },
+    {
+      "year": 2010,
+      "crop": "Maize",
+      "system": "rf",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.083333333333333,
+        0.083333333333333
+      ],
+      "width": 4320,
+      "height": 2160,
+      "nodata": 0.0,
+      "band_unit_tag": null,
+      "dtype": "float32",
+      "bounds": [
+        -180.0,
+        -90.0,
+        179.99999999999852,
+        89.99999999999926
+      ]
+    },
+    {
+      "year": 2010,
+      "crop": "Rice",
+      "system": "ir",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.083333333333333,
+        0.083333333333333
+      ],
+      "width": 4320,
+      "height": 2160,
+      "nodata": 0.0,
+      "band_unit_tag": null,
+      "dtype": "float32",
+      "bounds": [
+        -180.0,
+        -90.0,
+        179.99999999999852,
+        89.99999999999926
+      ]
+    },
+    {
+      "year": 2010,
+      "crop": "Rice",
+      "system": "rf",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.083333333333333,
+        0.083333333333333
+      ],
+      "width": 4320,
+      "height": 2160,
+      "nodata": 0.0,
+      "band_unit_tag": null,
+      "dtype": "float32",
+      "bounds": [
+        -180.0,
+        -90.0,
+        179.99999999999852,
+        89.99999999999926
+      ]
+    },
+    {
+      "year": 2010,
+      "crop": "Sorghum",
+      "system": "ir",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.083333333333333,
+        0.083333333333333
+      ],
+      "width": 4320,
+      "height": 2160,
+      "nodata": 0.0,
+      "band_unit_tag": null,
+      "dtype": "float32",
+      "bounds": [
+        -180.0,
+        -90.0,
+        179.99999999999852,
+        89.99999999999926
+      ]
+    },
+    {
+      "year": 2010,
+      "crop": "Sorghum",
+      "system": "rf",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.083333333333333,
+        0.083333333333333
+      ],
+      "width": 4320,
+      "height": 2160,
+      "nodata": 0.0,
+      "band_unit_tag": null,
+      "dtype": "float32",
+      "bounds": [
+        -180.0,
+        -90.0,
+        179.99999999999852,
+        89.99999999999926
+      ]
+    },
+    {
+      "year": 2015,
+      "crop": "Maize",
+      "system": "ir",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.083333333333333,
+        0.083333333333333
+      ],
+      "width": 4320,
+      "height": 2160,
+      "nodata": 0.0,
+      "band_unit_tag": null,
+      "dtype": "float32",
+      "bounds": [
+        -180.0,
+        -90.0,
+        179.99999999999852,
+        89.99999999999926
+      ]
+    },
+    {
+      "year": 2015,
+      "crop": "Maize",
+      "system": "rf",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.083333333333333,
+        0.083333333333333
+      ],
+      "width": 4320,
+      "height": 2160,
+      "nodata": 0.0,
+      "band_unit_tag": null,
+      "dtype": "float32",
+      "bounds": [
+        -180.0,
+        -90.0,
+        179.99999999999852,
+        89.99999999999926
+      ]
+    },
+    {
+      "year": 2015,
+      "crop": "Rice",
+      "system": "ir",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.083333333333333,
+        0.083333333333333
+      ],
+      "width": 4320,
+      "height": 2160,
+      "nodata": 0.0,
+      "band_unit_tag": null,
+      "dtype": "float32",
+      "bounds": [
+        -180.0,
+        -90.0,
+        179.99999999999852,
+        89.99999999999926
+      ]
+    },
+    {
+      "year": 2015,
+      "crop": "Rice",
+      "system": "rf",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.083333333333333,
+        0.083333333333333
+      ],
+      "width": 4320,
+      "height": 2160,
+      "nodata": 0.0,
+      "band_unit_tag": null,
+      "dtype": "float32",
+      "bounds": [
+        -180.0,
+        -90.0,
+        179.99999999999852,
+        89.99999999999926
+      ]
+    },
+    {
+      "year": 2015,
+      "crop": "Sorghum",
+      "system": "ir",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.083333333333333,
+        0.083333333333333
+      ],
+      "width": 4320,
+      "height": 2160,
+      "nodata": 0.0,
+      "band_unit_tag": null,
+      "dtype": "float32",
+      "bounds": [
+        -180.0,
+        -90.0,
+        179.99999999999852,
+        89.99999999999926
+      ]
+    },
+    {
+      "year": 2015,
+      "crop": "Sorghum",
+      "system": "rf",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.083333333333333,
+        0.083333333333333
+      ],
+      "width": 4320,
+      "height": 2160,
+      "nodata": 0.0,
+      "band_unit_tag": null,
+      "dtype": "float32",
+      "bounds": [
+        -180.0,
+        -90.0,
+        179.99999999999852,
+        89.99999999999926
+      ]
+    },
+    {
+      "year": 2020,
+      "crop": "Maize",
+      "system": "ir",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.083333333333333,
+        0.083333333333333
+      ],
+      "width": 4320,
+      "height": 2160,
+      "nodata": 0.0,
+      "band_unit_tag": null,
+      "dtype": "float32",
+      "bounds": [
+        -180.0,
+        -90.0,
+        179.99999999999852,
+        89.99999999999926
+      ]
+    },
+    {
+      "year": 2020,
+      "crop": "Maize",
+      "system": "rf",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.083333333333333,
+        0.083333333333333
+      ],
+      "width": 4320,
+      "height": 2160,
+      "nodata": 0.0,
+      "band_unit_tag": null,
+      "dtype": "float32",
+      "bounds": [
+        -180.0,
+        -90.0,
+        179.99999999999852,
+        89.99999999999926
+      ]
+    },
+    {
+      "year": 2020,
+      "crop": "Rice",
+      "system": "ir",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.083333333333333,
+        0.083333333333333
+      ],
+      "width": 4320,
+      "height": 2160,
+      "nodata": 0.0,
+      "band_unit_tag": null,
+      "dtype": "float32",
+      "bounds": [
+        -180.0,
+        -90.0,
+        179.99999999999852,
+        89.99999999999926
+      ]
+    },
+    {
+      "year": 2020,
+      "crop": "Rice",
+      "system": "rf",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.083333333333333,
+        0.083333333333333
+      ],
+      "width": 4320,
+      "height": 2160,
+      "nodata": 0.0,
+      "band_unit_tag": null,
+      "dtype": "float32",
+      "bounds": [
+        -180.0,
+        -90.0,
+        179.99999999999852,
+        89.99999999999926
+      ]
+    },
+    {
+      "year": 2020,
+      "crop": "Sorghum",
+      "system": "ir",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.083333333333333,
+        0.083333333333333
+      ],
+      "width": 4320,
+      "height": 2160,
+      "nodata": 0.0,
+      "band_unit_tag": null,
+      "dtype": "float32",
+      "bounds": [
+        -180.0,
+        -90.0,
+        179.99999999999852,
+        89.99999999999926
+      ]
+    },
+    {
+      "year": 2020,
+      "crop": "Sorghum",
+      "system": "rf",
+      "crs": "EPSG:4326",
+      "resolution": [
+        0.083333333333333,
+        0.083333333333333
+      ],
+      "width": 4320,
+      "height": 2160,
+      "nodata": 0.0,
+      "band_unit_tag": null,
+      "dtype": "float32",
+      "bounds": [
+        -180.0,
+        -90.0,
+        179.99999999999852,
+        89.99999999999926
+      ]
+    }
+  ],
+  "maps_created": [
+    "map_maize_irrigated_2000_2020.png",
+    "map_rice_irrigated_2000_2020.png",
+    "map_sorghum_irrigated_2000_2020.png"
+  ]
+}
