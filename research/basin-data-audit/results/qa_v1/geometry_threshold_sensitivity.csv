@@ -1,0 +1,5 @@
+threshold,admin_units,all_crop_valid_rows,unique_admin_crop_years
+0.7,741,143022,133516
+0.8,695,134300,125368
+0.9,640,122839,114538
+0.95,601,114086,106405

@@ -1,0 +1,240 @@
+{
+  "run_utc": "2026-11-03T00:07:51.895876+00:00",
+  "checks": {
+    "sha256_harveststat_csv": {
+      "pass": true,
+      "details": {
+        "actual": "f659e121e315b9d8656699e4b16421ed3b313e4c8d09d15199452000836dbef9",
+        "expected": "f659e121e315b9d8656699e4b16421ed3b313e4c8d09d15199452000836dbef9"
+      }
+    },
+    "sha256_harveststat_boundaries": {
+      "pass": true,
+      "details": {
+        "actual": "259e152dcae5b8629b2b76f789abb114219e07347a1dc1efaf8185281f7d028e",
+        "expected": "259e152dcae5b8629b2b76f789abb114219e07347a1dc1efaf8185281f7d028e"
+      }
+    },
+    "sha256_tfdd2024": {
+      "pass": true,
+      "details": {
+        "actual": "379392939ea9bd306ddaf44def8dc04dee419a1a8f310268157fe16b97a87369",
+        "expected": "379392939ea9bd306ddaf44def8dc04dee419a1a8f310268157fe16b97a87369"
+      }
+    },
+    "raw_rowcount": {
+      "pass": true,
+      "details": {
+        "observed": 217487
+      }
+    },
+    "countries_33": {
+      "pass": true,
+      "details": 33
+    },
+    "units_documented": {
+      "pass": true,
+      "details": "HarvestStat v1.2 README documents area ha, production mt, yield mt/ha; ratio checked below"
+    },
+    "no_unknown_qc": {
+      "pass": true,
+      "details": {
+        "0": 214242,
+        "2": 2558,
+        "1": 687
+      }
+    },
+    "full_key_uniqueness": {
+      "pass": true,
+      "details": {
+        "duplicate_rows": 0
+      }
+    },
+    "all_crop_joint_valid_count": {
+      "pass": true,
+      "details": {
+        "current": 198014,
+        "previous": 198014
+      }
+    },
+    "yield_identity_relative_error_over_1e-06": {
+      "pass": true,
+      "details": 0
+    },
+    "yield_identity_relative_error_over_0.001": {
+      "pass": true,
+      "details": 0
+    },
+    "yield_identity_relative_error_over_0.01": {
+      "pass": true,
+      "details": 0
+    },
+    "yield_identity_relative_error_over_0.05": {
+      "pass": true,
+      "details": 0
+    },
+    "yield_identity_relative_error_over_0.2": {
+      "pass": true,
+      "details": 0
+    },
+    "yield_identity_distribution": {
+      "pass": true,
+      "details": {
+        "0.5": 0.0,
+        "0.95": 2.1267040019126112e-16,
+        "0.99": 8.05677834346186e-16,
+        "1.0": 7.639345569539613e-13
+      }
+    },
+    "multirow_district_crop_year": {
+      "pass": true,
+      "details": {
+        "keys_with_multiple_rows": 13331,
+        "records_in_multiple_keys": 30144,
+        "largest_group": 7
+      }
+    },
+    "three_crop_original_count": {
+      "pass": true,
+      "details": 55719
+    },
+    "three_crop_qc_count": {
+      "pass": true,
+      "details": 51547
+    },
+    "admin_FNID_unique": {
+      "pass": true,
+      "details": {
+        "shapes": 1128,
+        "unique_fnids": 1128
+      }
+    },
+    "all_data_FNID_geometries": {
+      "pass": true,
+      "details": {
+        "unmatched_data_FNID": 0
+      }
+    },
+    "admin_geometry_crs": {
+      "pass": true,
+      "details": "EPSG:4326"
+    },
+    "bcu_count_818": {
+      "pass": true,
+      "details": {
+        "actual": 818
+      }
+    },
+    "bcu_unique_ids": {
+      "pass": true,
+      "details": {
+        "unique": 818,
+        "rows": 818
+      }
+    },
+    "bcu_country_ID_consistency": {
+      "pass": false,
+      "details": "Sanity check BCCODE suffix equals CCODE; may fail for multi-part territorial codes"
+    },
+    "crs_admin": {
+      "pass": true,
+      "details": "EPSG:4326"
+    },
+    "crs_bcu": {
+      "pass": true,
+      "details": "PROJCS[\"World_Cylindrical_Equal_Area\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Cylindrical_Equal_Area\"],PARAMETER[\"standard_parallel_1\",0],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"ESRI\",\"54034\"]]"
+    },
+    "no_over_100pct_single_intersection": {
+      "pass": true,
+      "details": {
+        "max_fraction": 1.0000000000000029
+      }
+    },
+    "no_bcu_overlap_or_area_duplication": {
+      "pass": true,
+      "details": {
+        "max_fraction_sum": 1.0000000002981162,
+        "admin_with_sum_over_101pct": 0
+      }
+    },
+    "spatial_dominant_80pct_set_matches": {
+      "pass": true,
+      "details": {
+        "independent": 695,
+        "prior": 695,
+        "only_independent": 0,
+        "only_prior": 0
+      }
+    },
+    "spatial_threshold_sensitivity": {
+      "pass": true,
+      "details": [
+        {
+          "threshold": 0.7,
+          "admin_units": 741,
+          "all_crop_valid_rows": 143022,
+          "unique_admin_crop_years": 133516
+        },
+        {
+          "threshold": 0.8,
+          "admin_units": 695,
+          "all_crop_valid_rows": 134300,
+          "unique_admin_crop_years": 125368
+        },
+        {
+          "threshold": 0.9,
+          "admin_units": 640,
+          "all_crop_valid_rows": 122839,
+          "unique_admin_crop_years": 114538
+        },
+        {
+          "threshold": 0.95,
+          "admin_units": 601,
+          "all_crop_valid_rows": 114086,
+          "unique_admin_crop_years": 106405
+        }
+      ]
+    },
+    "cropped_valid_with_80pct_counts": {
+      "pass": true,
+      "details": {
+        "observed": 35353
+      }
+    },
+    "years_in_range": {
+      "pass": true,
+      "details": null
+    },
+    "BCU_season_series_count": {
+      "pass": true,
+      "details": {
+        "current": 330,
+        "prior": 330
+      }
+    },
+    "BCU_eligible_unique_count": {
+      "pass": true,
+      "details": 40
+    },
+    "BCU_eligible_basin_count": {
+      "pass": true,
+      "details": 17
+    },
+    "no_unknown_geocodes": {
+      "pass": true,
+      "details": null
+    }
+  },
+  "warnings": [],
+  "errors": [
+    "bcu_country_ID_consistency"
+  ],
+  "status": "FAIL",
+  "units": {
+    "area": "hectare",
+    "production": "metric tonne",
+    "yield": "metric tonne per hectare",
+    "geometry_area": "square kilometres in EPSG:6933",
+    "CHIRPS_precipitation": "mm per month (separate pilot)"
+  }
+}
