@@ -1,0 +1,137 @@
+{
+  "utc": "2026-11-03T15:47:54.220043+00:00",
+  "status": "PASS",
+  "checks": {
+    "original_checked_against_pinned_source": {
+      "pass": true,
+      "detail": null
+    },
+    "all_915_records": {
+      "pass": true,
+      "detail": 915
+    },
+    "exact_two_original_categories": {
+      "pass": true,
+      "detail": {
+        "('Main', 'Rainfed (PS)')": 812,
+        "('Annual', 'All (PS)')": 103
+      }
+    },
+    "actual_outcome_geography_23_not_26": {
+      "pass": true,
+      "detail": 23
+    },
+    "single_crop": {
+      "pass": true,
+      "detail": null
+    },
+    "source_full_key_unique": {
+      "pass": true,
+      "detail": null
+    },
+    "two_duplicated_district_year_keys": {
+      "pass": true,
+      "detail": 2
+    },
+    "2020_duplicates_only": {
+      "pass": true,
+      "detail": [
+        [
+          "MW2018A20102",
+          "2020"
+        ],
+        [
+          "MW2018A20108",
+          "2020"
+        ]
+      ]
+    },
+    "no_three_per_year": {
+      "pass": true,
+      "detail": null
+    },
+    "row_source_qc0": {
+      "pass": true,
+      "detail": null
+    },
+    "yield_arithmetic_all_915_again": {
+      "pass": true,
+      "detail": []
+    },
+    "two_unflagged_extremes": {
+      "pass": true,
+      "detail": [
+        [
+          "MW2018A20104",
+          "2024",
+          "92.82150324233372",
+          "19638802.37"
+        ],
+        [
+          "MW2018A20330",
+          "2023",
+          "55.70363288718929",
+          "87399.0"
+        ]
+      ]
+    },
+    "specifically_Lilongwe_2024_7x_national": {
+      "pass": true,
+      "detail": null
+    },
+    "specifically_Thyolo_2023_gt50t_ha": {
+      "pass": true,
+      "detail": null
+    },
+    "16_strict_main_rainfed_districts": {
+      "pass": true,
+      "detail": 16
+    },
+    "no_uncertain_extreme_marked_ready": {
+      "pass": true,
+      "detail": null
+    }
+  },
+  "errors": [],
+  "counts": {
+    "n": 915,
+    "n_fnids": 23,
+    "distinct_fnid_year": 913,
+    "source_category_labels": {
+      "Main/Rainfed (PS)": 812,
+      "Annual/All (PS)": 103
+    },
+    "n_dual_label_year": 2,
+    "dual_label_years": [
+      {
+        "fnid": "MW2018A20102",
+        "year": "2020"
+      },
+      {
+        "fnid": "MW2018A20108",
+        "year": "2020"
+      }
+    ],
+    "n_outlying_source_rows": 2,
+    "outliers": [
+      {
+        "fnid": "MW2018A20104",
+        "year": "2024",
+        "yield_t_ha": "92.82150324233372",
+        "production_t": "19638802.37"
+      },
+      {
+        "fnid": "MW2018A20330",
+        "year": "2023",
+        "yield_t_ha": "55.70363288718929",
+        "production_t": "87399.0"
+      }
+    ],
+    "n_strict_main_rainfed_districts": 16,
+    "review_decisions": {
+      "USE_ONLY_WITHIN_FIXED_MAIN_RAINFED_LABEL_CHECK_SOURCE": 812,
+      "SEPARATE_ANNUAL_ALL_NOT_COMPARABLE_TO_MAIN_RAINFED": 101,
+      "BLOCK_OUTLIER_UNRESOLVED": 2
+    }
+  }
+}
