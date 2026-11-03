@@ -1,5 +1,5 @@
 {
-  "utc": "2026-11-03T17:00:25.212930+00:00",
+  "utc": "2026-11-03T17:05:14.348032+00:00",
   "status": "PARTIAL_SOURCE_QA",
   "errors": [],
   "checks": {
@@ -8,6 +8,13 @@
       "detail": {
         "text_chars": 261573,
         "sha256": "97692b1eb641b47917ce5178c2fa9c3f545aab3cbd2958ef9e5b073eb663f9e7"
+      }
+    },
+    "IIED_exact_2015_CTGS_followup_meeting": {
+      "pass": true,
+      "detail": {
+        "original_review_excerpt": "Le comite transfrontalier existe et s'est reuni en decembre 2015, deux ans apres la premiere reunion.",
+        "relative_first_meeting_year": 2013
       }
     },
     "IIED_has_source_year_2013": {
@@ -46,8 +53,8 @@
       "url": "https://wedocs.unep.org/bitstream/handle/20.500.11822/20812/1111_2016_te_unep_regional_iw_fsp_volta_river.pdf",
       "status": "BLOCKED_HTML_NOT_PDF",
       "status_code": 200,
-      "bytes": 516285,
-      "sha256": "8cfe07be73cb5e68108aaf247009af8c43edd13968f93d47c8efd67cb05c87b3",
+      "bytes": 516423,
+      "sha256": "15d43ef71cf1bbc2d86b0600c05101c3639865a5ee09299f34814b61b8f919fa",
       "first_bytes": "<!DOCTYPE html><html data-critters-container=\"\" lang=\"en\"><head>\n  <meta charset=\"UTF-8\">\n  <base hr"
     },
     "IIED_G04226_2012_agreement_publication": {
