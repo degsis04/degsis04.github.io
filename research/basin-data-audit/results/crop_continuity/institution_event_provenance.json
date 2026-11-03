@@ -1,5 +1,5 @@
 {
-  "utc": "2026-11-03T00:02:16.012900+00:00",
+  "utc": "2026-11-03T00:03:42.321950+00:00",
   "status": "COMPLETE",
   "definition": "For each dated documentary event, harvest years < event year are PRE, years > event year POST; event year excluded. 8 pre-years and 5 post-years are a data sufficiency screen only, not causal identification.",
   "document_events": 16,
