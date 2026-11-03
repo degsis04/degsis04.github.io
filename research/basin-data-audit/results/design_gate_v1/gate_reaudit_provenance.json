@@ -1,0 +1,18 @@
+{
+  "run_utc": "2026-11-03T10:21:52.524845+00:00",
+  "status": "FAILED",
+  "source": "HarvestStat Africa v1.2 + TFDD 2024 prior QA outputs",
+  "assumptions": {
+    "minimum_years_with_two_districts": 10,
+    "minimum_longest_consecutive": 6,
+    "minimum_qualified_districts": 2,
+    "maximum_gap_fraction_within_first_last_covered_year": 0.3,
+    "common_cross_country_calendar_years": 8,
+    "common_cross_country_longest_run": 5,
+    "class_label_same_not_physically_validated": true,
+    "implementation_not_checked_is_UNKNOWN_not_ZERO": true
+  },
+  "warnings": [],
+  "exception": "AttributeError(\"'function' object has no attribute 'unique'\")",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/degsis04.github.io/degsis04.github.io/research/basin-data-audit/scripts/design_gate_audit.py\", line 66, in <module>\n    assert set(y.product.unique()) == {\"Maize\", \"Rice\", \"Sorghum\"}\n               ^^^^^^^^^^^^^^^^\nAttributeError: 'function' object has no attribute 'unique'\n"
+}
