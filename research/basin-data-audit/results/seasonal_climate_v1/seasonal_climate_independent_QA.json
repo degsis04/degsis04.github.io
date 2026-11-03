@@ -1,6 +1,6 @@
 {
-  "utc": "2026-11-03T11:28:18.056265+00:00",
-  "status": "FAILED",
+  "utc": "2026-11-03T11:29:12.858100+00:00",
+  "status": "PASS",
   "checks": {
     "source_rows_29744": {
       "pass": true,
@@ -35,9 +35,9 @@
       }
     },
     "ghana_second_maize_growth_2020_must_be_2019": {
-      "pass": false,
+      "pass": true,
       "details": {
-        "n_checked": 6
+        "n_checked": 3
       }
     },
     "mali_season_rice_growth_2020_must_be_2019": {
@@ -70,9 +70,7 @@
       }
     }
   },
-  "errors": [
-    "ghana_second_maize_growth_2020_must_be_2019"
-  ],
+  "errors": [],
   "sample": [
     {
       "country": "BF",
