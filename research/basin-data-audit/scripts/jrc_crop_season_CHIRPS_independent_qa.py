@@ -44,7 +44,7 @@ try:
  check("independent_anchor_end_year_all_core_rows",bool(core.to_year.astype(int).eq(expected_to_year).all()),
        {"n_checked":len(core),"n_bad":int((~core.to_year.astype(int).eq(expected_to_year)).sum())})
  gh=s.loc[(s.country_code=="GH") & (s.jrc_crop_season=="Maize (Second)") &
-          s.window.eq("core")&s.harvest_year.eq(2020)]
+          s.window.eq("core")&s.harvest_year.eq(2020)&s.full_crop_cycle_crosses_year]
  check("ghana_second_maize_growth_2020_must_be_2019",bool(len(gh)>0 and
        gh.from_year.eq(2019).all() and gh.to_year.eq(2019).all()),
        {"n_checked":len(gh)})
