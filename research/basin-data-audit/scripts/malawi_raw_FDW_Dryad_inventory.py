@@ -59,7 +59,11 @@ try:
  if not found:raise ValueError("v1.2 raw source zip not found in scanned Dryad versions")
  vid,item=found
  fileid=item.get("id")
- L["raw_file"]={"version_id":vid,"file_id":fileid,"path":item.get("path"),
+ filelink=item.get("_links",{}).get("self",{}).get("href","")
+ if not fileid and "/files/" in filelink:
+  tail=filelink.rstrip("/").rsplit("/",1)[-1]
+  if tail.isdigit():fileid=int(tail)
+ L["raw_file"]={"version_id":vid,"file_id":fileid,"path":item.get("path"),"file_link":filelink,
    "size":item.get("size"),"digestType":item.get("digestType"),"digest":item.get("digest")}
  if not fileid:raise ValueError("No official Dryad raw file ID")
  # Follow documented per-file endpoint, never guess/download a proprietary URL.
