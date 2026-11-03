@@ -1,0 +1,23 @@
+basin_code,basin_name,observed_bcu,observed_countries,strict_strata,strict_bcu,strict_countries,strict_maize_strata,strict_sorghum_strata,strict_rice_strata,cross_country_calendar_pairs,cross_country_same_label_pairs_UNVALIDATED,implemented_treaty_mechanism_verifications,physical_hydrologic_linkage_verified,eligible_for_causal_model
+NGER,Niger,7,7,17,6,6,6,5,6,40,7,0,False,False
+LKCH,Lake Chad,6,6,11,5,5,3,5,3,15,1,0,False,False
+VOLT,Volta,4,4,11,4,4,4,4,3,15,13,0,False,False
+NILE,Nile,8,8,10,4,4,3,5,2,10,0,0,False,False
+JUBA,Juba-Shibeli,3,3,10,3,3,6,4,0,14,0,0,False,False
+ZAMB,Zambezi,5,5,9,3,3,4,3,2,8,0,0,False,False
+CNGO,Congo/Zaire,7,7,6,3,3,3,1,2,4,0,0,False,False
+SENG,Senegal,3,3,6,2,2,1,3,2,3,0,0,False,False
+MONO,Mono,2,2,4,2,2,2,1,1,1,1,0,False,False
+GAMB,Gambia,1,1,3,1,1,1,1,1,0,0,0,False,False
+KMOE,Komoe,1,1,3,1,1,1,1,1,0,0,0,False,False
+LKCW,Lake Chilwa,1,1,3,1,1,1,1,1,0,0,0,False,False
+OUEM,Oueme,1,1,3,1,1,1,1,1,0,0,0,False,False
+AWSH,Awash,1,1,2,1,1,1,1,0,0,0,0,False,False
+LKTK,Lake Turkana,2,2,2,1,1,1,1,0,0,0,0,False,False
+ORAN,Orange,2,2,2,1,1,1,1,0,0,0,0,False,False
+GLNA,Galana,1,1,1,1,1,0,1,0,0,0,0,False,False
+BENT,Benito/Ntem,1,1,0,0,0,0,0,0,0,0,0,False,False
+CROS,Cross,2,2,0,0,0,0,0,0,0,0,0,False,False
+LMPO,Limpopo,3,3,0,0,0,0,0,0,0,0,0,False,False
+MOAX,Moa,1,1,0,0,0,0,0,0,0,0,0,False,False
+SANA,Sanaga,1,1,0,0,0,0,0,0,0,0,0,False,False

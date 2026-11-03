@@ -1,6 +1,6 @@
 {
-  "run_utc": "2026-11-03T10:21:52.524845+00:00",
-  "status": "FAILED",
+  "run_utc": "2026-11-03T10:22:25.111973+00:00",
+  "status": "COMPLETE",
   "source": "HarvestStat Africa v1.2 + TFDD 2024 prior QA outputs",
   "assumptions": {
     "minimum_years_with_two_districts": 10,
@@ -12,7 +12,73 @@
     "class_label_same_not_physically_validated": true,
     "implementation_not_checked_is_UNKNOWN_not_ZERO": true
   },
-  "warnings": [],
-  "exception": "AttributeError(\"'function' object has no attribute 'unique'\")",
-  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/degsis04.github.io/degsis04.github.io/research/basin-data-audit/scripts/design_gate_audit.py\", line 66, in <module>\n    assert set(y.product.unique()) == {\"Maize\", \"Rice\", \"Sorghum\"}\n               ^^^^^^^^^^^^^^^^\nAttributeError: 'function' object has no attribute 'unique'\n"
+  "warnings": [
+    "This stricter missingness rule is an exploratory screening threshold, NOT a universal power criterion.",
+    "Country-level equivalence of crop seasons unverified even where labels match.",
+    "No number of district-year observations translates into independent institution regimes.",
+    "Unknown implementation from the existing registry is UNKNOWN, not verified absence.",
+    "No source produces actual hydrometric observations at irrigation intakes here."
+  ],
+  "counts": {
+    "source_strata": 330,
+    "source_bcu": 63,
+    "source_basins": 22,
+    "strict_strata_meeting_data_only_screen": 103,
+    "strict_bcu": 40,
+    "strict_basins": 17,
+    "strict_countries": 21,
+    "strata_by_crop": {
+      "Maize": {
+        "strata": 39,
+        "bcu": 35,
+        "basins": 16,
+        "countries": 20,
+        "production_system_classes": {
+          "all_production_systems": 26,
+          "unclassified": 8,
+          "explicit_rainfed": 3,
+          "other_requires_review": 2
+        }
+      },
+      "Rice": {
+        "strata": 25,
+        "bcu": 25,
+        "basins": 12,
+        "countries": 15,
+        "production_system_classes": {
+          "all_production_systems": 13,
+          "unclassified": 8,
+          "explicit_rainfed": 3,
+          "explicit_irrigated_broad": 1
+        }
+      },
+      "Sorghum": {
+        "strata": 39,
+        "bcu": 34,
+        "basins": 17,
+        "countries": 19,
+        "production_system_classes": {
+          "all_production_systems": 21,
+          "unclassified": 7,
+          "explicit_rainfed": 7,
+          "other_requires_review": 3,
+          "explicit_irrigated_broad": 1
+        }
+      }
+    },
+    "candidate_pairs_calendar_year_only": 110,
+    "candidate_basins_calendar_year_only": 9,
+    "pairs_with_same_known_production_class_and_season_name_not_physical_season": 22,
+    "basins_same_known_class_and_label": 4,
+    "documentary_events_in_existing_register": 16,
+    "implementation_verified_events": 0
+  },
+  "gates": {
+    "G0_read_and_recompute_source_years": "PASS",
+    "G1_crop_panel_numeric_screen": "PARTIAL: reported counts; season/country equivalence NOT verified",
+    "G2_confirmed_active_institution_rule_for_model": "BLOCKED: 0 verified implementation records in existing dataset",
+    "G3_water_intake_to_upstream_catchment_to_station": "BLOCKED: only descriptive water-source documents, no full geocoded chain",
+    "G4_causal_event_study_identification": "NOT APPROVED: no validated reform/control/comparable outcome",
+    "G5_asian_replication": "DEFERRED"
+  }
 }
