@@ -5,6 +5,10 @@ on:
       - '.github/workflows/malawi-e06-e07-spatial-gis.yml'
       - 'research/basin-data-audit/scripts/malawi_conley_e06_lags_e07_v2.py'
   workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/workflows/malawi-e06-e07-spatial-gis.yml'
+      - 'research/basin-data-audit/scripts/malawi_conley_e06_lags_e07_v2.py'
 permissions:
   contents: write
 jobs:
