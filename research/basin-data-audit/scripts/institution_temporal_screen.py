@@ -48,7 +48,7 @@ try:
         out=df.groupby(["BCODE","event","event_date","date_interpretation","mechanism","official_source"],dropna=False).agg(
            bcu_series=("dominant_bcu","size"),
            bcu_with_pre8_post5=("data_pre8_post5","sum"),
-           countries_with_evidence=("country_code","nunique"),
+           countries_with_qualified_crop_series=("country_code","nunique"),
            max_pre_years=("n_pre","max"),
            max_post_years=("n_post","max")).reset_index()
         out["is_causal_impact_estimate"]=False
