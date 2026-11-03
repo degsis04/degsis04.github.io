@@ -1,0 +1,135 @@
+{
+  "utc": "2026-11-03T16:09:18.973703+00:00",
+  "status": "PASS",
+  "checks": {
+    "812_unambiguous_rainfed_source_outcomes": {
+      "pass": true,
+      "detail": 812
+    },
+    "16_predefined_source_districts": {
+      "pass": true,
+      "detail": 16
+    },
+    "model_count_8": {
+      "pass": true,
+      "detail": 8
+    },
+    "all_812_unique_outcome_year_keys": {
+      "pass": true,
+      "detail": 812
+    },
+    "all_yields_positive": {
+      "pass": true,
+      "detail": null
+    },
+    "no_ANNUAL_ALL_outcome_crept_in": {
+      "pass": true,
+      "detail": null
+    },
+    "8_independent_FWL_coefficients_and_twocluster_diagnostics": {
+      "pass": true,
+      "detail": {
+        "max_beta_abs_error": 1.970645868709653e-15,
+        "max_se_abs_error": 5.898059818321144e-16,
+        "comparisons": [
+          {
+            "sample": "strict16",
+            "window": "broad",
+            "n": 584,
+            "fullrank_expected": 54,
+            "beta_fwl": 0.10304780534134352,
+            "beta_abs_error": 1.3877787807814457e-17,
+            "district_cluster_se_error": 1.0061396160665481e-16,
+            "year_cluster_se_error": 4.787836793695988e-16,
+            "pass": true
+          },
+          {
+            "sample": "strict16",
+            "window": "core",
+            "n": 584,
+            "fullrank_expected": 54,
+            "beta_fwl": 0.0904222465047911,
+            "beta_abs_error": 4.3021142204224816e-16,
+            "district_cluster_se_error": 6.245004513516506e-17,
+            "year_cluster_se_error": 3.0531133177191805e-16,
+            "pass": true
+          },
+          {
+            "sample": "strict16",
+            "window": "waha_broad",
+            "n": 584,
+            "fullrank_expected": 54,
+            "beta_fwl": 0.09597296485188803,
+            "beta_abs_error": 2.498001805406602e-16,
+            "district_cluster_se_error": 5.551115123125783e-17,
+            "year_cluster_se_error": 1.0408340855860843e-16,
+            "pass": true
+          },
+          {
+            "sample": "strict16",
+            "window": "waha_growth",
+            "n": 584,
+            "fullrank_expected": 54,
+            "beta_fwl": 0.10309369831640706,
+            "beta_abs_error": 3.7470027081099033e-16,
+            "district_cluster_se_error": 3.122502256758253e-17,
+            "year_cluster_se_error": 1.942890293094024e-16,
+            "pass": true
+          },
+          {
+            "sample": "all23",
+            "window": "broad",
+            "n": 812,
+            "fullrank_expected": 61,
+            "beta_fwl": 0.08559128253891168,
+            "beta_abs_error": 8.049116928532385e-16,
+            "district_cluster_se_error": 1.3877787807814457e-17,
+            "year_cluster_se_error": 2.185751579730777e-16,
+            "pass": true
+          },
+          {
+            "sample": "all23",
+            "window": "core",
+            "n": 812,
+            "fullrank_expected": 61,
+            "beta_fwl": 0.07654598666844867,
+            "beta_abs_error": 1.970645868709653e-15,
+            "district_cluster_se_error": 1.734723475976807e-17,
+            "year_cluster_se_error": 5.898059818321144e-16,
+            "pass": true
+          },
+          {
+            "sample": "all23",
+            "window": "waha_broad",
+            "n": 812,
+            "fullrank_expected": 61,
+            "beta_fwl": 0.08041036283128751,
+            "beta_abs_error": 4.85722573273506e-16,
+            "district_cluster_se_error": 0.0,
+            "year_cluster_se_error": 2.0816681711721685e-17,
+            "pass": true
+          },
+          {
+            "sample": "all23",
+            "window": "waha_growth",
+            "n": 812,
+            "fullrank_expected": 61,
+            "beta_fwl": 0.08553250045396128,
+            "beta_abs_error": 4.85722573273506e-16,
+            "district_cluster_se_error": 4.163336342344337e-17,
+            "year_cluster_se_error": 3.434752482434078e-16,
+            "pass": true
+          }
+        ]
+      }
+    }
+  },
+  "errors": [],
+  "notes": "Independent numerical model QA only; no causal identification or validity of source annual season.",
+  "counts": {
+    "models": 8,
+    "source_rows": 812,
+    "strict_source_FNID": 16,
+    "coefficients_and_both_cluster_SE_recomputed": 8
+  }
+}
