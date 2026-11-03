@@ -1,0 +1,226 @@
+{
+  "time_utc": "2026-11-03T11:43:28.325116+00:00",
+  "status": "COMPLETE",
+  "sources": {
+    "harveststat_summary": "results/calendar_qa_v1/district_crop_season_metadata_consistency.csv",
+    "jrc_calendar": "results/phenology_v1/district_JRC_external_cropping_seasons.csv",
+    "seasonal_precip": "results/seasonal_climate_v1/JRC_crop_season_CHIRPS_1981_2024.csv",
+    "actual_yield_panel": "results/calendar_qa_v1/clean_3crop_district_season_year_rows.csv"
+  },
+  "definitions": {
+    "statistical_stratum": "fnid x product x season_name x crop_production_system",
+    "source_calendar_unit": "fnid x crop x JRC crop_name",
+    "no_match": "No eligible reference seasonal calendar or contradictory production scope",
+    "provisional": "Reference seasonal window tentatively linkable by labels or uniqueness; NOT confirmed agricultural season",
+    "harveststat_date_metadata": "FEWS NET statistical labels, not in-situ phenology",
+    "valid_institutional_yield_panel": "FALSE for all rows until crop year, irrigation source and treaty verified",
+    "year": "harvest_year - original already QA-validated crop-year marker",
+    "climate_variable": "CHIRPS v3 standardized calendar-derived rainfall, not river flow or treaty effect"
+  },
+  "checks": [
+    {
+      "name": "geographic_district_159",
+      "pass": true,
+      "details": 159
+    },
+    {
+      "name": "calendar_338",
+      "pass": true,
+      "details": 338
+    },
+    {
+      "name": "HS_strata_in_mapped_districts_726",
+      "pass": true,
+      "details": 726
+    },
+    {
+      "name": "actual_observed_source_rows_have_provenance",
+      "pass": true,
+      "details": 35353
+    },
+    {
+      "name": "JRC_count_without_HS_crop_15",
+      "pass": true,
+      "details": 15
+    },
+    {
+      "name": "outcome_rows_still_unique",
+      "pass": true,
+      "details": 8642
+    },
+    {
+      "name": "HarvestStat_QC0_observed_rows_only",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "physical_yield_positive",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "climate_wide_unique",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "no_outcome_duplication_by_calendar",
+      "pass": true,
+      "details": {
+        "actual": 8642,
+        "source": 8642
+      }
+    },
+    {
+      "name": "no_missing_climate_year_for_1981_2024",
+      "pass": true,
+      "details": {
+        "both": 8642,
+        "left_only": 0,
+        "right_only": 0
+      }
+    }
+  ],
+  "errors": [],
+  "counts": {
+    "jrc_districts": 159,
+    "jrc_source_assignments": 338,
+    "HS_strata_with_JRC_geographic_coverage": 726,
+    "HS_strata_with_eligible_JRC_reference": 448,
+    "HS_strata_blocked": 278,
+    "HS_strata_by_status": {
+      "PROVISIONAL_SINGLE_REFERENCE_WINDOW": 321,
+      "BLOCK_NO_JRC_CROP_CALENDAR": 259,
+      "PROVISIONAL_UNCLASSIFIED_PRODUCTION_SYSTEM": 93,
+      "PROVISIONAL_EXPLICIT_LABEL": 20,
+      "BLOCK_PRODUCTION_SCOPE_MISMATCH": 15,
+      "PROVISIONAL_OTHER_PRODUCTION_SYSTEM": 14,
+      "BLOCK_SEASON_LABEL_CONFLICT": 4
+    },
+    "country_status": [
+      {
+        "country_code": "BF",
+        "crosswalk_status": "BLOCK_NO_JRC_CROP_CALENDAR",
+        "n": 143
+      },
+      {
+        "country_code": "BF",
+        "crosswalk_status": "PROVISIONAL_SINGLE_REFERENCE_WINDOW",
+        "n": 173
+      },
+      {
+        "country_code": "BJ",
+        "crosswalk_status": "BLOCK_NO_JRC_CROP_CALENDAR",
+        "n": 14
+      },
+      {
+        "country_code": "BJ",
+        "crosswalk_status": "BLOCK_PRODUCTION_SCOPE_MISMATCH",
+        "n": 13
+      },
+      {
+        "country_code": "BJ",
+        "crosswalk_status": "PROVISIONAL_EXPLICIT_LABEL",
+        "n": 11
+      },
+      {
+        "country_code": "BJ",
+        "crosswalk_status": "PROVISIONAL_SINGLE_REFERENCE_WINDOW",
+        "n": 13
+      },
+      {
+        "country_code": "GH",
+        "crosswalk_status": "BLOCK_NO_JRC_CROP_CALENDAR",
+        "n": 8
+      },
+      {
+        "country_code": "GH",
+        "crosswalk_status": "BLOCK_SEASON_LABEL_CONFLICT",
+        "n": 4
+      },
+      {
+        "country_code": "GH",
+        "crosswalk_status": "PROVISIONAL_EXPLICIT_LABEL",
+        "n": 2
+      },
+      {
+        "country_code": "GH",
+        "crosswalk_status": "PROVISIONAL_SINGLE_REFERENCE_WINDOW",
+        "n": 10
+      },
+      {
+        "country_code": "ML",
+        "crosswalk_status": "BLOCK_PRODUCTION_SCOPE_MISMATCH",
+        "n": 2
+      },
+      {
+        "country_code": "ML",
+        "crosswalk_status": "PROVISIONAL_SINGLE_REFERENCE_WINDOW",
+        "n": 4
+      },
+      {
+        "country_code": "MW",
+        "crosswalk_status": "PROVISIONAL_SINGLE_REFERENCE_WINDOW",
+        "n": 114
+      },
+      {
+        "country_code": "TG",
+        "crosswalk_status": "BLOCK_NO_JRC_CROP_CALENDAR",
+        "n": 12
+      },
+      {
+        "country_code": "TG",
+        "crosswalk_status": "PROVISIONAL_EXPLICIT_LABEL",
+        "n": 7
+      },
+      {
+        "country_code": "TG",
+        "crosswalk_status": "PROVISIONAL_SINGLE_REFERENCE_WINDOW",
+        "n": 5
+      },
+      {
+        "country_code": "ZM",
+        "crosswalk_status": "BLOCK_NO_JRC_CROP_CALENDAR",
+        "n": 64
+      },
+      {
+        "country_code": "ZM",
+        "crosswalk_status": "PROVISIONAL_UNCLASSIFIED_PRODUCTION_SYSTEM",
+        "n": 93
+      },
+      {
+        "country_code": "ZW",
+        "crosswalk_status": "BLOCK_NO_JRC_CROP_CALENDAR",
+        "n": 18
+      },
+      {
+        "country_code": "ZW",
+        "crosswalk_status": "PROVISIONAL_OTHER_PRODUCTION_SYSTEM",
+        "n": 14
+      },
+      {
+        "country_code": "ZW",
+        "crosswalk_status": "PROVISIONAL_SINGLE_REFERENCE_WINDOW",
+        "n": 2
+      }
+    ],
+    "source_jrc_records_with_no_HS_crop": 15,
+    "candidate_pair_tests": 480,
+    "observed_qc0_yield_rows_provisionally_linked": 8642,
+    "actual_yield_x_weather_rows": 8642,
+    "yield_rows_with_core_weather_z": 8594,
+    "yield_rows_with_broad_weather_z": 8594,
+    "observed_yield_aggregate_not_irrigated_specific": 3568,
+    "actual_crop_season_fully_field_verified": 0,
+    "implemented_transboundary_institutions_verified": 0
+  },
+  "warnings": [
+    "PROVISIONAL means reference crop season is not validated as the source's actual yield observation season",
+    "All (PS) aggregate yield cannot be interpreted as irrigated-specific; none is not Rainfed or Irrigated",
+    "Non-unique JRC seasons never multiplied outcome rows; no missing JRC rice imputed",
+    "HarvestStat calendar metadata cannot validate plant phenology according to authors",
+    "Historical JRC seasons treated as fixed over 1981-2024, potentially wrong after variety/technology shifts",
+    "Climate values are local admin rainfall, not upstream river flow, irrigation intake supply, or treaty treatment",
+    "No model coefficients were fitted and no causal estimates may be inferred from this screening"
+  ]
+}
