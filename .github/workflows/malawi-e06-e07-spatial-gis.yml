@@ -1,0 +1,41 @@
+name: Malawi spatial Conley E06 and harvest-year lag E07 source-verification
+on:
+  push:
+    paths:
+      - '.github/workflows/malawi-e06-e07-spatial-gis.yml'
+      - 'research/basin-data-audit/scripts/malawi_conley_e06_lags_e07_v2.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  spatial-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Dependencies pinned to major versions
+        run: python -m pip install 'numpy>=1.26,<3' 'pandas>=2.2,<3' 'geopandas>=1.0,<2' 'shapely>=2,<3' 'pyogrio>=0.9' 'pyproj>=3,<4'
+      - name: Run original GPKG SHA, exact FNID spatial Conley and FE lag checks
+        run: python research/basin-data-audit/scripts/malawi_conley_e06_lags_e07_v2.py
+      - name: Save QA including exact failure blocker
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/basin-data-audit/results/malawi_spatial_e06_e07_v2/
+          git reset -q research/basin-data-audit/results/malawi_spatial_e06_e07_v2/_SOURCE_DO_NOT_COMMIT.gpkg || true
+          if ! git diff --cached --quiet; then
+            git commit -m 'research QA: verified Malawi spatial geometries and Conley / lag inference results'
+            for retry in 1 2 3 4 5; do
+              git pull --rebase && git push && break || sleep 5
+            done
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: malawi-spatial-e06-e07-original-geometry-QA
+          path: research/basin-data-audit/results/malawi_spatial_e06_e07_v2/
+          if-no-files-found: warn
