@@ -63,7 +63,7 @@ try:
             "product", "season_name", "crop_production_system"]
     assert not s.duplicated(keys).any(), "One BCU-season-system stratum has duplicate summary"
     assert not y.duplicated(keys+["harvest_year"]).any(), "Duplicated BCU-season-system-year"
-    assert set(y.product.unique()) == {"Maize", "Rice", "Sorghum"}
+    assert set(y['product'].unique()) == {"Maize", "Rice", "Sorghum"}
     assert (y.n_records >= y.n_districts).all()
     assert not y.duplicated(keys+["harvest_year"]).any()
     assert s.dominant_bcu.nunique() >= 40
@@ -147,9 +147,9 @@ try:
             "strict_strata":len(good),
             "strict_bcu":good.dominant_bcu.nunique(),
             "strict_countries":good.country_code.nunique(),
-            "strict_maize_strata":int(good.product.eq("Maize").sum()),
-            "strict_sorghum_strata":int(good.product.eq("Sorghum").sum()),
-            "strict_rice_strata":int(good.product.eq("Rice").sum()),
+            "strict_maize_strata":int(good["product"].eq("Maize").sum()),
+            "strict_sorghum_strata":int(good["product"].eq("Sorghum").sum()),
+            "strict_rice_strata":int(good["product"].eq("Rice").sum()),
             "cross_country_calendar_pairs":int(pairs.calendar_pair_screen.sum()) if len(pairs) else 0,
             "cross_country_same_label_pairs_UNVALIDATED":int(pairs.stronger_label_match_candidate.sum()) if len(pairs) else 0,
             "implemented_treaty_mechanism_verifications":0,
