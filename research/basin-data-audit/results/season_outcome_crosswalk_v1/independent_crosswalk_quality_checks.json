@@ -1,0 +1,127 @@
+{
+  "utc": "2026-11-03T11:45:21.579538+00:00",
+  "status": "PASS",
+  "checks": {
+    "original_726_strata": {
+      "pass": true,
+      "details": {
+        "found": 726
+      }
+    },
+    "all_strata_present_once": {
+      "pass": true,
+      "details": null
+    },
+    "selected_unique": {
+      "pass": true,
+      "details": null
+    },
+    "provisional_plus_blocked_726": {
+      "pass": true,
+      "details": null
+    },
+    "JRC_source_338": {
+      "pass": true,
+      "details": null
+    },
+    "no_unverified_physical_season": {
+      "pass": true,
+      "details": null
+    },
+    "none_verified_institutions": {
+      "pass": true,
+      "details": null
+    },
+    "missing_BF_rice_never_auto_imputed": {
+      "pass": true,
+      "details": {
+        "n": 143
+      }
+    },
+    "Mali_rainfed_JRC_not_matched_to_aggregate_Rice": {
+      "pass": true,
+      "details": null
+    },
+    "Zambia_none_PS_explicitly_flagged": {
+      "pass": true,
+      "details": null
+    },
+    "selected_source_keys_unique": {
+      "pass": true,
+      "details": {
+        "rows": 8642
+      }
+    },
+    "qc0_only": {
+      "pass": true,
+      "details": null
+    },
+    "no_false_crosswalk_ready": {
+      "pass": true,
+      "details": null
+    },
+    "actual_yield_positive": {
+      "pass": true,
+      "details": null
+    },
+    "recomputed_yield_relative_error_lt1e8": {
+      "pass": true,
+      "details": {
+        "max_abs_relative_error": 1.720319850115633e-13
+      }
+    },
+    "expected_yield_rows_equal_raw_source_selection": {
+      "pass": true,
+      "details": {
+        "raw": 8642,
+        "joined": 8642
+      }
+    },
+    "year_keys_equal_source": {
+      "pass": true,
+      "details": null
+    },
+    "only_finite_seasonal_precip_z_core": {
+      "pass": true,
+      "details": null
+    },
+    "only_finite_seasonal_precip_z_broad": {
+      "pass": true,
+      "details": null
+    },
+    "all_assigned_reference_seasons_actually_exist": {
+      "pass": true,
+      "details": null
+    },
+    "unmatched_outcome_never_received_season": {
+      "pass": true,
+      "details": null
+    }
+  },
+  "errors": [],
+  "counts": {
+    "source_HS_strata": 726,
+    "source_JRC_windows": 338,
+    "provisional_strata": 448,
+    "blocked_strata": 278,
+    "provisionally_linked_yield_year_rows": 8642,
+    "correct_QC0_yield_weather_year_rows_core": 8594,
+    "countries": 8,
+    "croplist": {
+      "Maize": {
+        "strata": 235,
+        "districts": 139
+      },
+      "Rice": {
+        "strata": 51,
+        "districts": 28
+      },
+      "Sorghum": {
+        "strata": 162,
+        "districts": 124
+      }
+    },
+    "basins_with_any_provisional": 3,
+    "unclear_other_or_none_production_strata": 107
+  }
+}
