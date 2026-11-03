@@ -1,0 +1,71 @@
+{
+  "run_utc": "2026-11-03T09:38:03.203751+00:00",
+  "status": "COMPLETE",
+  "criterion": "Directly classified irrigated Rice series with >=8 harvest years and longest 6+ contiguous harvest years; source PS labels not automatically equivalent to scheme/canal irrigation",
+  "all_rice_season_system_count_by_class": {
+    "aggregate_or_unclassified": {
+      "series": 173,
+      "districts": 169,
+      "series_8yr_6continuous": 112
+    },
+    "explicit_irrigated_broad": {
+      "series": 56,
+      "districts": 56,
+      "series_8yr_6continuous": 36
+    },
+    "explicit_rainfed": {
+      "series": 108,
+      "districts": 78,
+      "series_8yr_6continuous": 63
+    }
+  },
+  "irrigation_exposed_districts_n": 47,
+  "exposed_with_observed_8yr_irrigated_outcome": 4,
+  "exposed_with_long_aggregate_outcome": 20,
+  "exposed_with_long_rainfed_outcome": 8,
+  "exposed_direct_by_basin": {
+    "NGER": 1,
+    "VOLT": 3
+  },
+  "direct_pilot_districts": [
+    {
+      "fnid": "BF2020A25601",
+      "adm_admin_1": "Sahel",
+      "adm_admin_2": "Oudalan",
+      "BCODE": "NGER",
+      "irrigated_ha": 102.11000061035156,
+      "fraction_irrigated": 0.1719313022953206
+    },
+    {
+      "fnid": "BF2020A25301",
+      "adm_admin_1": "Hauts-Bassins",
+      "adm_admin_2": "Houet",
+      "BCODE": "VOLT",
+      "irrigated_ha": 2628.5399819016457,
+      "fraction_irrigated": 0.1998917086283788
+    },
+    {
+      "fnid": "BF2020A24606",
+      "adm_admin_1": "Boucle du Mouhoun",
+      "adm_admin_2": "Sourou",
+      "BCODE": "VOLT",
+      "irrigated_ha": 2113.7400331497192,
+      "fraction_irrigated": 0.4154689867022023
+    },
+    {
+      "fnid": "BF2020A25403",
+      "adm_admin_1": "Nord",
+      "adm_admin_2": "Yatenga",
+      "BCODE": "VOLT",
+      "irrigated_ha": 326.4099930822849,
+      "fraction_irrigated": 0.1264983408625061
+    }
+  ],
+  "warnings": [
+    "Burkina source label 'Plaine/Bas-fond irrigated (PS)' can include bottomland/floodplain systems; exact canal source unverified",
+    "MIRCA 2020 irrigation exposure is not a pretreatment treatment-status observation for outcomes before 2020",
+    "Long rainfed series do not measure irrigated rice responsiveness",
+    "All (PS) and none categories have unknown irrigation split; 39-year Mali data are mixed-production outcomes",
+    "No proof any international water treaty changes a scheme's actual access to water"
+  ]
+}
