@@ -61,7 +61,8 @@ try:
   ref=info_map[x.fnid]
   ym=ref_window(ref,int(x.harvest_year),x.window) if x.window in ("core","broad") else survey_window(ref,int(x.harvest_year),x.window)
   nmonthcheck+=1
-  if len(ym)!=int(x.months_in_window):discrep.append(("number_months",x.fnid,x.harvest_year,x.window))
+  reported_months=[(int(stamp[:4]),int(stamp[5:7])) for stamp in str(x.calendar_months_included).split(";")]
+  if ym!=reported_months:discrep.append(("months_mismatch",x.fnid,x.harvest_year,x.window,ym,reported_months))
   values=[raw.get((x.fnid,int(yy),int(mm))) for yy,mm in ym]
   if any(v is None or not np.isfinite(v) for v in values):
    expectedmiss+=1
