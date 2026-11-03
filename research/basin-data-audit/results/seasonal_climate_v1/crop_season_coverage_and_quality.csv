@@ -1,0 +1,59 @@
+BCODE,country_code,crop,jrc_crop_season,window,districts,grid_seasons,valid_precip_windows,valid_z,crossyear_count,missing_month_count
+NGER,BF,Maize,Maize,broad,7,308,308,308,0,0
+NGER,BF,Maize,Maize,core,7,308,308,308,0,0
+NGER,BF,Sorghum,Sorghum,broad,7,308,308,308,0,0
+NGER,BF,Sorghum,Sorghum,core,7,308,308,308,0,0
+NGER,BJ,Maize,Maize (Main),broad,4,176,176,176,0,0
+NGER,BJ,Maize,Maize (Main),core,4,176,176,176,0,0
+NGER,BJ,Maize,Maize (Second),broad,3,132,132,132,0,0
+NGER,BJ,Maize,Maize (Second),core,3,132,132,132,0,0
+NGER,BJ,Rice,Rice (Irrigated),broad,7,308,308,308,0,0
+NGER,BJ,Rice,Rice (Irrigated),core,7,308,308,308,0,0
+NGER,BJ,Sorghum,Sorghum,broad,7,308,308,308,0,0
+NGER,BJ,Sorghum,Sorghum,core,7,308,308,308,0,0
+NGER,ML,Maize,Maize,broad,2,88,88,88,0,0
+NGER,ML,Maize,Maize,core,2,88,88,88,0,0
+NGER,ML,Rice,Rice (Rainfed),broad,2,88,87,87,44,7
+NGER,ML,Rice,Rice (Rainfed),core,2,88,88,88,0,0
+NGER,ML,Sorghum,Sorghum,broad,2,88,88,88,0,0
+NGER,ML,Sorghum,Sorghum,core,2,88,88,88,0,0
+VOLT,BF,Maize,Maize,broad,31,1364,1364,1364,0,0
+VOLT,BF,Maize,Maize,core,31,1364,1364,1364,0,0
+VOLT,BF,Sorghum,Sorghum,broad,31,1364,1364,1364,0,0
+VOLT,BF,Sorghum,Sorghum,core,31,1364,1364,1364,0,0
+VOLT,BJ,Maize,Maize (Main),broad,7,308,308,308,0,0
+VOLT,BJ,Maize,Maize (Main),core,7,308,308,308,0,0
+VOLT,BJ,Maize,Maize (Second),broad,1,44,44,44,0,0
+VOLT,BJ,Maize,Maize (Second),core,1,44,44,44,0,0
+VOLT,BJ,Rice,Rice (Irrigated),broad,6,264,264,264,0,0
+VOLT,BJ,Rice,Rice (Irrigated),core,6,264,264,264,0,0
+VOLT,BJ,Sorghum,Sorghum,broad,6,264,264,264,0,0
+VOLT,BJ,Sorghum,Sorghum,core,6,264,264,264,0,0
+VOLT,GH,Maize,Maize (Second),broad,6,264,261,261,132,15
+VOLT,GH,Maize,Maize (Second),core,6,264,264,264,0,0
+VOLT,GH,Maize,Maize (South/Main),broad,2,88,88,88,0,0
+VOLT,GH,Maize,Maize (South/Main),core,2,88,88,88,0,0
+VOLT,GH,Rice,Rice (North),broad,5,220,220,220,0,0
+VOLT,GH,Rice,Rice (North),core,5,220,220,220,0,0
+VOLT,GH,Sorghum,Sorghum,broad,5,220,220,220,0,0
+VOLT,GH,Sorghum,Sorghum,core,5,220,220,220,0,0
+VOLT,TG,Maize,Maize (Main),broad,7,308,308,308,0,0
+VOLT,TG,Maize,Maize (Main),core,7,308,308,308,0,0
+VOLT,TG,Maize,Maize (Second),broad,7,308,308,308,0,0
+VOLT,TG,Maize,Maize (Second),core,7,308,308,308,0,0
+VOLT,TG,Rice,Rice,broad,5,220,220,220,0,0
+VOLT,TG,Rice,Rice,core,5,220,220,220,0,0
+VOLT,TG,Sorghum,Sorghum,broad,5,220,220,220,0,0
+VOLT,TG,Sorghum,Sorghum,core,5,220,220,220,0,0
+ZAMB,MW,Maize,Maize,broad,26,1144,1118,1118,1144,62
+ZAMB,MW,Maize,Maize,core,26,1144,1118,1118,1144,26
+ZAMB,MW,Rice,Rice,broad,26,1144,1118,1118,1144,52
+ZAMB,MW,Rice,Rice,core,26,1144,1118,1118,1144,26
+ZAMB,MW,Sorghum,Sorghum,broad,26,1144,1118,1118,1144,26
+ZAMB,MW,Sorghum,Sorghum,core,26,1144,1118,1118,1144,26
+ZAMB,ZM,Maize,Maize,broad,54,2376,2322,2322,2376,154
+ZAMB,ZM,Maize,Maize,core,54,2376,2322,2322,2376,97
+ZAMB,ZM,Sorghum,Sorghum,broad,39,1716,1677,1677,1716,78
+ZAMB,ZM,Sorghum,Sorghum,core,39,1716,1677,1677,1716,58
+ZAMB,ZW,Maize,Maize,broad,2,88,86,86,88,5
+ZAMB,ZW,Maize,Maize,core,2,88,86,86,88,3

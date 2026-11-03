@@ -1,0 +1,111 @@
+{
+  "utc": "2026-11-03T11:19:42.150189+00:00",
+  "status": "COMPLETE",
+  "source_calendar": "EC JRC ASAP v2018 FAO+FPAR, GAUL1; 80% geometry crosswalk with HarvestStat districts",
+  "source_climate": "CHIRPS v3 final monthly rainfall, original 1981-2024 GeoTIFF source-hash validated",
+  "calendar_fields": {
+    "sos_s": "start sowing",
+    "sos_e": "end sowing / start growing",
+    "eos_s": "end growing / start harvest",
+    "eos_e": "end harvest"
+  },
+  "units": "raw seasonal total mm per full calendar month included; seasonal_z = standardized normal anomaly, NOT SPI",
+  "phenology": "Static reference crop-region calendar; no annual variation or measured actual crop growth stages",
+  "methods": {
+    "broad": "sos_s through eos_e, inclusive months",
+    "core": "sos_e through eos_s, inclusive months",
+    "baseline": "1981-2010, by district × JRC crop-season × window",
+    "baseline_min_valid_years": 25,
+    "baseline_min_sd_mm": 5,
+    "pixel_valid_threshold": 3,
+    "cross_year": "months in calendar year before declared harvest year when start dekad > end dekad"
+  },
+  "errors": [],
+  "counts": {
+    "source_season_assignments": 338,
+    "distinct_districts": 159,
+    "source_crop_counts": {
+      "Maize": 146,
+      "Rice": 51,
+      "Sorghum": 128
+    },
+    "seasonal_year_rows": 29744,
+    "valid_precip_totals": 29394,
+    "complete_spatial_precip_windows": 29394,
+    "low_pixel_support_windows": 0,
+    "incomplete_source_windows": 350,
+    "valid_seasonal_z": 29394,
+    "crossyear_rows": 15400,
+    "crossyear_distinct_source_seasons": 350,
+    "years": 44
+  },
+  "qa": {
+    "reference_count_max": 30,
+    "reference_count_min": 29,
+    "duplicate_crop_season_district_year": 0,
+    "baseline_mean_recomputed_4_groups_example": [
+      {
+        "fnid": "BF2020A21300",
+        "jrc_crop_season": "Maize",
+        "window": "broad",
+        "baseline_count": 30,
+        "baseline_mean_mm": 669.7241885415477,
+        "baseline_sd_mm": 91.98164418727318
+      },
+      {
+        "fnid": "BF2020A21300",
+        "jrc_crop_season": "Maize",
+        "window": "core",
+        "baseline_count": 30,
+        "baseline_mean_mm": 573.310669215875,
+        "baseline_sd_mm": 90.1404924985583
+      },
+      {
+        "fnid": "BF2020A21300",
+        "jrc_crop_season": "Sorghum",
+        "window": "broad",
+        "baseline_count": 30,
+        "baseline_mean_mm": 669.7241885415477,
+        "baseline_sd_mm": 91.98164418727318
+      },
+      {
+        "fnid": "BF2020A21300",
+        "jrc_crop_season": "Sorghum",
+        "window": "core",
+        "baseline_count": 30,
+        "baseline_mean_mm": 573.310669215875,
+        "baseline_sd_mm": 90.1404924985583
+      }
+    ],
+    "2020_sample_cross_year": [
+      {
+        "country_code": "GH",
+        "crop": "Maize",
+        "jrc_crop_season": "Maize (Second)",
+        "calendar_months_included": "2019-08;2019-09;2019-10;2019-11;2019-12;2020-01",
+        "precip_total_mm": 486.6448928165856
+      },
+      {
+        "country_code": "GH",
+        "crop": "Maize",
+        "jrc_crop_season": "Maize (Second)",
+        "calendar_months_included": "2019-08;2019-09;2019-10;2019-11;2019-12;2020-01",
+        "precip_total_mm": 603.3249292107207
+      },
+      {
+        "country_code": "GH",
+        "crop": "Maize",
+        "jrc_crop_season": "Maize (Second)",
+        "calendar_months_included": "2019-08;2019-09;2019-10;2019-11;2019-12;2020-01",
+        "precip_total_mm": 672.8372262698321
+      },
+      {
+        "country_code": "ML",
+        "crop": "Rice",
+        "jrc_crop_season": "Rice (Rainfed)",
+        "calendar_months_included": "2019-06;2019-07;2019-08;2019-09;2019-10;2019-11;2019-12;2020-01",
+        "precip_total_mm": 637.7084565395459
+      }
+    ]
+  }
+}
