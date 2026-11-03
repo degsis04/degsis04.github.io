@@ -1,6 +1,6 @@
 {
-  "utc": "2026-11-03T13:44:54.573734+00:00",
-  "status": "FAILED",
+  "utc": "2026-11-03T13:46:56.271066+00:00",
+  "status": "COMPLETE",
   "source": {
     "url": "https://raw.githubusercontent.com/koendvos/AfricanCropCalendar/main/AfricanCropCalendar.csv",
     "doi": "https://doi.org/10.1038/s41597-026-07906-9",
@@ -100,8 +100,8 @@
       "pass": true,
       "detail": "7d6ed8d701d2bf2188bd48a68e9e3fe0c94b43fd"
     },
-    "expected_raw_rows_451550": {
-      "pass": false,
+    "source_table2_total_rows_462347": {
+      "pass": true,
       "detail": 462347
     },
     "essential_source_columns_present": {
@@ -117,9 +117,14 @@
       "detail": null
     }
   },
-  "errors": [
-    "expected_raw_rows_451550"
-  ],
+  "errors": [],
+  "publication_provenance_note": {
+    "paper_Table2_total_rows": 462347,
+    "paper_Data_Records_prose_rows": 451550,
+    "current_pinned_GitHub_rows": 462347,
+    "prose_minus_current": -10797,
+    "interpretation": "Peer-reviewed article Table 2 agrees with pinned GitHub file, while its Data Records narrative (451550) disagrees. Treat as source-internal inconsistency; do NOT silently replace the file to match narrative."
+  },
   "counts": {
     "three_crop_field_rows": 129855,
     "survey_countries": 6,
