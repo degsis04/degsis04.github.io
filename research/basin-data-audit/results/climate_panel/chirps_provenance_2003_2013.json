@@ -1,0 +1,1017 @@
+{
+  "run_utc": "2026-11-03T10:57:30.845991+00:00",
+  "status": "COMPLETE",
+  "part": "2003_2013",
+  "years_inclusive": [
+    2003,
+    2013
+  ],
+  "source_dataset": "CHIRPS v3 final monthly Africa",
+  "source_url_template": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.YYYY.MM.tif",
+  "units": "mm per calendar month, NOT mm/day; gridded estimate incorporating stations, NOT raw station observations",
+  "aggregation": "EPSG:4326 raster cell-centre assignment, cos(latitude) area-approx mean for each HarvestStat admin polygon",
+  "target_districts": "at least 80% of administrative polygon area in one NGER/VOLT/ZAMB BCU; no cropped-area weights",
+  "modeling_limits": "district local precipitation != actual upstream river flow, canal supply or crop-specific drought; no phenology assumptions",
+  "source_file_hashes": [
+    {
+      "url": "https://raw.githubusercontent.com/HarvestStat/HarvestStat-Africa/5b62fb5/public/hvstat_africa_boundary_v1.2.gpkg",
+      "sha256": "259e152dcae5b8629b2b76f789abb114219e07347a1dc1efaf8185281f7d028e",
+      "bytes": 8486912
+    },
+    {
+      "year": 2003,
+      "month": 1,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2003.01.tif",
+      "sha256": "bc4021545056458a4bfd498b809534aa711d3619456813f88e11c2894c17f2f1",
+      "bytes": 5156632
+    },
+    {
+      "year": 2003,
+      "month": 2,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2003.02.tif",
+      "sha256": "4794873bb2eee5dcec99563e3dd9fa02d8ee81063ebe529d9c48c98b9cedf5ef",
+      "bytes": 5339760
+    },
+    {
+      "year": 2003,
+      "month": 3,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2003.03.tif",
+      "sha256": "c116b6f005db42e0136e6f1a3ca95457f4c069293effc210ec7c01b527118ea4",
+      "bytes": 5004528
+    },
+    {
+      "year": 2003,
+      "month": 4,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2003.04.tif",
+      "sha256": "a0eca5ea55e8702e05c89553d91efabd1099c3b22eb9d257849943734e13ea30",
+      "bytes": 5399610
+    },
+    {
+      "year": 2003,
+      "month": 5,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2003.05.tif",
+      "sha256": "232ea5334e61106b4eb5f647dce08481933660be81a243bb47c007133ce1de66",
+      "bytes": 5226696
+    },
+    {
+      "year": 2003,
+      "month": 6,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2003.06.tif",
+      "sha256": "3beaedadf33ec3152d4ed4e5e116b23eb446cfe87b93f4623daa13b1f62e79a3",
+      "bytes": 5496924
+    },
+    {
+      "year": 2003,
+      "month": 7,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2003.07.tif",
+      "sha256": "6817cb201c418bea55a874b3b9e14db41fb5484bb40de43bc50d43d9d06629b0",
+      "bytes": 5660762
+    },
+    {
+      "year": 2003,
+      "month": 8,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2003.08.tif",
+      "sha256": "f7516d126fa3583518fd04d483da1e8508cca2b6661104995245c368bd03bdf5",
+      "bytes": 5855036
+    },
+    {
+      "year": 2003,
+      "month": 9,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2003.09.tif",
+      "sha256": "8160a05a43bcc85bb21f11c02576803e0c0392cee1c0e0abbaeef55868c57d75",
+      "bytes": 5663596
+    },
+    {
+      "year": 2003,
+      "month": 10,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2003.10.tif",
+      "sha256": "f40ed0c6f8b4d4ab9d08486b8748a26dad48d463eb4c3648e0cad20cfcc58282",
+      "bytes": 5608926
+    },
+    {
+      "year": 2003,
+      "month": 11,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2003.11.tif",
+      "sha256": "bbed8f1efef7542faaa9eb361fda9e0bb70b8365e287665e16fe3e746a081860",
+      "bytes": 5168494
+    },
+    {
+      "year": 2003,
+      "month": 12,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2003.12.tif",
+      "sha256": "631364b8d998fe73954ec0f4016bd30fcd57d5d16d3c1f3f5b4d3af010122ee2",
+      "bytes": 5390424
+    },
+    {
+      "year": 2004,
+      "month": 1,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2004.01.tif",
+      "sha256": "0b90d2f485d0d7c30b0ec3d2c3526570e27fdab5b52af74e533b541a91f221e6",
+      "bytes": 5494106
+    },
+    {
+      "year": 2004,
+      "month": 2,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2004.02.tif",
+      "sha256": "3cdbe84c9c8012bebed0e0171a8ae3295afc2a7b2d00c29968857db207ebdb73",
+      "bytes": 5201784
+    },
+    {
+      "year": 2004,
+      "month": 3,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2004.03.tif",
+      "sha256": "391ac7dd49378439e22aadf0a5324db86339a23caa5123e9552f552485021a04",
+      "bytes": 5465256
+    },
+    {
+      "year": 2004,
+      "month": 4,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2004.04.tif",
+      "sha256": "e427bbe626186549e2f835a7a21258e8a92a73da267d3adaa0829893f91cdcea",
+      "bytes": 5526864
+    },
+    {
+      "year": 2004,
+      "month": 5,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2004.05.tif",
+      "sha256": "1788a5284ef7c5f9ecb0275478422dd211e21df8cf0a4923e0e135656a6d629b",
+      "bytes": 4731302
+    },
+    {
+      "year": 2004,
+      "month": 6,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2004.06.tif",
+      "sha256": "dab96f2da574d52140d1329170dbd1d28dbadc8eea6bbcd563e458f883fa34aa",
+      "bytes": 5117602
+    },
+    {
+      "year": 2004,
+      "month": 7,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2004.07.tif",
+      "sha256": "d538e437d5d1adc3eaa54e607f76b9ccf548f6103ef770f8752e544e71abaacc",
+      "bytes": 5509510
+    },
+    {
+      "year": 2004,
+      "month": 8,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2004.08.tif",
+      "sha256": "84100043802023f0f9c2374baa5e97af723d4323815c7662d5f8b135a62b62a4",
+      "bytes": 5518984
+    },
+    {
+      "year": 2004,
+      "month": 9,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2004.09.tif",
+      "sha256": "883daff8b4beb8551bd304b1acf1965314bb35cd0ffe037d938bad3c13e2904d",
+      "bytes": 5471574
+    },
+    {
+      "year": 2004,
+      "month": 10,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2004.10.tif",
+      "sha256": "50356b67e8cdaa4aca0c408d9acf3172e8486fd5840b235046c8125e5d7030ab",
+      "bytes": 5348002
+    },
+    {
+      "year": 2004,
+      "month": 11,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2004.11.tif",
+      "sha256": "c2ec2ff2d973dfe8909f617ee0df156307d0930e1f2b4eb5c64639ad06060d9d",
+      "bytes": 5130066
+    },
+    {
+      "year": 2004,
+      "month": 12,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2004.12.tif",
+      "sha256": "a55d67da4a675a492eced2f3d369b50f7e74e471d2e650383e72c317f920c3c4",
+      "bytes": 5010730
+    },
+    {
+      "year": 2005,
+      "month": 1,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2005.01.tif",
+      "sha256": "6ee25686af24096b775ecb68f0c9d2564abadd8bea50a65ef7d40efc87d96d9c",
+      "bytes": 5034408
+    },
+    {
+      "year": 2005,
+      "month": 2,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2005.02.tif",
+      "sha256": "e4df1866220fa4d58934cca4736a61f28c176ff49bc8cc2a65bb0ddf6c9d6227",
+      "bytes": 5305270
+    },
+    {
+      "year": 2005,
+      "month": 3,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2005.03.tif",
+      "sha256": "61928a106aad2ba96604a87f9a40047e70c29a377506915c4385c66e234de139",
+      "bytes": 5261752
+    },
+    {
+      "year": 2005,
+      "month": 4,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2005.04.tif",
+      "sha256": "7135b37e01660c00277f3b2adc7ec728606162c80c359fafe11c227ce1972922",
+      "bytes": 5606122
+    },
+    {
+      "year": 2005,
+      "month": 5,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2005.05.tif",
+      "sha256": "34e30072839009f6f2ce6fe25bd24a67adc955c51dbe405cc900e4aba4a23332",
+      "bytes": 5322570
+    },
+    {
+      "year": 2005,
+      "month": 6,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2005.06.tif",
+      "sha256": "c9c710f69f06df365780e66763fb7bebe1447073fb67a0c92de785935bdc9613",
+      "bytes": 5529880
+    },
+    {
+      "year": 2005,
+      "month": 7,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2005.07.tif",
+      "sha256": "ffa8073fed7b6e57a6414dc011b13c667893afbf10bf58b30da26b33c10866be",
+      "bytes": 5467712
+    },
+    {
+      "year": 2005,
+      "month": 8,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2005.08.tif",
+      "sha256": "19c6d32abe73a1d1a5d28502a94fc7225e724b8ee28bf84fc6e99f1070d93c09",
+      "bytes": 5634796
+    },
+    {
+      "year": 2005,
+      "month": 9,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2005.09.tif",
+      "sha256": "5a9b962a4a67f8136098a7e7e39aaee2ac17511a0bb5deb29460f692621fde6a",
+      "bytes": 5704426
+    },
+    {
+      "year": 2005,
+      "month": 10,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2005.10.tif",
+      "sha256": "c64d39260010c21f8973500a67bcedb29f228c0975af1f9d5b5681d28e056660",
+      "bytes": 5282362
+    },
+    {
+      "year": 2005,
+      "month": 11,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2005.11.tif",
+      "sha256": "9893264e07353f629d36db08aef05f0147d098e472a22061e1ac3d7126f7f81b",
+      "bytes": 5136644
+    },
+    {
+      "year": 2005,
+      "month": 12,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2005.12.tif",
+      "sha256": "25d5383de433d7eb06b62446851527da5f0af4eafae8f21a0935658c30b86e25",
+      "bytes": 5252310
+    },
+    {
+      "year": 2006,
+      "month": 1,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2006.01.tif",
+      "sha256": "5f0f6b0fecb92cd7ffcd825ad520bade31937df2a1484b15037404ba9fe80790",
+      "bytes": 5400526
+    },
+    {
+      "year": 2006,
+      "month": 2,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2006.02.tif",
+      "sha256": "11ec389f086bff0fdf0b38a5d53cb704baef827adb2e81a59f0ca8cc36cb0a70",
+      "bytes": 5509734
+    },
+    {
+      "year": 2006,
+      "month": 3,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2006.03.tif",
+      "sha256": "113640696d96a9b7bf779e885b9ad9a0bf3057c5e6d7c44734c7e09d1f490ba8",
+      "bytes": 4799272
+    },
+    {
+      "year": 2006,
+      "month": 4,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2006.04.tif",
+      "sha256": "e80bdf5ee9cb8f6c655eb4033cd33af151b63696ea7cbc15dbbae56284caf806",
+      "bytes": 5207742
+    },
+    {
+      "year": 2006,
+      "month": 5,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2006.05.tif",
+      "sha256": "7c892a1ec62a886ec9aec29ddea54b2aaa98f40dc67062c6e338abff87913c91",
+      "bytes": 5483970
+    },
+    {
+      "year": 2006,
+      "month": 6,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2006.06.tif",
+      "sha256": "699240b6bd3ec61d37439ae1363ab8cd05e45e0238812a3b91b50417de6b45ed",
+      "bytes": 5218940
+    },
+    {
+      "year": 2006,
+      "month": 7,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2006.07.tif",
+      "sha256": "ca1fae2c93563aeb5535591422b2fe6177a789fa8368b53e19da60f17462dc45",
+      "bytes": 5509830
+    },
+    {
+      "year": 2006,
+      "month": 8,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2006.08.tif",
+      "sha256": "a56f542516f6fa59c2bb0075a0f4dabcd893fe9e47f2e8ee607ca35982e2ae8f",
+      "bytes": 5708576
+    },
+    {
+      "year": 2006,
+      "month": 9,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2006.09.tif",
+      "sha256": "a340770540e589f54f7c973e9b285f2a7aa58bc3af60f86b4882c981e489d1b2",
+      "bytes": 5838124
+    },
+    {
+      "year": 2006,
+      "month": 10,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2006.10.tif",
+      "sha256": "a9aa660ac47d0019234ebeed4cbdbbdaa22c196f0056d4df927f45745eae9449",
+      "bytes": 5790950
+    },
+    {
+      "year": 2006,
+      "month": 11,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2006.11.tif",
+      "sha256": "f46e0d3a584a7cff9c417f0397dc13fe3e4889f476e547fd0fb6350dc068caeb",
+      "bytes": 4993280
+    },
+    {
+      "year": 2006,
+      "month": 12,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2006.12.tif",
+      "sha256": "90541861e81bc45b361b1fd35d37a15454767920b590a2e13164ecd667ffb8cf",
+      "bytes": 4909324
+    },
+    {
+      "year": 2007,
+      "month": 1,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2007.01.tif",
+      "sha256": "c5e56bb393304e780f26a81340e9b0cd9a9a1a3cb89ec6436a99d220a870b994",
+      "bytes": 4996736
+    },
+    {
+      "year": 2007,
+      "month": 2,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2007.02.tif",
+      "sha256": "25bfdc09dbe710c31f007eae0c7af50488ae67d6d8e51d8e9105f1763cd79ded",
+      "bytes": 5326960
+    },
+    {
+      "year": 2007,
+      "month": 3,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2007.03.tif",
+      "sha256": "427ddc46818329da447f20485955b806605a20226a0ba460197d19d4f590cd63",
+      "bytes": 5236478
+    },
+    {
+      "year": 2007,
+      "month": 4,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2007.04.tif",
+      "sha256": "af2fe1b33f1974c1b51f077f18425817347c6f20b3010fd01bb346c101bea53f",
+      "bytes": 5607634
+    },
+    {
+      "year": 2007,
+      "month": 5,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2007.05.tif",
+      "sha256": "65ee91fb642f9a846d0a6dfac8e0df86740805f2b4df9d8c8fabe934e8b7e5e2",
+      "bytes": 5149372
+    },
+    {
+      "year": 2007,
+      "month": 6,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2007.06.tif",
+      "sha256": "77be56abfd38baadf5aff0350c2d94550deda3982fdfeb68aaa6d2c109ebe10e",
+      "bytes": 5082564
+    },
+    {
+      "year": 2007,
+      "month": 7,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2007.07.tif",
+      "sha256": "d93918e3cdd00cc35e6bd7b677b764cb4b200de91d6ddb3260fbda78e6fff346",
+      "bytes": 5493872
+    },
+    {
+      "year": 2007,
+      "month": 8,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2007.08.tif",
+      "sha256": "1a12db6ec9a06fa27bb226b604ae2f6a8677e7c228ca011926d01df2334156be",
+      "bytes": 5653386
+    },
+    {
+      "year": 2007,
+      "month": 9,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2007.09.tif",
+      "sha256": "3c3eca74ffaadeb699e4ab3fa4b806c40771282b8bb1152c5e2053f74041b852",
+      "bytes": 5573840
+    },
+    {
+      "year": 2007,
+      "month": 10,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2007.10.tif",
+      "sha256": "017f8ab03eecf6bcedf8ae619dae11a35f9632e653ce2069317bd91203f00989",
+      "bytes": 5182954
+    },
+    {
+      "year": 2007,
+      "month": 11,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2007.11.tif",
+      "sha256": "b6d783675fe4e9a47e74b347f909950312e377a0c7699e247d793363c0cf9147",
+      "bytes": 5148296
+    },
+    {
+      "year": 2007,
+      "month": 12,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2007.12.tif",
+      "sha256": "2c0b9ad8d6a83b84a2b3cacfc26d6850e51dece8f8ec20e74ec51683feca2bd8",
+      "bytes": 5061154
+    },
+    {
+      "year": 2008,
+      "month": 1,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2008.01.tif",
+      "sha256": "88dc5d4c6dca1052635b3987dfe6dcbe6ad1bb300ba132024ba2b88e0a7848f4",
+      "bytes": 5077658
+    },
+    {
+      "year": 2008,
+      "month": 2,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2008.02.tif",
+      "sha256": "55553740feba08ff27e67c181c1158825cc1beac72d9fc64c0afadcf37dd2d33",
+      "bytes": 4780826
+    },
+    {
+      "year": 2008,
+      "month": 3,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2008.03.tif",
+      "sha256": "93d88634f92aac8ae6b4183249ead9b6cc730386173f6760aa106ddb1480c3cb",
+      "bytes": 4672778
+    },
+    {
+      "year": 2008,
+      "month": 4,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2008.04.tif",
+      "sha256": "d909adb4805a90b541fab8378778a5f2a1398ea0b448e9a9fedd6cf4273b5c65",
+      "bytes": 5346512
+    },
+    {
+      "year": 2008,
+      "month": 5,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2008.05.tif",
+      "sha256": "68db9e63b09fb5f32418c879afc2d32cd882e3754186c69fba3d3fea1a8a78ba",
+      "bytes": 5498182
+    },
+    {
+      "year": 2008,
+      "month": 6,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2008.06.tif",
+      "sha256": "e262841292acf816eba61ef67c9fa59e089bfe3a7693a22d3d4fd90d6940bae4",
+      "bytes": 4950126
+    },
+    {
+      "year": 2008,
+      "month": 7,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2008.07.tif",
+      "sha256": "9d423e34ac8c513803d706b92b6318f2567fb7ccb78bf5e93f8c9e90fcf6e8ba",
+      "bytes": 5539852
+    },
+    {
+      "year": 2008,
+      "month": 8,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2008.08.tif",
+      "sha256": "838901240fcfd275aa790dff67fe5b4e9b36efd1095198b74720f7ec0d9c0d06",
+      "bytes": 5501532
+    },
+    {
+      "year": 2008,
+      "month": 9,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2008.09.tif",
+      "sha256": "a153fc5ae0fb18def0730441f524acb2a02578ccbcb48274b91b27774d28dd91",
+      "bytes": 5697934
+    },
+    {
+      "year": 2008,
+      "month": 10,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2008.10.tif",
+      "sha256": "de6fe642c8d31e87ac54f475ed21887fc4afe77a96379f8372cae2850c2a12f6",
+      "bytes": 5403192
+    },
+    {
+      "year": 2008,
+      "month": 11,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2008.11.tif",
+      "sha256": "e69e98cdd585bd765c3ecbb3051634697c6ee7315612866667dcac18dfefd048",
+      "bytes": 5101282
+    },
+    {
+      "year": 2008,
+      "month": 12,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2008.12.tif",
+      "sha256": "0c8ce4a441887e4f333a9474086d6c7e4e96c5c900acc6689eda87fda1d65b70",
+      "bytes": 5341816
+    },
+    {
+      "year": 2009,
+      "month": 1,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2009.01.tif",
+      "sha256": "7a62218eb9ea94a2a62a5dea78f5dcb2ba2515bb8ae123ffb20552e29b1f231a",
+      "bytes": 5787760
+    },
+    {
+      "year": 2009,
+      "month": 2,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2009.02.tif",
+      "sha256": "7bb6026031c66597ffd7c9fe672fd022275ccf5a46b5979aa8625200d7fd6b49",
+      "bytes": 5000250
+    },
+    {
+      "year": 2009,
+      "month": 3,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2009.03.tif",
+      "sha256": "2ec5312b19a5d96f0b552cfe2d7c4b9cd821ed0f2cfa897865b758ddf11f4de4",
+      "bytes": 5290736
+    },
+    {
+      "year": 2009,
+      "month": 4,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2009.04.tif",
+      "sha256": "54ee44305950247bce41567a76cb7cc11d0068b964bc0425621317af8996ed72",
+      "bytes": 5207924
+    },
+    {
+      "year": 2009,
+      "month": 5,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2009.05.tif",
+      "sha256": "d5465721cbbe001e3477c6ec4c9aec77b5c8b5a81d2f2c2be53440f2c0f48e8b",
+      "bytes": 5431530
+    },
+    {
+      "year": 2009,
+      "month": 6,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2009.06.tif",
+      "sha256": "8114e73f37ef544fae1440456b9cfdda6daacb9a66c3ca920ed4c693ce82c2fc",
+      "bytes": 5718144
+    },
+    {
+      "year": 2009,
+      "month": 7,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2009.07.tif",
+      "sha256": "8c62299ad72114bd6465d6741fc64fa34dcfeb6c102f3384c0303531b8e0f752",
+      "bytes": 5534858
+    },
+    {
+      "year": 2009,
+      "month": 8,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2009.08.tif",
+      "sha256": "a50ed076ae376795c3d06d3db23a85014cd053643d20d966e6ca1c43b7411ef0",
+      "bytes": 5458820
+    },
+    {
+      "year": 2009,
+      "month": 9,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2009.09.tif",
+      "sha256": "383cc135932118968415a6b10f828eb2b59055028214bc3c2848ba54819fb193",
+      "bytes": 5853682
+    },
+    {
+      "year": 2009,
+      "month": 10,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2009.10.tif",
+      "sha256": "278861602ea403a0d1ba56e978e5baca01d2b5db71199ee2a0f782aab6834ead",
+      "bytes": 5619394
+    },
+    {
+      "year": 2009,
+      "month": 11,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2009.11.tif",
+      "sha256": "a2ffdbf3c698295cd2e76cf7cf1fbecd85019ffb5c1eafa3e5eceecc2a4b245f",
+      "bytes": 5345320
+    },
+    {
+      "year": 2009,
+      "month": 12,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2009.12.tif",
+      "sha256": "7906b9080eddffd55dcdc56dbf772d92b579edca2db391d68ae7761860861d36",
+      "bytes": 5315488
+    },
+    {
+      "year": 2010,
+      "month": 1,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2010.01.tif",
+      "sha256": "deb72ab162027fd3ddbe7505cefcba90499e4b60e2859571e49e9d3d0434bf4b",
+      "bytes": 4906866
+    },
+    {
+      "year": 2010,
+      "month": 2,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2010.02.tif",
+      "sha256": "5a39d8d7d19ff04af15a606cc9fd34d6fca026bff98d79db0fcd932544129368",
+      "bytes": 4605670
+    },
+    {
+      "year": 2010,
+      "month": 3,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2010.03.tif",
+      "sha256": "1270c83b97a991f6cf86f0cf49848c0548501b2c408c17c8f501646010e80bca",
+      "bytes": 4837170
+    },
+    {
+      "year": 2010,
+      "month": 4,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2010.04.tif",
+      "sha256": "d2c21a6dbb8136d09bb32e2829279f87a1bd4094cb3aefadb68fe6f5b8177308",
+      "bytes": 5713486
+    },
+    {
+      "year": 2010,
+      "month": 5,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2010.05.tif",
+      "sha256": "ab0f26b6be74a31fc9596c688463f52baa4f6db3851c8cdb4020ad2943cadc54",
+      "bytes": 5292642
+    },
+    {
+      "year": 2010,
+      "month": 6,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2010.06.tif",
+      "sha256": "320a14164d951df9035f1eecccbbe83c4977927db236ca5bfb599b791fe9a34b",
+      "bytes": 5148322
+    },
+    {
+      "year": 2010,
+      "month": 7,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2010.07.tif",
+      "sha256": "f012811d1af30244b1f5a5a6b2bc5d11b062aa1be4f76211232c056abdea3c60",
+      "bytes": 5637930
+    },
+    {
+      "year": 2010,
+      "month": 8,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2010.08.tif",
+      "sha256": "81500d7f000ffce4a5e9cf59a04806f42ce741ff976f8a19c2b24d88decea0b2",
+      "bytes": 5650012
+    },
+    {
+      "year": 2010,
+      "month": 9,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2010.09.tif",
+      "sha256": "598258578ebd078a7d454bfb37828b5460c2013bbe036a0d06acd451e32cbc13",
+      "bytes": 5744038
+    },
+    {
+      "year": 2010,
+      "month": 10,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2010.10.tif",
+      "sha256": "3cc78771fb646dc8f809aacd4b54bc225c54fac3781094016749fd87a880316e",
+      "bytes": 5527182
+    },
+    {
+      "year": 2010,
+      "month": 11,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2010.11.tif",
+      "sha256": "bf6de34f943ac6b27d42b5a8044028edb4dfd622a1dab7e40818bd9f5a6af95c",
+      "bytes": 4848456
+    },
+    {
+      "year": 2010,
+      "month": 12,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2010.12.tif",
+      "sha256": "0d6516203d1f6ea18d0f27a2f54c355c7a58f52c95c17f94b156fb6b09f35281",
+      "bytes": 5119520
+    },
+    {
+      "year": 2011,
+      "month": 1,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2011.01.tif",
+      "sha256": "7c217045170e7db51c7dda9f8374cd34a394aa02de48ed7986e7ad0d8a25a0a0",
+      "bytes": 5162674
+    },
+    {
+      "year": 2011,
+      "month": 2,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2011.02.tif",
+      "sha256": "4f13a7a642db6619b21b16e32907d1c9db2b1bfa21aa5be71ae6f5f6d7183d25",
+      "bytes": 4818224
+    },
+    {
+      "year": 2011,
+      "month": 3,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2011.03.tif",
+      "sha256": "cc0a54dbc1afcae3280995bbcbb4bcda3e7b54617bd66f02648e4f7c9b62bc06",
+      "bytes": 4793862
+    },
+    {
+      "year": 2011,
+      "month": 4,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2011.04.tif",
+      "sha256": "198b00c4f8030a3f94b5dc6d69da087cd0f7711faba9d1077a19e8488c1a1895",
+      "bytes": 5278800
+    },
+    {
+      "year": 2011,
+      "month": 5,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2011.05.tif",
+      "sha256": "6f38befd68d379658eb25ca5ad8093bc2de4590117f15f9965b388fb1cfee093",
+      "bytes": 5385666
+    },
+    {
+      "year": 2011,
+      "month": 6,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2011.06.tif",
+      "sha256": "26db2e92dae4a780b950422cc7d10d20103c05787a1f4f3c48a237aa88223dcf",
+      "bytes": 5227576
+    },
+    {
+      "year": 2011,
+      "month": 7,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2011.07.tif",
+      "sha256": "2e712fbceff292ac2c668e1519b64114fb89ca0ce72a3ec18ef7b26d61ec4185",
+      "bytes": 5589686
+    },
+    {
+      "year": 2011,
+      "month": 8,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2011.08.tif",
+      "sha256": "683582b474ae51e74d8e9a26960d1156049934d71e52f05dac938e661afd1abf",
+      "bytes": 5663004
+    },
+    {
+      "year": 2011,
+      "month": 9,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2011.09.tif",
+      "sha256": "d1789eb7c0415e489da499b9337215b7767303d27c6b6c7e106961a8631007d8",
+      "bytes": 5368902
+    },
+    {
+      "year": 2011,
+      "month": 10,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2011.10.tif",
+      "sha256": "be13eaf83d1de071803aaf856a8a35328e1177b5253f1b9e8ce2fa991ce8c667",
+      "bytes": 5361570
+    },
+    {
+      "year": 2011,
+      "month": 11,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2011.11.tif",
+      "sha256": "a8ac86cc70c24f320cfa6c39b15522b18006594f58f77d2487be61c550fc80df",
+      "bytes": 4597038
+    },
+    {
+      "year": 2011,
+      "month": 12,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2011.12.tif",
+      "sha256": "441218ba1eb67d151320a095ec2e96de5e2e94f61dda352db57e71ee0cf80396",
+      "bytes": 4838566
+    },
+    {
+      "year": 2012,
+      "month": 1,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2012.01.tif",
+      "sha256": "271d05b82d8b44974193934085bd6e89d18fe19bc8f9b7307ac123602801f6fe",
+      "bytes": 4578442
+    },
+    {
+      "year": 2012,
+      "month": 2,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2012.02.tif",
+      "sha256": "f94fd1875f6a153c5a371723f0acb1ccf977aca03af4783fbb6f91fe735de6fc",
+      "bytes": 5448250
+    },
+    {
+      "year": 2012,
+      "month": 3,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2012.03.tif",
+      "sha256": "d16a06494820591d07e627aff77b896daea4303789cc28fd3d4a5c376163b55a",
+      "bytes": 5050718
+    },
+    {
+      "year": 2012,
+      "month": 4,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2012.04.tif",
+      "sha256": "9ec0b47a81008fa5d51a7ebd6d54d2f22ee60791d81fcb8151352ada9b3b1ae3",
+      "bytes": 5645020
+    },
+    {
+      "year": 2012,
+      "month": 5,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2012.05.tif",
+      "sha256": "9613be89b2bf9d6fa5c3e3c2cc6363c25c53a18ce8178e240d3db26c271cda05",
+      "bytes": 5282716
+    },
+    {
+      "year": 2012,
+      "month": 6,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2012.06.tif",
+      "sha256": "a63cd0a781ea866ba1729f2af3704cdc1f4af9e1f85276619f595a228a54ca1f",
+      "bytes": 5305136
+    },
+    {
+      "year": 2012,
+      "month": 7,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2012.07.tif",
+      "sha256": "052bd19bb876191be862b7ca21a393986ad8897a5138326d8a6a616150631307",
+      "bytes": 5376206
+    },
+    {
+      "year": 2012,
+      "month": 8,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2012.08.tif",
+      "sha256": "5b7c5a5ae3ccc9d5717df4f3f76fa7c2ffa2d276e4acc3edbc33f14ecd158d98",
+      "bytes": 5550706
+    },
+    {
+      "year": 2012,
+      "month": 9,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2012.09.tif",
+      "sha256": "2e266603acc0b0cda1c56355d01ea451d583dbe64d5273527b223ffe2db4c43d",
+      "bytes": 5729534
+    },
+    {
+      "year": 2012,
+      "month": 10,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2012.10.tif",
+      "sha256": "f90160025fea26336c128c163661297f558a92832d60450499585db631c91f3a",
+      "bytes": 5784238
+    },
+    {
+      "year": 2012,
+      "month": 11,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2012.11.tif",
+      "sha256": "b70faf70b9d83b402b866769a0f3b6f7b515ada66a8f7d2c6aa6882f95bf3fcb",
+      "bytes": 5364900
+    },
+    {
+      "year": 2012,
+      "month": 12,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2012.12.tif",
+      "sha256": "834a63d2c7365f7f711736c347cb62b586b94af5303ea32a4d60a6746fda6218",
+      "bytes": 5206064
+    },
+    {
+      "year": 2013,
+      "month": 1,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2013.01.tif",
+      "sha256": "ff6f117634fb2cac9a8cd064a5a66167459fe166b1b359d1220e909b52f8e784",
+      "bytes": 5422204
+    },
+    {
+      "year": 2013,
+      "month": 2,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2013.02.tif",
+      "sha256": "227d6c07b6f35afe0537baa88361b5c6db4083c2792f0a7f335fcdbe94e19490",
+      "bytes": 4662870
+    },
+    {
+      "year": 2013,
+      "month": 3,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2013.03.tif",
+      "sha256": "787ff09c235c9db1f5b955a8faf5e2870542fa1792b1da57f5edf360d96faba4",
+      "bytes": 5231684
+    },
+    {
+      "year": 2013,
+      "month": 4,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2013.04.tif",
+      "sha256": "605308544f6eb2c4604dcf751577ccdfbcc32d4d2ccd3804312329774ca4f269",
+      "bytes": 5251806
+    },
+    {
+      "year": 2013,
+      "month": 5,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2013.05.tif",
+      "sha256": "b472eda3dc376a7fb1f9e5ab869744e13c3c292faf0fc2fe3821595347feffbc",
+      "bytes": 5094370
+    },
+    {
+      "year": 2013,
+      "month": 6,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2013.06.tif",
+      "sha256": "fcd046fd9bbc34b830127bf4a4556b6ef66792960120a06f4ed857859c9d0378",
+      "bytes": 5079344
+    },
+    {
+      "year": 2013,
+      "month": 7,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2013.07.tif",
+      "sha256": "e7db2675ec8926aec144ca3359c731ba476d89e219b30ecc35630f78a1451e6b",
+      "bytes": 5619920
+    },
+    {
+      "year": 2013,
+      "month": 8,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2013.08.tif",
+      "sha256": "22afaac3c07becf90e7f049e93b8a82c90b8215752a067acd88a0169d0ee44f6",
+      "bytes": 5566238
+    },
+    {
+      "year": 2013,
+      "month": 9,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2013.09.tif",
+      "sha256": "56e564bc2277a06080888807442705729a7bebe778014895a481a3ed12d99d98",
+      "bytes": 5706260
+    },
+    {
+      "year": 2013,
+      "month": 10,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2013.10.tif",
+      "sha256": "87ce74f59f03cb0a44aaa5ebbba09ea0b70dfc1334a574dfb0057a3e2523d30f",
+      "bytes": 4986108
+    },
+    {
+      "year": 2013,
+      "month": 11,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2013.11.tif",
+      "sha256": "c12219b38a1e159aa4445db709441571391d46dfcb2e4479f2dcfa50539a7c11",
+      "bytes": 5466690
+    },
+    {
+      "year": 2013,
+      "month": 12,
+      "url": "https://data.chc.ucsb.edu/products/CHIRPS/v3.0/monthly/africa/tifs/chirps-v3.0.2013.12.tif",
+      "sha256": "4bb7bc4909bf92706e052ed7d2f85b126b940fa0f998bb5fe99ddd1dce49b9ac",
+      "bytes": 5396018
+    }
+  ],
+  "checks": [
+    {
+      "name": "253_districts",
+      "pass": true,
+      "details": 253
+    },
+    {
+      "name": "unique_zone_ids",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "non_null_polygon_geometries",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "raster_resolution_0.05",
+      "pass": true,
+      "details": [
+        0.05000000074505806,
+        0.05000000074505806
+      ]
+    },
+    {
+      "name": "raster_crs_4326",
+      "pass": true,
+      "details": "EPSG:4326"
+    },
+    {
+      "name": "at_least_one_cell_covered_by_zone",
+      "pass": true,
+      "details": {
+        "districts_with_pixel_centres": 253,
+        "without_centres": 0
+      }
+    },
+    {
+      "name": "positive_cell_area_weights",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "expected_district_month_rows",
+      "pass": true,
+      "details": {
+        "actual": 33396,
+        "expected": 33396
+      }
+    },
+    {
+      "name": "unique_district_month",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all_source_months_accounted_for",
+      "pass": true,
+      "details": null
+    }
+  ],
+  "errors": [],
+  "counts": {
+    "rows": 33396,
+    "months": 132,
+    "districts": 253,
+    "valid_rainfall": 33396,
+    "low_pixel_support": 396,
+    "no_valid_cell": 0,
+    "period": "2003_2013"
+  }
+}
