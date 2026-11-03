@@ -1,0 +1,163 @@
+{
+  "utc": "2026-11-03T11:15:19.391482+00:00",
+  "status": "FAILED",
+  "attribution": "EC-JRC ASAP 2018 FAO+satellite phenology calendar; World Bank 2025 mirror",
+  "definition": "Source calendar is a reference growing-season window, not yearly observed onset",
+  "units": "dekad index 1..36 (three approximate 10-day segments/month); not daily planting dates",
+  "target": {
+    "Burkina Faso": "BF",
+    "Mali": "ML",
+    "Benin": "BJ",
+    "Ghana": "GH",
+    "Togo": "TG",
+    "Zimbabwe": "ZW",
+    "Zambia": "ZM",
+    "Malawi": "MW"
+  },
+  "source_checks": [
+    {
+      "check": "source_hash_jrc_crop_calendar_gaul1.zip",
+      "pass": true,
+      "details": "f49b56942e00ec2927bb6b26212e07085a9d94f6779480e16251a6648b19dc73"
+    },
+    {
+      "check": "all_sos_s_in_1_36",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "all_sos_e_in_1_36",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "all_eos_s_in_1_36",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "all_eos_e_in_1_36",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "valid_source_calendar_uniqueness",
+      "pass": true,
+      "details": 0
+    },
+    {
+      "check": "source_hash_jrc_crop_calendar_gaul0.csv",
+      "pass": true,
+      "details": "4aec81e67dd8db2fc95e56d25f9031d9692421d8226519ca773449dbb442b147"
+    }
+  ],
+  "counts": {
+    "subnational_crop_rows": 112,
+    "coverage_by_country_crop": [
+      {
+        "name0_shr": "Benin",
+        "crop": "Maize",
+        "rows": 9
+      },
+      {
+        "name0_shr": "Benin",
+        "crop": "Rice",
+        "rows": 2
+      },
+      {
+        "name0_shr": "Benin",
+        "crop": "Sorghum",
+        "rows": 2
+      },
+      {
+        "name0_shr": "Burkina Faso",
+        "crop": "Maize",
+        "rows": 13
+      },
+      {
+        "name0_shr": "Burkina Faso",
+        "crop": "Sorghum",
+        "rows": 13
+      },
+      {
+        "name0_shr": "Ghana",
+        "crop": "Maize",
+        "rows": 13
+      },
+      {
+        "name0_shr": "Ghana",
+        "crop": "Rice",
+        "rows": 3
+      },
+      {
+        "name0_shr": "Ghana",
+        "crop": "Sorghum",
+        "rows": 3
+      },
+      {
+        "name0_shr": "Malawi",
+        "crop": "Maize",
+        "rows": 3
+      },
+      {
+        "name0_shr": "Malawi",
+        "crop": "Rice",
+        "rows": 3
+      },
+      {
+        "name0_shr": "Malawi",
+        "crop": "Sorghum",
+        "rows": 3
+      },
+      {
+        "name0_shr": "Mali",
+        "crop": "Maize",
+        "rows": 4
+      },
+      {
+        "name0_shr": "Mali",
+        "crop": "Rice",
+        "rows": 4
+      },
+      {
+        "name0_shr": "Mali",
+        "crop": "Sorghum",
+        "rows": 4
+      },
+      {
+        "name0_shr": "Togo",
+        "crop": "Maize",
+        "rows": 8
+      },
+      {
+        "name0_shr": "Togo",
+        "crop": "Rice",
+        "rows": 1
+      },
+      {
+        "name0_shr": "Togo",
+        "crop": "Sorghum",
+        "rows": 1
+      },
+      {
+        "name0_shr": "Zambia",
+        "crop": "Maize",
+        "rows": 9
+      },
+      {
+        "name0_shr": "Zambia",
+        "crop": "Sorghum",
+        "rows": 6
+      },
+      {
+        "name0_shr": "Zimbabwe",
+        "crop": "Maize",
+        "rows": 8
+      }
+    ]
+  },
+  "errors": [
+    "Error tokenizing data. C error: Expected 1 fields in line 26, saw 2\n"
+  ],
+  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/degsis04.github.io/degsis04.github.io/research/basin-data-audit/scripts/jrc_asap_spatial_crosswalk_v1.py\", line 68, in <module>\n    natdf=pd.read_csv(natp)\n          ^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/pandas/io/parsers/readers.py\", line 1026, in read_csv\n    return _read(filepath_or_buffer, kwds)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/pandas/io/parsers/readers.py\", line 626, in _read\n    return parser.read(nrows)\n           ^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/pandas/io/parsers/readers.py\", line 1923, in read\n    ) = self._engine.read(  # type: ignore[attr-defined]\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/pandas/io/parsers/c_parser_wrapper.py\", line 234, in read\n    chunks = self._reader.read_low_memory(nrows)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"pandas/_libs/parsers.pyx\", line 838, in pandas._libs.parsers.TextReader.read_low_memory\n  File \"pandas/_libs/parsers.pyx\", line 905, in pandas._libs.parsers.TextReader._read_rows\n  File \"pandas/_libs/parsers.pyx\", line 874, in pandas._libs.parsers.TextReader._tokenize_rows\n  File \"pandas/_libs/parsers.pyx\", line 891, in pandas._libs.parsers.TextReader._check_tokenize_status\n  File \"pandas/_libs/parsers.pyx\", line 2061, in pandas._libs.parsers.raise_parser_error\npandas.errors.ParserError: Error tokenizing data. C error: Expected 1 fields in line 26, saw 2\n\n"
+}
