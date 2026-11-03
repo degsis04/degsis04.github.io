@@ -1,10 +1,10 @@
 {
-  "run_utc": "2026-11-03T15:49:41.842264+00:00",
+  "run_utc": "2026-11-03T15:50:43.437282+00:00",
   "status": "UNAVAILABLE",
   "api_endpoint": "https://datadryad.org/api/v2",
   "doi": "10.5061/dryad.vq83bk42w",
   "errors": [
-    "ValueError('Unable to discover Dryad version ID from official API')"
+    "ValueError('No official Dryad raw file ID')"
   ],
   "publication": "v1.2 source archive published July 2026",
   "warnings": [
@@ -17,11 +17,33 @@
     "versionNumber": 12,
     "versionStatus": "submitted",
     "id": 138606,
-    "versionId": null
+    "versionId": null,
+    "links": {
+      "self": {
+        "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.vq83bk42w"
+      },
+      "stash:versions": {
+        "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.vq83bk42w/versions"
+      },
+      "stash:version": {
+        "href": "/api/v2/versions/452999"
+      },
+      "stash:download": {
+        "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.vq83bk42w/download"
+      },
+      "curies": [
+        {
+          "name": "stash",
+          "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+          "templated": "true"
+        }
+      ]
+    }
   },
   "versions_metadata": [
     {
       "id": null,
+      "version_link": "/api/v2/versions/314882",
       "created": null,
       "versionNumber": 4,
       "versionStatus": "submitted",
@@ -29,6 +51,7 @@
     },
     {
       "id": null,
+      "version_link": "/api/v2/versions/354787",
       "created": null,
       "versionNumber": 6,
       "versionStatus": "submitted",
@@ -36,6 +59,7 @@
     },
     {
       "id": null,
+      "version_link": "/api/v2/versions/359713",
       "created": null,
       "versionNumber": 9,
       "versionStatus": "submitted",
@@ -43,11 +67,33 @@
     },
     {
       "id": null,
+      "version_link": "/api/v2/versions/452999",
       "created": null,
       "versionNumber": 12,
       "versionStatus": "submitted",
       "publicationDate": "2026-07-17"
     }
   ],
-  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/degsis04.github.io/degsis04.github.io/research/basin-data-audit/scripts/malawi_raw_FDW_Dryad_inventory.py\", line 38, in <module>\n    if not candidates:raise ValueError(\"Unable to discover Dryad version ID from official API\")\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Unable to discover Dryad version ID from official API\n"
+  "scanned_versions": [
+    {
+      "id": 452999,
+      "filenames": [
+        "CHANGELOG.md",
+        "fdw_raw_data_v1.2.zip",
+        "hvstat_africa_boundary_v1.2_shp.zip",
+        "hvstat_africa_boundary_v1.2.gpkg",
+        "hvstat_africa_data_v1.2.csv",
+        "README.md"
+      ]
+    }
+  ],
+  "raw_file": {
+    "version_id": 452999,
+    "file_id": null,
+    "path": "fdw_raw_data_v1.2.zip",
+    "size": 54698516,
+    "digestType": "sha-256",
+    "digest": "6e8128f8854f38172aea24583e537395242abafab4382441b3d53805c44b452b"
+  },
+  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/degsis04.github.io/degsis04.github.io/research/basin-data-audit/scripts/malawi_raw_FDW_Dryad_inventory.py\", line 64, in <module>\n    if not fileid:raise ValueError(\"No official Dryad raw file ID\")\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: No official Dryad raw file ID\n"
 }
