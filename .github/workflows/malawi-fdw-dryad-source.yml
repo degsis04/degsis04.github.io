@@ -1,0 +1,32 @@
+name: Canonical Dryad v1.2 raw FDW Malawi metadata investigation
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/malawi-fdw-dryad-source.yml'
+      - 'research/basin-data-audit/scripts/malawi_raw_FDW_Dryad_inventory.py'
+permissions:
+  contents: write
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install 'pandas>=2.2,<3' 'numpy>=1.26,<3' 'requests>=2.31,<3'
+      - run: python research/basin-data-audit/scripts/malawi_raw_FDW_Dryad_inventory.py
+      - name: Preserve official source result or blocker
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/basin-data-audit/results/malawi_maize_semantics_v1/raw_fdw_Malawi_DRYAD_canonical_archive_inventory.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'source provenance: Dryad v1.2 original Malawi raw FDW schema or blocker'
+            for attempt in 1 2 3 4 5; do
+              git pull --rebase && git push && break || sleep 5
+            done
+          fi
