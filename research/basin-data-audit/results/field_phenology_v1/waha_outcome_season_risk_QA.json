@@ -1,0 +1,89 @@
+{
+  "utc": "2026-11-03T13:50:43.162908+00:00",
+  "status": "COMPLETE",
+  "errors": [],
+  "interpretation": "Heuristic MONTH-agreement risk flags for fixed JRC windows only. Not a field validation of HarvestStat season.",
+  "thresholds": {
+    "HIGH_DISAGREEMENT": "Either sow/harvest JRC month coverage <0.50",
+    "MODERATE_DISAGREEMENT": "Either coverage <0.70 while neither <0.50",
+    "RELATIVELY_HIGH_MONTH_AGREEMENT": "Both coverages >=0.70",
+    "NO_SURVEY_CROP_REGION_MATCH": "No comparable region-crop survey table; do not infer quality"
+  },
+  "warnings": [
+    "Unweighted field records, not nationally representative crop-area shares",
+    "Mali planting YEAR missing; not annual phenology validation",
+    "JRC broad window includes all months up to end of harvest; a mismatch in harvest dates may or may not change core growing-season rainfall.",
+    "Coverage <50% is an exploratory caution, not a statistical test/rejection of JRC",
+    "Do not automatically exclude or declare any HarvestStat observations confirmed."
+  ],
+  "counts": {
+    "source_reference_regions_crop_matches": 20,
+    "provisional_HarvestStat_strata": 448,
+    "with_independent_field_month_comparison": 114,
+    "strata_risk_counts": {
+      "NO_SURVEY_CROP_REGION_MATCH": 334,
+      "HIGH_DISAGREEMENT": 93,
+      "MODERATE_DISAGREEMENT": 18,
+      "RELATIVELY_HIGH_MONTH_AGREEMENT": 3
+    },
+    "yield_rows_risk_counts": {
+      "NO_SURVEY_CROP_REGION_MATCH": 6521,
+      "HIGH_DISAGREEMENT": 1637,
+      "MODERATE_DISAGREEMENT": 363,
+      "RELATIVELY_HIGH_MONTH_AGREEMENT": 121
+    },
+    "n_yield_rows_unchanged": 8642,
+    "n_bcu_independent_institutions_confirmed": 0,
+    "n_outcome_strata_crop_pheno_validated": 0,
+    "strata_by_country_crop_risk": [
+      {
+        "country_code": "ML",
+        "crop": "Maize",
+        "field_survey_JRC_month_agreement_flag": "HIGH_DISAGREEMENT",
+        "n": 1
+      },
+      {
+        "country_code": "ML",
+        "crop": "Maize",
+        "field_survey_JRC_month_agreement_flag": "RELATIVELY_HIGH_MONTH_AGREEMENT",
+        "n": 1
+      },
+      {
+        "country_code": "ML",
+        "crop": "Sorghum",
+        "field_survey_JRC_month_agreement_flag": "RELATIVELY_HIGH_MONTH_AGREEMENT",
+        "n": 2
+      },
+      {
+        "country_code": "MW",
+        "crop": "Maize",
+        "field_survey_JRC_month_agreement_flag": "HIGH_DISAGREEMENT",
+        "n": 28
+      },
+      {
+        "country_code": "MW",
+        "crop": "Maize",
+        "field_survey_JRC_month_agreement_flag": "MODERATE_DISAGREEMENT",
+        "n": 18
+      },
+      {
+        "country_code": "MW",
+        "crop": "Rice",
+        "field_survey_JRC_month_agreement_flag": "HIGH_DISAGREEMENT",
+        "n": 46
+      },
+      {
+        "country_code": "MW",
+        "crop": "Sorghum",
+        "field_survey_JRC_month_agreement_flag": "HIGH_DISAGREEMENT",
+        "n": 18
+      },
+      {
+        "country_code": "MW",
+        "crop": "Sorghum",
+        "field_survey_JRC_month_agreement_flag": "NO_SURVEY_CROP_REGION_MATCH",
+        "n": 4
+      }
+    ]
+  }
+}
