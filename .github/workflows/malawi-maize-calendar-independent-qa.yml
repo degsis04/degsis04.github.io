@@ -1,0 +1,33 @@
+name: Independent Malawi maize calendar weather calculation and drought classification QA
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/malawi-maize-calendar-independent-qa.yml'
+      - 'research/basin-data-audit/scripts/malawi_maize_calendar_sensitivity_independent_QA.py'
+      - 'research/basin-data-audit/results/malawi_maize_calendar_sensitivity_v1/malawi_maize_calendar_sensitivity_qa.json'
+permissions:
+  contents: write
+jobs:
+  recheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install 'numpy>=1.26,<3' 'pandas>=2.2,<3'
+      - run: python research/basin-data-audit/scripts/malawi_maize_calendar_sensitivity_independent_QA.py
+      - name: Save secondary calculations and failure logs
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/basin-data-audit/results/malawi_maize_calendar_sensitivity_v1/malawi_maize_INDEPENDENT_calendar_sensitivity_QA.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'QA: independent 4576 JRC/Waha CHIRPS windows and drought flags'
+            for retry in 1 2 3 4 5; do
+              git pull --rebase && git push && break || sleep 5
+            done
+          fi
