@@ -1,0 +1,104 @@
+{
+  "utc": "2026-11-03T14:52:26.426874+00:00",
+  "status": "FAILED",
+  "source": {
+    "JRC_region_calendar": "results/phenology_v1/district_JRC_external_cropping_seasons.csv",
+    "Waha_field_month_aggregates": "results/field_phenology_v1/waha_admin1_crop_month_distribution_anonymized.csv",
+    "CHIRPS_final_1981_2024": "results/climate_panel/district_chirps_v3_monthly_1981_2024_with_anomalies.csv",
+    "JRC_existing_calculated_seasons": "results/seasonal_climate_v1/JRC_crop_season_CHIRPS_1981_2024.csv",
+    "provisional_HarvestStat_outcome": "results/season_outcome_crosswalk_v1/EXPLORATORY_not_causal_HarvestStat_x_JRC_x_CHIRPS_yield_weather.csv"
+  },
+  "design": {
+    "selected_country": "Malawi",
+    "selected_crop": "Maize",
+    "regions": "Central, Northern, Southern (all source-supported)",
+    "unit": "district x hypothetical reference window x harvest year",
+    "baseline_years": "1981-2010 inclusive, >=25 valid baseline years",
+    "climatology_sd_min_mm": 5,
+    "shock_threshold_z": -1,
+    "year_alignment": "if mode sow month > mode first-harvest month, sowing is year-1; harvest is year",
+    "survey_window": "modal months aggregated at admin1 (not field-level date, not annual historical calendar)",
+    "outcome_selection": "NO optimization; weather comparisons do not use yield",
+    "two_original_windows": "JRC broad sow_begin..harvest_end; JRC core sow_end..harvest_begin",
+    "two_alternatives": "Waha broad modal sowing..modal harvest_begin; Waha growth modal sowing..month before modal harvest_begin"
+  },
+  "cautions": [
+    "Comparing JRC HARVEST END to Waha harvest BEGIN causes different event definitions; this is calendar sensitivity not validation truth.",
+    "Waha aggregated 2009-2019 mode is retrospectively imposed on 1981-2024 only as scenario.",
+    "Standardizing separately per window avoids comparing raw totals with unequal exposure months, but obscures different seasonal means.",
+    "Mixed irrigation and rainfed outcome categories not reclassified.",
+    "Area-averaged district rainfall != irrigated field root-zone water != river discharge or treaty effect.",
+    "Even a large change in z does not imply one calendar is scientifically correct.",
+    "Baseline climatology may include 1981-2010 with first year unavailable for crossing year - do not impute 1980.",
+    "A drought-year discrepancy is not an error rate: neither window is ground truth."
+  ],
+  "checks": {
+    "malawi_maize_26_districts": {
+      "pass": true,
+      "details": {
+        "districts": 26,
+        "calendar_rows": 26
+      }
+    },
+    "one_calendar_per_district_maize": {
+      "pass": true,
+      "details": null
+    },
+    "only_Zambezi_basin_for_pilot": {
+      "pass": true,
+      "details": {
+        "ZAMB": 26
+      }
+    },
+    "original_source_rain_panel_253x528": {
+      "pass": true,
+      "details": 133584
+    },
+    "original_source_rain_monthly_unique": {
+      "pass": true,
+      "details": null
+    },
+    "distinct_source_regions_three": {
+      "pass": true,
+      "details": {
+        "Central Region": 10,
+        "Southern Region": 10,
+        "Northern Region": 6
+      }
+    },
+    "alternative_unique_district_year_window": {
+      "pass": true,
+      "details": null
+    },
+    "alternative_expected_26x44x2": {
+      "pass": true,
+      "details": 2288
+    },
+    "old_reference_26x44x2": {
+      "pass": false,
+      "details": 6864
+    },
+    "independently_recompute_all_existing_JRC_rain_totals": {
+      "pass": true,
+      "details": {
+        "mismatches": 0,
+        "examples": []
+      }
+    },
+    "combined_district_year_window_unique": {
+      "pass": false,
+      "details": null
+    },
+    "combined_expected_26x44x4": {
+      "pass": false,
+      "details": 9152
+    }
+  },
+  "errors": [
+    "old_reference_26x44x2",
+    "combined_district_year_window_unique",
+    "combined_expected_26x44x4",
+    "ValueError('Index contains duplicate entries, cannot reshape')"
+  ],
+  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/degsis04.github.io/degsis04.github.io/research/basin-data-audit/scripts/malawi_maize_calendar_window_sensitivity_v1.py\", line 186, in <module>\n    zz=combined.pivot(index=[\"fnid\",\"harvest_year\"],columns=\"window\",values=\"seasonal_z\")\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/pandas/core/frame.py\", line 9366, in pivot\n    return pivot(self, index=index, columns=columns, values=values)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/pandas/core/reshape/pivot.py\", line 570, in pivot\n    result = indexed.unstack(columns_listlike)  # type: ignore[arg-type]\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/pandas/core/series.py\", line 4634, in unstack\n    return unstack(self, level, fill_value, sort)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/pandas/core/reshape/reshape.py\", line 517, in unstack\n    unstacker = _Unstacker(\n                ^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/pandas/core/reshape/reshape.py\", line 154, in __init__\n    self._make_selectors()\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/pandas/core/reshape/reshape.py\", line 210, in _make_selectors\n    raise ValueError(\"Index contains duplicate entries, cannot reshape\")\nValueError: Index contains duplicate entries, cannot reshape\n"
+}
