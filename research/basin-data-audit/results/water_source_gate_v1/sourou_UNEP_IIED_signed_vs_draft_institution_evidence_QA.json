@@ -1,0 +1,61 @@
+{
+  "run_utc": "2026-11-03T16:53:28.400064+00:00",
+  "status": "FAILED",
+  "files": {
+    "UNEP_2016_terminal_evaluation": {
+      "url": "https://wedocs.unep.org/bitstream/handle/20.500.11822/20812/1111_2016_te_unep_regional_iw_fsp_volta_river.pdf",
+      "bytes": 516423,
+      "sha256": "0593c35c304ce6a7a7881fb66039649a372ce9ee0fd045d1c078a110fa6c8bc4",
+      "source_is_pdf": false
+    },
+    "IIED_G04090_2016_external_review": {
+      "url": "https://www.iied.org/sites/default/files/pdfs/migrate/G04090.pdf",
+      "bytes": 1529159,
+      "sha256": "97692b1eb641b47917ce5178c2fa9c3f545aab3cbd2958ef9e5b073eb663f9e7",
+      "source_is_pdf": true,
+      "pdftotext_characters": 312450
+    },
+    "CTGS_2012_template_not_signed": {
+      "url": "https://swm-programme.info/documents/20142/955374/MLI_AG_WA_20130620.pdf/24b3ce4e-7d56-14c7-d92a-84fa01385a82?t=1636734943514",
+      "bytes": 68971,
+      "sha256": "8f5e885b6455356e294c2fae56ef27934fd6e41f6d322add30a1b70a32028edd",
+      "source_is_pdf": false
+    }
+  },
+  "checks": {
+    "PDF_format_UNEP_2016_terminal_evaluation": {
+      "pass": false,
+      "detail": 516423
+    },
+    "PDF_format_IIED_G04090_2016_external_review": {
+      "pass": true,
+      "detail": 1529159
+    },
+    "pdftotext_exit_IIED_G04090_2016_external_review": {
+      "pass": true,
+      "detail": ""
+    },
+    "PDF_format_CTGS_2012_template_not_signed": {
+      "pass": false,
+      "detail": 68971
+    }
+  },
+  "errors": [
+    "PDF_format_UNEP_2016_terminal_evaluation",
+    "PDF_format_CTGS_2012_template_not_signed",
+    "KeyError('UNEP_2016_terminal_evaluation')"
+  ],
+  "definitions": {
+    "implementation_evidence": "Documentary establishment and activities of Sourou bilateral committees",
+    "not_demonstrated": "Actual dam water sharing, river withdrawals and harvested-rice effect",
+    "negative_evidence": "UNEP: actual demonstration projects not implemented in transboundary manner",
+    "2013_signed_date": "From FAOLEX list, independently cross-referenced to contemporaneous newspaper; available 2012 PDF is draft",
+    "2015_activity": "Independent IIED external review says committee met again December 2015"
+  },
+  "caveats": [
+    "A source quote does not imply project success or implementation of a water-allocation treaty.",
+    "Original signed/stamped legal copies need additional verification before treating instruments as authenticated.",
+    "Institutional event in 2013 and observed direct irrigated rice category in 2015–2023 have no same-category pre-event counterfactual."
+  ],
+  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/degsis04.github.io/degsis04.github.io/research/basin-data-audit/scripts/sourou_institution_primary_docs_QA_v2.py\", line 55, in <module>\n    u=texts[\"UNEP_2016_terminal_evaluation\"]\n      ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nKeyError: 'UNEP_2016_terminal_evaluation'\n"
+}
