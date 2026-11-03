@@ -29,7 +29,7 @@ LOG={"utc":dt.datetime.now(dt.timezone.utc).isoformat(),"status":"STARTED",
  "methods":{"broad":"sos_s through eos_e, inclusive months","core":"sos_e through eos_s, inclusive months",
  "baseline":"1981-2010, by district × JRC crop-season × window",
  "baseline_min_valid_years":25,"baseline_min_sd_mm":5,
- "pixel_valid_threshold":3,"cross_year":"months in calendar year before declared harvest year when start dekad > end dekad"},
+ "pixel_valid_threshold":3,"cross_year":"Each phase anchored to full crop cycle sos_s→eos_e and harvest year; phase may lie wholly in prior year"},
  "errors":[],"counts":{}}
 def save():
  (OUT/"seasonal_climate_provenance.json").write_text(json.dumps(LOG,ensure_ascii=False,indent=2,default=str)+"\n")
@@ -37,29 +37,50 @@ def month_of_dekad(d):
  d=int(d)
  assert 1<=d<=36
  return (d-1)//3+1
-def window_months(start_dekad,end_dekad,harvest_year):
- """Inclusive whole-month approximation to JRC dekad interval.
- If source start dekad > end dekad, the season crosses New Year.
- E.g. Oct-Dec of t-1, Jan-Apr of t, where t = harvest year.
+def window_months(sos_s,sos_e,eos_s,eos_e,window_label,harvest_year):
+ """Anchor EVERY phase of one crop cycle to its common actual harvest year.
+
+ Counterexample to an incorrect earlier algorithm:
+ Ghana maize second crop: sow Aug 2019, growth Oct-Dec 2019,
+ harvest Jan 2020. The CORE must use 2019 weather, even though
+ its own monthly interval does not cross 31 December.
  """
- start_dekad,end_dekad=int(start_dekad),int(end_dekad)
- assert 1<=start_dekad<=36 and 1<=end_dekad<=36
- start,end=month_of_dekad(start_dekad),month_of_dekad(end_dekad)
- crosses=start_dekad>end_dekad
- if not crosses:
-  months=[(harvest_year,m) for m in range(start,end+1)]
+ d=[int(x) for x in (sos_s,sos_e,eos_s,eos_e)]
+ assert all(1<=x<=36 for x in d),d
+ offsets=[(v-d[0])%36 for v in d]
+ assert offsets==sorted(offsets),("nonmonotonic_crop_phases",d,offsets)
+ crossed_full=d[0]>d[3]
+ first_year=harvest_year-int(crossed_full)
+ def stamp(v):
+  absolute=(d[0]-1)+((v-d[0])%36)
+  return first_year+absolute//36,(absolute%36)//3+1
+ if window_label=="broad":
+  first,last=stamp(d[0]),stamp(d[3])
+ elif window_label=="core":
+  first,last=stamp(d[1]),stamp(d[2])
  else:
-  months=[(harvest_year-1,m) for m in range(start,13)]+[(harvest_year,m) for m in range(1,end+1)]
- assert 1<=len(months)<=12,(start_dekad,end_dekad,harvest_year,months)
- return months,crosses
+  raise ValueError(window_label)
+ months=[]
+ yy,mm=first
+ while (yy,mm)<=last:
+  months.append((yy,mm))
+  mm+=1
+  if mm==13:
+   yy+=1;mm=1
+  assert len(months)<=12,("unexpected_overlong_crop_cycle",d,window_label,harvest_year)
+ assert months and months[-1]==last
+ return months,first[0]!=last[0],crossed_full
+
 try:
- # Source logic / cross-year tests independent of data:
- assert window_months(31,11,2010)[0]==[(2009,11),(2009,12),(2010,1),(2010,2),(2010,3),(2010,4)]
- assert window_months(4,18,2010)[0]==[(2010,2),(2010,3),(2010,4),(2010,5),(2010,6)]
- assert window_months(35,2,2010)[0]==[(2009,12),(2010,1)]
- assert window_months(13,13,2010)[0]==[(2010,5)]
- assert window_months(12,7,1981)[0]==[(1980,4),(1980,5),(1980,6),(1980,7),(1980,8),(1980,9),(1980,10),(1980,11),(1980,12),(1981,1),(1981,2),(1981,3)]
- # Last case dekads 12 April3 -> 7 March1 (near-year cycle). It should be 12 months.
+ # Source QA: independent exact source-data examples; check ALL window phases anchor to same harvest year.
+ assert window_months(24,27,34,1,"broad",2020)[0]==[(2019,m) for m in range(8,13)]+[(2020,1)]
+ assert window_months(24,27,34,1,"core",2020)[0]==[(2019,m) for m in range(9,13)]
+ assert window_months(16,21,33,3,"core",2020)[0]==[(2019,m) for m in range(7,12)]
+ assert window_months(30,33,14,19,"core",2020)[0]==[(2019,11),(2019,12)]+[(2020,m) for m in range(1,6)]
+ assert window_months(35,2,10,13,"core",2020)[0]==[(2020,m) for m in range(1,4+1)]
+ assert window_months(13,19,30,34,"core",2020)[0]==[(2020,m) for m in range(7,11)]
+ assert window_months(24,27,34,1,"core",1981)[0][0][0]==1980
+
  src=json.loads((P/"jrc_spatial_crosswalk_provenance.json").read_text())
  climatesrc=json.loads((C/"full_climate_monthly_qa.json").read_text())
  assert src["status"]=="COMPLETE" and climatesrc["status"]=="COMPLETE"
@@ -76,7 +97,7 @@ try:
   for w,begin,end in (("broad",r.sos_s,r.eos_e),
                        ("core",r.sos_e,r.eos_s)):
    for hy in range(1981,2025):
-    months,cross=window_months(begin,end,hy)
+    months,cross,full_cross=window_months(r.sos_s,r.sos_e,r.eos_s,r.eos_e,w,hy)
     mms=[];sup=[];missing=[]
     for year,mo in months:
      key=(r.fnid,year,mo)
@@ -102,6 +123,7 @@ try:
      "JRC_eos_start_dekad":r.eos_s,"JRC_eos_end_dekad":r.eos_e,
      "jrc_spatial_coverage_fraction":r.frac_district,
      "window":w,"harvest_year":hy,"crosses_calendar_year":cross,
+     "full_crop_cycle_crosses_year":full_cross,
      "months_window":len(months),
      "from_year":months[0][0],"from_month":months[0][1],
      "to_year":months[-1][0],"to_month":months[-1][1],
@@ -152,7 +174,9 @@ try:
   "incomplete_source_windows":int(panel.window_data_status.eq("INCOMPLETE_WINDOW").sum()),
   "valid_seasonal_z":int(panel.seasonal_precip_z.notna().sum()),
   "crossyear_rows":int(panel.crosses_calendar_year.sum()),
+  "full_crop_cycle_crossyear_rows":int(panel.full_crop_cycle_crosses_year.sum()),
   "crossyear_distinct_source_seasons":int(season_distinct.crosses_calendar_year.sum()),
+  "full_crop_cycle_crossyear_assignments":int(a.likely_year_crossing.eq(True).sum()),
   "years":44}
  LOG["qa"]={
   "reference_count_max":int(bc.baseline_count.max()),
