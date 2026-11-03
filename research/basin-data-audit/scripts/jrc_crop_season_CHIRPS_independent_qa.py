@@ -55,7 +55,8 @@ try:
     REPORT["sample"].append({"country":cc,"fnid":fnid,"crop":season,"year":hy,"window":win,
      "from":str(date1),"to":str(date2),
      "n_months":len(months),"source_recorded_n_months":int(z.months_window),
-     "recalculated_mm":recalculated,"stored_mm":z.precip_total_mm,
+     "recalculated_mm":float(recalculated) if np.isfinite(recalculated) else None,
+     "stored_mm":float(z.precip_total_mm) if np.isfinite(z.precip_total_mm) else None,
      "is_equal":bool(pass_test)})
  check("independent_arithmetic_match_all_examples",
        all(q["is_equal"] for q in REPORT["sample"]),
@@ -83,7 +84,7 @@ try:
 except Exception as e:
  REPORT["status"]="FAILED";REPORT["errors"].append(str(e)[:500])
  REPORT["traceback"]=traceback.format_exc()[-3000:]
-(SEASON/"seasonal_climate_independent_QA.json").write_text(json.dumps(REPORT,ensure_ascii=False,indent=2,default=str)+"\n")
+(SEASON/"seasonal_climate_independent_QA.json").write_text(json.dumps(REPORT,ensure_ascii=False,indent=2,default=str,allow_nan=False)+"\n")
 print(json.dumps({"status":REPORT["status"],"errors":REPORT["errors"],"countries":REPORT.get("countries_validated"),
  "sample_checks":REPORT.get("total_checks"),"checks":REPORT.get("checks")},ensure_ascii=False,indent=2)[:11000])
 if REPORT["status"]!="PASS":sys.exit(1)
