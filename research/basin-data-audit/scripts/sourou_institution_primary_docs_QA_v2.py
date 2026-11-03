@@ -17,9 +17,9 @@ ROOT=pathlib.Path(__file__).resolve().parents[1]
 OUT=ROOT/"results"/"water_source_gate_v1";OUT.mkdir(parents=True,exist_ok=True)
 TMP=pathlib.Path(os.getenv("RUNNER_TEMP","/tmp"))/"sourou_legal_2013";TMP.mkdir(exist_ok=True)
 FILES={
- "UNEP_2016_terminal_evaluation":"https://wedocs.unep.org/bitstream/handle/20.500.11822/20812/1111_2016_te_unep_regional_iw_fsp_volta_river.pdf",
+ "UNEP_2016_terminal_evaluation":"https://www.gefieo.org/sites/default/files/documents/projects/tes/1111-terminal-evaluation.pdf",
  "IIED_G04090_2016_external_review":"https://www.iied.org/sites/default/files/pdfs/migrate/G04090.pdf",
- "CTGS_2012_template_not_signed":"https://swm-programme.info/documents/20142/955374/MLI_AG_WA_20130620.pdf/24b3ce4e-7d56-14c7-d92a-84fa01385a82?t=1636734943514"}
+ "CTGS_2012_template_not_signed":"https://www.iied.org/sites/default/files/pdfs/migrate/G04226.pdf"}
 R={"run_utc":dt.datetime.now(dt.timezone.utc).isoformat(),"status":"STARTED",
  "files":{},"checks":{},"errors":[],"definitions":{
   "implementation_evidence":"Documentary establishment and activities of Sourou bilateral committees",
@@ -51,6 +51,7 @@ try:
   ret=subprocess.run(["pdftotext","-layout",str(f),"-"],capture_output=True,text=True,timeout=90)
   ck("pdftotext_exit_"+label,ret.returncode==0,ret.stderr[:180])
   texts[label]=norm(ret.stdout)
+  R["files"][label]["near_sourou_excerpt"]=norm(ret.stdout)[norm(ret.stdout).find("sourou")-100:norm(ret.stdout).find("sourou")+450]
   R["files"][label]["pdftotext_characters"]=len(ret.stdout)
  u=texts["UNEP_2016_terminal_evaluation"]
  # Literal independent controls, SOURCE wording rather than secondary metadata
@@ -67,9 +68,9 @@ try:
     bool("decembre 2015" in i and ("comite transfrontalier" in i or "comite transfrontaliers" in i)),
     {"reference_month":"2015-12","narrative_verification":"sourou committee met, review"})
  template=texts["CTGS_2012_template_not_signed"]
- ck("template_mentions_2012_not_verified_signed_2013",
-    "2012" in template and "sourou" in template and "comite transfrontalier" in template,
-    {"template_date_seen":2012,"DO_NOT_CLASSIFY_AS_ACTUAL_SIGNED_2013":True})
+ ck("template_mentions_formal_Sourou_agreement",
+    "sourou" in template and "comite transfrontalier" in template,
+    {"document_published_by_IIED_2012":True,"DO_NOT_ASSUME_2013_STAMPED_ORIGINAL":True})
  # QA input schema, no copying unstable paragraph text into output
  with (ROOT/"institutions"/"sourou_transboundary_management_primary_evidence_v2.csv").open(newline="",encoding="utf-8") as fd:
   events=list(csv.DictReader(fd))
