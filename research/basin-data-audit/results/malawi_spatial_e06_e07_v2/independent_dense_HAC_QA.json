@@ -1,0 +1,506 @@
+{
+  "status": "PASS",
+  "method": "direct N-by-N observation-pair kernel; FE by dense dummy matrix; no shared estimator functions",
+  "checks": [
+    {
+      "check": "exact_23_geojson_features",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "geojson_same_fid_set",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "original_812_unique",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "dist_symmetric_strict16_centroid",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "dist_symmetric_strict16_representative",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "dummy_rank_strict16",
+      "pass": true,
+      "info": 53
+    },
+    {
+      "check": "single_reference_strict16_broad",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "beta_reproduced_strict16_broad",
+      "pass": true,
+      "info": 9.71445146547012e-17
+    },
+    {
+      "check": "conley_se_reproduced_strict16_broad",
+      "pass": true,
+      "info": 1.491862189340054e-16
+    },
+    {
+      "check": "single_reference_strict16_core",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "beta_reproduced_strict16_core",
+      "pass": true,
+      "info": 2.7755575615628914e-17
+    },
+    {
+      "check": "conley_se_reproduced_strict16_core",
+      "pass": true,
+      "info": 1.734723475976807e-17
+    },
+    {
+      "check": "single_reference_strict16_waha_broad",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "beta_reproduced_strict16_waha_broad",
+      "pass": true,
+      "info": 5.551115123125783e-17
+    },
+    {
+      "check": "conley_se_reproduced_strict16_waha_broad",
+      "pass": true,
+      "info": 3.122502256758253e-17
+    },
+    {
+      "check": "single_reference_strict16_waha_growth",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "beta_reproduced_strict16_waha_growth",
+      "pass": true,
+      "info": 1.3877787807814457e-16
+    },
+    {
+      "check": "conley_se_reproduced_strict16_waha_growth",
+      "pass": true,
+      "info": 6.245004513516506e-17
+    },
+    {
+      "check": "lagpanel_matches_source_strict16",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "no_missing_other_rain_strict16_broad_lag1",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "one_lag_row_strict16_broad_lag1",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "lag_beta_reproduced_strict16_broad_lag1",
+      "pass": true,
+      "info": 1.1102230246251565e-16
+    },
+    {
+      "check": "lag_conley_reproduced_strict16_broad_lag1",
+      "pass": true,
+      "info": 1.1449174941446927e-16
+    },
+    {
+      "check": "no_missing_other_rain_strict16_broad_lead1_placebo",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "one_lag_row_strict16_broad_lead1_placebo",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "lag_beta_reproduced_strict16_broad_lead1_placebo",
+      "pass": true,
+      "info": 1.5265566588595902e-16
+    },
+    {
+      "check": "lag_conley_reproduced_strict16_broad_lead1_placebo",
+      "pass": true,
+      "info": 1.700029006457271e-16
+    },
+    {
+      "check": "no_missing_other_rain_strict16_core_lag1",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "one_lag_row_strict16_core_lag1",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "lag_beta_reproduced_strict16_core_lag1",
+      "pass": true,
+      "info": 1.249000902703301e-16
+    },
+    {
+      "check": "lag_conley_reproduced_strict16_core_lag1",
+      "pass": true,
+      "info": 1.1796119636642288e-16
+    },
+    {
+      "check": "no_missing_other_rain_strict16_core_lead1_placebo",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "one_lag_row_strict16_core_lead1_placebo",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "lag_beta_reproduced_strict16_core_lead1_placebo",
+      "pass": true,
+      "info": 1.5265566588595902e-16
+    },
+    {
+      "check": "lag_conley_reproduced_strict16_core_lead1_placebo",
+      "pass": true,
+      "info": 5.551115123125783e-17
+    },
+    {
+      "check": "no_missing_other_rain_strict16_waha_broad_lag1",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "one_lag_row_strict16_waha_broad_lag1",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "lag_beta_reproduced_strict16_waha_broad_lag1",
+      "pass": true,
+      "info": 2.7755575615628914e-17
+    },
+    {
+      "check": "lag_conley_reproduced_strict16_waha_broad_lag1",
+      "pass": true,
+      "info": 1.249000902703301e-16
+    },
+    {
+      "check": "no_missing_other_rain_strict16_waha_broad_lead1_placebo",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "one_lag_row_strict16_waha_broad_lead1_placebo",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "lag_beta_reproduced_strict16_waha_broad_lead1_placebo",
+      "pass": true,
+      "info": 9.974659986866641e-18
+    },
+    {
+      "check": "lag_conley_reproduced_strict16_waha_broad_lead1_placebo",
+      "pass": true,
+      "info": 3.8163916471489756e-17
+    },
+    {
+      "check": "no_missing_other_rain_strict16_waha_growth_lag1",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "one_lag_row_strict16_waha_growth_lag1",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "lag_beta_reproduced_strict16_waha_growth_lag1",
+      "pass": true,
+      "info": 6.938893903907228e-17
+    },
+    {
+      "check": "lag_conley_reproduced_strict16_waha_growth_lag1",
+      "pass": true,
+      "info": 6.591949208711867e-17
+    },
+    {
+      "check": "no_missing_other_rain_strict16_waha_growth_lead1_placebo",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "one_lag_row_strict16_waha_growth_lead1_placebo",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "lag_beta_reproduced_strict16_waha_growth_lead1_placebo",
+      "pass": true,
+      "info": 1.3877787807814457e-16
+    },
+    {
+      "check": "lag_conley_reproduced_strict16_waha_growth_lead1_placebo",
+      "pass": true,
+      "info": 2.2898349882893854e-16
+    },
+    {
+      "check": "dist_symmetric_all23_centroid",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "dist_symmetric_all23_representative",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "dummy_rank_all23",
+      "pass": true,
+      "info": 60
+    },
+    {
+      "check": "single_reference_all23_broad",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "beta_reproduced_all23_broad",
+      "pass": true,
+      "info": 9.71445146547012e-17
+    },
+    {
+      "check": "conley_se_reproduced_all23_broad",
+      "pass": true,
+      "info": 3.434752482434078e-16
+    },
+    {
+      "check": "single_reference_all23_core",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "beta_reproduced_all23_core",
+      "pass": true,
+      "info": 5.551115123125783e-17
+    },
+    {
+      "check": "conley_se_reproduced_all23_core",
+      "pass": true,
+      "info": 3.2612801348363973e-16
+    },
+    {
+      "check": "single_reference_all23_waha_broad",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "beta_reproduced_all23_waha_broad",
+      "pass": true,
+      "info": 4.163336342344337e-17
+    },
+    {
+      "check": "conley_se_reproduced_all23_waha_broad",
+      "pass": true,
+      "info": 4.579669976578771e-16
+    },
+    {
+      "check": "single_reference_all23_waha_growth",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "beta_reproduced_all23_waha_growth",
+      "pass": true,
+      "info": 9.71445146547012e-17
+    },
+    {
+      "check": "conley_se_reproduced_all23_waha_growth",
+      "pass": true,
+      "info": 3.885780586188048e-16
+    },
+    {
+      "check": "lagpanel_matches_source_all23",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "no_missing_other_rain_all23_broad_lag1",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "one_lag_row_all23_broad_lag1",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "lag_beta_reproduced_all23_broad_lag1",
+      "pass": true,
+      "info": 1.249000902703301e-16
+    },
+    {
+      "check": "lag_conley_reproduced_all23_broad_lag1",
+      "pass": true,
+      "info": 4.163336342344337e-16
+    },
+    {
+      "check": "no_missing_other_rain_all23_broad_lead1_placebo",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "one_lag_row_all23_broad_lead1_placebo",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "lag_beta_reproduced_all23_broad_lead1_placebo",
+      "pass": true,
+      "info": 1.6653345369377348e-16
+    },
+    {
+      "check": "lag_conley_reproduced_all23_broad_lead1_placebo",
+      "pass": true,
+      "info": 9.228728892196614e-16
+    },
+    {
+      "check": "no_missing_other_rain_all23_core_lag1",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "one_lag_row_all23_core_lag1",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "lag_beta_reproduced_all23_core_lag1",
+      "pass": true,
+      "info": 1.3877787807814457e-16
+    },
+    {
+      "check": "lag_conley_reproduced_all23_core_lag1",
+      "pass": true,
+      "info": 3.191891195797325e-16
+    },
+    {
+      "check": "no_missing_other_rain_all23_core_lead1_placebo",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "one_lag_row_all23_core_lead1_placebo",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "lag_beta_reproduced_all23_core_lead1_placebo",
+      "pass": true,
+      "info": 6.938893903907228e-17
+    },
+    {
+      "check": "lag_conley_reproduced_all23_core_lead1_placebo",
+      "pass": true,
+      "info": 8.881784197001252e-16
+    },
+    {
+      "check": "no_missing_other_rain_all23_waha_broad_lag1",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "one_lag_row_all23_waha_broad_lag1",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "lag_beta_reproduced_all23_waha_broad_lag1",
+      "pass": true,
+      "info": 1.0148132334464322e-16
+    },
+    {
+      "check": "lag_conley_reproduced_all23_waha_broad_lag1",
+      "pass": true,
+      "info": 5.065392549852277e-16
+    },
+    {
+      "check": "no_missing_other_rain_all23_waha_broad_lead1_placebo",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "one_lag_row_all23_waha_broad_lead1_placebo",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "lag_beta_reproduced_all23_waha_broad_lead1_placebo",
+      "pass": true,
+      "info": 6.938893903907228e-17
+    },
+    {
+      "check": "lag_conley_reproduced_all23_waha_broad_lead1_placebo",
+      "pass": true,
+      "info": 1.169203622808368e-15
+    },
+    {
+      "check": "no_missing_other_rain_all23_waha_growth_lag1",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "one_lag_row_all23_waha_growth_lag1",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "lag_beta_reproduced_all23_waha_growth_lag1",
+      "pass": true,
+      "info": 9.8879238130678e-17
+    },
+    {
+      "check": "lag_conley_reproduced_all23_waha_growth_lag1",
+      "pass": true,
+      "info": 4.649058915617843e-16
+    },
+    {
+      "check": "no_missing_other_rain_all23_waha_growth_lead1_placebo",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "one_lag_row_all23_waha_growth_lead1_placebo",
+      "pass": true,
+      "info": null
+    },
+    {
+      "check": "lag_beta_reproduced_all23_waha_growth_lead1_placebo",
+      "pass": true,
+      "info": 7.632783294297951e-17
+    },
+    {
+      "check": "lag_conley_reproduced_all23_waha_growth_lead1_placebo",
+      "pass": true,
+      "info": 1.2802259252708836e-15
+    }
+  ],
+  "max_abs_beta_difference": 1.3877787807814457e-16,
+  "max_abs_conley_se_difference": 4.579669976578771e-16,
+  "max_abs_lag_beta_difference": 1.6653345369377348e-16,
+  "max_abs_lag_se_difference": 1.2802259252708836e-15,
+  "checks_count": 99
+}

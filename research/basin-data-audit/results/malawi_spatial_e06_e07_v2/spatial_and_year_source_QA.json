@@ -5,7 +5,7 @@
     "sha256": "259e152dcae5b8629b2b76f789abb114219e07347a1dc1efaf8185281f7d028e",
     "size_bytes": 8486912
   },
-  "start_utc": "2026-11-03T22:18:28.668362+00:00",
+  "start_utc": "2026-11-03T22:20:04.021868+00:00",
   "checks": {
     "812_source_rows": {
       "pass": true,
@@ -86,7 +86,7 @@
     },
     "beta_matches_original_strict16": {
       "pass": true,
-      "details": 0.1030478053413435
+      "details": 0.10304780534134347
     },
     "conley_finite_strict16_broad_100_0": {
       "pass": true,
@@ -130,7 +130,7 @@
     },
     "independent_pairwise_conley_omega": {
       "pass": true,
-      "details": 2.168404344971009e-19
+      "details": 1.0842021724855044e-19
     },
     "conley_finite_strict16_core_100_0": {
       "pass": true,
@@ -258,7 +258,7 @@
     },
     "beta_matches_original_all23": {
       "pass": true,
-      "details": 0.08559128253891167
+      "details": 0.08559128253891166
     },
     "conley_finite_all23_broad_100_0": {
       "pass": true,
