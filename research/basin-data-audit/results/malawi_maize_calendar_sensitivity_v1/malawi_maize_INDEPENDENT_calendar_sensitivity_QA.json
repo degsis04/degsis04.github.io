@@ -1,6 +1,6 @@
 {
-  "utc": "2026-11-03T14:55:47.938411+00:00",
-  "status": "FAILED",
+  "utc": "2026-11-03T14:56:29.132885+00:00",
+  "status": "PASS",
   "checks": {
     "original_script_all_checks_complete": {
       "pass": true,
@@ -29,10 +29,47 @@
     "baseline_source_years_exact": {
       "pass": true,
       "details": null
+    },
+    "independently_recompute_all_26x44x4_source_months": {
+      "pass": true,
+      "details": {
+        "n_checked": 4576,
+        "n_mismatched": 0,
+        "examples": []
+      }
+    },
+    "absence_1980_not_zero_imputed": {
+      "pass": true,
+      "details": {
+        "n_missing": 104,
+        "source_expected": 104
+      }
+    },
+    "independent_reference_mean_sd_104_series": {
+      "pass": true,
+      "details": {
+        "tested": 104,
+        "bad": []
+      }
+    },
+    "recompute_all_window_drought_disagreement_counts": {
+      "pass": true,
+      "details": {
+        "n_summaries": 8,
+        "bad": []
+      }
     }
   },
-  "errors": [
-    "AttributeError(\"'Pandas' object has no attribute 'months_in_window'\")"
-  ],
-  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/degsis04.github.io/degsis04.github.io/research/basin-data-audit/scripts/malawi_maize_calendar_sensitivity_independent_QA.py\", line 64, in <module>\n    if len(ym)!=int(x.months_in_window):discrep.append((\"number_months\",x.fnid,x.harvest_year,x.window))\n                    ^^^^^^^^^^^^^^^^^^\nAttributeError: 'Pandas' object has no attribute 'months_in_window'\n"
+  "errors": [],
+  "counts": {
+    "all_reconstructed_source_weather_windows": 4576,
+    "verified_districts": 26,
+    "year_coverage": 44,
+    "comparison_summary_rows": 8,
+    "n_missing_1980_windows": 104,
+    "independent_weather_sums_mismatched": 0,
+    "baseline_series_checked": 104,
+    "drought_discordance_summaries_verified": 8,
+    "unchanged_outcomes": 915
+  }
 }
