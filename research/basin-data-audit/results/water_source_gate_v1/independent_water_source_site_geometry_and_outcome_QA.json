@@ -1,0 +1,132 @@
+{
+  "utc": "2026-11-03T16:48:10.787864+00:00",
+  "status": "PASS",
+  "errors": [],
+  "checks": {
+    "independent_original_boundary_sha": {
+      "pass": true,
+      "detail": "259e152dcae5b8629b2b76f789abb114219e07347a1dc1efaf8185281f7d028e"
+    },
+    "independent_wgs84_sjoin_exact_three": {
+      "pass": true,
+      "detail": 3
+    },
+    "all_point_administrative_ids_reproducible": {
+      "pass": true,
+      "detail": [
+        {
+          "case": "OFFICE_DU_NIGER",
+          "claimed_fnid": "ML2016A104",
+          "fnid": "ML2016A104"
+        },
+        {
+          "case": "MALANVILLE_RICE",
+          "claimed_fnid": "BJ2015A20705",
+          "fnid": "BJ2015A20705"
+        },
+        {
+          "case": "SOUROU_NIASSAN",
+          "claimed_fnid": "BF2020A24606",
+          "fnid": "BF2020A24606"
+        }
+      ]
+    },
+    "no_point_was_published_as_real_intake": {
+      "pass": true,
+      "detail": null
+    },
+    "referenced_linked_river_sources_three": {
+      "pass": true,
+      "detail": null
+    },
+    "outcome_type_confirm_OFFICE_DU_NIGER": {
+      "pass": true,
+      "detail": {
+        "n_series": 0,
+        "source_label": []
+      }
+    },
+    "MIRCA_ha_and_fraction_OFFICE_DU_NIGER": {
+      "pass": true,
+      "detail": null
+    },
+    "scheme_has_no_unverified_treaty_or_hydropost_OFFICE_DU_NIGER": {
+      "pass": true,
+      "detail": null
+    },
+    "outcome_type_confirm_MALANVILLE_RICE": {
+      "pass": true,
+      "detail": {
+        "n_series": 0,
+        "source_label": []
+      }
+    },
+    "MIRCA_ha_and_fraction_MALANVILLE_RICE": {
+      "pass": true,
+      "detail": null
+    },
+    "scheme_has_no_unverified_treaty_or_hydropost_MALANVILLE_RICE": {
+      "pass": true,
+      "detail": null
+    },
+    "outcome_type_confirm_SOUROU_NIASSAN": {
+      "pass": true,
+      "detail": {
+        "n_series": 1,
+        "source_label": [
+          "Plaine/Bas-fond irrigated (PS)"
+        ]
+      }
+    },
+    "MIRCA_ha_and_fraction_SOUROU_NIASSAN": {
+      "pass": true,
+      "detail": null
+    },
+    "scheme_has_no_unverified_treaty_or_hydropost_SOUROU_NIASSAN": {
+      "pass": true,
+      "detail": null
+    },
+    "Sourou_only_separately_classified_8plus_year_rice": {
+      "pass": true,
+      "detail": null
+    }
+  },
+  "results": {
+    "cases_checked": 3,
+    "independent_WGS84_spatial_join": [
+      {
+        "case": "OFFICE_DU_NIGER",
+        "fnid": "ML2016A104"
+      },
+      {
+        "case": "MALANVILLE_RICE",
+        "fnid": "BJ2015A20705"
+      },
+      {
+        "case": "SOUROU_NIASSAN",
+        "fnid": "BF2020A24606"
+      }
+    ],
+    "independent_rice_source_and_MIRCA": [
+      {
+        "case": "OFFICE_DU_NIGER",
+        "fnid": "ML2016A104",
+        "direct_irrigated_series_count_independent": 0,
+        "MIRCA_2020_irrigated_fraction_recomputed": 0.2313262537182755
+      },
+      {
+        "case": "MALANVILLE_RICE",
+        "fnid": "BJ2015A20705",
+        "direct_irrigated_series_count_independent": 0,
+        "MIRCA_2020_irrigated_fraction_recomputed": 0.32392297815319443
+      },
+      {
+        "case": "SOUROU_NIASSAN",
+        "fnid": "BF2020A24606",
+        "direct_irrigated_series_count_independent": 1,
+        "MIRCA_2020_irrigated_fraction_recomputed": 0.4154689867022023
+      }
+    ],
+    "no_verified_intake_or_treaty_or_hydropost": true
+  }
+}
