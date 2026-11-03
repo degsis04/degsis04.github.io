@@ -1,0 +1,33 @@
+asap0_id,name0_shr,crop_name,sos_s,sos_e,eos_s,eos_e
+59,Mali,Maize,12,21,29,35
+59,Mali,Millet,12,21,29,35
+59,Mali,Rice (Rainfed),16,21,33,3
+59,Mali,Sorghum,12,21,29,35
+66,Ghana,"Cassava (Year1, year2)",4,10,15,24
+66,Ghana,Maize (Second),23,28,34,2
+66,Ghana,Maize (South/Main),7,10,20,24
+66,Ghana,Millet,13,17,31,33
+66,Ghana,Rice (North),13,17,31,36
+66,Ghana,Sorghum,13,17,31,33
+66,Ghana,Yams,4,10,20,24
+111,Zambia,Maize,28,34,13,19
+111,Zambia,Sorghum,32,35,13,18
+118,Togo,Maize (Main),6,11,20,23
+118,Togo,Maize (Second),23,27,33,1
+118,Togo,Millet,13,17,31,34
+118,Togo,Rice,13,17,31,34
+118,Togo,Sorghum,13,17,31,34
+118,Togo,Yams,6,11,18,23
+148,Malawi,Maize,30,34,14,17
+148,Malawi,Rice,30,36,14,21
+148,Malawi,Sorghum,34,36,16,18
+195,Benin,Maize (Main),9,12,32,34
+195,Benin,Maize (Second),23,26,33,36
+195,Benin,Millet,13,18,32,34
+195,Benin,Rice (Irrigated),13,18,32,34
+195,Benin,Sorghum,13,18,32,34
+195,Benin,Yams,6,10,19,22
+218,Zimbabwe,Maize,29,34,14,21
+219,Burkina Faso,Maize,12,18,31,33
+219,Burkina Faso,Millet,13,19,31,35
+219,Burkina Faso,Sorghum,13,19,31,35
