@@ -38,7 +38,7 @@ try:
         pd.Period(year=last[0],month=last[1],freq="M"),freq="M")
   return [(v.year,v.month) for v in p]
  def ref_window(src,harvest_year,variant):
-  s1,s2,e1,e2=(int(src[c]) for c in
+  s1,s2,e1,e2=(int(getattr(src,c)) for c in
     ["JRC_sow_start_dekad","JRC_sow_end_dekad","JRC_harvest_start_dekad","JRC_harvest_end_dekad"])
   shift=int(s1>e2);yy=harvest_year-shift
   def clock(d):
