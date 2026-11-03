@@ -1,0 +1,33 @@
+name: Verify Malanville GIS farmland feature vs source scale of 5-arcmin MIRCA
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/malanville-osm-footprint-qa.yml'
+      - 'research/basin-data-audit/scripts/malanville_osm_perimeter_vs_mirca_scale_v1.py'
+permissions:
+  contents: write
+jobs:
+  geometry:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install 'numpy>=1.26,<3' 'pandas>=2.2,<3' 'geopandas>=1.0,<2' 'shapely>=2' 'pyogrio>=0.9' 'pyproj>=3' 'requests>=2.31,<3'
+      - name: Verify original OSM mapped farmland polygon, district and MIRCA scale
+        run: python research/basin-data-audit/scripts/malanville_osm_perimeter_vs_mirca_scale_v1.py
+      - name: Save geometry and QA errors
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/basin-data-audit/results/water_source_gate_v1/
+          if ! git diff --cached --quiet; then
+            git commit -m 'GIS QA: Malanville source-pinned OSM farmland footprint and 5arcmin scheme scale caveats'
+            for retry in 1 2 3 4 5; do
+              git pull --rebase && git push && break || sleep 5
+            done
+          fi
