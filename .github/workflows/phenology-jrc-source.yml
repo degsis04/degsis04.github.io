@@ -1,0 +1,33 @@
+name: Independent JRC-ASAP external crop calendar source inventory
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/phenology-jrc-source.yml'
+      - 'research/basin-data-audit/scripts/phenology_jrc_source_inventory.py'
+permissions:
+  contents: write
+jobs:
+  source-inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install 'pandas>=2.2,<3' 'requests>=2.31,<3'
+      - name: Verify source archive and actual schema
+        run: python research/basin-data-audit/scripts/phenology_jrc_source_inventory.py
+      - name: Preserve all evidence and errors
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/basin-data-audit/results/phenology_v1/
+          git diff --cached --quiet || (git commit -m 'data: JRC-ASAP independent crop calendars provenance and schema' && git pull --rebase && git push)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: jrc-crop-calendar-source
+          path: research/basin-data-audit/results/phenology_v1/
