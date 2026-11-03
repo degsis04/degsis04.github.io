@@ -1,0 +1,132 @@
+{
+  "utc": "2026-11-03T13:48:00.283064+00:00",
+  "status": "COMPLETE",
+  "comparison": "Monthly (not dekadal) unweighted survey histograms vs independent static JRC sowing/harvest month windows",
+  "source_Waha": "Waha et al. Scientific Data 2026, DOI 10.1038/s41597-026-07906-9, author's current pinned GitHub CSV",
+  "source_JRC": "European Commission JRC ASAP 2018, original GAUL1 csv, verified source SHA256",
+  "explicit_region_aliases": {
+    "Malawi": {
+      "central": "Central Region",
+      "northern": "Northern Region",
+      "southern": "Southern Region"
+    },
+    "Mali": {
+      "segou": "Segou",
+      "sikasso": "Sikasso",
+      "kayes": "Kayes",
+      "koulikoro": "Koulikoro"
+    }
+  },
+  "limits": [
+    "Survey months are field-reported, subject to recall bias and varying coverage by wave.",
+    "Unweighted counts are not survey-weighted national or crop-area representative estimates.",
+    "Mali planting year missing, so year-by-year calendar alignment and shifts cannot be verified.",
+    "Rainfed plots dominate Mali survey; no irrigated rice validation.",
+    "Small admin1 or crop samples <30 suppressed in prior source output.",
+    "Month windows span dekad-defined JRC boundaries: a month counted even if just one dekad overlaps.",
+    "Only explicit named admin1 matches, no fuzzy auto-join; geographic survey sample != HarvestStat boundary.",
+    "Comparative month agreement does NOT automatically upgrade JRC×HarvestStat outcome strata to validated."
+  ],
+  "checks": {
+    "Waha_pinned_source_hash_ok": {
+      "pass": true,
+      "details": null
+    },
+    "Waha_source_table2_count_ok": {
+      "pass": true,
+      "details": null
+    },
+    "only_two_target_countries": {
+      "pass": true,
+      "details": {
+        "Mali": 17,
+        "Malawi": 8
+      }
+    },
+    "source_all_month_count_exhaustive": {
+      "pass": true,
+      "details": null
+    },
+    "fraction_in_zero_to_one": {
+      "pass": true,
+      "details": null
+    },
+    "no_duplicate_country_region_crop": {
+      "pass": true,
+      "details": null
+    },
+    "aggregate_min_30": {
+      "pass": true,
+      "details": null
+    }
+  },
+  "errors": [],
+  "counts": {
+    "survey_admin1_crop_records": 157,
+    "target_Mali_Malawi_rows": 25,
+    "source_region_crop_month_comparisons": 20,
+    "unmatched_source_region_crop": 5,
+    "sowing_measured_total": 61402,
+    "harvest_measured_total": 60689,
+    "agreement_country_crop": [
+      {
+        "country": "Malawi",
+        "crop": "Maize",
+        "region_crop_pairs": 3,
+        "n_sowing_valid": 42956.0,
+        "n_sow_in_JRC": 38283.0,
+        "n_harvest_valid": 42474.0,
+        "n_harv_in_JRC": 14206.0
+      },
+      {
+        "country": "Malawi",
+        "crop": "Rice",
+        "region_crop_pairs": 3,
+        "n_sowing_valid": 2495.0,
+        "n_sow_in_JRC": 1072.0,
+        "n_harvest_valid": 2433.0,
+        "n_harv_in_JRC": 1841.0
+      },
+      {
+        "country": "Malawi",
+        "crop": "Sorghum",
+        "region_crop_pairs": 2,
+        "n_sowing_valid": 3573.0,
+        "n_sow_in_JRC": 1730.0,
+        "n_harvest_valid": 3510.0,
+        "n_harv_in_JRC": 1063.0
+      },
+      {
+        "country": "Mali",
+        "crop": "Maize",
+        "region_crop_pairs": 4,
+        "n_sowing_valid": 5084.0,
+        "n_sow_in_JRC": 4832.0,
+        "n_harvest_valid": 5055.0,
+        "n_harv_in_JRC": 3106.0
+      },
+      {
+        "country": "Mali",
+        "crop": "Rice",
+        "region_crop_pairs": 4,
+        "n_sowing_valid": 2147.0,
+        "n_sow_in_JRC": 1714.0,
+        "n_harvest_valid": 2105.0,
+        "n_harv_in_JRC": 1330.0
+      },
+      {
+        "country": "Mali",
+        "crop": "Sorghum",
+        "region_crop_pairs": 4,
+        "n_sowing_valid": 5147.0,
+        "n_sow_in_JRC": 4591.0,
+        "n_harvest_valid": 5112.0,
+        "n_harv_in_JRC": 4219.0
+      }
+    ],
+    "regions_by_country": {
+      "Malawi": 3,
+      "Mali": 4
+    }
+  }
+}
