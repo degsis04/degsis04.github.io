@@ -1,0 +1,74 @@
+{
+  "utc": "2026-11-03T16:46:46.617178+00:00",
+  "status": "COMPLETE",
+  "errors": [],
+  "checks": {
+    "exact_OSM_target_way": {
+      "pass": true,
+      "detail": 1
+    },
+    "all_way_nodes_in_OSM_full_response": {
+      "pass": true,
+      "detail": {
+        "way_nodes": 54,
+        "retrieved_nodes": 53
+      }
+    },
+    "OSM_site_polygon_geometrically_valid": {
+      "pass": true,
+      "detail": {
+        "valid": true,
+        "nodes": 54
+      }
+    },
+    "OSM_area_tag_is_farmland": {
+      "pass": true,
+      "detail": {
+        "crop": "rice",
+        "landuse": "farmland",
+        "name": "Périmètre de Malanville"
+      }
+    },
+    "same_pinned_HarvestStat_geometries": {
+      "pass": true,
+      "detail": "259e152dcae5b8629b2b76f789abb114219e07347a1dc1efaf8185281f7d028e"
+    },
+    "OSM_site_center_in_malanville_district": {
+      "pass": true,
+      "detail": null
+    },
+    "OSM_site_fraction_in_expected_admin_at_least_95percent": {
+      "pass": true,
+      "detail": 1.0000000000000002
+    }
+  },
+  "source": "https://api.openstreetmap.org/api/0.6/way/387457345/full",
+  "osm_ref": "way 387457345, Périmètre de Malanville (OSM farmland polygon), volunteer-mapped",
+  "method": "OSM XML node geometry → polygon; within HarvestStat original district via EPSG:6933; cell area via WGS84 geodetic 5arcmin",
+  "caveats": [
+    "OSM farmland footprint NOT a government-confirmed irrigated-rice command area",
+    "Area comparison with 516ha from literature is diagnostic only; differences do not prove either source false",
+    "A 5 arcmin MIRCA pixel may be much larger than an individual 516ha irrigated perimeter; no direct crop pixel-to-scheme mapping",
+    "Precise canal intake/pump site is not established by this OSM way"
+  ],
+  "OSM_XML_SHA256": "d26e1993d1f44b646cc55ce3635bd3124036f16778fe44ff6716d5328969ff80",
+  "OSM_XML_bytes": 10790,
+  "results": {
+    "osm_tags": {
+      "crop": "rice",
+      "landuse": "farmland",
+      "name": "Périmètre de Malanville"
+    },
+    "OSM_way_version": "3",
+    "OSM_way_last_modified": "2022-10-15T21:16:09Z",
+    "mapped_OSM_farmland_polygon_area_ha": 554.8033123234086,
+    "literature_2015_irrigation_scheme_area_ha": 516.0,
+    "OSM_area_as_fraction_of_reported_literature_area": 1.0752002176810245,
+    "fraction_of_OSM_polygon_inside_BJ2015A20705": 1.0000000000000002,
+    "representative_coord_lon": 3.3727838225054554,
+    "representative_coord_lat": 11.876024907723803,
+    "approx_MIRCA_5arcmin_cell_area_ha_at_site_latitude": 8369.744899596977,
+    "literature_516ha_scheme_as_fraction_of_one_5arcmin_cell": 0.06165062450408096,
+    "OSM_farmland_polygon_as_fraction_of_one_5arcmin_cell": 0.06628676488695893
+  }
+}
