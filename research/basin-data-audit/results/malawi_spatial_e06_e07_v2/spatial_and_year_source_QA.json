@@ -5,7 +5,7 @@
     "sha256": "259e152dcae5b8629b2b76f789abb114219e07347a1dc1efaf8185281f7d028e",
     "size_bytes": 8486912
   },
-  "start_utc": "2026-11-03T22:13:31.053957+00:00",
+  "start_utc": "2026-11-03T22:14:31.220172+00:00",
   "checks": {
     "812_source_rows": {
       "pass": true,
