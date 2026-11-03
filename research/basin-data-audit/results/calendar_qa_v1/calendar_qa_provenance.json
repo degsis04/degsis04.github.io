@@ -1,0 +1,86 @@
+{
+  "created_utc": "2026-11-03T10:52:37.465858+00:00",
+  "status": "COMPLETE",
+  "sources": {
+    "official_codebook": "https://github.com/HarvestStat/HarvestStat-Africa/releases/tag/v1.2",
+    "source_warning": "https://github.com/HarvestStat/HarvestStat-Africa/blob/main/README.md",
+    "citation": "https://doi.org/10.5061/dryad.vq83bk42w"
+  },
+  "actual_data_url": "https://raw.githubusercontent.com/HarvestStat/HarvestStat-Africa/5b62fb5/public/hvstat_africa_data_v1.2.csv",
+  "expected_sha256": "f659e121e315b9d8656699e4b16421ed3b313e4c8d09d15199452000836dbef9",
+  "semantic_warning": "Planting/harvest months are NOT field-observed phenological dates. Harmonization must use external agronomic calendars.",
+  "checks": {
+    "pinned_data_source": {
+      "pass": true,
+      "detail": "f659e121e315b9d8656699e4b16421ed3b313e4c8d09d15199452000836dbef9"
+    },
+    "217487_original_records": {
+      "pass": true,
+      "detail": 217487
+    },
+    "original_3_crop_count": {
+      "pass": true,
+      "detail": 55719
+    },
+    "original_three_crop_qc": {
+      "pass": true,
+      "detail": 51547
+    },
+    "source_three_crop_post_bcu_qc": {
+      "pass": true,
+      "detail": 35353
+    },
+    "unique_full_panel_key": {
+      "pass": true,
+      "detail": {
+        "duplicate_rows": 0
+      }
+    },
+    "yield_arithmetic": {
+      "pass": true,
+      "detail": {
+        "max_relative_error": 1.720319850115633e-13,
+        "n_relative_error_gt_1pct": 0
+      }
+    },
+    "same_label_pair_count_22": {
+      "pass": true,
+      "detail": 22
+    },
+    "one_row_per_compared_pair": {
+      "pass": true,
+      "detail": 22
+    }
+  },
+  "errors": [],
+  "raw_qa": {
+    "valid_crop_rows_with_bcu": 35353,
+    "complete_calendar_metadata": 35353,
+    "missing_calendar_metadata": 0,
+    "planting_after_harvest": 0,
+    "duration_gt18_months": 0,
+    "crop_duration_gt24_months": 0,
+    "duration_0_24_months": 35353,
+    "harvest_year_different_from_plant_year": 11368,
+    "production_system_counts": {
+      "all_production_systems": 18170,
+      "unclassified": 8644,
+      "rainfed_explicit": 6555,
+      "irrigated_explicit_broad": 1336,
+      "other_unverified": 648
+    },
+    "distinct_districts": 637,
+    "min_year": 1981,
+    "max_year": 2024
+  },
+  "yield_check": {
+    "max_relative_error": 1.720319850115633e-13,
+    "n_relative_error_gt_1pct": 0
+  },
+  "pair_audit": {
+    "previously_22_same_label_pairs": 22,
+    "pair_rows_in_diagnostic": 22,
+    "same_month_code": 0,
+    "physical_phenology_confirmed": 0
+  }
+}

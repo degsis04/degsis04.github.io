@@ -1,0 +1,331 @@
+BCODE,dominant_bcu,country_code,product,season_name,crop_production_system,records,districts,distinct_years,first,last,ps_class,modal_planting_month,modal_harvest_month,modal_month_pair_share,n_month_pairs,pct_calendar_complete,pct_inconsistent_metadata
+AWSH,AWSH_ETH,ET,Maize,Belg,All (PS),8,1,8,2005,2022,all_production_systems,2,8,1.0,1,1.0,0.0
+AWSH,AWSH_ETH,ET,Maize,Meher,All (PS),112,7,24,1997,2021,all_production_systems,5,12,1.0,1,1.0,0.0
+AWSH,AWSH_ETH,ET,Rice,Meher,All (PS),1,1,1,2001,2001,all_production_systems,5,12,1.0,1,1.0,0.0
+AWSH,AWSH_ETH,ET,Sorghum,Belg,All (PS),2,1,2,2005,2010,all_production_systems,2,8,1.0,1,1.0,0.0
+AWSH,AWSH_ETH,ET,Sorghum,Meher,All (PS),94,7,24,1997,2021,all_production_systems,5,12,1.0,1,1.0,0.0
+BENT,BENT_CMR,CM,Maize,1st Season,none,6,1,6,1999,2004,unclassified,6,12,1.0,1,1.0,0.0
+BENT,BENT_CMR,CM,Maize,2nd Season,none,6,1,6,1999,2004,unclassified,6,12,1.0,1,1.0,0.0
+BENT,BENT_CMR,CM,Maize,Annual,none,1,1,1,1998,1998,unclassified,6,12,1.0,1,1.0,0.0
+CNGO,CNGO_AGO,AO,Maize,Main,All (PS),42,2,21,1997,2017,all_production_systems,10,4,1.0,1,1.0,0.0
+CNGO,CNGO_AGO,AO,Rice,Main,All (PS),30,2,15,2001,2016,all_production_systems,10,4,1.0,1,1.0,0.0
+CNGO,CNGO_AGO,AO,Sorghum,Main,All (PS),3,2,2,1997,1998,all_production_systems,10,4,1.0,1,1.0,0.0
+CNGO,CNGO_BDI,BI,Maize,Season A,none,24,6,4,2013,2016,unclassified,9,1,1.0,1,1.0,0.0
+CNGO,CNGO_BDI,BI,Maize,Season B,none,17,6,3,2012,2014,unclassified,2,8,1.0,1,1.0,0.0
+CNGO,CNGO_BDI,BI,Maize,Season C,none,5,5,3,2012,2014,unclassified,6,11,1.0,1,1.0,0.0
+CNGO,CNGO_BDI,BI,Rice,Season A,none,14,6,4,2013,2016,unclassified,9,1,1.0,1,1.0,0.0
+CNGO,CNGO_BDI,BI,Rice,Season B,none,15,5,3,2012,2014,unclassified,2,8,1.0,1,1.0,0.0
+CNGO,CNGO_BDI,BI,Rice,Season C,none,6,4,3,2012,2014,unclassified,6,11,1.0,1,1.0,0.0
+CNGO,CNGO_BDI,BI,Sorghum,Season A,none,9,4,4,2013,2016,unclassified,9,1,1.0,1,1.0,0.0
+CNGO,CNGO_BDI,BI,Sorghum,Season B,none,7,3,3,2012,2014,unclassified,2,8,1.0,1,1.0,0.0
+CNGO,CNGO_BDI,BI,Sorghum,Season C,none,2,2,1,2012,2012,unclassified,6,11,1.0,1,1.0,0.0
+CNGO,CNGO_CAF,CF,Maize,Main,none,33,11,3,2014,2016,unclassified,4,9,1.0,1,1.0,0.0
+CNGO,CNGO_CAF,CF,Rice,Main,none,27,9,3,2014,2016,unclassified,4,9,1.0,1,1.0,0.0
+CNGO,CNGO_CMR,CM,Maize,1st Season,none,22,2,11,1998,2008,unclassified,6,12,1.0,1,1.0,0.0
+CNGO,CNGO_RWA,RW,Maize,Season A,none,12,4,3,2010,2017,unclassified,9,2,1.0,1,1.0,0.0
+CNGO,CNGO_RWA,RW,Maize,Season B,none,12,4,3,2009,2017,unclassified,2,7,1.0,1,1.0,0.0
+CNGO,CNGO_RWA,RW,Rice,Season A,none,6,2,3,2010,2017,unclassified,9,2,1.0,1,1.0,0.0
+CNGO,CNGO_RWA,RW,Rice,Season B,none,6,2,3,2009,2017,unclassified,2,7,1.0,1,1.0,0.0
+CNGO,CNGO_RWA,RW,Sorghum,Season A,none,6,4,3,2010,2017,unclassified,9,2,1.0,1,1.0,0.0
+CNGO,CNGO_RWA,RW,Sorghum,Season B,none,12,4,3,2009,2017,unclassified,2,7,1.0,1,1.0,0.0
+CNGO,CNGO_TZA,TZ,Maize,Annual,none,19,1,19,1992,2014,unclassified,9,7,1.0,1,1.0,0.0
+CNGO,CNGO_TZA,TZ,Maize,Long,none,3,1,3,2003,2015,unclassified,3,8,1.0,1,1.0,0.0
+CNGO,CNGO_TZA,TZ,Maize,Short,none,3,1,3,2003,2015,unclassified,10,4,1.0,1,1.0,0.0
+CNGO,CNGO_TZA,TZ,Rice,Annual,none,19,1,19,1992,2014,unclassified,9,7,1.0,1,1.0,0.0
+CNGO,CNGO_TZA,TZ,Rice,Long,none,3,1,3,2003,2015,unclassified,3,8,1.0,1,1.0,0.0
+CNGO,CNGO_TZA,TZ,Rice,Short,none,3,1,3,2003,2015,unclassified,10,4,1.0,1,1.0,0.0
+CNGO,CNGO_TZA,TZ,Sorghum,Annual,none,19,1,19,1992,2014,unclassified,9,7,1.0,1,1.0,0.0
+CNGO,CNGO_TZA,TZ,Sorghum,Long,none,3,1,3,2003,2015,unclassified,3,8,1.0,1,1.0,0.0
+CNGO,CNGO_TZA,TZ,Sorghum,Short,none,3,1,3,2003,2015,unclassified,10,4,1.0,1,1.0,0.0
+CNGO,CNGO_ZMB,ZM,Maize,Annual,none,555,17,33,1981,2017,unclassified,11,5,1.0,1,1.0,0.0
+CNGO,CNGO_ZMB,ZM,Rice,Annual,none,362,17,24,1990,2017,unclassified,11,5,1.0,1,1.0,0.0
+CNGO,CNGO_ZMB,ZM,Sorghum,Annual,none,279,17,24,1990,2017,unclassified,11,5,1.0,1,1.0,0.0
+CROS,CROS_CMR,CM,Maize,1st Season,none,12,2,6,1999,2004,unclassified,6,12,1.0,1,1.0,0.0
+CROS,CROS_CMR,CM,Maize,2nd Season,none,12,2,6,1999,2004,unclassified,6,12,1.0,1,1.0,0.0
+CROS,CROS_CMR,CM,Maize,Annual,none,2,2,1,1998,1998,unclassified,6,12,1.0,1,1.0,0.0
+CROS,CROS_CMR,CM,Rice,1st Season,none,10,1,10,1999,2008,unclassified,6,12,1.0,1,1.0,0.0
+CROS,CROS_NGA,NG,Maize,Wet,All (PS),25,1,25,1999,2023,all_production_systems,3,10,1.0,1,1.0,0.0
+CROS,CROS_NGA,NG,Rice,Wet,All (PS),25,1,25,1999,2023,all_production_systems,3,10,1.0,1,1.0,0.0
+CROS,CROS_NGA,NG,Sorghum,Wet,All (PS),1,1,1,2012,2012,all_production_systems,3,10,1.0,1,1.0,0.0
+GAMB,GAMB_SEN,SN,Maize,Main,none,140,5,31,1981,2015,unclassified,6,11,1.0,1,1.0,0.0
+GAMB,GAMB_SEN,SN,Rice,Main,none,121,5,32,1981,2015,unclassified,6,11,1.0,1,1.0,0.0
+GAMB,GAMB_SEN,SN,Sorghum,Main,none,137,5,30,1986,2015,unclassified,6,11,1.0,1,1.0,0.0
+GLNA,GLNA_KEN,KE,Maize,Annual,All (PS),59,2,40,1981,2020,all_production_systems,1,12,1.0,1,1.0,0.0
+GLNA,GLNA_KEN,KE,Maize,Long,All (PS),25,2,18,1992,2024,all_production_systems,3,8,1.0,1,1.0,0.0
+GLNA,GLNA_KEN,KE,Maize,Short,All (PS),22,2,17,1992,2024,all_production_systems,10,3,1.0,1,1.0,0.0
+GLNA,GLNA_KEN,KE,Sorghum,Annual,All (PS),26,2,16,1981,2020,all_production_systems,1,12,1.0,1,1.0,0.0
+GLNA,GLNA_KEN,KE,Sorghum,Long,All (PS),3,2,2,2015,2016,all_production_systems,3,8,1.0,1,1.0,0.0
+GLNA,GLNA_KEN,KE,Sorghum,Short,All (PS),2,1,2,2016,2017,all_production_systems,10,3,1.0,1,1.0,0.0
+JUBA,JUBA_ETH,ET,Maize,Belg,All (PS),9,1,9,2008,2022,all_production_systems,2,8,1.0,1,1.0,0.0
+JUBA,JUBA_ETH,ET,Maize,Meher,All (PS),129,7,24,1997,2021,all_production_systems,5,12,1.0,1,1.0,0.0
+JUBA,JUBA_ETH,ET,Sorghum,Meher,All (PS),73,7,24,1997,2021,all_production_systems,5,12,1.0,1,1.0,0.0
+JUBA,JUBA_KEN,KE,Maize,Annual,All (PS),153,4,40,1981,2020,all_production_systems,1,12,1.0,1,1.0,0.0
+JUBA,JUBA_KEN,KE,Maize,Long,All (PS),64,4,21,1991,2024,all_production_systems,3,8,1.0,1,1.0,0.0
+JUBA,JUBA_KEN,KE,Maize,Short,All (PS),45,4,17,1992,2024,all_production_systems,10,3,1.0,1,1.0,0.0
+JUBA,JUBA_KEN,KE,Sorghum,Annual,All (PS),36,4,11,2008,2020,all_production_systems,1,12,1.0,1,1.0,0.0
+JUBA,JUBA_KEN,KE,Sorghum,Long,All (PS),5,3,2,2015,2016,all_production_systems,3,8,1.0,1,1.0,0.0
+JUBA,JUBA_KEN,KE,Sorghum,Short,All (PS),4,2,2,2016,2017,all_production_systems,10,3,1.0,1,1.0,0.0
+JUBA,JUBA_SOM,SO,Maize,Deyr,All (PS),594,26,29,1996,2024,all_production_systems,10,3,1.0,1,1.0,0.0
+JUBA,JUBA_SOM,SO,Maize,Deyr-off,All (PS),164,21,19,2005,2024,all_production_systems,10,4,1.0,1,1.0,0.0
+JUBA,JUBA_SOM,SO,Maize,Gu,All (PS),658,26,30,1995,2024,all_production_systems,3,8,1.0,1,1.0,0.0
+JUBA,JUBA_SOM,SO,Maize,Gu-off,All (PS),161,19,19,2005,2024,all_production_systems,3,9,1.0,1,1.0,0.0
+JUBA,JUBA_SOM,SO,Rice,Deyr,All (PS),15,1,15,2009,2024,all_production_systems,10,3,1.0,1,1.0,0.0
+JUBA,JUBA_SOM,SO,Rice,Gu,All (PS),15,1,15,2008,2024,all_production_systems,3,8,1.0,1,1.0,0.0
+JUBA,JUBA_SOM,SO,Sorghum,Deyr,All (PS),543,23,29,1996,2024,all_production_systems,10,3,1.0,1,1.0,0.0
+JUBA,JUBA_SOM,SO,Sorghum,Deyr-off,All (PS),9,7,4,2015,2024,all_production_systems,10,4,1.0,1,1.0,0.0
+JUBA,JUBA_SOM,SO,Sorghum,Gu,All (PS),542,23,30,1995,2024,all_production_systems,3,8,1.0,1,1.0,0.0
+JUBA,JUBA_SOM,SO,Sorghum,Gu-off,All (PS),5,1,5,2016,2024,all_production_systems,3,9,1.0,1,1.0,0.0
+KMOE,KMOE_BFA,BF,Maize,Annual,Plaine/Bas-fond irrigated (PS),9,2,8,2015,2022,irrigated_explicit_broad,1,12,1.0,1,1.0,0.0
+KMOE,KMOE_BFA,BF,Maize,Main,All (PS),62,2,31,1984,2014,all_production_systems,6,12,1.0,1,1.0,0.0
+KMOE,KMOE_BFA,BF,Maize,Main,Rainfed (PS),18,2,9,2015,2023,rainfed_explicit,6,12,1.0,1,1.0,0.0
+KMOE,KMOE_BFA,BF,Rice,Annual,Plaine/Bas-fond irrigated (PS),17,2,9,2015,2023,irrigated_explicit_broad,1,12,1.0,1,1.0,0.0
+KMOE,KMOE_BFA,BF,Rice,Main,All (PS),62,2,31,1984,2014,all_production_systems,6,12,1.0,1,1.0,0.0
+KMOE,KMOE_BFA,BF,Rice,Main,Bas-fonds rainfed (PS),16,2,8,2015,2022,rainfed_explicit,6,12,1.0,1,1.0,0.0
+KMOE,KMOE_BFA,BF,Rice,Main,Rainfed (PS),16,2,8,2015,2022,rainfed_explicit,6,12,1.0,1,1.0,0.0
+KMOE,KMOE_BFA,BF,Sorghum,Main,All (PS),62,2,31,1984,2014,all_production_systems,6,12,1.0,1,1.0,0.0
+KMOE,KMOE_BFA,BF,Sorghum,Main,Rainfed (PS),18,2,9,2015,2023,rainfed_explicit,6,12,1.0,1,1.0,0.0
+LKCH,LKCH_CAF,CF,Maize,Main,none,15,5,3,2014,2016,unclassified,4,9,1.0,1,1.0,0.0
+LKCH,LKCH_CAF,CF,Rice,Main,none,9,3,3,2014,2016,unclassified,4,9,1.0,1,1.0,0.0
+LKCH,LKCH_CMR,CM,Maize,Annual,none,1,1,1,1998,1998,unclassified,6,12,1.0,1,1.0,0.0
+LKCH,LKCH_CMR,CM,Maize,North 1st Season,none,28,3,11,1998,2008,unclassified,6,12,1.0,1,1.0,0.0
+LKCH,LKCH_CMR,CM,Maize,North 2nd Season,none,6,1,6,1999,2004,unclassified,6,12,1.0,1,1.0,0.0
+LKCH,LKCH_CMR,CM,Rice,North 1st Season,none,30,3,10,1999,2008,unclassified,6,12,1.0,1,1.0,0.0
+LKCH,LKCH_NER,NE,Maize,Dry,irrigated,74,12,8,2012,2019,irrigated_explicit_broad,12,6,1.0,1,1.0,0.0
+LKCH,LKCH_NER,NE,Maize,Main,Rainfed (PS),17,4,10,1981,2021,rainfed_explicit,6,12,1.0,1,1.0,0.0
+LKCH,LKCH_NER,NE,Rice,Dry,irrigated,18,6,6,2014,2019,irrigated_explicit_broad,12,6,1.0,1,1.0,0.0
+LKCH,LKCH_NER,NE,Rice,Main,Rainfed (PS),26,6,16,1998,2019,rainfed_explicit,6,12,1.0,1,1.0,0.0
+LKCH,LKCH_NER,NE,Sorghum,Dry,irrigated,18,6,6,2013,2018,irrigated_explicit_broad,12,6,1.0,1,1.0,0.0
+LKCH,LKCH_NER,NE,Sorghum,Main,Rainfed (PS),364,11,41,1981,2021,rainfed_explicit,6,12,1.0,1,1.0,0.0
+LKCH,LKCH_NGA,NG,Maize,Wet,All (PS),91,4,25,1999,2023,all_production_systems,3,10,1.0,1,1.0,0.0
+LKCH,LKCH_NGA,NG,Rice,Wet,All (PS),95,4,25,1999,2023,all_production_systems,3,10,1.0,1,1.0,0.0
+LKCH,LKCH_NGA,NG,Sorghum,Wet,All (PS),92,4,25,1999,2023,all_production_systems,3,10,1.0,1,1.0,0.0
+LKCH,LKCH_SDN,SD,Sorghum,Main,mechanized_rainfed,2,2,1,2001,2001,rainfed_explicit,6,11,1.0,1,1.0,0.0
+LKCH,LKCH_SDN,SD,Sorghum,Main,traditional_rainfed,84,2,43,1981,2023,rainfed_explicit,6,11,1.0,1,1.0,0.0
+LKCH,LKCH_TCD,TD,Maize,Main,none,369,15,31,1984,2017,unclassified,6,11,1.0,1,1.0,0.0
+LKCH,LKCH_TCD,TD,Rice,Main,none,282,14,32,1983,2017,unclassified,6,11,1.0,1,1.0,0.0
+LKCH,LKCH_TCD,TD,Sorghum,Cold-off,none,256,15,31,1983,2017,unclassified,1,3,1.0,1,1.0,0.0
+LKCH,LKCH_TCD,TD,Sorghum,Main,none,431,15,31,1983,2017,unclassified,6,11,1.0,1,1.0,0.0
+LKCW,LKCW_MWI,MW,Maize,Annual,All (PS),9,2,5,2020,2024,all_production_systems,11,10,1.0,1,1.0,0.0
+LKCW,LKCW_MWI,MW,Maize,Main,Rainfed (PS),73,2,37,1984,2020,rainfed_explicit,11,5,1.0,1,1.0,0.0
+LKCW,LKCW_MWI,MW,Maize,Main,irrigated,1,1,1,2018,2018,irrigated_explicit_broad,11,5,1.0,1,1.0,0.0
+LKCW,LKCW_MWI,MW,Rice,Annual,All (PS),6,2,4,2020,2023,all_production_systems,11,10,1.0,1,1.0,0.0
+LKCW,LKCW_MWI,MW,Rice,Main,Rainfed (PS),62,2,32,1986,2020,rainfed_explicit,11,5,1.0,1,1.0,0.0
+LKCW,LKCW_MWI,MW,Sorghum,Main,Rainfed (PS),68,2,35,1983,2020,rainfed_explicit,11,5,1.0,1,1.0,0.0
+LKTK,LKTK_ETH,ET,Maize,Meher,All (PS),149,8,21,1997,2021,all_production_systems,5,12,1.0,1,1.0,0.0
+LKTK,LKTK_ETH,ET,Sorghum,Meher,All (PS),149,8,21,1997,2021,all_production_systems,5,12,1.0,1,1.0,0.0
+LKTK,LKTK_KEN,KE,Maize,Annual,All (PS),40,1,40,1981,2020,all_production_systems,1,12,1.0,1,1.0,0.0
+LKTK,LKTK_KEN,KE,Maize,Long,All (PS),21,1,21,1991,2024,all_production_systems,3,8,1.0,1,1.0,0.0
+LKTK,LKTK_KEN,KE,Maize,Short,All (PS),3,1,3,2016,2023,all_production_systems,10,3,1.0,1,1.0,0.0
+LKTK,LKTK_KEN,KE,Rice,Annual,All (PS),1,1,1,2016,2016,all_production_systems,1,12,1.0,1,1.0,0.0
+LKTK,LKTK_KEN,KE,Sorghum,Annual,All (PS),19,1,19,1981,2020,all_production_systems,1,12,1.0,1,1.0,0.0
+LKTK,LKTK_KEN,KE,Sorghum,Long,All (PS),2,1,2,2015,2016,all_production_systems,3,8,1.0,1,1.0,0.0
+LKTK,LKTK_KEN,KE,Sorghum,Short,All (PS),2,1,2,2016,2017,all_production_systems,10,3,1.0,1,1.0,0.0
+LMPO,LMPO_MOZ,MZ,Maize,Main,All (PS),20,1,20,2000,2022,all_production_systems,10,6,1.0,1,1.0,0.0
+LMPO,LMPO_MOZ,MZ,Rice,Rice season,All (PS),12,1,12,1999,2022,all_production_systems,10,6,1.0,1,1.0,0.0
+LMPO,LMPO_MOZ,MZ,Sorghum,Main,All (PS),21,1,21,1999,2022,all_production_systems,10,6,1.0,1,1.0,0.0
+LMPO,LMPO_ZAF,ZA,Maize,Summer,Commercial (PS),38,1,38,1987,2024,other_unverified,10,4,1.0,1,1.0,0.0
+LMPO,LMPO_ZAF,ZA,Sorghum,Summer,Commercial (PS),38,1,38,1987,2024,other_unverified,10,4,1.0,1,1.0,0.0
+LMPO,LMPO_ZWE,ZW,Maize,Main,A1 (PS),2,1,2,2008,2009,other_unverified,11,6,1.0,1,1.0,0.0
+LMPO,LMPO_ZWE,ZW,Maize,Main,A2 (PS),2,1,2,2008,2009,other_unverified,11,6,1.0,1,1.0,0.0
+LMPO,LMPO_ZWE,ZW,Maize,Main,All (PS),22,1,22,1994,2023,all_production_systems,11,6,1.0,1,1.0,0.0
+LMPO,LMPO_ZWE,ZW,Maize,Main,CA (PS),2,1,2,2008,2009,other_unverified,11,6,1.0,1,1.0,0.0
+LMPO,LMPO_ZWE,ZW,Maize,Main,Communal (PS),19,1,19,1981,2000,other_unverified,11,6,1.0,1,1.0,0.0
+LMPO,LMPO_ZWE,ZW,Maize,Main,LSCF (PS),2,1,2,2008,2009,other_unverified,11,6,1.0,1,1.0,0.0
+LMPO,LMPO_ZWE,ZW,Maize,Main,OR (PS),2,1,2,2008,2009,other_unverified,11,6,1.0,1,1.0,0.0
+LMPO,LMPO_ZWE,ZW,Maize,Main,SSCF (PS),2,1,2,2008,2009,other_unverified,11,6,1.0,1,1.0,0.0
+LMPO,LMPO_ZWE,ZW,Sorghum,Main,A1 (PS),1,1,1,2009,2009,other_unverified,11,6,1.0,1,1.0,0.0
+LMPO,LMPO_ZWE,ZW,Sorghum,Main,A2 (PS),1,1,1,2009,2009,other_unverified,11,6,1.0,1,1.0,0.0
+LMPO,LMPO_ZWE,ZW,Sorghum,Main,All (PS),17,1,17,1994,2023,all_production_systems,11,6,1.0,1,1.0,0.0
+LMPO,LMPO_ZWE,ZW,Sorghum,Main,CA (PS),1,1,1,2009,2009,other_unverified,11,6,1.0,1,1.0,0.0
+LMPO,LMPO_ZWE,ZW,Sorghum,Main,Communal (PS),10,1,10,1991,2000,other_unverified,11,6,1.0,1,1.0,0.0
+LMPO,LMPO_ZWE,ZW,Sorghum,Main,LSCF (PS),1,1,1,2009,2009,other_unverified,11,6,1.0,1,1.0,0.0
+LMPO,LMPO_ZWE,ZW,Sorghum,Main,OR (PS),1,1,1,2009,2009,other_unverified,11,6,1.0,1,1.0,0.0
+LMPO,LMPO_ZWE,ZW,Sorghum,Main,SSCF (PS),1,1,1,2009,2009,other_unverified,11,6,1.0,1,1.0,0.0
+MOAX,MOAX_SLE,SL,Maize,Main,none,1,1,1,1986,1986,unclassified,5,9,1.0,1,1.0,0.0
+MOAX,MOAX_SLE,SL,Rice,Main,none,1,1,1,1986,1986,unclassified,5,9,1.0,1,1.0,0.0
+MONO,MONO_BEN,BJ,Maize,Main,All (PS),144,5,29,1995,2023,all_production_systems,3,10,1.0,1,1.0,0.0
+MONO,MONO_BEN,BJ,Rice,Annual,All (PS),136,5,29,1995,2023,all_production_systems,3,10,1.0,1,1.0,0.0
+MONO,MONO_TGO,TG,Maize,Main,All (PS),119,6,21,1995,2015,all_production_systems,5,11,1.0,1,1.0,0.0
+MONO,MONO_TGO,TG,Rice,Annual,All (PS),30,6,6,2010,2015,all_production_systems,5,11,1.0,1,1.0,0.0
+MONO,MONO_TGO,TG,Sorghum,Main,All (PS),109,6,21,1995,2015,all_production_systems,5,11,1.0,1,1.0,0.0
+NGER,NGER_BEN,BJ,Maize,Main,All (PS),286,10,29,1995,2023,all_production_systems,3,10,1.0,1,1.0,0.0
+NGER,NGER_BEN,BJ,Rice,Annual,All (PS),285,10,29,1995,2023,all_production_systems,3,10,1.0,1,1.0,0.0
+NGER,NGER_BEN,BJ,Sorghum,Main,All (PS),285,10,29,1995,2023,all_production_systems,3,10,1.0,1,1.0,0.0
+NGER,NGER_BFA,BF,Maize,Annual,Plaine/Bas-fond irrigated (PS),6,2,5,2015,2021,irrigated_explicit_broad,1,12,1.0,1,1.0,0.0
+NGER,NGER_BFA,BF,Maize,Main,All (PS),191,7,36,1984,2020,all_production_systems,6,12,1.0,1,1.0,0.0
+NGER,NGER_BFA,BF,Maize,Main,Rainfed (PS),59,7,9,2015,2023,rainfed_explicit,6,12,1.0,1,1.0,0.0
+NGER,NGER_BFA,BF,Rice,Annual,Plaine/Bas-fond irrigated (PS),60,7,9,2015,2023,irrigated_explicit_broad,1,12,1.0,1,1.0,0.0
+NGER,NGER_BFA,BF,Rice,Main,All (PS),167,7,31,1984,2014,all_production_systems,6,12,1.0,1,1.0,0.0
+NGER,NGER_BFA,BF,Rice,Main,Bas-fonds rainfed (PS),27,6,8,2015,2022,rainfed_explicit,6,12,1.0,1,1.0,0.0
+NGER,NGER_BFA,BF,Rice,Main,Rainfed (PS),3,2,3,2017,2022,rainfed_explicit,6,12,1.0,1,1.0,0.0
+NGER,NGER_BFA,BF,Sorghum,Main,All (PS),210,7,36,1984,2020,all_production_systems,6,12,1.0,1,1.0,0.0
+NGER,NGER_BFA,BF,Sorghum,Main,Rainfed (PS),61,7,9,2015,2023,rainfed_explicit,6,12,1.0,1,1.0,0.0
+NGER,NGER_CMR,CM,Maize,1st Season,none,24,3,11,1998,2008,unclassified,6,12,1.0,1,1.0,0.0
+NGER,NGER_CMR,CM,Maize,2nd Season,none,12,2,6,1999,2004,unclassified,6,12,1.0,1,1.0,0.0
+NGER,NGER_CMR,CM,Maize,Annual,none,1,1,1,1998,1998,unclassified,6,12,1.0,1,1.0,0.0
+NGER,NGER_CMR,CM,Maize,North 1st Season,none,43,4,11,1998,2008,unclassified,6,12,1.0,1,1.0,0.0
+NGER,NGER_CMR,CM,Rice,1st Season,none,16,2,11,1998,2008,unclassified,6,12,1.0,1,1.0,0.0
+NGER,NGER_CMR,CM,Rice,2nd Season,none,16,2,11,1998,2008,unclassified,6,12,1.0,1,1.0,0.0
+NGER,NGER_CMR,CM,Rice,Annual,none,2,2,1,1998,1998,unclassified,6,12,1.0,1,1.0,0.0
+NGER,NGER_CMR,CM,Rice,North 1st Season,none,26,3,11,1998,2008,unclassified,6,12,1.0,1,1.0,0.0
+NGER,NGER_CMR,CM,Rice,North 2nd Season,none,6,1,6,1999,2004,unclassified,6,12,1.0,1,1.0,0.0
+NGER,NGER_MLI,ML,Maize,Main,All (PS),160,6,42,1981,2022,all_production_systems,6,12,1.0,1,1.0,0.0
+NGER,NGER_MLI,ML,Rice,Main,All (PS),209,6,40,1982,2022,all_production_systems,6,12,1.0,1,1.0,0.0
+NGER,NGER_MLI,ML,Sorghum,Main,All (PS),213,6,41,1982,2022,all_production_systems,6,12,1.0,1,1.0,0.0
+NGER,NGER_NER,NE,Maize,Dry,irrigated,258,43,7,2012,2018,irrigated_explicit_broad,12,6,1.0,1,1.0,0.0
+NGER,NGER_NER,NE,Maize,Main,All (PS),42,2,23,1981,2010,all_production_systems,6,12,1.0,1,1.0,0.0
+NGER,NGER_NER,NE,Maize,Main,Rainfed (PS),325,31,37,1981,2017,rainfed_explicit,6,12,1.0,1,1.0,0.0
+NGER,NGER_NER,NE,Rice,Dry,irrigated,72,18,7,2012,2018,irrigated_explicit_broad,12,6,1.0,1,1.0,0.0
+NGER,NGER_NER,NE,Rice,Main,Rainfed (PS),239,17,32,1981,2017,rainfed_explicit,6,12,1.0,1,1.0,0.0
+NGER,NGER_NER,NE,Sorghum,Dry,irrigated,111,31,6,2013,2018,irrigated_explicit_broad,12,6,1.0,1,1.0,0.0
+NGER,NGER_NER,NE,Sorghum,Main,Rainfed (PS),1574,43,37,1981,2017,rainfed_explicit,6,12,1.0,1,1.0,0.0
+NGER,NGER_NGA,NG,Maize,Wet,All (PS),357,16,25,1999,2023,all_production_systems,3,10,1.0,1,1.0,0.0
+NGER,NGER_NGA,NG,Rice,Wet,All (PS),378,16,25,1999,2023,all_production_systems,3,10,1.0,1,1.0,0.0
+NGER,NGER_NGA,NG,Sorghum,Wet,All (PS),321,14,25,1999,2023,all_production_systems,3,10,1.0,1,1.0,0.0
+NGER,NGER_TCD,TD,Maize,Main,none,28,1,28,1986,2017,unclassified,6,11,1.0,1,1.0,0.0
+NGER,NGER_TCD,TD,Rice,Main,none,32,1,32,1983,2017,unclassified,6,11,1.0,1,1.0,0.0
+NGER,NGER_TCD,TD,Sorghum,Cold-off,none,31,1,31,1983,2017,unclassified,1,3,1.0,1,1.0,0.0
+NGER,NGER_TCD,TD,Sorghum,Main,none,31,1,31,1983,2017,unclassified,6,11,1.0,1,1.0,0.0
+NILE,NILE_BDI,BI,Maize,Season A,none,32,8,4,2013,2016,unclassified,9,1,1.0,1,1.0,0.0
+NILE,NILE_BDI,BI,Maize,Season B,none,20,8,3,2012,2014,unclassified,2,8,1.0,1,1.0,0.0
+NILE,NILE_BDI,BI,Maize,Season C,none,16,8,3,2012,2014,unclassified,6,11,1.0,1,1.0,0.0
+NILE,NILE_BDI,BI,Rice,Season A,none,14,7,4,2013,2016,unclassified,9,1,1.0,1,1.0,0.0
+NILE,NILE_BDI,BI,Rice,Season B,none,20,8,3,2012,2014,unclassified,2,8,1.0,1,1.0,0.0
+NILE,NILE_BDI,BI,Rice,Season C,none,5,3,3,2012,2014,unclassified,6,11,1.0,1,1.0,0.0
+NILE,NILE_BDI,BI,Sorghum,Season A,none,9,4,4,2013,2016,unclassified,9,1,1.0,1,1.0,0.0
+NILE,NILE_BDI,BI,Sorghum,Season B,none,18,8,3,2012,2014,unclassified,2,8,1.0,1,1.0,0.0
+NILE,NILE_BDI,BI,Sorghum,Season C,none,17,7,3,2012,2014,unclassified,6,11,1.0,1,1.0,0.0
+NILE,NILE_ETH,ET,Maize,Meher,All (PS),513,27,24,1993,2021,all_production_systems,5,12,1.0,1,1.0,0.0
+NILE,NILE_ETH,ET,Rice,Meher,All (PS),32,15,10,2001,2021,all_production_systems,5,12,1.0,1,1.0,0.0
+NILE,NILE_ETH,ET,Sorghum,Meher,All (PS),442,27,24,1993,2021,all_production_systems,5,12,1.0,1,1.0,0.0
+NILE,NILE_KEN,KE,Maize,Annual,All (PS),569,15,40,1981,2020,all_production_systems,1,12,1.0,1,1.0,0.0
+NILE,NILE_KEN,KE,Maize,Long,All (PS),303,15,21,1991,2024,all_production_systems,3,8,1.0,1,1.0,0.0
+NILE,NILE_KEN,KE,Maize,Short,All (PS),180,14,18,1992,2024,all_production_systems,10,3,1.0,1,1.0,0.0
+NILE,NILE_KEN,KE,Rice,Annual,All (PS),74,8,11,2008,2020,all_production_systems,1,12,1.0,1,1.0,0.0
+NILE,NILE_KEN,KE,Sorghum,Annual,All (PS),217,15,20,1981,2020,all_production_systems,1,12,1.0,1,1.0,0.0
+NILE,NILE_KEN,KE,Sorghum,Long,All (PS),30,15,2,2015,2016,all_production_systems,3,8,1.0,1,1.0,0.0
+NILE,NILE_KEN,KE,Sorghum,Short,All (PS),20,10,2,2016,2017,all_production_systems,10,3,1.0,1,1.0,0.0
+NILE,NILE_RWA,RW,Maize,Season A,none,72,24,4,2010,2017,unclassified,9,2,1.0,1,1.0,0.0
+NILE,NILE_RWA,RW,Maize,Season B,none,71,24,4,2009,2017,unclassified,2,7,1.0,1,1.0,0.0
+NILE,NILE_RWA,RW,Rice,Season A,none,33,15,3,2010,2017,unclassified,9,2,1.0,1,1.0,0.0
+NILE,NILE_RWA,RW,Rice,Season B,none,41,15,3,2009,2017,unclassified,2,7,1.0,1,1.0,0.0
+NILE,NILE_RWA,RW,Sorghum,Season A,none,33,17,4,2010,2017,unclassified,9,2,1.0,1,1.0,0.0
+NILE,NILE_RWA,RW,Sorghum,Season B,none,68,24,4,2009,2017,unclassified,2,7,1.0,1,1.0,0.0
+NILE,NILE_SDN,SD,Sorghum,Annual,irrigated,179,9,43,1981,2024,irrigated_explicit_broad,6,5,1.0,1,1.0,0.0
+NILE,NILE_SDN,SD,Sorghum,Main,Mechanized (PS),12,6,2,2016,2017,other_unverified,6,11,1.0,1,1.0,0.0
+NILE,NILE_SDN,SD,Sorghum,Main,Semi-Mechanized (PS),62,8,8,2016,2023,other_unverified,6,11,1.0,1,1.0,0.0
+NILE,NILE_SDN,SD,Sorghum,Main,mechanized_rainfed,273,10,38,1981,2021,rainfed_explicit,6,11,1.0,1,1.0,0.0
+NILE,NILE_SDN,SD,Sorghum,Main,traditional_rainfed,404,11,43,1981,2023,rainfed_explicit,6,11,1.0,1,1.0,0.0
+NILE,NILE_SSD,SS,Sorghum,Annual,irrigated,11,1,11,1998,2010,irrigated_explicit_broad,6,5,1.0,1,1.0,0.0
+NILE,NILE_SSD,SS,Sorghum,Main,mechanized_rainfed,19,1,19,1990,2008,rainfed_explicit,4,12,1.0,1,1.0,0.0
+NILE,NILE_SSD,SS,Sorghum,Main,traditional_rainfed,3,1,3,2006,2008,rainfed_explicit,4,12,1.0,1,1.0,0.0
+NILE,NILE_TZA,TZ,Maize,Annual,none,59,3,20,1992,2014,unclassified,9,7,1.0,1,1.0,0.0
+NILE,NILE_TZA,TZ,Maize,Long,none,8,3,3,2003,2015,unclassified,3,8,1.0,1,1.0,0.0
+NILE,NILE_TZA,TZ,Maize,Short,none,7,3,3,2003,2015,unclassified,10,4,1.0,1,1.0,0.0
+NILE,NILE_TZA,TZ,Rice,Annual,none,58,3,20,1992,2014,unclassified,9,7,1.0,1,1.0,0.0
+NILE,NILE_TZA,TZ,Rice,Long,none,7,3,3,2003,2015,unclassified,3,8,1.0,1,1.0,0.0
+NILE,NILE_TZA,TZ,Rice,Short,none,7,3,3,2003,2015,unclassified,10,4,1.0,1,1.0,0.0
+NILE,NILE_TZA,TZ,Sorghum,Annual,none,58,3,20,1992,2014,unclassified,9,7,1.0,1,1.0,0.0
+NILE,NILE_TZA,TZ,Sorghum,Long,none,7,3,3,2003,2015,unclassified,3,8,1.0,1,1.0,0.0
+NILE,NILE_TZA,TZ,Sorghum,Short,none,7,3,3,2003,2015,unclassified,10,4,1.0,1,1.0,0.0
+NILE,NILE_UGA,UG,Maize,First,none,77,77,1,2009,2009,unclassified,3,7,1.0,1,1.0,0.0
+NILE,NILE_UGA,UG,Maize,Second,none,78,78,1,2008,2008,unclassified,8,12,1.0,1,1.0,0.0
+NILE,NILE_UGA,UG,Rice,First,none,39,39,1,2009,2009,unclassified,3,7,1.0,1,1.0,0.0
+NILE,NILE_UGA,UG,Rice,Second,none,49,49,1,2008,2008,unclassified,8,12,1.0,1,1.0,0.0
+NILE,NILE_UGA,UG,Sorghum,First,none,69,69,1,2009,2009,unclassified,3,7,1.0,1,1.0,0.0
+NILE,NILE_UGA,UG,Sorghum,Second,none,69,69,1,2008,2008,unclassified,8,12,1.0,1,1.0,0.0
+ORAN,ORAN_LSO,LS,Maize,Summer,All (PS),388,10,39,1982,2024,all_production_systems,10,7,1.0,1,1.0,0.0
+ORAN,ORAN_LSO,LS,Maize,Summer,none,23,6,4,2019,2022,unclassified,10,7,1.0,1,1.0,0.0
+ORAN,ORAN_LSO,LS,Maize,Winter,none,3,3,1,2021,2021,unclassified,5,11,1.0,1,1.0,0.0
+ORAN,ORAN_LSO,LS,Sorghum,Summer,All (PS),384,10,39,1982,2024,all_production_systems,10,7,1.0,1,1.0,0.0
+ORAN,ORAN_LSO,LS,Sorghum,Summer,none,21,6,4,2019,2022,unclassified,10,7,1.0,1,1.0,0.0
+ORAN,ORAN_ZAF,ZA,Maize,Summer,Commercial (PS),38,1,38,1987,2024,other_unverified,10,4,1.0,1,1.0,0.0
+ORAN,ORAN_ZAF,ZA,Sorghum,Summer,Commercial (PS),38,1,38,1987,2024,other_unverified,10,4,1.0,1,1.0,0.0
+OUEM,OUEM_BEN,BJ,Maize,Main,All (PS),1042,36,29,1995,2023,all_production_systems,3,10,1.0,1,1.0,0.0
+OUEM,OUEM_BEN,BJ,Rice,Annual,All (PS),699,34,29,1995,2023,all_production_systems,3,10,1.0,1,1.0,0.0
+OUEM,OUEM_BEN,BJ,Sorghum,Main,All (PS),500,19,29,1995,2023,all_production_systems,3,10,1.0,1,1.0,0.0
+SANA,SANA_CMR,CM,Maize,1st Season,none,56,9,8,1998,2005,unclassified,6,12,1.0,1,1.0,0.0
+SANA,SANA_CMR,CM,Maize,2nd Season,none,56,9,8,1998,2005,unclassified,6,12,1.0,1,1.0,0.0
+SANA,SANA_CMR,CM,Maize,Annual,none,8,8,1,1998,1998,unclassified,6,12,1.0,1,1.0,0.0
+SANA,SANA_CMR,CM,Maize,North 1st Season,none,18,2,11,1998,2008,unclassified,6,12,1.0,1,1.0,0.0
+SANA,SANA_CMR,CM,Rice,1st Season,none,22,3,10,1999,2008,unclassified,6,12,1.0,1,1.0,0.0
+SANA,SANA_CMR,CM,Rice,2nd Season,none,12,2,6,1999,2004,unclassified,6,12,1.0,1,1.0,0.0
+SANA,SANA_CMR,CM,Rice,Annual,none,2,2,1,1998,1998,unclassified,6,12,1.0,1,1.0,0.0
+SANA,SANA_CMR,CM,Rice,North 1st Season,none,3,1,3,2006,2008,unclassified,6,12,1.0,1,1.0,0.0
+SENG,SENG_MLI,ML,Maize,Main,All (PS),41,1,41,1981,2022,all_production_systems,6,12,1.0,1,1.0,0.0
+SENG,SENG_MLI,ML,Rice,Main,All (PS),38,1,38,1982,2022,all_production_systems,6,12,1.0,1,1.0,0.0
+SENG,SENG_MLI,ML,Sorghum,Main,All (PS),40,1,40,1982,2022,all_production_systems,6,12,1.0,1,1.0,0.0
+SENG,SENG_MRT,MR,Maize,Annual,All (PS),18,4,6,1989,1998,all_production_systems,6,11,1.0,1,1.0,0.0
+SENG,SENG_MRT,MR,Maize,Annual,irrigated,2,2,1,2002,2002,irrigated_explicit_broad,6,11,1.0,1,1.0,0.0
+SENG,SENG_MRT,MR,Maize,Bas-fond,surface water,58,4,17,1999,2016,other_unverified,10,3,1.0,1,1.0,0.0
+SENG,SENG_MRT,MR,Maize,Dam retention,dam irrigation,28,4,11,2000,2016,irrigated_explicit_broad,10,3,1.0,1,1.0,0.0
+SENG,SENG_MRT,MR,Maize,Decrue controlee,parastatal recessional,14,1,14,2001,2016,other_unverified,10,3,1.0,1,1.0,0.0
+SENG,SENG_MRT,MR,Maize,Main,dieri,32,4,16,1999,2016,other_unverified,6,11,1.0,1,1.0,0.0
+SENG,SENG_MRT,MR,Maize,Walo,parastatal recessional,18,1,18,1999,2016,other_unverified,11,4,1.0,1,1.0,0.0
+SENG,SENG_MRT,MR,Rice,Annual,irrigated,39,2,20,2000,2019,irrigated_explicit_broad,6,11,1.0,1,1.0,0.0
+SENG,SENG_MRT,MR,Rice,Bas-fond,surface water,1,1,1,2008,2008,other_unverified,10,3,1.0,1,1.0,0.0
+SENG,SENG_MRT,MR,Rice,Hot off-season,irrigated,4,1,4,2010,2016,irrigated_explicit_broad,3,6,1.0,1,1.0,0.0
+SENG,SENG_MRT,MR,Sorghum,Annual,All (PS),24,4,6,1989,1998,all_production_systems,6,11,1.0,1,1.0,0.0
+SENG,SENG_MRT,MR,Sorghum,Annual,irrigated,2,2,1,2002,2002,irrigated_explicit_broad,6,11,1.0,1,1.0,0.0
+SENG,SENG_MRT,MR,Sorghum,Bas-fond,surface water,49,4,17,1999,2016,other_unverified,10,3,1.0,1,1.0,0.0
+SENG,SENG_MRT,MR,Sorghum,Dam retention,dam irrigation,25,4,11,2000,2016,irrigated_explicit_broad,10,3,1.0,1,1.0,0.0
+SENG,SENG_MRT,MR,Sorghum,Decrue controlee,parastatal recessional,15,1,15,2000,2016,other_unverified,10,3,1.0,1,1.0,0.0
+SENG,SENG_MRT,MR,Sorghum,Main,dieri,72,4,18,1999,2016,other_unverified,6,11,1.0,1,1.0,0.0
+SENG,SENG_MRT,MR,Sorghum,Walo,parastatal recessional,17,1,17,1999,2016,other_unverified,11,4,1.0,1,1.0,0.0
+SENG,SENG_SEN,SN,Maize,Main,irrigated,24,5,12,2000,2013,irrigated_explicit_broad,6,11,1.0,1,1.0,0.0
+SENG,SENG_SEN,SN,Maize,Main,none,85,7,31,1981,2015,unclassified,6,11,1.0,1,1.0,0.0
+SENG,SENG_SEN,SN,Maize,Main,recessional (PS),3,2,2,2008,2012,other_unverified,6,11,1.0,1,1.0,0.0
+SENG,SENG_SEN,SN,Maize,Main-off,irrigated,13,2,8,2000,2011,irrigated_explicit_broad,2,7,1.0,1,1.0,0.0
+SENG,SENG_SEN,SN,Rice,Main,none,147,6,33,1981,2015,unclassified,6,11,1.0,1,1.0,0.0
+SENG,SENG_SEN,SN,Rice,Main-off,irrigated,16,2,8,2000,2011,irrigated_explicit_broad,2,7,1.0,1,1.0,0.0
+SENG,SENG_SEN,SN,Sorghum,Main,irrigated,3,2,3,2008,2010,irrigated_explicit_broad,6,11,1.0,1,1.0,0.0
+SENG,SENG_SEN,SN,Sorghum,Main,none,155,7,32,1982,2015,unclassified,6,11,1.0,1,1.0,0.0
+SENG,SENG_SEN,SN,Sorghum,Main,recessional (PS),2,2,1,2008,2008,other_unverified,6,11,1.0,1,1.0,0.0
+VOLT,VOLT_BEN,BJ,Maize,Main,All (PS),203,7,29,1995,2023,all_production_systems,3,10,1.0,1,1.0,0.0
+VOLT,VOLT_BEN,BJ,Rice,Annual,All (PS),198,7,29,1995,2023,all_production_systems,3,10,1.0,1,1.0,0.0
+VOLT,VOLT_BEN,BJ,Sorghum,Main,All (PS),202,7,29,1995,2023,all_production_systems,3,10,1.0,1,1.0,0.0
+VOLT,VOLT_BFA,BF,Maize,Annual,Plaine/Bas-fond irrigated (PS),79,19,8,2015,2022,irrigated_explicit_broad,1,12,1.0,1,1.0,0.0
+VOLT,VOLT_BFA,BF,Maize,Main,All (PS),828,31,32,1984,2020,all_production_systems,6,12,1.0,1,1.0,0.0
+VOLT,VOLT_BFA,BF,Maize,Main,Rainfed (PS),268,31,9,2015,2023,rainfed_explicit,6,12,1.0,1,1.0,0.0
+VOLT,VOLT_BFA,BF,Rice,Annual,Plaine/Bas-fond irrigated (PS),267,31,9,2015,2023,irrigated_explicit_broad,1,12,1.0,1,1.0,0.0
+VOLT,VOLT_BFA,BF,Rice,Main,All (PS),786,31,31,1984,2014,all_production_systems,6,12,1.0,1,1.0,0.0
+VOLT,VOLT_BFA,BF,Rice,Main,Bas-fonds rainfed (PS),237,31,8,2015,2022,rainfed_explicit,6,12,1.0,1,1.0,0.0
+VOLT,VOLT_BFA,BF,Rice,Main,Rainfed (PS),137,28,8,2015,2022,rainfed_explicit,6,12,1.0,1,1.0,0.0
+VOLT,VOLT_BFA,BF,Sorghum,Main,All (PS),829,31,32,1984,2020,all_production_systems,6,12,1.0,1,1.0,0.0
+VOLT,VOLT_BFA,BF,Sorghum,Main,Rainfed (PS),268,31,9,2015,2023,rainfed_explicit,6,12,1.0,1,1.0,0.0
+VOLT,VOLT_GHA,GH,Maize,Main,All (PS),168,8,26,1997,2022,all_production_systems,6,10,1.0,1,1.0,0.0
+VOLT,VOLT_GHA,GH,Rice,Main,All (PS),161,8,26,1997,2022,all_production_systems,6,10,1.0,1,1.0,0.0
+VOLT,VOLT_GHA,GH,Sorghum,Main,All (PS),131,8,22,1997,2022,all_production_systems,6,10,1.0,1,1.0,0.0
+VOLT,VOLT_TGO,TG,Maize,Main,All (PS),219,12,19,1995,2015,all_production_systems,5,11,1.0,1,1.0,0.0
+VOLT,VOLT_TGO,TG,Sorghum,Main,All (PS),215,12,19,1995,2015,all_production_systems,5,11,1.0,1,1.0,0.0
+ZAMB,ZAMB_AGO,AO,Maize,Main,All (PS),21,1,21,1997,2017,all_production_systems,10,4,1.0,1,1.0,0.0
+ZAMB,ZAMB_AGO,AO,Rice,Main,All (PS),17,1,17,2001,2017,all_production_systems,10,4,1.0,1,1.0,0.0
+ZAMB,ZAMB_AGO,AO,Sorghum,Main,All (PS),10,1,10,1998,2017,all_production_systems,10,4,1.0,1,1.0,0.0
+ZAMB,ZAMB_MOZ,MZ,Maize,Main,All (PS),18,1,18,2000,2022,all_production_systems,10,6,1.0,1,1.0,0.0
+ZAMB,ZAMB_MOZ,MZ,Rice,Rice season,All (PS),12,1,12,2002,2022,all_production_systems,10,6,1.0,1,1.0,0.0
+ZAMB,ZAMB_MOZ,MZ,Sorghum,Main,All (PS),20,1,20,2000,2022,all_production_systems,10,6,1.0,1,1.0,0.0
+ZAMB,ZAMB_MWI,MW,Maize,Annual,All (PS),108,24,7,2018,2024,all_production_systems,11,10,1.0,1,1.0,0.0
+ZAMB,ZAMB_MWI,MW,Maize,Main,Rainfed (PS),841,24,38,1983,2020,rainfed_explicit,11,5,1.0,1,1.0,0.0
+ZAMB,ZAMB_MWI,MW,Rice,Annual,All (PS),79,24,5,2019,2023,all_production_systems,11,10,1.0,1,1.0,0.0
+ZAMB,ZAMB_MWI,MW,Rice,Main,Rainfed (PS),526,24,34,1986,2020,rainfed_explicit,11,5,1.0,1,1.0,0.0
+ZAMB,ZAMB_MWI,MW,Sorghum,Main,Rainfed (PS),527,22,37,1983,2020,rainfed_explicit,11,5,1.0,1,1.0,0.0
+ZAMB,ZAMB_ZMB,ZM,Maize,Annual,none,1730,54,33,1981,2017,unclassified,11,5,1.0,1,1.0,0.0
+ZAMB,ZAMB_ZMB,ZM,Rice,Annual,none,613,49,24,1990,2017,unclassified,11,5,1.0,1,1.0,0.0
+ZAMB,ZAMB_ZMB,ZM,Sorghum,Annual,none,972,54,24,1990,2017,unclassified,11,5,1.0,1,1.0,0.0
+ZAMB,ZAMB_ZWE,ZW,Maize,Main,A1 (PS),4,2,2,2008,2009,other_unverified,11,6,1.0,1,1.0,0.0
+ZAMB,ZAMB_ZWE,ZW,Maize,Main,A2 (PS),4,2,2,2008,2009,other_unverified,11,6,1.0,1,1.0,0.0
+ZAMB,ZAMB_ZWE,ZW,Maize,Main,All (PS),44,2,22,1994,2023,all_production_systems,11,6,1.0,1,1.0,0.0
+ZAMB,ZAMB_ZWE,ZW,Maize,Main,CA (PS),4,2,2,2008,2009,other_unverified,11,6,1.0,1,1.0,0.0
+ZAMB,ZAMB_ZWE,ZW,Maize,Main,Communal (PS),38,2,19,1981,2000,other_unverified,11,6,1.0,1,1.0,0.0
+ZAMB,ZAMB_ZWE,ZW,Maize,Main,LSCF (PS),4,2,2,2008,2009,other_unverified,11,6,1.0,1,1.0,0.0
+ZAMB,ZAMB_ZWE,ZW,Maize,Main,OR (PS),4,2,2,2008,2009,other_unverified,11,6,1.0,1,1.0,0.0
+ZAMB,ZAMB_ZWE,ZW,Maize,Main,SSCF (PS),4,2,2,2008,2009,other_unverified,11,6,1.0,1,1.0,0.0
+ZAMB,ZAMB_ZWE,ZW,Rice,Main,All (PS),10,2,5,2019,2023,all_production_systems,11,6,1.0,1,1.0,0.0
+ZAMB,ZAMB_ZWE,ZW,Sorghum,Main,A1 (PS),2,2,1,2009,2009,other_unverified,11,6,1.0,1,1.0,0.0
+ZAMB,ZAMB_ZWE,ZW,Sorghum,Main,A2 (PS),2,2,1,2009,2009,other_unverified,11,6,1.0,1,1.0,0.0
+ZAMB,ZAMB_ZWE,ZW,Sorghum,Main,All (PS),34,2,17,1994,2023,all_production_systems,11,6,1.0,1,1.0,0.0
+ZAMB,ZAMB_ZWE,ZW,Sorghum,Main,CA (PS),2,2,1,2009,2009,other_unverified,11,6,1.0,1,1.0,0.0
+ZAMB,ZAMB_ZWE,ZW,Sorghum,Main,Communal (PS),20,2,10,1991,2000,other_unverified,11,6,1.0,1,1.0,0.0
+ZAMB,ZAMB_ZWE,ZW,Sorghum,Main,LSCF (PS),2,2,1,2009,2009,other_unverified,11,6,1.0,1,1.0,0.0
+ZAMB,ZAMB_ZWE,ZW,Sorghum,Main,OR (PS),2,2,1,2009,2009,other_unverified,11,6,1.0,1,1.0,0.0
+ZAMB,ZAMB_ZWE,ZW,Sorghum,Main,SSCF (PS),2,2,1,2009,2009,other_unverified,11,6,1.0,1,1.0,0.0
