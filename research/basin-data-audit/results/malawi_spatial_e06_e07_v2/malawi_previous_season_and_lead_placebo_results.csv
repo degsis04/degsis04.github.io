@@ -1,17 +1,17 @@
 sample,window,specification,n,beta_current,beta_previous_or_future,conley_se_current_200km_lag1,conley_se_other_200km_lag1,interpretation,cause_treaty_effect
-strict16,broad,lag1,584,0.10112620811900905,-0.011661899883665141,0.027707410529473005,0.025785368717529678,"previous season correlation, not measured biophysical lag",False
-strict16,broad,lead1_placebo,584,0.10496473940293195,0.00963239371579517,0.027745065168645045,0.023513565950974882,future-rain falsification screen; a nonzero result indicates model uncertainty,False
-strict16,core,lag1,584,0.08794184961150653,-0.013085178099350546,0.026943155838133084,0.024284700230623076,"previous season correlation, not measured biophysical lag",False
-strict16,core,lead1_placebo,584,0.09191587142999329,0.006657964385682578,0.026877361047985902,0.026121895845097554,future-rain falsification screen; a nonzero result indicates model uncertainty,False
-strict16,waha_broad,lag1,584,0.09612283987545585,0.0010892722831954014,0.02860246395022994,0.022998661612577027,"previous season correlation, not measured biophysical lag",False
-strict16,waha_broad,lead1_placebo,584,0.09641927140045842,0.0025166390820864104,0.028583789842178332,0.0239822370021997,future-rain falsification screen; a nonzero result indicates model uncertainty,False
-strict16,waha_growth,lag1,584,0.10334323998133728,0.0019404227581989366,0.02813601615472353,0.023541040193028166,"previous season correlation, not measured biophysical lag",False
-strict16,waha_growth,lead1_placebo,584,0.10336638244168557,0.0016383695675884636,0.028312933541376702,0.023771054806675282,future-rain falsification screen; a nonzero result indicates model uncertainty,False
-all23,broad,lag1,812,0.08417419572872613,-0.007931462864386143,0.020914557691344177,0.02037930568135534,"previous season correlation, not measured biophysical lag",False
-all23,broad,lead1_placebo,812,0.08544891629413767,-0.000763888577862163,0.021160568687379578,0.018571418537964592,future-rain falsification screen; a nonzero result indicates model uncertainty,False
-all23,core,lag1,812,0.07555794849385274,-0.00487381260480735,0.02005482770212031,0.019486729768646127,"previous season correlation, not measured biophysical lag",False
-all23,core,lead1_placebo,812,0.0760642677169581,-0.0022549887097531324,0.020131385762065135,0.020365024711240645,future-rain falsification screen; a nonzero result indicates model uncertainty,False
-all23,waha_broad,lag1,812,0.0815443039701555,0.0070564265962569745,0.021341189502286435,0.01837516730583947,"previous season correlation, not measured biophysical lag",False
-all23,waha_broad,lead1_placebo,812,0.07944310474731003,-0.005619119951067721,0.02118575538471559,0.01872861021782811,future-rain falsification screen; a nonzero result indicates model uncertainty,False
-all23,waha_growth,lag1,812,0.08675618022857405,0.007688219322530699,0.02107970431888572,0.018750802380678066,"previous season correlation, not measured biophysical lag",False
-all23,waha_growth,lead1_placebo,812,0.08460707349232857,-0.005457750519876088,0.021055836644596558,0.01858871404999603,future-rain falsification screen; a nonzero result indicates model uncertainty,False
+strict16,broad,lag1,584,0.10112620811900899,-0.01166189988366514,0.027707410529472988,0.02578536871752966,"previous season correlation, not measured biophysical lag",False
+strict16,broad,lead1_placebo,584,0.10496473940293191,0.009632393715795154,0.027745065168645024,0.023513565950974875,future-rain falsification screen; a nonzero result indicates model uncertainty,False
+strict16,core,lag1,584,0.08794184961150653,-0.01308517809935054,0.02694315583813308,0.02428470023062307,"previous season correlation, not measured biophysical lag",False
+strict16,core,lead1_placebo,584,0.09191587142999329,0.0066579643856825785,0.026877361047985906,0.026121895845097554,future-rain falsification screen; a nonzero result indicates model uncertainty,False
+strict16,waha_broad,lag1,584,0.09612283987545588,0.0010892722831954038,0.028602463950229952,0.02299866161257702,"previous season correlation, not measured biophysical lag",False
+strict16,waha_broad,lead1_placebo,584,0.09641927140045845,0.0025166390820864273,0.02858378984217834,0.023982237002199695,future-rain falsification screen; a nonzero result indicates model uncertainty,False
+strict16,waha_growth,lag1,584,0.10334323998133732,0.0019404227581989418,0.02813601615472354,0.023541040193028172,"previous season correlation, not measured biophysical lag",False
+strict16,waha_growth,lead1_placebo,584,0.1033663824416856,0.001638369567588464,0.028312933541376716,0.02377105480667527,future-rain falsification screen; a nonzero result indicates model uncertainty,False
+all23,broad,lag1,812,0.08417419572872617,-0.007931462864386148,0.020914557691344184,0.02037930568135534,"previous season correlation, not measured biophysical lag",False
+all23,broad,lead1_placebo,812,0.08544891629413771,-0.0007638885778621569,0.021160568687379585,0.0185714185379646,future-rain falsification screen; a nonzero result indicates model uncertainty,False
+all23,core,lag1,812,0.07555794849385278,-0.0048738126048073335,0.02005482770212032,0.019486729768646134,"previous season correlation, not measured biophysical lag",False
+all23,core,lead1_placebo,812,0.07606426771695814,-0.002254988709753122,0.02013138576206515,0.02036502471124066,future-rain falsification screen; a nonzero result indicates model uncertainty,False
+all23,waha_broad,lag1,812,0.08154430397015548,0.0070564265962569685,0.02134118950228643,0.01837516730583947,"previous season correlation, not measured biophysical lag",False
+all23,waha_broad,lead1_placebo,812,0.07944310474731002,-0.005619119951067729,0.02118575538471559,0.01872861021782811,future-rain falsification screen; a nonzero result indicates model uncertainty,False
+all23,waha_growth,lag1,812,0.08675618022857406,0.007688219322530699,0.021079704318885725,0.018750802380678066,"previous season correlation, not measured biophysical lag",False
+all23,waha_growth,lead1_placebo,812,0.08460707349232857,-0.005457750519876088,0.021055836644596555,0.01858871404999602,future-rain falsification screen; a nonzero result indicates model uncertainty,False
