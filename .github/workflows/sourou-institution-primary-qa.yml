@@ -1,0 +1,37 @@
+name: Source-based double-check of 2013/2015 Sourou bilateral committee activities
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/sourou-institution-primary-qa.yml'
+      - 'research/basin-data-audit/scripts/sourou_institution_primary_docs_QA_v2.py'
+permissions:
+  contents: write
+jobs:
+  source-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install required PDF text extraction
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y poppler-utils
+          python -m pip install 'requests>=2.31,<3'
+      - name: Hash and independently verify UNEP-IIED committee evidence and 2012 draft limitation
+        run: python research/basin-data-audit/scripts/sourou_institution_primary_docs_QA_v2.py
+      - name: Preserve original-source SHA and positive negative evidence validations
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/basin-data-audit/results/water_source_gate_v1/sourou_UNEP_IIED_signed_vs_draft_institution_evidence_QA.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'science QA: independently verify 2013 Sourou committee operations and UNEP limitations against original documents'
+            for retry in 1 2 3 4 5; do
+              git pull --rebase && git push && break || sleep 5
+            done
+          fi
