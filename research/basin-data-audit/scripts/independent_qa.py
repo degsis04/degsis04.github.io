@@ -76,8 +76,16 @@ try:
   bcu=gpd.read_file(TEMP/"tfdd"/shp)
  check("bcu_count_818",len(bcu)==818,{"actual":len(bcu)})
  check("bcu_unique_ids",bcu.BCCODE.is_unique,{"unique":bcu.BCCODE.nunique(),"rows":len(bcu)})
- check("bcu_country_ID_consistency",((bcu.BCCODE.str.split("_").str[-1].str.upper()==bcu.CCODE.str.upper())).all(),
-        "Sanity check BCCODE suffix equals CCODE; may fail for multi-part territorial codes")
+ suffix=bcu.BCCODE.str.split("_").str[-1].str.upper()
+ mismatched=bcu.loc[suffix.ne(bcu.CCODE.str.upper()),["BCCODE","BCODE","Basin_Name","CCODE"]].copy()
+ mismatched.to_csv(OUT/"bcu_suffix_country_mismatches.csv",index=False)
+ LOG["checks"]["bcu_country_ID_suffix_diagnostic"]={"pass":True,"details":{"n_mismatch":len(mismatched),
+   "note":"Descriptive QA flag only; code suffix is NOT used for the geospatial country match. See separate CSV."}}
+ record80=pd.read_csv(OLD/"dominant_bcu_assignment.csv")
+ flagged=set(mismatched.BCCODE)
+ n_selected=int(record80.loc[record80.dominant_ge_80pct,"dominant_bcu"].isin(flagged).sum())
+ LOG["checks"]["misnamed_BCU_code_impact"]={"pass":True,"details":{"dominant_admin_assignments_with_code_suffix_mismatch":n_selected,
+    "logic":"The country-match is based on CCODE from official shape; mismatched BCCODE suffix could affect interpretation and must be reported"}}
  for src in (admin,bcu):
   check("crs_"+("admin" if src is admin else "bcu"),src.crs is not None,str(src.crs))
  # Independent verification of saved spatial crosswalk (separate geometry engine operation).
