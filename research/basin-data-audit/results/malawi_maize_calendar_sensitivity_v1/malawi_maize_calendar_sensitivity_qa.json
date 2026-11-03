@@ -1,6 +1,6 @@
 {
-  "utc": "2026-11-03T14:52:26.426874+00:00",
-  "status": "FAILED",
+  "utc": "2026-11-03T14:53:44.668926+00:00",
+  "status": "COMPLETE",
   "source": {
     "JRC_region_calendar": "results/phenology_v1/district_JRC_external_cropping_seasons.csv",
     "Waha_field_month_aggregates": "results/field_phenology_v1/waha_admin1_crop_month_distribution_anonymized.csv",
@@ -74,9 +74,13 @@
       "pass": true,
       "details": 2288
     },
+    "JRC_comparison_crop_name_only_maize": {
+      "pass": true,
+      "details": null
+    },
     "old_reference_26x44x2": {
-      "pass": false,
-      "details": 6864
+      "pass": true,
+      "details": 2288
     },
     "independently_recompute_all_existing_JRC_rain_totals": {
       "pass": true,
@@ -86,19 +90,199 @@
       }
     },
     "combined_district_year_window_unique": {
-      "pass": false,
+      "pass": true,
       "details": null
     },
     "combined_expected_26x44x4": {
-      "pass": false,
-      "details": 9152
+      "pass": true,
+      "details": 4576
+    },
+    "unique_26x44_wide": {
+      "pass": true,
+      "details": null
+    },
+    "no_original_outcome_duplication": {
+      "pass": true,
+      "details": {
+        "input": 915,
+        "result": 915
+      }
+    },
+    "no_outcome_year_loss": {
+      "pass": true,
+      "details": {
+        "n_with_all_4_z": 915
+      }
+    },
+    "no_outcome_yield_recalculation_error": {
+      "pass": true,
+      "details": null
     }
   },
-  "errors": [
-    "old_reference_26x44x2",
-    "combined_district_year_window_unique",
-    "combined_expected_26x44x4",
-    "ValueError('Index contains duplicate entries, cannot reshape')"
-  ],
-  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/degsis04.github.io/degsis04.github.io/research/basin-data-audit/scripts/malawi_maize_calendar_window_sensitivity_v1.py\", line 186, in <module>\n    zz=combined.pivot(index=[\"fnid\",\"harvest_year\"],columns=\"window\",values=\"seasonal_z\")\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/pandas/core/frame.py\", line 9366, in pivot\n    return pivot(self, index=index, columns=columns, values=values)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/pandas/core/reshape/pivot.py\", line 570, in pivot\n    result = indexed.unstack(columns_listlike)  # type: ignore[arg-type]\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/pandas/core/series.py\", line 4634, in unstack\n    return unstack(self, level, fill_value, sort)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/pandas/core/reshape/reshape.py\", line 517, in unstack\n    unstacker = _Unstacker(\n                ^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/pandas/core/reshape/reshape.py\", line 154, in __init__\n    self._make_selectors()\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/pandas/core/reshape/reshape.py\", line 210, in _make_selectors\n    raise ValueError(\"Index contains duplicate entries, cannot reshape\")\nValueError: Index contains duplicate entries, cannot reshape\n"
+  "errors": [],
+  "counts": {
+    "original_JRC_districts": 26,
+    "regions": 3,
+    "reference_window_month_year_rows": 4576,
+    "alternative_climate_rows": 2288,
+    "baseline_years": 30,
+    "season_comparison_district_year_pairs": 1144,
+    "district_year_with_all_4_z": 1118,
+    "observed_HarvestStat_outcome_rows_unchanged": 915,
+    "sensitivity_pair_rows": 8,
+    "comparisons": [
+      {
+        "jrc_window": "broad",
+        "survey_modal_window": "waha_broad",
+        "region": "ALL_3_MALAWI_REGIONS",
+        "districts": 26,
+        "paired_district_years": 1118,
+        "pearson_r": 0.9660167800640387,
+        "spearman_r": 0.9590811974697426,
+        "mean_abs_difference_z": 0.17066644873245845,
+        "median_abs_difference_z": 0.10886096213320068,
+        "pct_different_negative_anomaly_sign": 7.334525939177102,
+        "jrc_drought_z_below_minus1_count": 191,
+        "survey_modal_drought_z_below_minus1_count": 185,
+        "jrc_only_drought_classified": 18,
+        "survey_only_drought_classified": 12,
+        "pct_different_severe_drought_classification": 2.6833631484794274,
+        "n_drought_classification_disagree": 30,
+        "independent_institution_effect_estimated": false
+      },
+      {
+        "jrc_window": "broad",
+        "survey_modal_window": "waha_broad",
+        "region": "Central Region",
+        "districts": 10,
+        "paired_district_years": 430,
+        "pearson_r": 0.9640177651613729,
+        "spearman_r": 0.9574507616163042,
+        "mean_abs_difference_z": 0.22089579304253337,
+        "median_abs_difference_z": 0.21707870415853192,
+        "pct_different_negative_anomaly_sign": 8.604651162790699,
+        "jrc_drought_z_below_minus1_count": 71,
+        "survey_modal_drought_z_below_minus1_count": 67,
+        "jrc_only_drought_classified": 12,
+        "survey_only_drought_classified": 8,
+        "pct_different_severe_drought_classification": 4.651162790697675,
+        "n_drought_classification_disagree": 20,
+        "independent_institution_effect_estimated": false
+      },
+      {
+        "jrc_window": "broad",
+        "survey_modal_window": "waha_broad",
+        "region": "Northern Region",
+        "districts": 6,
+        "paired_district_years": 258,
+        "pearson_r": 0.9121313509334121,
+        "spearman_r": 0.9028966787540672,
+        "mean_abs_difference_z": 0.3069440432189719,
+        "median_abs_difference_z": 0.2483413388305206,
+        "pct_different_negative_anomaly_sign": 13.953488372093023,
+        "jrc_drought_z_below_minus1_count": 41,
+        "survey_modal_drought_z_below_minus1_count": 40,
+        "jrc_only_drought_classified": 5,
+        "survey_only_drought_classified": 4,
+        "pct_different_severe_drought_classification": 3.488372093023256,
+        "n_drought_classification_disagree": 9,
+        "independent_institution_effect_estimated": false
+      },
+      {
+        "jrc_window": "broad",
+        "survey_modal_window": "waha_broad",
+        "region": "Southern Region",
+        "districts": 10,
+        "paired_district_years": 430,
+        "pearson_r": 0.9983216691953565,
+        "spearman_r": 0.9972240784629497,
+        "mean_abs_difference_z": 0.0386705477304755,
+        "median_abs_difference_z": 0.02559904527516713,
+        "pct_different_negative_anomaly_sign": 2.0930232558139537,
+        "jrc_drought_z_below_minus1_count": 79,
+        "survey_modal_drought_z_below_minus1_count": 78,
+        "jrc_only_drought_classified": 1,
+        "survey_only_drought_classified": 0,
+        "pct_different_severe_drought_classification": 0.23255813953488372,
+        "n_drought_classification_disagree": 1,
+        "independent_institution_effect_estimated": false
+      },
+      {
+        "jrc_window": "core",
+        "survey_modal_window": "waha_growth",
+        "region": "ALL_3_MALAWI_REGIONS",
+        "districts": 26,
+        "paired_district_years": 1118,
+        "pearson_r": 0.9833698571328583,
+        "spearman_r": 0.9841029921217744,
+        "mean_abs_difference_z": 0.09828493535995474,
+        "median_abs_difference_z": 0.0291625633155235,
+        "pct_different_negative_anomaly_sign": 4.025044722719142,
+        "jrc_drought_z_below_minus1_count": 189,
+        "survey_modal_drought_z_below_minus1_count": 188,
+        "jrc_only_drought_classified": 12,
+        "survey_only_drought_classified": 11,
+        "pct_different_severe_drought_classification": 2.0572450805008944,
+        "n_drought_classification_disagree": 23,
+        "independent_institution_effect_estimated": false
+      },
+      {
+        "jrc_window": "core",
+        "survey_modal_window": "waha_growth",
+        "region": "Central Region",
+        "districts": 10,
+        "paired_district_years": 430,
+        "pearson_r": 0.9986654868820024,
+        "spearman_r": 0.9974463997126275,
+        "mean_abs_difference_z": 0.027798235449410364,
+        "median_abs_difference_z": 0.01924313849037318,
+        "pct_different_negative_anomaly_sign": 1.3953488372093024,
+        "jrc_drought_z_below_minus1_count": 67,
+        "survey_modal_drought_z_below_minus1_count": 66,
+        "jrc_only_drought_classified": 1,
+        "survey_only_drought_classified": 0,
+        "pct_different_severe_drought_classification": 0.23255813953488372,
+        "n_drought_classification_disagree": 1,
+        "independent_institution_effect_estimated": false
+      },
+      {
+        "jrc_window": "core",
+        "survey_modal_window": "waha_growth",
+        "region": "Northern Region",
+        "districts": 6,
+        "paired_district_years": 258,
+        "pearson_r": 0.9995189666765947,
+        "spearman_r": 0.9993578386484006,
+        "mean_abs_difference_z": 0.019825923696842433,
+        "median_abs_difference_z": 0.013006782067551001,
+        "pct_different_negative_anomaly_sign": 1.550387596899225,
+        "jrc_drought_z_below_minus1_count": 40,
+        "survey_modal_drought_z_below_minus1_count": 39,
+        "jrc_only_drought_classified": 1,
+        "survey_only_drought_classified": 0,
+        "pct_different_severe_drought_classification": 0.3875968992248062,
+        "n_drought_classification_disagree": 1,
+        "independent_institution_effect_estimated": false
+      },
+      {
+        "jrc_window": "core",
+        "survey_modal_window": "waha_growth",
+        "region": "Southern Region",
+        "districts": 10,
+        "paired_district_years": 430,
+        "pearson_r": 0.9594980544956357,
+        "spearman_r": 0.9631654591563943,
+        "mean_abs_difference_z": 0.21584704226836648,
+        "median_abs_difference_z": 0.16713752603957055,
+        "pct_different_negative_anomaly_sign": 8.13953488372093,
+        "jrc_drought_z_below_minus1_count": 82,
+        "survey_modal_drought_z_below_minus1_count": 83,
+        "jrc_only_drought_classified": 10,
+        "survey_only_drought_classified": 11,
+        "pct_different_severe_drought_classification": 4.883720930232558,
+        "n_drought_classification_disagree": 21,
+        "independent_institution_effect_estimated": false
+      }
+    ]
+  }
 }
