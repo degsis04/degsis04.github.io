@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-11-03T00:26:51.408289+00:00",
+  "timestamp_utc": "2026-11-03T00:27:29.446025+00:00",
   "publication": "MIRCA-OS v2 March 2026",
   "resource": "e4582ca0042148338bb5e0148b749ed6",
   "endpoints": {
@@ -41,7 +41,7 @@
       "content_type": "application/json",
       "bytes": 151,
       "final_url": "https://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/data/contents/",
-      "first_3500": "{\"id\": \"e7b00812-c6dd-482d-9cfb-7c22695e49f8\", \"name\": \"zip download\", \"status\": \"progress\", \"payload\": \"tmp/e35e821f-1983-4006-a07c-713163dd2f7d.zip\"}"
+      "first_3500": "{\"id\": \"46ec43c6-daf5-46c7-9177-4943cd453de4\", \"name\": \"zip download\", \"status\": \"progress\", \"payload\": \"tmp/809e48c8-e999-4914-83aa-31cea252ac39.zip\"}"
     }
   },
   "external_candidates": [
@@ -63,5 +63,204 @@
     "MIRCA-OS_Crop_subcrop_year_system_version",
     "MIRCA-OS_crop_year_system_version",
     "MIRCA-OS"
-  ]
+  ],
+  "full_file_listing": [
+    {
+      "file_name": "MIRCA-OS_Admin_Boundaries_v2.rar",
+      "size": 1478227662,
+      "url": "http://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/data/contents/Administrative%20boundaries/MIRCA-OS_Admin_Boundaries_v2.rar",
+      "checksum": "6bbde6125054f6a01e00c5f9da90b5f3-15",
+      "content_type": "application/vnd.rar"
+    },
+    {
+      "file_name": "README_administrative_boundaries.txt",
+      "size": 1151,
+      "url": "http://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/data/contents/Administrative%20boundaries/README_administrative_boundaries.txt",
+      "checksum": "c0d1df88237e5ce29a195f94c37efaa3-1",
+      "content_type": "text/plain"
+    },
+    {
+      "file_name": "Annual Harvested Area Grids.rar",
+      "size": 284005995,
+      "url": "http://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/data/contents/Annual%20Harvested%20Area%20Grids/Annual%20Harvested%20Area%20Grids.rar",
+      "checksum": "c9243bf18d1b31b50ebd9cbfa0f9b3ab",
+      "content_type": "application/vnd.rar"
+    },
+    {
+      "file_name": "README_Annual_Harvested_Area_Grids.txt",
+      "size": 1447,
+      "url": "http://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/data/contents/Annual%20Harvested%20Area%20Grids/README_Annual_Harvested_Area_Grids.txt",
+      "checksum": "8bd3a214093d2ea9eb2d5ce191abdd4a-1",
+      "content_type": "text/plain"
+    },
+    {
+      "file_name": "Gridded Crop Calendar.rar",
+      "size": 10979701,
+      "url": "http://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/data/contents/Crop%20Calendar/Gridded%20Crop%20Calendar.rar",
+      "checksum": "753d0c969cbc6323a463e38b3de0b769-1",
+      "content_type": "application/vnd.rar"
+    },
+    {
+      "file_name": "MIRCA-OS_2000_ir_v2.csv",
+      "size": 9264277,
+      "url": "http://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/data/contents/Crop%20Calendar/MIRCA-OS_2000_ir_v2.csv",
+      "checksum": "2772eff73a28e8a379935402ae5dc993-1",
+      "content_type": "text/csv"
+    },
+    {
+      "file_name": "MIRCA-OS_2000_rf_v2.csv",
+      "size": 9295446,
+      "url": "http://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/data/contents/Crop%20Calendar/MIRCA-OS_2000_rf_v2.csv",
+      "checksum": "b021ccd74a6ed455e2eaa73ae360d35c-1",
+      "content_type": "text/csv"
+    },
+    {
+      "file_name": "MIRCA-OS_2005_ir_v2.csv",
+      "size": 9263946,
+      "url": "http://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/data/contents/Crop%20Calendar/MIRCA-OS_2005_ir_v2.csv",
+      "checksum": "ac78801959e6123f77df88f6f5403dcf-1",
+      "content_type": "text/csv"
+    },
+    {
+      "file_name": "MIRCA-OS_2005_rf_v2.csv",
+      "size": 9293611,
+      "url": "http://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/data/contents/Crop%20Calendar/MIRCA-OS_2005_rf_v2.csv",
+      "checksum": "c0485f494e66fc33c277adbbd0708133-1",
+      "content_type": "text/csv"
+    },
+    {
+      "file_name": "MIRCA-OS_2010_ir_v2.csv",
+      "size": 9290672,
+      "url": "http://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/data/contents/Crop%20Calendar/MIRCA-OS_2010_ir_v2.csv",
+      "checksum": "85c637139c28d5dd8a0ac632b6440cb0-1",
+      "content_type": "text/csv"
+    },
+    {
+      "file_name": "MIRCA-OS_2010_rf_v2.csv",
+      "size": 9318790,
+      "url": "http://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/data/contents/Crop%20Calendar/MIRCA-OS_2010_rf_v2.csv",
+      "checksum": "b9bf2adb9be8956cca546b778d6f6e88-1",
+      "content_type": "text/csv"
+    },
+    {
+      "file_name": "MIRCA-OS_2015_ir_v2.csv",
+      "size": 9332069,
+      "url": "http://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/data/contents/Crop%20Calendar/MIRCA-OS_2015_ir_v2.csv",
+      "checksum": "1d348f0456a24ac517b4a47895f897da-1",
+      "content_type": "text/csv"
+    },
+    {
+      "file_name": "MIRCA-OS_2015_rf_v2.csv",
+      "size": 9360781,
+      "url": "http://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/data/contents/Crop%20Calendar/MIRCA-OS_2015_rf_v2.csv",
+      "checksum": "6518dbd14a20fd3a352656bc81d910c0-1",
+      "content_type": "text/csv"
+    },
+    {
+      "file_name": "MIRCA-OS_2020_ir_v2.csv",
+      "size": 19210327,
+      "url": "http://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/data/contents/Crop%20Calendar/MIRCA-OS_2020_ir_v2.csv",
+      "checksum": "b5e8d81eb2a38e13ff41762bc7dd136e-1",
+      "content_type": "text/csv"
+    },
+    {
+      "file_name": "MIRCA-OS_2020_rf_v2.csv",
+      "size": 19188208,
+      "url": "http://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/data/contents/Crop%20Calendar/MIRCA-OS_2020_rf_v2.csv",
+      "checksum": "27e8f6e5e688bc18d1c04e948f97c367-1",
+      "content_type": "text/csv"
+    },
+    {
+      "file_name": "README__crop_calendars.md",
+      "size": 3115,
+      "url": "http://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/data/contents/Crop%20Calendar/README__crop_calendars.md",
+      "checksum": "daea89639476a1b40012a3d255007027-1",
+      "content_type": "text/markdown"
+    },
+    {
+      "file_name": "Maximum Monthly Cropped Area Grids.rar",
+      "size": 32059209,
+      "url": "http://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/data/contents/Maximum%20Cropped%20Area%20Grids/Maximum%20Monthly%20Cropped%20Area%20Grids.rar",
+      "checksum": "846f7a49442907799a7e2c98845423a3-1",
+      "content_type": "application/vnd.rar"
+    },
+    {
+      "file_name": "README_maximum_monthly_cropped_area.txt",
+      "size": 1387,
+      "url": "http://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/data/contents/Maximum%20Cropped%20Area%20Grids/README_maximum_monthly_cropped_area.txt",
+      "checksum": "5894ca99f3afb4e0fa34cc46ebf42787-1",
+      "content_type": "text/plain"
+    },
+    {
+      "file_name": "Maximum Monthly Growing Area Grids.rar",
+      "size": 282946968,
+      "url": "http://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/data/contents/Maximum%20Monthly%20Growing%20Area%20Grids/Maximum%20Monthly%20Growing%20Area%20Grids.rar",
+      "checksum": "fe26271e10e6c85505ec10eac98c8413-3",
+      "content_type": "application/vnd.rar"
+    },
+    {
+      "file_name": "README_maximum_monthly_growing_area.txt",
+      "size": 1389,
+      "url": "http://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/data/contents/Maximum%20Monthly%20Growing%20Area%20Grids/README_maximum_monthly_growing_area.txt",
+      "checksum": "37c1171cb58dd7293b2d7f01104e6bec-1",
+      "content_type": "text/plain"
+    },
+    {
+      "file_name": "Monthly Growing Area Grids.rar",
+      "size": 1537240142,
+      "url": "http://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/data/contents/Monthly%20Growing%20Area%20Grids/Monthly%20Growing%20Area%20Grids.rar",
+      "checksum": "0a5495c3d24e9611c571940b0e03b8ab-15",
+      "content_type": "application/vnd.rar"
+    },
+    {
+      "file_name": "README__monthly_growing_area.txt",
+      "size": 1704,
+      "url": "http://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/data/contents/Monthly%20Growing%20Area%20Grids/README__monthly_growing_area.txt",
+      "checksum": "6f67a7f0dcfc0e1bce5e790733c59ba0-1",
+      "content_type": "text/plain"
+    },
+    {
+      "file_name": "Crop Specific AH.rar",
+      "size": 4186571850,
+      "url": "http://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/data/contents/Raw%20data/Crop%20Specific%20AH.rar",
+      "checksum": "e084646bd6a13e36a770b990d19c37b6-41",
+      "content_type": "application/vnd.rar"
+    },
+    {
+      "file_name": "MIRCA-OS-20250623T001352Z-1-002.zip",
+      "size": 1816699225,
+      "url": "http://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/data/contents/Raw%20data/Raw%20Data/MIRCA-OS-20250623T001352Z-1-002.zip",
+      "checksum": "12b47589f14a366386a4ed31576dd3b6",
+      "content_type": "application/zip"
+    },
+    {
+      "file_name": "MIRCA-OS-20250623T001352Z-1-003.zip",
+      "size": 1614397091,
+      "url": "http://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/data/contents/Raw%20data/Raw%20Data/MIRCA-OS-20250623T001352Z-1-003.zip",
+      "checksum": "8e2cfb2a57909dde8f5d557d0c82f744",
+      "content_type": "application/zip"
+    },
+    {
+      "file_name": "Raw_data.txt",
+      "size": 644,
+      "url": "http://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/data/contents/Raw%20data/Raw_data.txt",
+      "checksum": "f049686ee2b065aa982cc875fe921d81-1",
+      "content_type": "text/plain"
+    },
+    {
+      "file_name": "README.md",
+      "size": 10379,
+      "url": "http://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/data/contents/README.md",
+      "checksum": "bc5b35a417a04155c92c8d880faab7aa-1",
+      "content_type": "text/markdown"
+    },
+    {
+      "file_name": "MIRCA-OS_Supplematray_information_v2.pdf",
+      "size": 694673,
+      "url": "http://www.hydroshare.org/resource/e4582ca0042148338bb5e0148b749ed6/data/contents/Supplementary%20Information/MIRCA-OS_Supplematray_information_v2.pdf",
+      "checksum": "a01b926730e44ba381e9016b4da652ac-1",
+      "content_type": "application/pdf"
+    }
+  ],
+  "file_listing_count": 28
 }
