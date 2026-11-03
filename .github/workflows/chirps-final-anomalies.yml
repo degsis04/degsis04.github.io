@@ -1,4 +1,5 @@
 name: Verify complete CHIRPS source panel and compute climatological anomalies
+# Re-evaluate after all four independently verified decade shards were committed.
 on:
   workflow_dispatch:
   push:
