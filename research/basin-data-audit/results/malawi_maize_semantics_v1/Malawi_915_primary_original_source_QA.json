@@ -1,0 +1,160 @@
+{
+  "utc": "2026-11-03T15:45:12.134556+00:00",
+  "status": "PASS",
+  "sources": {
+    "HarvestStat": {
+      "url": "https://raw.githubusercontent.com/HarvestStat/HarvestStat-Africa/5b62fb5/public/hvstat_africa_data_v1.2.csv",
+      "expected_sha256": "f659e121e315b9d8656699e4b16421ed3b313e4c8d09d15199452000836dbef9",
+      "size_bytes": 25312039
+    },
+    "pilot_outcome": {
+      "url": "https://raw.githubusercontent.com/degsis04/degsis04.github.io/main/research/basin-data-audit/results/malawi_maize_calendar_sensitivity_v1/malawi_maize_observed_yield_4_weather_windows_NO_REGRESSION.csv"
+    },
+    "official_2024_maize_APES": {
+      "url": "https://fews.net/southern-africa/malawi/food-security-outlook/october-2024",
+      "total_tonnes": 2712578.0,
+      "period": "2023/24 maize crop year, third-round final, Malawi national; reported in FEWS NET October 2024"
+    },
+    "hvstat_africa_data_v1.2.csv": {
+      "url": "https://raw.githubusercontent.com/HarvestStat/HarvestStat-Africa/5b62fb5/public/hvstat_africa_data_v1.2.csv",
+      "sha256": "f659e121e315b9d8656699e4b16421ed3b313e4c8d09d15199452000836dbef9",
+      "bytes": 25312039
+    },
+    "malawi_915_chirps_yields.csv": {
+      "url": "https://raw.githubusercontent.com/degsis04/degsis04.github.io/main/research/basin-data-audit/results/malawi_maize_calendar_sensitivity_v1/malawi_maize_observed_yield_4_weather_windows_NO_REGRESSION.csv",
+      "sha256": "23cc81d493a84252172c4760a70cbadabe869be1a348671b2fb10574b8b58243",
+      "bytes": 210384
+    }
+  },
+  "constraints": {
+    "no_causal_conclusion": true,
+    "no_automatic_outlier_replace": true,
+    "series_break_warning": "Main Rainfed (PS) and Annual All (PS) need documentation before stitching",
+    "metadata_dates": "HarvestStat months are nominal crop-calendar markers, not observed phenology",
+    "national_comparison": "year/maize tonnage sanity screen, not identity matching APES/HarvestStat methods"
+  },
+  "checks": {
+    "pinned_original_all_africa_217487": {
+      "pass": true,
+      "details": 217487
+    },
+    "pilot_915": {
+      "pass": true,
+      "details": 915
+    },
+    "pilot_23_unique_districts": {
+      "pass": true,
+      "details": 23
+    },
+    "pilot_exact_maize_malawi": {
+      "pass": true,
+      "details": null
+    },
+    "positive_physical_data": {
+      "pass": true,
+      "details": null
+    },
+    "pilot_qc0": {
+      "pass": true,
+      "details": null
+    },
+    "no_duplicate_full_agrarian_key": {
+      "pass": true,
+      "details": null
+    },
+    "original_unique_full_keys": {
+      "pass": true,
+      "details": 0
+    },
+    "all_915_rows_are_original_HarvestStat_exact_key": {
+      "pass": true,
+      "details": {
+        "both": 915,
+        "left_only": 0,
+        "right_only": 0
+      }
+    },
+    "original_915_values_byte_decimal_agree": {
+      "pass": true,
+      "details": {
+        "area": 0,
+        "production": 0,
+        "yield": 0,
+        "qc_flag": 0
+      }
+    },
+    "yield_is_production_per_area": {
+      "pass": true,
+      "details": null
+    },
+    "only_expected_MW_source_categories": {
+      "pass": true,
+      "details": null
+    },
+    "district_year_keys_no_more_than_2": {
+      "pass": true,
+      "details": 2
+    },
+    "suspicious_2024_observation_present": {
+      "pass": true,
+      "details": 1
+    },
+    "2024_district_exceeds_national_aggregate_sanity": {
+      "pass": true,
+      "details": {
+        "district_production_t": 19638802.37,
+        "national_maize_t": 2712578.0,
+        "ratio": 7.239903283887137,
+        "qc_flag": 0,
+        "source_citation": "https://fews.net/southern-africa/malawi/food-security-outlook/october-2024"
+      }
+    }
+  },
+  "errors": [],
+  "counts": {
+    "total_original_HS_Malawi_maize_rows": 1099,
+    "pilot_original_source_confirmed_rows": 915,
+    "pilot_unique_districts": 23,
+    "pilot_unique_district_years": 913,
+    "pilot_duplicate_district_years_due_to_both_categories": 2,
+    "pilot_min_year": 1983,
+    "pilot_max_year": 2024,
+    "main_rainfed_rows": 812,
+    "main_rainfed_districts": 23,
+    "annual_all_rows": 103,
+    "annual_all_districts": 23,
+    "source_system_groups": [
+      {
+        "season_name": "Annual",
+        "crop_production_system": "All (PS)",
+        "rows": 103,
+        "districts": 23,
+        "min_harvest_year": 2018,
+        "max_harvest_year": 2024,
+        "min_yield": 0.3530341046371155,
+        "median_yield": 2.0815172222735248,
+        "max_yield": 92.82150324233372
+      },
+      {
+        "season_name": "Main",
+        "crop_production_system": "Rainfed (PS)",
+        "rows": 812,
+        "districts": 23,
+        "min_harvest_year": 1983,
+        "max_harvest_year": 2020,
+        "min_yield": 0.030524071372461,
+        "median_yield": 1.329510380065182,
+        "max_yield": 3.440302176925484
+      }
+    ],
+    "main_rainfed_series_ge30years": 22,
+    "main_rainfed_series_ge30years_gaps_le5percent": 16,
+    "suspicious_maize_rows_gt10t_ha_or_gt1million_t": 2,
+    "quarantined_malawi_crop_year_rows": 2,
+    "national_2024_t": 2712578.0,
+    "suspicious_2024_one_district_prod_t": 19638802.37,
+    "suspicious_2024_one_district_ratio_national": 7.239903283887137,
+    "overlapping_category_year_min": 2020,
+    "overlapping_category_year_max": 2020
+  }
+}

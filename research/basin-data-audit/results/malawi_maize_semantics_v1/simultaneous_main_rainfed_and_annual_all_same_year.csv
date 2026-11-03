@@ -1,0 +1,5 @@
+fnid,admin_1,admin_2,harvest_year,season_name,crop_production_system,area_p,production_p,yield_p,planting_month,harvest_month
+MW2018A20102,Central,Dowa,2020,Annual,All (PS),103618.0,226186.0,2.182883282827308,11,10
+MW2018A20102,Central,Dowa,2020,Main,Rainfed (PS),49738.0,99798.0,2.006473923358398,11,5
+MW2018A20108,Central,Ntcheu,2020,Annual,All (PS),85683.0,132834.0,1.5502958579881656,11,10
+MW2018A20108,Central,Ntcheu,2020,Main,Rainfed (PS),210700.0,150389.0,0.7137588989084006,11,5

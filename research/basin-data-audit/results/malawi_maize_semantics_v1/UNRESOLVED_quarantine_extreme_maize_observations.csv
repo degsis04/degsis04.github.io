@@ -1,0 +1,3 @@
+fnid,admin_1,admin_2,harvest_year,season_name,crop_production_system,area_p,production_p,yield_p,qc_flag_p,flag_reason,comparison_national_2024_tonnes,district_production_as_fraction_of_national_2024
+MW2018A20104,Central,Lilongwe,2024,Annual,All (PS),211576.0,19638802.37,92.82150324233372,0,YIELD_GT10T_HA;PRODUCTION_GT1M_T;,2712578.0,7.239903283887137
+MW2018A20330,Southern,Thyolo,2023,Annual,All (PS),1569.0,87399.0,55.70363288718929,0,YIELD_GT10T_HA;,,
