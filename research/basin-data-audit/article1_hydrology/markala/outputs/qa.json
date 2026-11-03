@@ -1,0 +1,77 @@
+{
+  "status": "PASS_WITH_SCIENTIFIC_WARNINGS",
+  "source_files_checksum_verified": 6,
+  "source_archive_md5_verified": true,
+  "station_count": 4,
+  "monthly_rows": 2633,
+  "valid_months": 2164,
+  "missing_months": 469,
+  "overlapping_valid_koulikoro_kirango_months": 395,
+  "overlapping_months_since_chirps_1981": 25,
+  "downstream_exceeds_upstream_same_month": 114,
+  "coordinate_discrepancies": [
+    {
+      "station_id": "1271500142",
+      "name": "Koulikoro",
+      "metadata_lat_deg": 12.857266,
+      "metadata_lon_deg": -7.558105,
+      "shapefile_lat_deg": 12.8667,
+      "shapefile_lon_deg": -7.55,
+      "separation_km": 1.368,
+      "status": "RECONCILE_BEFORE_RIVER_SNAP",
+      "shapefile_crs": "EPSG:4326",
+      "metadata_crs": "UNSPECIFIED_IN_CSV",
+      "comparison_note": "Approximate distance assuming same datum; neither point selected as truth"
+    },
+    {
+      "station_id": "1271500136",
+      "name": "KirangoAval",
+      "metadata_lat_deg": 13.704023,
+      "metadata_lon_deg": -6.073091,
+      "shapefile_lat_deg": 13.7,
+      "shapefile_lon_deg": -6.05,
+      "separation_km": 2.534,
+      "status": "RECONCILE_BEFORE_RIVER_SNAP",
+      "shapefile_crs": "EPSG:4326",
+      "metadata_crs": "UNSPECIFIED_IN_CSV",
+      "comparison_note": "Approximate distance assuming same datum; neither point selected as truth"
+    },
+    {
+      "station_id": "1271500110",
+      "name": "Banankoro",
+      "metadata_lat_deg": 11.688462,
+      "metadata_lon_deg": -8.66551,
+      "shapefile_lat_deg": 11.6833,
+      "shapefile_lon_deg": -8.6667,
+      "separation_km": 0.588,
+      "status": "RECONCILE_BEFORE_RIVER_SNAP",
+      "shapefile_crs": "EPSG:4326",
+      "metadata_crs": "UNSPECIFIED_IN_CSV",
+      "comparison_note": "Approximate distance assuming same datum; neither point selected as truth"
+    },
+    {
+      "station_id": "1271502010",
+      "name": "Selingue",
+      "metadata_lat_deg": 11.65168,
+      "metadata_lon_deg": -8.23059,
+      "shapefile_lat_deg": 11.5833,
+      "shapefile_lon_deg": -8.1667,
+      "separation_km": 10.307,
+      "status": "RECONCILE_BEFORE_RIVER_SNAP",
+      "shapefile_crs": "EPSG:4326",
+      "metadata_crs": "UNSPECIFIED_IN_CSV",
+      "comparison_note": "Approximate distance assuming same datum; neither point selected as truth"
+    }
+  ],
+  "irrigation_delivery_rows": 0,
+  "field_polygons_acquired": 0,
+  "warnings": [
+    "No daily-support counts or aggregation formula supplied",
+    "Blank source cells stay missing; no fabricated daily observations",
+    "Source metadata chronology differs from downloaded files",
+    "Do not treat upstream-minus-downstream flow as canal withdrawal",
+    "Selingue station series is not certified reservoir releases",
+    "Published station locations conflict between CSV and GIS",
+    "Pre-commissioning and later regulated regimes must be separated"
+  ]
+}

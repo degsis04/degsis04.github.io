@@ -1,0 +1,3 @@
+# Preserve published bytes including CRLF and source whitespace for hash verification.
+raw/*.txt -text -whitespace
+raw/*.csv -text -whitespace

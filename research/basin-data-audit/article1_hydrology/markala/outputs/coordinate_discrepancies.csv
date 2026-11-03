@@ -1,0 +1,5 @@
+station_id,name,metadata_lat_deg,metadata_lon_deg,shapefile_lat_deg,shapefile_lon_deg,separation_km,status,shapefile_crs,metadata_crs,comparison_note
+1271500142,Koulikoro,12.857266,-7.558105,12.8667,-7.55,1.368,RECONCILE_BEFORE_RIVER_SNAP,EPSG:4326,UNSPECIFIED_IN_CSV,Approximate distance assuming same datum; neither point selected as truth
+1271500136,KirangoAval,13.704023,-6.073091,13.7,-6.05,2.534,RECONCILE_BEFORE_RIVER_SNAP,EPSG:4326,UNSPECIFIED_IN_CSV,Approximate distance assuming same datum; neither point selected as truth
+1271500110,Banankoro,11.688462,-8.66551,11.6833,-8.6667,0.588,RECONCILE_BEFORE_RIVER_SNAP,EPSG:4326,UNSPECIFIED_IN_CSV,Approximate distance assuming same datum; neither point selected as truth
+1271502010,Selingue,11.65168,-8.23059,11.5833,-8.1667,10.307,RECONCILE_BEFORE_RIVER_SNAP,EPSG:4326,UNSPECIFIED_IN_CSV,Approximate distance assuming same datum; neither point selected as truth

@@ -1,0 +1,5 @@
+station_id,name,first_calendar_month,last_calendar_month,first_nonmissing_month,last_nonmissing_month,calendar_rows,valid_months,missing_months,missing_pct,complete_calendar_years,source_metadata_start,source_metadata_end,min_m3_s,max_m3_s,metadata_label,metadata_interval_matches_file_months
+1271500142,Koulikoro,1907-01,1999-07,1907-01,1999-07,1111,1107,4,0.36,91,1907-01-01,1999-08-15,18.5,8448.7,daily_series_but_downloaded_file_monthly,False
+1271500136,KirangoAval,1925-01,1983-12,1925-08,1983-12,708,395,313,44.209,13,1925-01-01,1983-12-31,11.1,7242.9,daily_series_but_downloaded_file_monthly,True
+1271500110,Banankoro,1967-01,1999-07,1967-11,1999-06,391,272,119,30.435,16,1967-09-01,1999-07-30,4.22,5054.66,daily_series_but_downloaded_file_monthly,False
+1271502010,Selingue,1964-01,1999-03,1964-07,1999-02,423,390,33,7.801,27,1965-01-01,1999-05-18,14.29,1800.66,daily_series_but_downloaded_file_monthly,False
