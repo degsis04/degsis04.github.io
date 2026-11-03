@@ -3,11 +3,11 @@ LKCH,Sorghum,NE,SD,LKCH_NER,LKCH_SDN,Main,Rainfed (PS),37,1,1,6,12,6,11,1.0,1.0,
 MONO,Maize,BJ,TG,MONO_BEN,MONO_TGO,Main,All (PS),21,1,1,3,10,5,11,1.0,1.0,False,1.0,False
 NGER,Maize,BJ,BF,NGER_BEN,NGER_BFA,Main,All (PS),20,1,1,3,10,6,12,1.0,1.0,False,1.0,False
 NGER,Maize,BJ,ML,NGER_BEN,NGER_MLI,Main,All (PS),28,1,1,3,10,6,12,1.0,1.0,False,1.0,False
-NGER,Maize,BF,ML,NGER_BFA,NGER_MLI,Main,All (PS),30,1,1,6,12,6,12,1.0,1.0,False,1.0,False
-NGER,Rice,BF,ML,NGER_BFA,NGER_MLI,Main,All (PS),29,1,1,6,12,6,12,1.0,1.0,False,1.0,False
+NGER,Maize,BF,ML,NGER_BFA,NGER_MLI,Main,All (PS),30,1,1,6,12,6,12,1.0,1.0,True,1.0,False
+NGER,Rice,BF,ML,NGER_BFA,NGER_MLI,Main,All (PS),29,1,1,6,12,6,12,1.0,1.0,True,1.0,False
 NGER,Sorghum,BJ,BF,NGER_BEN,NGER_BFA,Main,All (PS),20,1,1,3,10,6,12,1.0,1.0,False,1.0,False
 NGER,Sorghum,BJ,ML,NGER_BEN,NGER_MLI,Main,All (PS),28,1,1,3,10,6,12,1.0,1.0,False,1.0,False
-NGER,Sorghum,BF,ML,NGER_BFA,NGER_MLI,Main,All (PS),30,1,1,6,12,6,12,1.0,1.0,False,1.0,False
+NGER,Sorghum,BF,ML,NGER_BFA,NGER_MLI,Main,All (PS),30,1,1,6,12,6,12,1.0,1.0,True,1.0,False
 VOLT,Maize,BJ,BF,VOLT_BEN,VOLT_BFA,Main,All (PS),20,1,1,3,10,6,12,1.0,1.0,False,1.0,False
 VOLT,Maize,BJ,GH,VOLT_BEN,VOLT_GHA,Main,All (PS),26,1,1,3,10,6,10,1.0,1.0,False,1.0,False
 VOLT,Maize,BJ,TG,VOLT_BEN,VOLT_TGO,Main,All (PS),19,1,1,3,10,5,11,1.0,1.0,False,1.0,False

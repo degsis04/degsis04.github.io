@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-11-03T10:52:37.465858+00:00",
+  "created_utc": "2026-11-03T10:54:27.707429+00:00",
   "status": "COMPLETE",
   "sources": {
     "official_codebook": "https://github.com/HarvestStat/HarvestStat-Africa/releases/tag/v1.2",
@@ -50,6 +50,13 @@
     "one_row_per_compared_pair": {
       "pass": true,
       "detail": 22
+    },
+    "independently_recomputed_month_match": {
+      "pass": true,
+      "detail": {
+        "n_true_ref": 3,
+        "n_true_original": 3
+      }
     }
   },
   "errors": [],
@@ -80,7 +87,7 @@
   "pair_audit": {
     "previously_22_same_label_pairs": 22,
     "pair_rows_in_diagnostic": 22,
-    "same_month_code": 0,
+    "same_month_code": 3,
     "physical_phenology_confirmed": 0
   }
 }
