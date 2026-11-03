@@ -68,13 +68,26 @@ try:
  if not fileid:raise ValueError("No official Dryad raw file ID")
  # Follow documented per-file endpoint, never guess/download a proprietary URL.
  url=f"{API}/files/{fileid}/download"
- resp=s.get(url,timeout=(30,180),stream=True);resp.raise_for_status()
+ resp=s.get(url,timeout=(30,180),stream=True)
+ if resp.status_code==401:
+  # Published Dryad UI uses the public download redirect rather than
+  # the authenticated API file route.
+  public_url=f"https://datadryad.org/downloads/file_stream/{fileid}"
+  resp.close()
+  resp=s.get(public_url,timeout=(30,180),stream=True)
+  L["raw_file"]["public_download_url"]=public_url
+  L["raw_file"]["public_response_status"]=resp.status_code
+ resp.raise_for_status()
  tempfile=pathlib.Path("/tmp")/"fdw_raw_dryad_v1.2_verified.zip"
  with tempfile.open("wb") as f:
   for b in resp.iter_content(2**20):
    if b:f.write(b)
  with tempfile.open("rb") as f:L["raw_file"]["sha256"]=hashlib.file_digest(f,"sha256").hexdigest()
  L["raw_file"]["downloaded_size"]=tempfile.stat().st_size
+ if L["raw_file"]["downloaded_size"]!=int(item.get("size")):
+  raise ValueError("Dryad raw downloaded bytes mismatch canonical metadata")
+ if L["raw_file"]["sha256"]!=item.get("digest"):
+  raise ValueError("Dryad raw archive SHA256 mismatch canonical deposit")
  with zipfile.ZipFile(tempfile) as z:
   assert z.testzip() is None
   names=z.namelist()
