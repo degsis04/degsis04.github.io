@@ -1,0 +1,150 @@
+{
+  "utc": "2026-11-03T11:03:50.682513+00:00",
+  "status": "PASS",
+  "checks": {
+    "initial_anomaly_QA_complete": {
+      "pass": true,
+      "info": null
+    },
+    "expected_record_count": {
+      "pass": true,
+      "info": 133584
+    },
+    "panel_keys_unique": {
+      "pass": true,
+      "info": null
+    },
+    "source_months_full": {
+      "pass": true,
+      "info": null
+    },
+    "source_grid_no_missing_precipitation": {
+      "pass": true,
+      "info": null
+    },
+    "source_no_negative_precipitation": {
+      "pass": true,
+      "info": null
+    },
+    "source_all_finite_rain": {
+      "pass": true,
+      "info": null
+    },
+    "no_future_baseline_leakage": {
+      "pass": true,
+      "info": null
+    },
+    "month_specific_historical_mean": {
+      "pass": true,
+      "info": null
+    },
+    "positive_or_undefined_clim_std": {
+      "pass": true,
+      "info": null
+    },
+    "independent_climatology_1": {
+      "pass": true,
+      "info": {
+        "month": 1,
+        "observed": 240.79773271594388,
+        "stored": 240.79773271594388,
+        "sd_observed": 40.235578163042476,
+        "sd_stored": 40.23557816304248
+      }
+    },
+    "independent_climatology_4": {
+      "pass": true,
+      "info": {
+        "month": 4,
+        "observed": 77.09108418347358,
+        "stored": 77.09108418347357,
+        "sd_observed": 45.54001169372623,
+        "sd_stored": 45.54001169372623
+      }
+    },
+    "independent_climatology_7": {
+      "pass": true,
+      "info": {
+        "month": 7,
+        "observed": 0.027288177843682128,
+        "stored": 0.0272881778436821,
+        "sd_observed": 0.013339275231374959,
+        "sd_stored": 0.0133392752313749
+      }
+    },
+    "independent_climatology_10": {
+      "pass": true,
+      "info": {
+        "month": 10,
+        "observed": 82.46481906742108,
+        "stored": 82.46481906742108,
+        "sd_observed": 23.10106498287819,
+        "sd_stored": 23.10106498287819
+      }
+    },
+    "independent_3month_roll": {
+      "pass": true,
+      "info": null
+    },
+    "independent_6month_roll": {
+      "pass": true,
+      "info": null
+    },
+    "first_1981_two_3month_windows_missing": {
+      "pass": true,
+      "info": null
+    },
+    "first_1981_five_6month_windows_missing": {
+      "pass": true,
+      "info": null
+    },
+    "rainfall_mm_month_drought_severity_nonnegative": {
+      "pass": true,
+      "info": null
+    },
+    "rainfall_mm_month_z_and_deficit_missing_same": {
+      "pass": true,
+      "info": null
+    },
+    "rainfall_mm_month_no_invalid_z": {
+      "pass": true,
+      "info": null
+    },
+    "rainfall_3m_mm_drought_severity_nonnegative": {
+      "pass": true,
+      "info": null
+    },
+    "rainfall_3m_mm_z_and_deficit_missing_same": {
+      "pass": true,
+      "info": null
+    },
+    "rainfall_3m_mm_no_invalid_z": {
+      "pass": true,
+      "info": null
+    },
+    "rainfall_6m_mm_drought_severity_nonnegative": {
+      "pass": true,
+      "info": null
+    },
+    "rainfall_6m_mm_z_and_deficit_missing_same": {
+      "pass": true,
+      "info": null
+    },
+    "rainfall_6m_mm_no_invalid_z": {
+      "pass": true,
+      "info": null
+    }
+  },
+  "errors": [],
+  "summary": {
+    "n_rows": 133584,
+    "districts": 253,
+    "source_rain_min_mm": 0.0,
+    "source_rain_max_mm": 894.6465497476784,
+    "n_month_z": 87384,
+    "n_3mo_z": 108053,
+    "n_6mo_z": 128255,
+    "baseline": "1981-2010",
+    "n_low_support": 1584
+  }
+}
