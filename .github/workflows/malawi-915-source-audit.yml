@@ -1,0 +1,38 @@
+name: Source-verified audit of 915 Malawi maize source definitions and anomalous production
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/malawi-915-source-audit.yml'
+      - 'research/basin-data-audit/scripts/malawi_915_harveststat_semantics_audit.py'
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install 'numpy>=1.26,<3' 'pandas>=2.2,<3' 'requests>=2.31,<3'
+      - name: Redownload SHA-locked original HarvestStat and verify every one of 915 Malawi outcomes
+        run: python research/basin-data-audit/scripts/malawi_915_harveststat_semantics_audit.py
+      - name: Save full QA records and source audit including failures
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/basin-data-audit/results/malawi_maize_semantics_v1/
+          if ! git diff --cached --quiet; then
+            git commit -m 'science QA: independent verified original Malawi maize source definition and outlier audit'
+            for attempt in 1 2 3 4 5; do
+              git pull --rebase && git push && break || sleep 5
+            done
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: malawi-maize-915-source-semantic-qa
+          path: research/basin-data-audit/results/malawi_maize_semantics_v1/
