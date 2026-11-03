@@ -65,7 +65,7 @@ try:
  
  nat=INV["sources"]["jrc_gaul0_worldbank"]
  natp=download(nat["url"],"jrc_crop_calendar_gaul0.csv",nat["sha256"])
- natdf=pd.read_csv(natp)
+ natdf=pd.read_csv(natp,sep=None,engine="python",encoding="utf-8-sig")
  natdf["crop"]=natdf.crop_name.astype(str).str.extract(r"^(Maize|Sorghum|Rice)\b",expand=False)
  natdf=natdf.loc[natdf.name0_shr.isin(TARGET)&natdf.crop.notna()].copy()
  natdf["source"]="JRC_ASAP_GAUL0_national_reference_not_subnational"
