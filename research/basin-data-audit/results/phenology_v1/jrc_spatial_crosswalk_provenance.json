@@ -1,6 +1,6 @@
 {
-  "utc": "2026-11-03T11:15:19.391482+00:00",
-  "status": "FAILED",
+  "utc": "2026-11-03T11:15:57.516409+00:00",
+  "status": "COMPLETE",
   "attribution": "EC-JRC ASAP 2018 FAO+satellite phenology calendar; World Bank 2025 mirror",
   "definition": "Source calendar is a reference growing-season window, not yearly observed onset",
   "units": "dekad index 1..36 (three approximate 10-day segments/month); not daily planting dates",
@@ -49,6 +49,65 @@
       "check": "source_hash_jrc_crop_calendar_gaul0.csv",
       "pass": true,
       "details": "4aec81e67dd8db2fc95e56d25f9031d9692421d8226519ca773449dbb442b147"
+    },
+    {
+      "check": "source_hash_jrc_gaul1_asap_v05.zip",
+      "pass": true,
+      "details": "a161aaaeb99ecb5176e07eb89d5225b8dd00c4cd6213579576b0c804017c5d3c"
+    },
+    {
+      "check": "source_polygons_have_CRS",
+      "pass": true,
+      "details": "EPSG:4326"
+    },
+    {
+      "check": "has_asap1_id",
+      "pass": true,
+      "details": [
+        "asap1_id",
+        "name1",
+        "name1_shr",
+        "asap0_id",
+        "name0",
+        "name0_shr",
+        "km2_tot",
+        "km2_crop",
+        "km2_range",
+        "an_crop",
+        "an_range",
+        "water_lim",
+        "geometry"
+      ]
+    },
+    {
+      "check": "all_source_crop_regions_have_polygon",
+      "pass": true,
+      "details": []
+    },
+    {
+      "check": "source_hash_HarvestStat_Africa_boundaries.gpkg",
+      "pass": true,
+      "details": "259e152dcae5b8629b2b76f789abb114219e07347a1dc1efaf8185281f7d028e"
+    },
+    {
+      "check": "original_253_pilot_admin_districts",
+      "pass": true,
+      "details": 253
+    },
+    {
+      "check": "single_overlap_fraction_below_1",
+      "pass": true,
+      "details": {
+        "max": 1.0000000000000009
+      }
+    },
+    {
+      "check": "no_large_source_polygon_overlap",
+      "pass": true,
+      "details": {
+        "max": 1.0000000000000029,
+        "n_source_geom_sum_over102pct": 0
+      }
     }
   ],
   "counts": {
@@ -154,10 +213,181 @@
         "crop": "Maize",
         "rows": 8
       }
+    ],
+    "national_crop_rows": 23,
+    "national_by_country_crop": [
+      {
+        "name0_shr": "Benin",
+        "crop": "Maize",
+        "rows": 2
+      },
+      {
+        "name0_shr": "Benin",
+        "crop": "Rice",
+        "rows": 1
+      },
+      {
+        "name0_shr": "Benin",
+        "crop": "Sorghum",
+        "rows": 1
+      },
+      {
+        "name0_shr": "Burkina Faso",
+        "crop": "Maize",
+        "rows": 1
+      },
+      {
+        "name0_shr": "Burkina Faso",
+        "crop": "Sorghum",
+        "rows": 1
+      },
+      {
+        "name0_shr": "Ghana",
+        "crop": "Maize",
+        "rows": 2
+      },
+      {
+        "name0_shr": "Ghana",
+        "crop": "Rice",
+        "rows": 1
+      },
+      {
+        "name0_shr": "Ghana",
+        "crop": "Sorghum",
+        "rows": 1
+      },
+      {
+        "name0_shr": "Malawi",
+        "crop": "Maize",
+        "rows": 1
+      },
+      {
+        "name0_shr": "Malawi",
+        "crop": "Rice",
+        "rows": 1
+      },
+      {
+        "name0_shr": "Malawi",
+        "crop": "Sorghum",
+        "rows": 1
+      },
+      {
+        "name0_shr": "Mali",
+        "crop": "Maize",
+        "rows": 1
+      },
+      {
+        "name0_shr": "Mali",
+        "crop": "Rice",
+        "rows": 1
+      },
+      {
+        "name0_shr": "Mali",
+        "crop": "Sorghum",
+        "rows": 1
+      },
+      {
+        "name0_shr": "Togo",
+        "crop": "Maize",
+        "rows": 2
+      },
+      {
+        "name0_shr": "Togo",
+        "crop": "Rice",
+        "rows": 1
+      },
+      {
+        "name0_shr": "Togo",
+        "crop": "Sorghum",
+        "rows": 1
+      },
+      {
+        "name0_shr": "Zambia",
+        "crop": "Maize",
+        "rows": 1
+      },
+      {
+        "name0_shr": "Zambia",
+        "crop": "Sorghum",
+        "rows": 1
+      },
+      {
+        "name0_shr": "Zimbabwe",
+        "crop": "Maize",
+        "rows": 1
+      }
+    ],
+    "source_duplicate_geo_ids": 0,
+    "admin_with_any_JRC_cropping_calendar_polygon": 163,
+    "admin_ge80_JRC_province": 159,
+    "admin_ge70_JRC_province": 159,
+    "admin_ge90_JRC_province": 159,
+    "district_crop_season_calendar_rows": 338,
+    "district_count_with_maize": 146,
+    "district_count_with_sorghum": 128,
+    "district_count_with_rice": 51,
+    "by_pilot_basin_crop": [
+      {
+        "BCODE": "NGER",
+        "crop": "Maize",
+        "districts": 13
+      },
+      {
+        "BCODE": "NGER",
+        "crop": "Rice",
+        "districts": 9
+      },
+      {
+        "BCODE": "NGER",
+        "crop": "Sorghum",
+        "districts": 16
+      },
+      {
+        "BCODE": "VOLT",
+        "crop": "Maize",
+        "districts": 51
+      },
+      {
+        "BCODE": "VOLT",
+        "crop": "Rice",
+        "districts": 16
+      },
+      {
+        "BCODE": "VOLT",
+        "crop": "Sorghum",
+        "districts": 47
+      },
+      {
+        "BCODE": "ZAMB",
+        "crop": "Maize",
+        "districts": 82
+      },
+      {
+        "BCODE": "ZAMB",
+        "crop": "Rice",
+        "districts": 26
+      },
+      {
+        "BCODE": "ZAMB",
+        "crop": "Sorghum",
+        "districts": 65
+      }
     ]
   },
-  "errors": [
-    "Error tokenizing data. C error: Expected 1 fields in line 26, saw 2\n"
-  ],
-  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/degsis04.github.io/degsis04.github.io/research/basin-data-audit/scripts/jrc_asap_spatial_crosswalk_v1.py\", line 68, in <module>\n    natdf=pd.read_csv(natp)\n          ^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/pandas/io/parsers/readers.py\", line 1026, in read_csv\n    return _read(filepath_or_buffer, kwds)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/pandas/io/parsers/readers.py\", line 626, in _read\n    return parser.read(nrows)\n           ^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/pandas/io/parsers/readers.py\", line 1923, in read\n    ) = self._engine.read(  # type: ignore[attr-defined]\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/pandas/io/parsers/c_parser_wrapper.py\", line 234, in read\n    chunks = self._reader.read_low_memory(nrows)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"pandas/_libs/parsers.pyx\", line 838, in pandas._libs.parsers.TextReader.read_low_memory\n  File \"pandas/_libs/parsers.pyx\", line 905, in pandas._libs.parsers.TextReader._read_rows\n  File \"pandas/_libs/parsers.pyx\", line 874, in pandas._libs.parsers.TextReader._tokenize_rows\n  File \"pandas/_libs/parsers.pyx\", line 891, in pandas._libs.parsers.TextReader._check_tokenize_status\n  File \"pandas/_libs/parsers.pyx\", line 2061, in pandas._libs.parsers.raise_parser_error\npandas.errors.ParserError: Error tokenizing data. C error: Expected 1 fields in line 26, saw 2\n\n"
+  "errors": [],
+  "shape_columns": [
+    "asap1_id",
+    "name1",
+    "name1_shr",
+    "asap0_id",
+    "name0",
+    "name0_shr",
+    "km2_tot",
+    "km2_crop",
+    "km2_range",
+    "an_crop",
+    "an_range",
+    "water_lim",
+    "geometry"
+  ]
 }

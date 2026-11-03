@@ -1,0 +1,339 @@
+fnid,BCODE,dominant_bcu,country_code,asap1_id,name0_shr,frac_district,asap0_id,name1_shr,crop_name,sos_s,sos_e,eos_s,eos_e,crop,likely_year_crossing,phenology_source,annual_historical_onset_observed
+BF2020A21300,VOLT,VOLT_BFA,BF,2245,Burkina Faso,0.9382466139435717,219,Centre,Maize,16,19,31,32,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A21300,VOLT,VOLT_BFA,BF,2245,Burkina Faso,0.9382466139435717,219,Centre,Sorghum,16,19,31,32,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A24601,VOLT,VOLT_BFA,BF,2244,Burkina Faso,0.9895292641770039,219,Boucle Mouhoun,Maize,15,19,30,34,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A24601,VOLT,VOLT_BFA,BF,2244,Burkina Faso,0.9895292641770039,219,Boucle Mouhoun,Sorghum,15,19,30,34,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A24602,VOLT,VOLT_BFA,BF,2244,Burkina Faso,0.9940269055046,219,Boucle Mouhoun,Maize,15,19,30,34,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A24602,VOLT,VOLT_BFA,BF,2244,Burkina Faso,0.9940269055046,219,Boucle Mouhoun,Sorghum,15,19,30,34,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A24603,VOLT,VOLT_BFA,BF,2244,Burkina Faso,0.9998595089017539,219,Boucle Mouhoun,Maize,15,19,30,34,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A24603,VOLT,VOLT_BFA,BF,2244,Burkina Faso,0.9998595089017539,219,Boucle Mouhoun,Sorghum,15,19,30,34,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A24604,VOLT,VOLT_BFA,BF,2244,Burkina Faso,0.9768678892177856,219,Boucle Mouhoun,Maize,15,19,30,34,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A24604,VOLT,VOLT_BFA,BF,2244,Burkina Faso,0.9768678892177856,219,Boucle Mouhoun,Sorghum,15,19,30,34,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A24605,VOLT,VOLT_BFA,BF,2244,Burkina Faso,0.9946362864303426,219,Boucle Mouhoun,Maize,15,19,30,34,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A24605,VOLT,VOLT_BFA,BF,2244,Burkina Faso,0.9946362864303426,219,Boucle Mouhoun,Sorghum,15,19,30,34,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A24606,VOLT,VOLT_BFA,BF,2244,Burkina Faso,0.9947084520368684,219,Boucle Mouhoun,Maize,15,19,30,34,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A24606,VOLT,VOLT_BFA,BF,2244,Burkina Faso,0.9947084520368684,219,Boucle Mouhoun,Sorghum,15,19,30,34,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A24801,VOLT,VOLT_BFA,BF,2204,Burkina Faso,0.9876892323010287,219,Centre-est,Maize,13,19,31,33,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A24801,VOLT,VOLT_BFA,BF,2204,Burkina Faso,0.9876892323010287,219,Centre-est,Sorghum,13,19,31,33,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A24802,VOLT,VOLT_BFA,BF,2204,Burkina Faso,0.986578437461934,219,Centre-est,Maize,13,19,31,33,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A24802,VOLT,VOLT_BFA,BF,2204,Burkina Faso,0.986578437461934,219,Centre-est,Sorghum,13,19,31,33,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A24901,VOLT,VOLT_BFA,BF,1760,Burkina Faso,0.9984692415868911,219,Centre-nord,Maize,17,19,30,32,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A24901,VOLT,VOLT_BFA,BF,1760,Burkina Faso,0.9984692415868911,219,Centre-nord,Sorghum,17,19,30,32,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A24902,NGER,NGER_BFA,BF,1760,Burkina Faso,0.9741048447998278,219,Centre-nord,Maize,17,19,30,32,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A24902,NGER,NGER_BFA,BF,1760,Burkina Faso,0.9741048447998278,219,Centre-nord,Sorghum,17,19,30,32,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25001,VOLT,VOLT_BFA,BF,2159,Burkina Faso,0.99318286708432,219,Centre-ouest,Maize,13,19,31,33,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25001,VOLT,VOLT_BFA,BF,2159,Burkina Faso,0.99318286708432,219,Centre-ouest,Sorghum,13,19,31,33,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25002,VOLT,VOLT_BFA,BF,2159,Burkina Faso,0.9936048261073003,219,Centre-ouest,Maize,13,19,31,33,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25002,VOLT,VOLT_BFA,BF,2159,Burkina Faso,0.9936048261073003,219,Centre-ouest,Sorghum,13,19,31,33,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25003,VOLT,VOLT_BFA,BF,2159,Burkina Faso,0.9691775181226089,219,Centre-ouest,Maize,13,19,31,33,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25003,VOLT,VOLT_BFA,BF,2159,Burkina Faso,0.9691775181226089,219,Centre-ouest,Sorghum,13,19,31,33,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25004,VOLT,VOLT_BFA,BF,2159,Burkina Faso,0.9967068201552612,219,Centre-ouest,Maize,13,19,31,33,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25004,VOLT,VOLT_BFA,BF,2159,Burkina Faso,0.9967068201552612,219,Centre-ouest,Sorghum,13,19,31,33,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25101,VOLT,VOLT_BFA,BF,2161,Burkina Faso,0.9825156377755941,219,Centre-sud,Maize,13,17,31,33,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25101,VOLT,VOLT_BFA,BF,2161,Burkina Faso,0.9825156377755941,219,Centre-sud,Sorghum,13,17,31,33,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25102,VOLT,VOLT_BFA,BF,2161,Burkina Faso,0.9776525213429017,219,Centre-sud,Maize,13,17,31,33,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25102,VOLT,VOLT_BFA,BF,2161,Burkina Faso,0.9776525213429017,219,Centre-sud,Sorghum,13,17,31,33,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25103,VOLT,VOLT_BFA,BF,2161,Burkina Faso,0.9725744928581265,219,Centre-sud,Maize,13,17,31,33,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25103,VOLT,VOLT_BFA,BF,2161,Burkina Faso,0.9725744928581265,219,Centre-sud,Sorghum,13,17,31,33,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25201,NGER,NGER_BFA,BF,2236,Burkina Faso,0.9732497806316854,219,Est,Maize,15,19,31,33,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25201,NGER,NGER_BFA,BF,2236,Burkina Faso,0.9732497806316854,219,Est,Sorghum,15,19,31,33,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25203,NGER,NGER_BFA,BF,2236,Burkina Faso,0.9993709130052302,219,Est,Maize,15,19,31,33,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25203,NGER,NGER_BFA,BF,2236,Burkina Faso,0.9993709130052302,219,Est,Sorghum,15,19,31,33,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25204,VOLT,VOLT_BFA,BF,2236,Burkina Faso,0.9975123000010148,219,Est,Maize,15,19,31,33,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25204,VOLT,VOLT_BFA,BF,2236,Burkina Faso,0.9975123000010148,219,Est,Sorghum,15,19,31,33,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25301,VOLT,VOLT_BFA,BF,406,Burkina Faso,0.9941606125993799,219,Hauts-bassins,Maize,10,18,32,35,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25301,VOLT,VOLT_BFA,BF,406,Burkina Faso,0.9941606125993799,219,Hauts-bassins,Sorghum,13,18,32,34,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25303,VOLT,VOLT_BFA,BF,406,Burkina Faso,0.985919530857105,219,Hauts-bassins,Maize,10,18,32,35,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25303,VOLT,VOLT_BFA,BF,406,Burkina Faso,0.985919530857105,219,Hauts-bassins,Sorghum,13,18,32,34,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25401,VOLT,VOLT_BFA,BF,2246,Burkina Faso,0.9873470847343617,219,Nord,Maize,17,19,30,33,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25401,VOLT,VOLT_BFA,BF,2246,Burkina Faso,0.9873470847343617,219,Nord,Sorghum,17,19,30,33,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25402,VOLT,VOLT_BFA,BF,2246,Burkina Faso,0.9888127066911603,219,Nord,Maize,17,19,30,33,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25402,VOLT,VOLT_BFA,BF,2246,Burkina Faso,0.9888127066911603,219,Nord,Sorghum,17,19,30,33,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25403,VOLT,VOLT_BFA,BF,2246,Burkina Faso,0.9938539295755665,219,Nord,Maize,17,19,30,33,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25403,VOLT,VOLT_BFA,BF,2246,Burkina Faso,0.9938539295755665,219,Nord,Sorghum,17,19,30,33,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25404,VOLT,VOLT_BFA,BF,2246,Burkina Faso,0.9987827166991955,219,Nord,Maize,17,19,30,33,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25404,VOLT,VOLT_BFA,BF,2246,Burkina Faso,0.9987827166991955,219,Nord,Sorghum,17,19,30,33,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25501,VOLT,VOLT_BFA,BF,2172,Burkina Faso,0.960359804627788,219,Plateau Central,Maize,16,19,31,33,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25501,VOLT,VOLT_BFA,BF,2172,Burkina Faso,0.960359804627788,219,Plateau Central,Sorghum,16,19,31,33,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25502,VOLT,VOLT_BFA,BF,2172,Burkina Faso,0.9886051141126722,219,Plateau Central,Maize,16,19,31,33,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25502,VOLT,VOLT_BFA,BF,2172,Burkina Faso,0.9886051141126722,219,Plateau Central,Sorghum,16,19,31,33,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25503,VOLT,VOLT_BFA,BF,2172,Burkina Faso,0.9816967006736043,219,Plateau Central,Maize,16,19,31,33,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25503,VOLT,VOLT_BFA,BF,2172,Burkina Faso,0.9816967006736043,219,Plateau Central,Sorghum,16,19,31,33,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25601,NGER,NGER_BFA,BF,2174,Burkina Faso,0.9998402236402599,219,Sahel,Maize,17,19,29,32,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25601,NGER,NGER_BFA,BF,2174,Burkina Faso,0.9998402236402599,219,Sahel,Sorghum,17,19,29,32,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25602,NGER,NGER_BFA,BF,2174,Burkina Faso,0.994500670830771,219,Sahel,Maize,17,19,29,32,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25602,NGER,NGER_BFA,BF,2174,Burkina Faso,0.994500670830771,219,Sahel,Sorghum,17,19,29,32,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25603,NGER,NGER_BFA,BF,2174,Burkina Faso,0.9983119037738303,219,Sahel,Maize,17,19,29,32,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25603,NGER,NGER_BFA,BF,2174,Burkina Faso,0.9983119037738303,219,Sahel,Sorghum,17,19,29,32,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25604,NGER,NGER_BFA,BF,2174,Burkina Faso,0.998227890673634,219,Sahel,Maize,17,19,29,32,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25604,NGER,NGER_BFA,BF,2174,Burkina Faso,0.998227890673634,219,Sahel,Sorghum,17,19,29,32,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25701,VOLT,VOLT_BFA,BF,624,Burkina Faso,0.997135979510856,219,Sud-ouest,Maize,9,13,32,34,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25701,VOLT,VOLT_BFA,BF,624,Burkina Faso,0.997135979510856,219,Sud-ouest,Sorghum,13,16,31,33,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25702,VOLT,VOLT_BFA,BF,624,Burkina Faso,0.986285064594578,219,Sud-ouest,Maize,9,13,32,34,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25702,VOLT,VOLT_BFA,BF,624,Burkina Faso,0.986285064594578,219,Sud-ouest,Sorghum,13,16,31,33,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25703,VOLT,VOLT_BFA,BF,624,Burkina Faso,0.9998571363684987,219,Sud-ouest,Maize,9,13,32,34,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25703,VOLT,VOLT_BFA,BF,624,Burkina Faso,0.9998571363684987,219,Sud-ouest,Sorghum,13,16,31,33,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25704,VOLT,VOLT_BFA,BF,624,Burkina Faso,0.9787279415530764,219,Sud-ouest,Maize,9,13,32,34,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BF2020A25704,VOLT,VOLT_BFA,BF,624,Burkina Faso,0.9787279415530764,219,Sud-ouest,Sorghum,13,16,31,33,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20107,NGER,NGER_BEN,BJ,785,Benin,0.9785674702499331,195,Borgou,Maize (Main),9,13,33,34,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20107,NGER,NGER_BEN,BJ,785,Benin,0.9785674702499331,195,Borgou,Maize (Second),23,25,33,35,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20108,NGER,NGER_BEN,BJ,785,Benin,0.9853833594180355,195,Borgou,Maize (Main),9,13,33,34,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20108,NGER,NGER_BEN,BJ,785,Benin,0.9853833594180355,195,Borgou,Maize (Second),23,25,33,35,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20110,NGER,NGER_BEN,BJ,785,Benin,0.9996860538423052,195,Borgou,Maize (Main),9,13,33,34,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20110,NGER,NGER_BEN,BJ,785,Benin,0.9996860538423052,195,Borgou,Maize (Second),23,25,33,35,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20506,VOLT,VOLT_BEN,BJ,781,Benin,0.9977615206687238,195,Atakora,Maize (Main),9,12,32,34,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20506,VOLT,VOLT_BEN,BJ,781,Benin,0.9977615206687238,195,Atakora,Rice (Irrigated),13,14,32,34,Rice,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20506,VOLT,VOLT_BEN,BJ,781,Benin,0.9977615206687238,195,Atakora,Sorghum,13,14,32,34,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20507,VOLT,VOLT_BEN,BJ,781,Benin,0.9998430011999951,195,Atakora,Maize (Main),9,12,32,34,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20507,VOLT,VOLT_BEN,BJ,781,Benin,0.9998430011999951,195,Atakora,Rice (Irrigated),13,14,32,34,Rice,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20507,VOLT,VOLT_BEN,BJ,781,Benin,0.9998430011999951,195,Atakora,Sorghum,13,14,32,34,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20510,VOLT,VOLT_BEN,BJ,781,Benin,0.999874146745485,195,Atakora,Maize (Main),9,12,32,34,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20510,VOLT,VOLT_BEN,BJ,781,Benin,0.999874146745485,195,Atakora,Rice (Irrigated),13,14,32,34,Rice,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20510,VOLT,VOLT_BEN,BJ,781,Benin,0.999874146745485,195,Atakora,Sorghum,13,14,32,34,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20511,VOLT,VOLT_BEN,BJ,781,Benin,0.9999999999999994,195,Atakora,Maize (Main),9,12,32,34,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20511,VOLT,VOLT_BEN,BJ,781,Benin,0.9999999999999994,195,Atakora,Rice (Irrigated),13,14,32,34,Rice,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20511,VOLT,VOLT_BEN,BJ,781,Benin,0.9999999999999994,195,Atakora,Sorghum,13,14,32,34,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20512,NGER,NGER_BEN,BJ,781,Benin,0.9373937206425789,195,Atakora,Maize (Main),9,12,32,34,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20512,NGER,NGER_BEN,BJ,781,Benin,0.9373937206425789,195,Atakora,Rice (Irrigated),13,14,32,34,Rice,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20512,NGER,NGER_BEN,BJ,781,Benin,0.9373937206425789,195,Atakora,Sorghum,13,14,32,34,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20513,VOLT,VOLT_BEN,BJ,781,Benin,0.9998743093456487,195,Atakora,Maize (Main),9,12,32,34,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20513,VOLT,VOLT_BEN,BJ,781,Benin,0.9998743093456487,195,Atakora,Rice (Irrigated),13,14,32,34,Rice,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20513,VOLT,VOLT_BEN,BJ,781,Benin,0.9998743093456487,195,Atakora,Sorghum,13,14,32,34,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20514,VOLT,VOLT_BEN,BJ,781,Benin,0.9999999999999997,195,Atakora,Maize (Main),9,12,32,34,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20514,VOLT,VOLT_BEN,BJ,781,Benin,0.9999999999999997,195,Atakora,Rice (Irrigated),13,14,32,34,Rice,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20514,VOLT,VOLT_BEN,BJ,781,Benin,0.9999999999999997,195,Atakora,Sorghum,13,14,32,34,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20701,NGER,NGER_BEN,BJ,780,Benin,0.9985588306710487,195,Alibori,Rice (Irrigated),11,18,31,35,Rice,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20701,NGER,NGER_BEN,BJ,780,Benin,0.9985588306710487,195,Alibori,Sorghum,11,18,31,35,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20702,NGER,NGER_BEN,BJ,780,Benin,0.9934516322795223,195,Alibori,Rice (Irrigated),11,18,31,35,Rice,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20702,NGER,NGER_BEN,BJ,780,Benin,0.9934516322795223,195,Alibori,Sorghum,11,18,31,35,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20703,NGER,NGER_BEN,BJ,780,Benin,1.0000000000000002,195,Alibori,Rice (Irrigated),11,18,31,35,Rice,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20703,NGER,NGER_BEN,BJ,780,Benin,1.0000000000000002,195,Alibori,Sorghum,11,18,31,35,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20704,NGER,NGER_BEN,BJ,780,Benin,0.998977572644586,195,Alibori,Rice (Irrigated),11,18,31,35,Rice,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20704,NGER,NGER_BEN,BJ,780,Benin,0.998977572644586,195,Alibori,Sorghum,11,18,31,35,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20705,NGER,NGER_BEN,BJ,780,Benin,0.9999655108250987,195,Alibori,Rice (Irrigated),11,18,31,35,Rice,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20705,NGER,NGER_BEN,BJ,780,Benin,0.9999655108250987,195,Alibori,Sorghum,11,18,31,35,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20706,NGER,NGER_BEN,BJ,780,Benin,0.9996897275213457,195,Alibori,Rice (Irrigated),11,18,31,35,Rice,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A20706,NGER,NGER_BEN,BJ,780,Benin,0.9996897275213457,195,Alibori,Sorghum,11,18,31,35,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A21103,VOLT,VOLT_BEN,BJ,790,Benin,0.9994300459366641,195,Donga,Maize (Main),8,11,32,34,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+BJ2015A21103,VOLT,VOLT_BEN,BJ,790,Benin,0.9994300459366641,195,Donga,Maize (Second),23,25,33,35,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+GH2018A106,VOLT,VOLT_GHA,GH,1081,Ghana,0.9974359265415421,66,Northern,Maize (Second),23,25,33,36,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+GH2018A106,VOLT,VOLT_GHA,GH,1081,Ghana,0.9974359265415421,66,Northern,Rice (North),13,15,32,36,Rice,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+GH2018A106,VOLT,VOLT_GHA,GH,1081,Ghana,0.9974359265415421,66,Northern,Sorghum,13,15,32,33,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+GH2018A107,VOLT,VOLT_GHA,GH,1063,Ghana,0.9826669240001724,66,Volta,Maize (Second),23,28,34,1,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+GH2018A107,VOLT,VOLT_GHA,GH,1063,Ghana,0.9826669240001724,66,Volta,Maize (South/Main),6,10,22,23,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+GH2018A110,VOLT,VOLT_GHA,GH,1082,Ghana,0.9931216663928208,66,Upper East,Rice (North),12,17,31,34,Rice,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+GH2018A110,VOLT,VOLT_GHA,GH,1082,Ghana,0.9931216663928208,66,Upper East,Sorghum,12,17,31,34,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+GH2018A111,VOLT,VOLT_GHA,GH,106,Ghana,0.9929681113680533,66,Upper West,Rice (North),13,16,31,33,Rice,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+GH2018A111,VOLT,VOLT_GHA,GH,106,Ghana,0.9929681113680533,66,Upper West,Sorghum,13,16,31,33,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+GH2018A114,VOLT,VOLT_GHA,GH,1066,Ghana,0.9841170122668027,66,Brong Ahafo,Maize (Second),23,26,34,1,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+GH2018A115,VOLT,VOLT_GHA,GH,1081,Ghana,0.9985054214226114,66,Northern,Maize (Second),23,25,33,36,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+GH2018A115,VOLT,VOLT_GHA,GH,1081,Ghana,0.9985054214226114,66,Northern,Rice (North),13,15,32,36,Rice,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+GH2018A115,VOLT,VOLT_GHA,GH,1081,Ghana,0.9985054214226114,66,Northern,Sorghum,13,15,32,33,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+GH2018A116,VOLT,VOLT_GHA,GH,1063,Ghana,0.9549105885271969,66,Volta,Maize (Second),23,28,34,1,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+GH2018A116,VOLT,VOLT_GHA,GH,1063,Ghana,0.9549105885271969,66,Volta,Maize (South/Main),6,10,22,23,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+GH2018A117,VOLT,VOLT_GHA,GH,1081,Ghana,0.993742070766881,66,Northern,Maize (Second),23,25,33,36,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+GH2018A117,VOLT,VOLT_GHA,GH,1081,Ghana,0.993742070766881,66,Northern,Rice (North),13,15,32,36,Rice,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+GH2018A117,VOLT,VOLT_GHA,GH,1081,Ghana,0.993742070766881,66,Northern,Sorghum,13,15,32,33,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ML2016A103,NGER,NGER_MLI,ML,441,Mali,0.9942405766631003,59,Sikasso,Maize,10,19,31,34,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ML2016A103,NGER,NGER_MLI,ML,441,Mali,0.9942405766631003,59,Sikasso,Rice (Rainfed),16,19,33,36,Rice,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ML2016A103,NGER,NGER_MLI,ML,441,Mali,0.9942405766631003,59,Sikasso,Sorghum,10,19,31,34,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ML2016A104,NGER,NGER_MLI,ML,439,Mali,0.9943579355104571,59,Segou,Maize,16,21,29,33,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ML2016A104,NGER,NGER_MLI,ML,439,Mali,0.9943579355104571,59,Segou,Rice (Rainfed),16,21,33,3,Rice,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ML2016A104,NGER,NGER_MLI,ML,439,Mali,0.9943579355104571,59,Segou,Sorghum,16,21,29,33,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20101,ZAMB,ZAMB_MWI,MW,520,Malawi,0.9975961436094755,148,Central Region,Maize,30,34,15,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20101,ZAMB,ZAMB_MWI,MW,520,Malawi,0.9975961436094755,148,Central Region,Rice,32,36,15,21,Rice,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20101,ZAMB,ZAMB_MWI,MW,520,Malawi,0.9975961436094755,148,Central Region,Sorghum,34,36,16,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20102,ZAMB,ZAMB_MWI,MW,520,Malawi,1.0,148,Central Region,Maize,30,34,15,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20102,ZAMB,ZAMB_MWI,MW,520,Malawi,1.0,148,Central Region,Rice,32,36,15,21,Rice,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20102,ZAMB,ZAMB_MWI,MW,520,Malawi,1.0,148,Central Region,Sorghum,34,36,16,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20103,ZAMB,ZAMB_MWI,MW,520,Malawi,0.9984092652449738,148,Central Region,Maize,30,34,15,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20103,ZAMB,ZAMB_MWI,MW,520,Malawi,0.9984092652449738,148,Central Region,Rice,32,36,15,21,Rice,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20103,ZAMB,ZAMB_MWI,MW,520,Malawi,0.9984092652449738,148,Central Region,Sorghum,34,36,16,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20104,ZAMB,ZAMB_MWI,MW,520,Malawi,0.9992924375852036,148,Central Region,Maize,30,34,15,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20104,ZAMB,ZAMB_MWI,MW,520,Malawi,0.9992924375852036,148,Central Region,Rice,32,36,15,21,Rice,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20104,ZAMB,ZAMB_MWI,MW,520,Malawi,0.9992924375852036,148,Central Region,Sorghum,34,36,16,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20105,ZAMB,ZAMB_MWI,MW,520,Malawi,1.0000000000000002,148,Central Region,Maize,30,34,15,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20105,ZAMB,ZAMB_MWI,MW,520,Malawi,1.0000000000000002,148,Central Region,Rice,32,36,15,21,Rice,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20105,ZAMB,ZAMB_MWI,MW,520,Malawi,1.0000000000000002,148,Central Region,Sorghum,34,36,16,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20106,ZAMB,ZAMB_MWI,MW,520,Malawi,0.9965609268935816,148,Central Region,Maize,30,34,15,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20106,ZAMB,ZAMB_MWI,MW,520,Malawi,0.9965609268935816,148,Central Region,Rice,32,36,15,21,Rice,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20106,ZAMB,ZAMB_MWI,MW,520,Malawi,0.9965609268935816,148,Central Region,Sorghum,34,36,16,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20107,ZAMB,ZAMB_MWI,MW,520,Malawi,0.9951999678623041,148,Central Region,Maize,30,34,15,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20107,ZAMB,ZAMB_MWI,MW,520,Malawi,0.9951999678623041,148,Central Region,Rice,32,36,15,21,Rice,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20107,ZAMB,ZAMB_MWI,MW,520,Malawi,0.9951999678623041,148,Central Region,Sorghum,34,36,16,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20108,ZAMB,ZAMB_MWI,MW,520,Malawi,0.9775447518814356,148,Central Region,Maize,30,34,15,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20108,ZAMB,ZAMB_MWI,MW,520,Malawi,0.9775447518814356,148,Central Region,Rice,32,36,15,21,Rice,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20108,ZAMB,ZAMB_MWI,MW,520,Malawi,0.9775447518814356,148,Central Region,Sorghum,34,36,16,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20109,ZAMB,ZAMB_MWI,MW,520,Malawi,1.0000000000000002,148,Central Region,Maize,30,34,15,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20109,ZAMB,ZAMB_MWI,MW,520,Malawi,1.0000000000000002,148,Central Region,Rice,32,36,15,21,Rice,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20109,ZAMB,ZAMB_MWI,MW,520,Malawi,1.0000000000000002,148,Central Region,Sorghum,34,36,16,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20110,ZAMB,ZAMB_MWI,MW,520,Malawi,0.993928246316429,148,Central Region,Maize,30,34,15,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20110,ZAMB,ZAMB_MWI,MW,520,Malawi,0.993928246316429,148,Central Region,Rice,32,36,15,21,Rice,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20110,ZAMB,ZAMB_MWI,MW,520,Malawi,0.993928246316429,148,Central Region,Sorghum,34,36,16,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20211,ZAMB,ZAMB_MWI,MW,1342,Malawi,0.9999161949996848,148,Northern Region,Maize,31,34,16,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20211,ZAMB,ZAMB_MWI,MW,1342,Malawi,0.9999161949996848,148,Northern Region,Rice,32,36,16,19,Rice,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20211,ZAMB,ZAMB_MWI,MW,1342,Malawi,0.9999161949996848,148,Northern Region,Sorghum,34,36,16,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20212,ZAMB,ZAMB_MWI,MW,1342,Malawi,0.9983532300479652,148,Northern Region,Maize,31,34,16,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20212,ZAMB,ZAMB_MWI,MW,1342,Malawi,0.9983532300479652,148,Northern Region,Rice,32,36,16,19,Rice,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20212,ZAMB,ZAMB_MWI,MW,1342,Malawi,0.9983532300479652,148,Northern Region,Sorghum,34,36,16,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20214,ZAMB,ZAMB_MWI,MW,1342,Malawi,0.9990924792676406,148,Northern Region,Maize,31,34,16,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20214,ZAMB,ZAMB_MWI,MW,1342,Malawi,0.9990924792676406,148,Northern Region,Rice,32,36,16,19,Rice,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20214,ZAMB,ZAMB_MWI,MW,1342,Malawi,0.9990924792676406,148,Northern Region,Sorghum,34,36,16,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20215,ZAMB,ZAMB_MWI,MW,1342,Malawi,1.0,148,Northern Region,Maize,31,34,16,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20215,ZAMB,ZAMB_MWI,MW,1342,Malawi,1.0,148,Northern Region,Rice,32,36,16,19,Rice,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20215,ZAMB,ZAMB_MWI,MW,1342,Malawi,1.0,148,Northern Region,Sorghum,34,36,16,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20216,ZAMB,ZAMB_MWI,MW,1342,Malawi,0.9984674211918959,148,Northern Region,Maize,31,34,16,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20216,ZAMB,ZAMB_MWI,MW,1342,Malawi,0.9984674211918959,148,Northern Region,Rice,32,36,16,19,Rice,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20216,ZAMB,ZAMB_MWI,MW,1342,Malawi,0.9984674211918959,148,Northern Region,Sorghum,34,36,16,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20217,ZAMB,ZAMB_MWI,MW,1342,Malawi,0.9996866052960124,148,Northern Region,Maize,31,34,16,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20217,ZAMB,ZAMB_MWI,MW,1342,Malawi,0.9996866052960124,148,Northern Region,Rice,32,36,16,19,Rice,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20217,ZAMB,ZAMB_MWI,MW,1342,Malawi,0.9996866052960124,148,Northern Region,Sorghum,34,36,16,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20318,ZAMB,ZAMB_MWI,MW,1343,Malawi,0.9987900535835571,148,Southern Region,Maize,31,34,14,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20318,ZAMB,ZAMB_MWI,MW,1343,Malawi,0.9987900535835571,148,Southern Region,Rice,32,36,14,19,Rice,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20318,ZAMB,ZAMB_MWI,MW,1343,Malawi,0.9987900535835571,148,Southern Region,Sorghum,34,36,16,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20319,ZAMB,ZAMB_MWI,MW,1343,Malawi,0.9999999999999996,148,Southern Region,Maize,31,34,14,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20319,ZAMB,ZAMB_MWI,MW,1343,Malawi,0.9999999999999996,148,Southern Region,Rice,32,36,14,19,Rice,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20319,ZAMB,ZAMB_MWI,MW,1343,Malawi,0.9999999999999996,148,Southern Region,Sorghum,34,36,16,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20320,ZAMB,ZAMB_MWI,MW,1343,Malawi,1.0000000000000002,148,Southern Region,Maize,31,34,14,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20320,ZAMB,ZAMB_MWI,MW,1343,Malawi,1.0000000000000002,148,Southern Region,Rice,32,36,14,19,Rice,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20320,ZAMB,ZAMB_MWI,MW,1343,Malawi,1.0000000000000002,148,Southern Region,Sorghum,34,36,16,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20321,ZAMB,ZAMB_MWI,MW,1343,Malawi,0.997837762503771,148,Southern Region,Maize,31,34,14,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20321,ZAMB,ZAMB_MWI,MW,1343,Malawi,0.997837762503771,148,Southern Region,Rice,32,36,14,19,Rice,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20321,ZAMB,ZAMB_MWI,MW,1343,Malawi,0.997837762503771,148,Southern Region,Sorghum,34,36,16,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20324,ZAMB,ZAMB_MWI,MW,1343,Malawi,0.9971799956533688,148,Southern Region,Maize,31,34,14,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20324,ZAMB,ZAMB_MWI,MW,1343,Malawi,0.9971799956533688,148,Southern Region,Rice,32,36,14,19,Rice,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20324,ZAMB,ZAMB_MWI,MW,1343,Malawi,0.9971799956533688,148,Southern Region,Sorghum,34,36,16,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20325,ZAMB,ZAMB_MWI,MW,1343,Malawi,0.9969339577061026,148,Southern Region,Maize,31,34,14,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20325,ZAMB,ZAMB_MWI,MW,1343,Malawi,0.9969339577061026,148,Southern Region,Rice,32,36,14,19,Rice,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20325,ZAMB,ZAMB_MWI,MW,1343,Malawi,0.9969339577061026,148,Southern Region,Sorghum,34,36,16,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20326,ZAMB,ZAMB_MWI,MW,1343,Malawi,0.9911556516176372,148,Southern Region,Maize,31,34,14,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20326,ZAMB,ZAMB_MWI,MW,1343,Malawi,0.9911556516176372,148,Southern Region,Rice,32,36,14,19,Rice,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20326,ZAMB,ZAMB_MWI,MW,1343,Malawi,0.9911556516176372,148,Southern Region,Sorghum,34,36,16,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20327,ZAMB,ZAMB_MWI,MW,1343,Malawi,0.9941407496733938,148,Southern Region,Maize,31,34,14,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20327,ZAMB,ZAMB_MWI,MW,1343,Malawi,0.9941407496733938,148,Southern Region,Rice,32,36,14,19,Rice,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20327,ZAMB,ZAMB_MWI,MW,1343,Malawi,0.9941407496733938,148,Southern Region,Sorghum,34,36,16,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20328,ZAMB,ZAMB_MWI,MW,1343,Malawi,0.9914003757174714,148,Southern Region,Maize,31,34,14,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20328,ZAMB,ZAMB_MWI,MW,1343,Malawi,0.9914003757174714,148,Southern Region,Rice,32,36,14,19,Rice,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20328,ZAMB,ZAMB_MWI,MW,1343,Malawi,0.9914003757174714,148,Southern Region,Sorghum,34,36,16,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20330,ZAMB,ZAMB_MWI,MW,1343,Malawi,0.9995233462466059,148,Southern Region,Maize,31,34,14,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20330,ZAMB,ZAMB_MWI,MW,1343,Malawi,0.9995233462466059,148,Southern Region,Rice,32,36,14,19,Rice,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+MW2018A20330,ZAMB,ZAMB_MWI,MW,1343,Malawi,0.9995233462466059,148,Southern Region,Sorghum,34,36,16,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+TG2009A20101,VOLT,VOLT_TGO,TG,1837,Togo,0.9896104631938939,118,Kara,Maize (Main),6,10,19,21,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+TG2009A20101,VOLT,VOLT_TGO,TG,1837,Togo,0.9896104631938939,118,Kara,Maize (Second),23,25,33,35,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+TG2009A20102,VOLT,VOLT_TGO,TG,1837,Togo,0.999992824898458,118,Kara,Maize (Main),6,10,19,21,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+TG2009A20102,VOLT,VOLT_TGO,TG,1837,Togo,0.999992824898458,118,Kara,Maize (Second),23,25,33,35,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+TG2009A20103,VOLT,VOLT_TGO,TG,1837,Togo,0.99787550491335,118,Kara,Maize (Main),6,10,19,21,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+TG2009A20103,VOLT,VOLT_TGO,TG,1837,Togo,0.99787550491335,118,Kara,Maize (Second),23,25,33,35,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+TG2009A20104,VOLT,VOLT_TGO,TG,1837,Togo,0.9999772410561284,118,Kara,Maize (Main),6,10,19,21,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+TG2009A20104,VOLT,VOLT_TGO,TG,1837,Togo,0.9999772410561284,118,Kara,Maize (Second),23,25,33,35,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+TG2009A20105,VOLT,VOLT_TGO,TG,1837,Togo,0.9261391956090588,118,Kara,Maize (Main),6,10,19,21,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+TG2009A20105,VOLT,VOLT_TGO,TG,1837,Togo,0.9261391956090588,118,Kara,Maize (Second),23,25,33,35,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+TG2009A20106,VOLT,VOLT_TGO,TG,1837,Togo,0.9999726620700292,118,Kara,Maize (Main),6,10,19,21,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+TG2009A20106,VOLT,VOLT_TGO,TG,1837,Togo,0.9999726620700292,118,Kara,Maize (Second),23,25,33,35,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+TG2009A20107,VOLT,VOLT_TGO,TG,1837,Togo,0.9563382048295355,118,Kara,Maize (Main),6,10,19,21,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+TG2009A20107,VOLT,VOLT_TGO,TG,1837,Togo,0.9563382048295355,118,Kara,Maize (Second),23,25,33,35,Maize,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+TG2009A20401,VOLT,VOLT_TGO,TG,1845,Togo,0.9903744356686256,118,Savanes,Rice,12,17,32,34,Rice,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+TG2009A20401,VOLT,VOLT_TGO,TG,1845,Togo,0.9903744356686256,118,Savanes,Sorghum,12,17,32,34,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+TG2009A20402,VOLT,VOLT_TGO,TG,1845,Togo,0.9912253937956426,118,Savanes,Rice,12,17,32,34,Rice,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+TG2009A20402,VOLT,VOLT_TGO,TG,1845,Togo,0.9912253937956426,118,Savanes,Sorghum,12,17,32,34,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+TG2009A20403,VOLT,VOLT_TGO,TG,1845,Togo,0.9996790633001307,118,Savanes,Rice,12,17,32,34,Rice,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+TG2009A20403,VOLT,VOLT_TGO,TG,1845,Togo,0.9996790633001307,118,Savanes,Sorghum,12,17,32,34,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+TG2009A20404,VOLT,VOLT_TGO,TG,1845,Togo,0.9835921407054371,118,Savanes,Rice,12,17,32,34,Rice,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+TG2009A20404,VOLT,VOLT_TGO,TG,1845,Togo,0.9835921407054371,118,Savanes,Sorghum,12,17,32,34,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+TG2009A20405,VOLT,VOLT_TGO,TG,1845,Togo,0.995458474766559,118,Savanes,Rice,12,17,32,34,Rice,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+TG2009A20405,VOLT,VOLT_TGO,TG,1845,Togo,0.995458474766559,118,Savanes,Sorghum,12,17,32,34,Sorghum,False,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20101,ZAMB,ZAMB_ZMB,ZM,2186,Zambia,0.9979816140111785,111,Central,Maize,28,33,13,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20101,ZAMB,ZAMB_ZMB,ZM,2186,Zambia,0.9979816140111785,111,Central,Sorghum,32,33,13,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20105,ZAMB,ZAMB_ZMB,ZM,2186,Zambia,1.0,111,Central,Maize,28,33,13,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20105,ZAMB,ZAMB_ZMB,ZM,2186,Zambia,1.0,111,Central,Sorghum,32,33,13,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20106,ZAMB,ZAMB_ZMB,ZM,2186,Zambia,0.9866243466793533,111,Central,Maize,28,33,13,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20106,ZAMB,ZAMB_ZMB,ZM,2186,Zambia,0.9866243466793533,111,Central,Sorghum,32,33,13,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20110,ZAMB,ZAMB_ZMB,ZM,2186,Zambia,0.996352820586695,111,Central,Maize,28,33,13,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20110,ZAMB,ZAMB_ZMB,ZM,2186,Zambia,0.996352820586695,111,Central,Sorghum,32,33,13,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20113,ZAMB,ZAMB_ZMB,ZM,2186,Zambia,0.9707004398896979,111,Central,Maize,28,33,13,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20113,ZAMB,ZAMB_ZMB,ZM,2186,Zambia,0.9707004398896979,111,Central,Sorghum,32,33,13,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20201,ZAMB,ZAMB_ZMB,ZM,2188,Zambia,0.9998166144751298,111,Copperbelt,Maize,28,33,14,17,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20201,ZAMB,ZAMB_ZMB,ZM,2188,Zambia,0.9998166144751298,111,Copperbelt,Sorghum,32,33,14,16,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20202,ZAMB,ZAMB_ZMB,ZM,2188,Zambia,0.9711860183740394,111,Copperbelt,Maize,28,33,14,17,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20202,ZAMB,ZAMB_ZMB,ZM,2188,Zambia,0.9711860183740394,111,Copperbelt,Sorghum,32,33,14,16,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20203,ZAMB,ZAMB_ZMB,ZM,2188,Zambia,0.9999999999999994,111,Copperbelt,Maize,28,33,14,17,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20203,ZAMB,ZAMB_ZMB,ZM,2188,Zambia,0.9999999999999994,111,Copperbelt,Sorghum,32,33,14,16,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20204,ZAMB,ZAMB_ZMB,ZM,2188,Zambia,0.9999999999999997,111,Copperbelt,Maize,28,33,14,17,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20204,ZAMB,ZAMB_ZMB,ZM,2188,Zambia,0.9999999999999997,111,Copperbelt,Sorghum,32,33,14,16,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20205,ZAMB,ZAMB_ZMB,ZM,2188,Zambia,1.0000000000000004,111,Copperbelt,Maize,28,33,14,17,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20205,ZAMB,ZAMB_ZMB,ZM,2188,Zambia,1.0000000000000004,111,Copperbelt,Sorghum,32,33,14,16,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20206,ZAMB,ZAMB_ZMB,ZM,2188,Zambia,0.9928009951794298,111,Copperbelt,Maize,28,33,14,17,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20206,ZAMB,ZAMB_ZMB,ZM,2188,Zambia,0.9928009951794298,111,Copperbelt,Sorghum,32,33,14,16,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20207,ZAMB,ZAMB_ZMB,ZM,2188,Zambia,0.9965440986144435,111,Copperbelt,Maize,28,33,14,17,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20207,ZAMB,ZAMB_ZMB,ZM,2188,Zambia,0.9965440986144435,111,Copperbelt,Sorghum,32,33,14,16,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20208,ZAMB,ZAMB_ZMB,ZM,2188,Zambia,0.9465824889191389,111,Copperbelt,Maize,28,33,14,17,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20208,ZAMB,ZAMB_ZMB,ZM,2188,Zambia,0.9465824889191389,111,Copperbelt,Sorghum,32,33,14,16,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20209,ZAMB,ZAMB_ZMB,ZM,2188,Zambia,0.9999630748059578,111,Copperbelt,Maize,28,33,14,17,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20209,ZAMB,ZAMB_ZMB,ZM,2188,Zambia,0.9999630748059578,111,Copperbelt,Sorghum,32,33,14,16,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20210,ZAMB,ZAMB_ZMB,ZM,2188,Zambia,0.9998034674724757,111,Copperbelt,Maize,28,33,14,17,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20210,ZAMB,ZAMB_ZMB,ZM,2188,Zambia,0.9998034674724757,111,Copperbelt,Sorghum,32,33,14,16,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20302,ZAMB,ZAMB_ZMB,ZM,2187,Zambia,0.9999981628051805,111,Eastern,Maize,31,34,15,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20302,ZAMB,ZAMB_ZMB,ZM,2187,Zambia,0.9999981628051805,111,Eastern,Sorghum,32,34,15,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20304,ZAMB,ZAMB_ZMB,ZM,2187,Zambia,0.9982386617934198,111,Eastern,Maize,31,34,15,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20304,ZAMB,ZAMB_ZMB,ZM,2187,Zambia,0.9982386617934198,111,Eastern,Sorghum,32,34,15,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20305,ZAMB,ZAMB_ZMB,ZM,2187,Zambia,0.9845994191835631,111,Eastern,Maize,31,34,15,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20305,ZAMB,ZAMB_ZMB,ZM,2187,Zambia,0.9845994191835631,111,Eastern,Sorghum,32,34,15,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20306,ZAMB,ZAMB_ZMB,ZM,2187,Zambia,0.9881496263674083,111,Eastern,Maize,31,34,15,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20306,ZAMB,ZAMB_ZMB,ZM,2187,Zambia,0.9881496263674083,111,Eastern,Sorghum,32,34,15,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20307,ZAMB,ZAMB_ZMB,ZM,2187,Zambia,0.9985687782431022,111,Eastern,Maize,31,34,15,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20307,ZAMB,ZAMB_ZMB,ZM,2187,Zambia,0.9985687782431022,111,Eastern,Sorghum,32,34,15,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20312,ZAMB,ZAMB_ZMB,ZM,2187,Zambia,0.999978900109679,111,Eastern,Maize,31,34,15,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20312,ZAMB,ZAMB_ZMB,ZM,2187,Zambia,0.999978900109679,111,Eastern,Sorghum,32,34,15,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20313,ZAMB,ZAMB_ZMB,ZM,2187,Zambia,0.9999960957227999,111,Eastern,Maize,31,34,15,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20313,ZAMB,ZAMB_ZMB,ZM,2187,Zambia,0.9999960957227999,111,Eastern,Sorghum,32,34,15,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20505,ZAMB,ZAMB_ZMB,ZM,2189,Zambia,0.9997970716161112,111,Lusaka,Maize,30,33,14,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20505,ZAMB,ZAMB_ZMB,ZM,2189,Zambia,0.9997970716161112,111,Lusaka,Sorghum,32,33,14,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20506,ZAMB,ZAMB_ZMB,ZM,2189,Zambia,0.9707870272077261,111,Lusaka,Maize,30,33,14,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20506,ZAMB,ZAMB_ZMB,ZM,2189,Zambia,0.9707870272077261,111,Lusaka,Sorghum,32,33,14,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20511,ZAMB,ZAMB_ZMB,ZM,2189,Zambia,0.9719440316126222,111,Lusaka,Maize,30,33,14,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20511,ZAMB,ZAMB_ZMB,ZM,2189,Zambia,0.9719440316126222,111,Lusaka,Sorghum,32,33,14,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20512,ZAMB,ZAMB_ZMB,ZM,2189,Zambia,0.9474616351889465,111,Lusaka,Maize,30,33,14,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20512,ZAMB,ZAMB_ZMB,ZM,2189,Zambia,0.9474616351889465,111,Lusaka,Sorghum,32,33,14,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20601,ZAMB,ZAMB_ZMB,ZM,2187,Zambia,0.9776315129687587,111,Eastern,Maize,31,34,15,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20601,ZAMB,ZAMB_ZMB,ZM,2187,Zambia,0.9776315129687587,111,Eastern,Sorghum,32,34,15,18,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20604,ZAMB,ZAMB_ZMB,ZM,2180,Zambia,0.9544045754157124,111,Northern,Maize,28,33,15,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20604,ZAMB,ZAMB_ZMB,ZM,2180,Zambia,0.9544045754157124,111,Northern,Sorghum,32,34,15,19,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20801,ZAMB,ZAMB_ZMB,ZM,2190,Zambia,0.997842182109502,111,North-West,Maize,28,30,15,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20802,ZAMB,ZAMB_ZMB,ZM,2190,Zambia,0.9984530545920524,111,North-West,Maize,28,30,15,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20804,ZAMB,ZAMB_ZMB,ZM,2190,Zambia,0.9892639350783323,111,North-West,Maize,28,30,15,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20806,ZAMB,ZAMB_ZMB,ZM,2190,Zambia,0.9730334803656578,111,North-West,Maize,28,30,15,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20808,ZAMB,ZAMB_ZMB,ZM,2190,Zambia,0.9999223466811354,111,North-West,Maize,28,30,15,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20810,ZAMB,ZAMB_ZMB,ZM,2190,Zambia,0.9928949061099152,111,North-West,Maize,28,30,15,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20811,ZAMB,ZAMB_ZMB,ZM,2190,Zambia,0.9353039435992753,111,North-West,Maize,28,30,15,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20814,ZAMB,ZAMB_ZMB,ZM,2190,Zambia,0.9753659298044555,111,North-West,Maize,28,30,15,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20902,ZAMB,ZAMB_ZMB,ZM,2181,Zambia,1.0000000000000009,111,Southern,Maize,30,34,12,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20902,ZAMB,ZAMB_ZMB,ZM,2181,Zambia,1.0000000000000009,111,Southern,Sorghum,32,35,13,19,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20903,ZAMB,ZAMB_ZMB,ZM,2181,Zambia,0.9999660394982257,111,Southern,Maize,30,34,12,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20903,ZAMB,ZAMB_ZMB,ZM,2181,Zambia,0.9999660394982257,111,Southern,Sorghum,32,35,13,19,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20905,ZAMB,ZAMB_ZMB,ZM,2181,Zambia,0.9859339332913756,111,Southern,Maize,30,34,12,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20905,ZAMB,ZAMB_ZMB,ZM,2181,Zambia,0.9859339332913756,111,Southern,Sorghum,32,35,13,19,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20906,ZAMB,ZAMB_ZMB,ZM,2181,Zambia,0.9997725977570768,111,Southern,Maize,30,34,12,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20906,ZAMB,ZAMB_ZMB,ZM,2181,Zambia,0.9997725977570768,111,Southern,Sorghum,32,35,13,19,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20908,ZAMB,ZAMB_ZMB,ZM,2181,Zambia,1.0000000000000004,111,Southern,Maize,30,34,12,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20908,ZAMB,ZAMB_ZMB,ZM,2181,Zambia,1.0000000000000004,111,Southern,Sorghum,32,35,13,19,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20909,ZAMB,ZAMB_ZMB,ZM,2181,Zambia,1.0000000000000007,111,Southern,Maize,30,34,12,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20909,ZAMB,ZAMB_ZMB,ZM,2181,Zambia,1.0000000000000007,111,Southern,Sorghum,32,35,13,19,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20910,ZAMB,ZAMB_ZMB,ZM,2181,Zambia,0.9924412197866813,111,Southern,Maize,30,34,12,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20910,ZAMB,ZAMB_ZMB,ZM,2181,Zambia,0.9924412197866813,111,Southern,Sorghum,32,35,13,19,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20911,ZAMB,ZAMB_ZMB,ZM,2181,Zambia,0.9996268649348651,111,Southern,Maize,30,34,12,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20911,ZAMB,ZAMB_ZMB,ZM,2181,Zambia,0.9996268649348651,111,Southern,Sorghum,32,35,13,19,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20912,ZAMB,ZAMB_ZMB,ZM,2181,Zambia,0.9997717062858994,111,Southern,Maize,30,34,12,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20912,ZAMB,ZAMB_ZMB,ZM,2181,Zambia,0.9997717062858994,111,Southern,Sorghum,32,35,13,19,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20916,ZAMB,ZAMB_ZMB,ZM,2181,Zambia,0.9999798356884453,111,Southern,Maize,30,34,12,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20916,ZAMB,ZAMB_ZMB,ZM,2181,Zambia,0.9999798356884453,111,Southern,Sorghum,32,35,13,19,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20917,ZAMB,ZAMB_ZMB,ZM,2181,Zambia,0.9900432217480051,111,Southern,Maize,30,34,12,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A20917,ZAMB,ZAMB_ZMB,ZM,2181,Zambia,0.9900432217480051,111,Southern,Sorghum,32,35,13,19,Sorghum,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A21001,ZAMB,ZAMB_ZMB,ZM,2170,Zambia,0.9997205934698966,111,West,Maize,28,32,14,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A21007,ZAMB,ZAMB_ZMB,ZM,2170,Zambia,0.9999999999999987,111,West,Maize,28,32,14,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A21012,ZAMB,ZAMB_ZMB,ZM,2170,Zambia,1.0000000000000007,111,West,Maize,28,32,14,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A21014,ZAMB,ZAMB_ZMB,ZM,2170,Zambia,0.9980517516182369,111,West,Maize,28,32,14,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A21018,ZAMB,ZAMB_ZMB,ZM,2170,Zambia,0.9859126351876116,111,West,Maize,28,32,14,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A21019,ZAMB,ZAMB_ZMB,ZM,2170,Zambia,0.9976628911679525,111,West,Maize,28,32,14,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZM2011A21020,ZAMB,ZAMB_ZMB,ZM,2170,Zambia,0.9935390259589709,111,West,Maize,28,32,14,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZW2018A112,ZAMB,ZAMB_ZWE,ZW,1833,Zimbabwe,0.9983400647026488,218,Mashonaland C.,Maize,31,35,13,20,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
+ZW2018A114,ZAMB,ZAMB_ZWE,ZW,1850,Zimbabwe,0.999321289036574,218,Mashonaland West,Maize,30,33,13,19,Maize,True,JRC_ASAP_GAUL1_Fao_plus_remote_sensing,False
