@@ -1,0 +1,32 @@
+name: Double-check Malawi 915 source series independently with Decimal
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/malawi-915-independent-qa.yml'
+      - 'research/basin-data-audit/scripts/malawi_915_independent_stdlib_QA.py'
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Independent source-data, labels, overlapping-years, outliers check
+        run: python research/basin-data-audit/scripts/malawi_915_independent_stdlib_QA.py
+      - name: Preserve source and independent error trace
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/basin-data-audit/results/malawi_maize_semantics_v1/Malawi_915_INDEPENDENT_standard_library_QA.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'science QA: independent Decimal Malawi maize source audits'
+            for attempt in 1 2 3 4 5; do
+              git pull --rebase && git push && break || sleep 5
+            done
+          fi
