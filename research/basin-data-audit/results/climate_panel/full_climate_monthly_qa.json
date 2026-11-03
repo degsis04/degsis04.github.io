@@ -1,0 +1,14 @@
+{
+  "utc": "2026-11-03T10:58:13.035874+00:00",
+  "product": "CHIRPS v3 final rain 253 HarvestStat districts 1981-2024",
+  "status": "WAITING_FOR_SHARDS",
+  "errors": [
+    "Not yet computed: 2003_2013"
+  ],
+  "warnings": [
+    "Monthly rainfall is local district exposure, not irrigation-water supply, upstream routed runoff, or crop-specific phenology.",
+    "Calendar-month anomalies are descriptive; rainfall dependence on crop stage must be separately verified.",
+    "District raster-cell center approach leaves boundary error, especially small polygons and irrigated areas.",
+    "For very dry months, z scores can be unstable: require baseline rainfall sd>=5 mm; otherwise NA."
+  ]
+}
