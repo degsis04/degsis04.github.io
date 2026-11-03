@@ -1,6 +1,6 @@
 {
-  "utc": "2026-11-03T11:23:27.759101+00:00",
-  "status": "PASS",
+  "utc": "2026-11-03T11:28:18.056265+00:00",
+  "status": "FAILED",
   "checks": {
     "source_rows_29744": {
       "pass": true,
@@ -10,13 +10,41 @@
       "pass": true,
       "details": null
     },
-    "1981_missing_only_crossyear": {
+    "1981_missing_only_anchored_full_crop_cycle": {
       "pass": true,
-      "details": null
+      "details": {
+        "n_missing": 354
+      }
     },
     "weather_years_44": {
       "pass": true,
       "details": null
+    },
+    "independent_anchor_start_year_all_core_rows": {
+      "pass": true,
+      "details": {
+        "n_checked": 14872,
+        "n_bad": 0
+      }
+    },
+    "independent_anchor_end_year_all_core_rows": {
+      "pass": true,
+      "details": {
+        "n_checked": 14872,
+        "n_bad": 0
+      }
+    },
+    "ghana_second_maize_growth_2020_must_be_2019": {
+      "pass": false,
+      "details": {
+        "n_checked": 6
+      }
+    },
+    "mali_season_rice_growth_2020_must_be_2019": {
+      "pass": true,
+      "details": {
+        "n_checked": 1
+      }
     },
     "one_per_source_season_year_window": {
       "pass": true,
@@ -42,7 +70,9 @@
       }
     }
   },
-  "errors": [],
+  "errors": [
+    "ghana_second_maize_growth_2020_must_be_2019"
+  ],
   "sample": [
     {
       "country": "BF",
@@ -330,12 +360,12 @@
       "crop": "Maize (Second)",
       "year": 1981,
       "window": "core",
-      "from": "1981-10",
-      "to": "1981-12",
+      "from": "1980-10",
+      "to": "1980-12",
       "n_months": 3,
       "source_recorded_n_months": 3,
-      "recalculated_mm": 252.1972510133063,
-      "stored_mm": 252.1972510133063,
+      "recalculated_mm": null,
+      "stored_mm": null,
       "is_equal": true
     },
     {
@@ -344,12 +374,12 @@
       "crop": "Maize (Second)",
       "year": 1990,
       "window": "core",
-      "from": "1990-10",
-      "to": "1990-12",
+      "from": "1989-10",
+      "to": "1989-12",
       "n_months": 3,
       "source_recorded_n_months": 3,
-      "recalculated_mm": 326.17564317677756,
-      "stored_mm": 326.1756431767776,
+      "recalculated_mm": 244.71116494291942,
+      "stored_mm": 244.71116494291945,
       "is_equal": true
     },
     {
@@ -358,12 +388,12 @@
       "crop": "Maize (Second)",
       "year": 2000,
       "window": "core",
-      "from": "2000-10",
-      "to": "2000-12",
+      "from": "1999-10",
+      "to": "1999-12",
       "n_months": 3,
       "source_recorded_n_months": 3,
-      "recalculated_mm": 200.38021609007689,
-      "stored_mm": 200.38021609007689,
+      "recalculated_mm": 269.91093283632364,
+      "stored_mm": 269.91093283632364,
       "is_equal": true
     },
     {
@@ -372,12 +402,12 @@
       "crop": "Maize (Second)",
       "year": 2020,
       "window": "core",
-      "from": "2020-10",
-      "to": "2020-12",
+      "from": "2019-10",
+      "to": "2019-12",
       "n_months": 3,
       "source_recorded_n_months": 3,
-      "recalculated_mm": 278.5861153632242,
-      "stored_mm": 278.5861153632242,
+      "recalculated_mm": 311.37588591305655,
+      "stored_mm": 311.3758859130565,
       "is_equal": true
     },
     {
@@ -386,12 +416,12 @@
       "crop": "Maize (Second)",
       "year": 2024,
       "window": "core",
-      "from": "2024-10",
-      "to": "2024-12",
+      "from": "2023-10",
+      "to": "2023-12",
       "n_months": 3,
       "source_recorded_n_months": 3,
-      "recalculated_mm": 264.5148811666614,
-      "stored_mm": 264.5148811666614,
+      "recalculated_mm": 272.9672675208162,
+      "stored_mm": 272.9672675208162,
       "is_equal": true
     },
     {
@@ -470,12 +500,12 @@
       "crop": "Rice (Rainfed)",
       "year": 1981,
       "window": "core",
-      "from": "1981-07",
-      "to": "1981-11",
+      "from": "1980-07",
+      "to": "1980-11",
       "n_months": 5,
       "source_recorded_n_months": 5,
-      "recalculated_mm": 458.41742786017534,
-      "stored_mm": 458.41742786017534,
+      "recalculated_mm": null,
+      "stored_mm": null,
       "is_equal": true
     },
     {
@@ -484,12 +514,12 @@
       "crop": "Rice (Rainfed)",
       "year": 1990,
       "window": "core",
-      "from": "1990-07",
-      "to": "1990-11",
+      "from": "1989-07",
+      "to": "1989-11",
       "n_months": 5,
       "source_recorded_n_months": 5,
-      "recalculated_mm": 448.23345486064625,
-      "stored_mm": 448.2334548606463,
+      "recalculated_mm": 504.15825147483605,
+      "stored_mm": 504.1582514748361,
       "is_equal": true
     },
     {
@@ -498,12 +528,12 @@
       "crop": "Rice (Rainfed)",
       "year": 2000,
       "window": "core",
-      "from": "2000-07",
-      "to": "2000-11",
+      "from": "1999-07",
+      "to": "1999-11",
       "n_months": 5,
       "source_recorded_n_months": 5,
-      "recalculated_mm": 468.0794608361168,
-      "stored_mm": 468.0794608361168,
+      "recalculated_mm": 702.4230905555057,
+      "stored_mm": 702.4230905555057,
       "is_equal": true
     },
     {
@@ -512,12 +542,12 @@
       "crop": "Rice (Rainfed)",
       "year": 2020,
       "window": "core",
-      "from": "2020-07",
-      "to": "2020-11",
+      "from": "2019-07",
+      "to": "2019-11",
       "n_months": 5,
       "source_recorded_n_months": 5,
-      "recalculated_mm": 682.6991187579047,
-      "stored_mm": 682.6991187579047,
+      "recalculated_mm": 580.2059112883124,
+      "stored_mm": 580.2059112883124,
       "is_equal": true
     },
     {
@@ -526,12 +556,12 @@
       "crop": "Rice (Rainfed)",
       "year": 2024,
       "window": "core",
-      "from": "2024-07",
-      "to": "2024-11",
+      "from": "2023-07",
+      "to": "2023-11",
       "n_months": 5,
       "source_recorded_n_months": 5,
-      "recalculated_mm": 772.8095975694098,
-      "stored_mm": 772.8095975694098,
+      "recalculated_mm": 450.0506706935423,
+      "stored_mm": 450.0506706935423,
       "is_equal": true
     },
     {
