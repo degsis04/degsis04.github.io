@@ -1,0 +1,53 @@
+{
+  "run_utc": "2026-11-03T15:49:41.842264+00:00",
+  "status": "UNAVAILABLE",
+  "api_endpoint": "https://datadryad.org/api/v2",
+  "doi": "10.5061/dryad.vq83bk42w",
+  "errors": [
+    "ValueError('Unable to discover Dryad version ID from official API')"
+  ],
+  "publication": "v1.2 source archive published July 2026",
+  "warnings": [
+    "Raw warehouse data may not reveal original ministry APES survey definitions.",
+    "Raw rows are not automatically comparable to harmonized rows because source fields and classifications can differ."
+  ],
+  "dataset_metadata": {
+    "doi": "doi:10.5061/dryad.vq83bk42w",
+    "latestVersion": null,
+    "versionNumber": 12,
+    "versionStatus": "submitted",
+    "id": 138606,
+    "versionId": null
+  },
+  "versions_metadata": [
+    {
+      "id": null,
+      "created": null,
+      "versionNumber": 4,
+      "versionStatus": "submitted",
+      "publicationDate": "2024-09-04"
+    },
+    {
+      "id": null,
+      "created": null,
+      "versionNumber": 6,
+      "versionStatus": "submitted",
+      "publicationDate": "2025-03-26"
+    },
+    {
+      "id": null,
+      "created": null,
+      "versionNumber": 9,
+      "versionStatus": "submitted",
+      "publicationDate": "2025-04-09"
+    },
+    {
+      "id": null,
+      "created": null,
+      "versionNumber": 12,
+      "versionStatus": "submitted",
+      "publicationDate": "2026-07-17"
+    }
+  ],
+  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/degsis04.github.io/degsis04.github.io/research/basin-data-audit/scripts/malawi_raw_FDW_Dryad_inventory.py\", line 38, in <module>\n    if not candidates:raise ValueError(\"Unable to discover Dryad version ID from official API\")\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Unable to discover Dryad version ID from official API\n"
+}
