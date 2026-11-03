@@ -168,7 +168,7 @@ try:
                         _,_,km=geod.inv(ui.lon,ui.lat,vj.lon,vj.lat)
                         sw=max(0.,1-km/1000/200)
                         omega+=s[i]*s[j]*sw*(1-abs(tt[i]-tt[j])/2)
-                independent=omega/(float(X.T@X)**2)*r["correction"]
+                independent=omega/(float((X.T@X)[0,0])**2)*r["correction"]
                 check("independent_pairwise_conley_omega",abs(independent-r["V"][0,0])<1e-10,abs(independent-r["V"][0,0]))
             for typ,var in (("lag1",f"{w}_lag1"),("lead1_placebo",f"{w}_lead1")):
                 ok=p[var].notna()
