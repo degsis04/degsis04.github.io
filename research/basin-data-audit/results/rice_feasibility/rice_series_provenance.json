@@ -1,0 +1,82 @@
+{
+  "run_utc": "2026-11-03T09:35:14.507622+00:00",
+  "status": "COMPLETE",
+  "error": null,
+  "inputs": {
+    "harveststat_csv": {
+      "url": "https://raw.githubusercontent.com/HarvestStat/HarvestStat-Africa/5b62fb5/public/hvstat_africa_data_v1.2.csv",
+      "sha256": "f659e121e315b9d8656699e4b16421ed3b313e4c8d09d15199452000836dbef9",
+      "bytes": 25312039
+    },
+    "harveststat_boundaries": {
+      "url": "https://raw.githubusercontent.com/HarvestStat/HarvestStat-Africa/5b62fb5/public/hvstat_africa_boundary_v1.2.gpkg",
+      "sha256": "259e152dcae5b8629b2b76f789abb114219e07347a1dc1efaf8185281f7d028e",
+      "bytes": 8486912
+    }
+  },
+  "definitions": {
+    "year_window": "1981–2024 harvest years observed, not imputed",
+    "source_row_good": "qc_flag==0, area>0, production>0, yield>0; at least harvest year",
+    "unit_of_analysis": "fnid × Rice × season_name × crop_production_system × harvest_year",
+    "unique_full_key": "do not sum/average simultaneous seasons and production systems",
+    "longest_consecutive": "actual observed distinct valid harvest years only",
+    "sufficient_rice_series": "at least 10 unique QC-passing years within SAME season and crop production system AND a consecutive stretch >= 6 years; this is a planning screen, not econometric power",
+    "irrigation_exposure": "MIRCA-OS v2 modeled harvested-area irrigation fraction at 2015 or 2020; never assume observed source outcomes are irrigated only",
+    "irrigation_sensitivity": "2020 share >=10%, >=20%, >=50%; >=100 modeled harvested ha",
+    "source_validation": "district metadata from GPKG includes not guaranteed scheme footprints; manual scheme overlay required"
+  },
+  "all_rice_rows_3basins": 4853,
+  "qc_passed_rice_rows_3basins": 4581,
+  "distinct_fnid_with_rice_any_year": 208,
+  "boundary_columns": [
+    "fnid",
+    "country",
+    "country_code",
+    "admin_1",
+    "admin_2",
+    "geometry"
+  ],
+  "ambiguous_duplicate_fullkey_rows": 0,
+  "district_rice_screen": {
+    "n_assigned_districts": 253,
+    "with_any_HarvestStat_rice": 208,
+    "with_2020_10pct_ir_100ha": 47,
+    "with_sufficient_observed_rice": 143,
+    "both_irrigated_and_long_series": 28,
+    "combined_candidates_by_basin": {
+      "NGER": 12,
+      "VOLT": 7,
+      "ZAMB": 9
+    },
+    "by_basin": {
+      "NGER": {
+        "districts": 108,
+        "sufficient": 54,
+        "irrigation_exposed": 23,
+        "both": 12
+      },
+      "VOLT": {
+        "districts": 58,
+        "sufficient": 46,
+        "irrigation_exposed": 7,
+        "both": 7
+      },
+      "ZAMB": {
+        "districts": 87,
+        "sufficient": 43,
+        "irrigation_exposed": 17,
+        "both": 9
+      }
+    }
+  },
+  "focus_IDs_found": [
+    "BF2020A24606",
+    "BF2020A25301",
+    "ML2016A104",
+    "ML2016A105",
+    "MW2018A20321",
+    "MW2018A20330",
+    "ZM2011A20601"
+  ],
+  "focus_IDs_missing": []
+}
