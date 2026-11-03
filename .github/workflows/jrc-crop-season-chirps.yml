@@ -1,0 +1,38 @@
+name: Verified JRC crop-season CHIRPS monthly climate windows 1981-2024
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/jrc-crop-season-chirps.yml'
+      - 'research/basin-data-audit/scripts/jrc_crop_season_chirps_v1.py'
+permissions:
+  contents: write
+jobs:
+  season-weather:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install 'numpy>=1.26,<3' 'pandas>=2.2,<3'
+      - name: Verify source calendars and compute annual harvest-year weather
+        run: python research/basin-data-audit/scripts/jrc_crop_season_chirps_v1.py
+      - name: Save output and provenance even if validation fails
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/basin-data-audit/results/seasonal_climate_v1/
+          if ! git diff --cached --quiet; then
+            git commit -m 'climate: independent phenology crop-specific seasonal CHIRPS windows and provenance'
+            for retry in 1 2 3 4 5; do
+              git pull --rebase && git push && break || sleep 5
+            done
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: phenology-seasonal-weather
+          path: research/basin-data-audit/results/seasonal_climate_v1/
