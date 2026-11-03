@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "name": "Scheme landmarks NOT verified intake",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.08123,
+          13.68026
+        ]
+      },
+      "properties": {
+        "case": "OFFICE_DU_NIGER",
+        "site_type": "Markala diversion dam (NOT canal intake)",
+        "note": "NOT_VERIFIED_INTAKE_DO_NOT_SELECT_GAUGE",
+        "fnid": "ML2016A104",
+        "river": "Niger River diverted at Markala / ~1 km upstream into feeder canal as documented in historical World Bank report",
+        "source_url": "https://www.fao.org/in-action/remote-sensing-for-water-productivity/applications-and-uses/applications-catalogue/product-detail/ipon-irrigation-performance-of-office-du-niger91c04b58-9fed-47db-b874-c8e4b510228f/en"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.37219,
+          11.87688
+        ]
+      },
+      "properties": {
+        "case": "MALANVILLE_RICE",
+        "site_type": "OSM farmland site centroid, NOT confirmed pumping intake",
+        "note": "NOT_VERIFIED_INTAKE_DO_NOT_SELECT_GAUGE",
+        "fnid": "BJ2015A20705",
+        "river": "Niger River pumped into canals; groundwater boreholes ALSO cited in a separate field study; share unknown",
+        "source_url": "https://bec.uac.bj/uploads/publication/0367f163a1815fed1ebf7cc58c1cc96e.pdf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4253,
+          13.09583
+        ]
+      },
+      "properties": {
+        "case": "SOUROU_NIASSAN",
+        "site_type": "Niassan village near Sourou irrigation zone, NOT intake",
+        "note": "NOT_VERIFIED_INTAKE_DO_NOT_SELECT_GAUGE",
+        "fnid": "BF2020A24606",
+        "river": "Sourou river / Mouhoun (Black Volta) Leri regulated connection; variable flow direction",
+        "source_url": "https://www.fao.org/4/x5158f/x5158f0r.htm"
+      }
+    }
+  ]
+}

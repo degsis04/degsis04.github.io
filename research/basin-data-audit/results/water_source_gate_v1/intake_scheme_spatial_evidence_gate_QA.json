@@ -1,0 +1,184 @@
+{
+  "utc": "2026-11-03T16:44:34.106049+00:00",
+  "status": "COMPLETE",
+  "errors": [],
+  "checks": {
+    "original_HarvestStat_geometries_sha256": {
+      "pass": true,
+      "details": "259e152dcae5b8629b2b76f789abb114219e07347a1dc1efaf8185281f7d028e"
+    },
+    "original_districts_unique": {
+      "pass": true,
+      "details": null
+    },
+    "all_three_expected_source_districts_found": {
+      "pass": true,
+      "details": [
+        "BF2020A24606",
+        "BJ2015A20705",
+        "ML2016A104"
+      ]
+    },
+    "GIS_site_within_OFFICE_DU_NIGER": {
+      "pass": true,
+      "details": {
+        "inside": [
+          "ML2016A104"
+        ],
+        "expected": "ML2016A104",
+        "distance_to_boundary_km": 70.32531736710355
+      }
+    },
+    "GIS_site_within_MALANVILLE_RICE": {
+      "pass": true,
+      "details": {
+        "inside": [
+          "BJ2015A20705"
+        ],
+        "expected": "BJ2015A20705",
+        "distance_to_boundary_km": 1.2449778901894037
+      }
+    },
+    "GIS_site_within_SOUROU_NIASSAN": {
+      "pass": true,
+      "details": {
+        "inside": [
+          "BF2020A24606"
+        ],
+        "expected": "BF2020A24606",
+        "distance_to_boundary_km": 4.263955339244948
+      }
+    },
+    "sources_three_and_rice_outcome_distinct": {
+      "pass": true,
+      "details": {
+        "cases": [
+          "OFFICE_DU_NIGER",
+          "MALANVILLE_RICE",
+          "SOUROU_NIASSAN"
+        ]
+      }
+    },
+    "only_Sourou_explicit_irrigated_HS_rice": {
+      "pass": true,
+      "details": null
+    },
+    "none_has_intake_field_link_or_river_volume_or_treaty": {
+      "pass": true,
+      "details": null
+    },
+    "MIRCA_rice_not_conflated_with_observed_scheme": {
+      "pass": true,
+      "details": null
+    }
+  },
+  "source_geometry": {
+    "url": "https://raw.githubusercontent.com/HarvestStat/HarvestStat-Africa/5b62fb5/public/hvstat_africa_boundary_v1.2.gpkg",
+    "expected_sha256": "259e152dcae5b8629b2b76f789abb114219e07347a1dc1efaf8185281f7d028e",
+    "expected_size_bytes": 8486912
+  },
+  "source_site_register": "3 sites with site coordinates + independent water documents; OSM landmarks NOT intake coordinates",
+  "geometry_check": "Point-in-polygon of exact FNID from pinned HarvestStat GPKG, EPSG:6933 distance from boundary",
+  "criteria": {
+    "G0": "Water source route directly named by documentary source",
+    "G1": "Georeferenced site landmark safely inside correct HarvestStat district",
+    "G2": "District has direct irrigated rice outcome stratum (source category only)",
+    "G3": "Actual crop field/casier geometries linked to intake (NOT yet)",
+    "G4": "Measured or demonstrable upstream transboundary volume contribution (NOT yet)",
+    "G5": "Implemented transboundary governance clause controlling this withdrawal (NOT yet)",
+    "G6": "Representative upstream hydrometric station for intake (NOT yet)"
+  },
+  "cautions": [
+    "Markala dam point is not canal intake; historical inlet approx 1km upstream, location may have changed",
+    "OSM Malanville farmland shape is unverified as exact irrigated perimeter and may omit fields",
+    "Sourou Niassan village is NOT Leri dam or any water-intake site",
+    "Sourou/Mouhoun flow direction reversible: simple upstream gauge matching invalid",
+    "Malanville river pumping AND groundwater reported, quantitative share unknown",
+    "MIRCA modelled 5arcmin crop area 2020 not scheme polygon, not historically observed irrigated rice",
+    "Direct label 'Plaine/Bas-fond irrigated (PS)' is broader than a canal scheme",
+    "Hydroposts and implemented international rule effects remain blocked"
+  ],
+  "technical_optional_sources": {},
+  "counts": {
+    "scheme_candidates": 3,
+    "site_points_verified_in_expected_admin": 3,
+    "documented_local_source_links": 3,
+    "site_landmarks_not_intake_coordinates": 3,
+    "source_verified_direct_irrigated_rice_strata_in_geocoded_admin": 1,
+    "field_to_intake_GIS_confirmed": 0,
+    "transboundary_flow_volume_at_intake_confirmed": 0,
+    "international_allocation_implementation_confirmed": 0,
+    "gauge_suitability_confirmed": 0,
+    "source_outcome_gate": [
+      {
+        "case": "OFFICE_DU_NIGER",
+        "fnid": "ML2016A104",
+        "country_code": "ML",
+        "BCODE": "NGER",
+        "source_point_within_expected_district": true,
+        "local_source_G0": true,
+        "landmark_in_district_G1": true,
+        "direct_irrigated_rice_source_series_G2": false,
+        "actual_field_to_intake_polygon_G3": false,
+        "measured_upstream_transboundary_flow_G4": false,
+        "implemented_treaty_for_this_intake_G5": false,
+        "selected_intake_specific_hydropost_G6": false,
+        "n_direct_irrigated_source_strata": 0,
+        "direct_irrigated_yrs_max": 0,
+        "n_long_aggregate_or_unknown_rice_strata": 1,
+        "long_aggregate_max_years": 39,
+        "mirca2020_irrigated_rice_ha_modelled_whole_district": 55358.51000833511,
+        "mirca2020_irrigated_rice_share_modelled_whole_district": 0.2313262537182755,
+        "mirca2020_grid_centres_in_district": 743,
+        "scientific_prohibition": "NO_DISCHARGE_SHOCK_OR_CAUSAL_INSTITUTION_ESTIMATE_WITHOUT_G3_G4_G5",
+        "research_use": "FIELD_AND_INTAKE_GIS_PRIORITY"
+      },
+      {
+        "case": "MALANVILLE_RICE",
+        "fnid": "BJ2015A20705",
+        "country_code": "BJ",
+        "BCODE": "NGER",
+        "source_point_within_expected_district": true,
+        "local_source_G0": true,
+        "landmark_in_district_G1": true,
+        "direct_irrigated_rice_source_series_G2": false,
+        "actual_field_to_intake_polygon_G3": false,
+        "measured_upstream_transboundary_flow_G4": false,
+        "implemented_treaty_for_this_intake_G5": false,
+        "selected_intake_specific_hydropost_G6": false,
+        "n_direct_irrigated_source_strata": 0,
+        "direct_irrigated_yrs_max": 0,
+        "n_long_aggregate_or_unknown_rice_strata": 1,
+        "long_aggregate_max_years": 29,
+        "mirca2020_irrigated_rice_ha_modelled_whole_district": 1826.2000217437744,
+        "mirca2020_irrigated_rice_share_modelled_whole_district": 0.3239229781531944,
+        "mirca2020_grid_centres_in_district": 39,
+        "scientific_prohibition": "NO_DISCHARGE_SHOCK_OR_CAUSAL_INSTITUTION_ESTIMATE_WITHOUT_G3_G4_G5",
+        "research_use": "COMPACT_RIVER_PUMPING_BOUNDARY_PRIORITY"
+      },
+      {
+        "case": "SOUROU_NIASSAN",
+        "fnid": "BF2020A24606",
+        "country_code": "BF",
+        "BCODE": "VOLT",
+        "source_point_within_expected_district": true,
+        "local_source_G0": true,
+        "landmark_in_district_G1": true,
+        "direct_irrigated_rice_source_series_G2": true,
+        "actual_field_to_intake_polygon_G3": false,
+        "measured_upstream_transboundary_flow_G4": false,
+        "implemented_treaty_for_this_intake_G5": false,
+        "selected_intake_specific_hydropost_G6": false,
+        "n_direct_irrigated_source_strata": 1,
+        "direct_irrigated_yrs_max": 9,
+        "n_long_aggregate_or_unknown_rice_strata": 1,
+        "long_aggregate_max_years": 26,
+        "mirca2020_irrigated_rice_ha_modelled_whole_district": 2113.7400331497192,
+        "mirca2020_irrigated_rice_share_modelled_whole_district": 0.4154689867022023,
+        "mirca2020_grid_centres_in_district": 69,
+        "scientific_prohibition": "NO_DISCHARGE_SHOCK_OR_CAUSAL_INSTITUTION_ESTIMATE_WITHOUT_G3_G4_G5",
+        "research_use": "SHORT_IRRIGATED_OUTCOME_BUT_FLOW_DIRECTION_SENSITIVITY"
+      }
+    ]
+  }
+}
