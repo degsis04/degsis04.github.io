@@ -1,0 +1,37 @@
+name: JRC-ASAP independent phenology spatial crosswalk
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/jrc-asap-spatial-crosswalk.yml'
+      - 'research/basin-data-audit/scripts/jrc_asap_spatial_crosswalk_v1.py'
+permissions:
+  contents: write
+jobs:
+  map:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install 'numpy>=1.26,<3' 'pandas>=2.2,<3' 'geopandas>=1.0,<2' 'pyogrio>=0.9' 'shapely>=2' 'pyproj>=3' 'requests>=2.31,<3'
+      - run: python research/basin-data-audit/scripts/jrc_asap_spatial_crosswalk_v1.py
+      - name: Preserve failed/successful crosswalk and source hashes
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/basin-data-audit/results/phenology_v1/
+          if ! git diff --cached --quiet; then
+            git commit -m 'phenology: verified independent JRC agricultural calendar spatial coverage'
+            for attempt in 1 2 3 4 5; do
+              git pull --rebase && git push && break || sleep 5
+            done
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: jrc-asap-district-crosswalk
+          path: research/basin-data-audit/results/phenology_v1/
