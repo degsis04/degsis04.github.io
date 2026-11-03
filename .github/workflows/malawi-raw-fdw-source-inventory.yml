@@ -1,0 +1,33 @@
+name: Audit original FEWSNET FDW Malawi source archive provenance
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/malawi-raw-fdw-source-inventory.yml'
+      - 'research/basin-data-audit/scripts/malawi_raw_FDW_archive_inventory.py'
+permissions:
+  contents: write
+jobs:
+  raw-mw:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install 'numpy>=1.26,<3' 'pandas>=2.2,<3' 'requests>=2.31,<3'
+      - name: Probe upstream official v1.2 raw FDW archive; inspect Malawi only
+        run: python research/basin-data-audit/scripts/malawi_raw_FDW_archive_inventory.py
+      - name: Commit raw source availability and provenance diagnostic, never raw data
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/basin-data-audit/results/malawi_maize_semantics_v1/raw_fdw_Malawi_source_archive_inventory.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'QA: raw FDW Malawi source archive schema and availability'
+            for attempt in 1 2 3 4 5; do
+              git pull --rebase && git push && break || sleep 5
+            done
+          fi
