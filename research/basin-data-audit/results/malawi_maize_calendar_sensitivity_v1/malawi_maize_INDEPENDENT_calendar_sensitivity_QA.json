@@ -1,0 +1,38 @@
+{
+  "utc": "2026-11-03T14:54:54.486153+00:00",
+  "status": "FAILED",
+  "checks": {
+    "original_script_all_checks_complete": {
+      "pass": true,
+      "details": null
+    },
+    "correct_full_26x44x4": {
+      "pass": true,
+      "details": null
+    },
+    "unique_crop_window_year": {
+      "pass": true,
+      "details": null
+    },
+    "all_four_windows": {
+      "pass": true,
+      "details": null
+    },
+    "country_and_crop_only": {
+      "pass": true,
+      "details": null
+    },
+    "outcome_rows_are_not_copied": {
+      "pass": true,
+      "details": null
+    },
+    "baseline_source_years_exact": {
+      "pass": true,
+      "details": null
+    }
+  },
+  "errors": [
+    "TypeError('tuple indices must be integers or slices, not str')"
+  ],
+  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/degsis04.github.io/degsis04.github.io/research/basin-data-audit/scripts/malawi_maize_calendar_sensitivity_independent_QA.py\", line 62, in <module>\n    ym=ref_window(ref,int(x.harvest_year),x.window) if x.window in (\"core\",\"broad\") else survey_window(ref,int(x.harvest_year),x.window)\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/degsis04.github.io/degsis04.github.io/research/basin-data-audit/scripts/malawi_maize_calendar_sensitivity_independent_QA.py\", line 41, in ref_window\n    s1,s2,e1,e2=(int(src[c]) for c in\n    ^^^^^^^^^^^\n  File \"/home/runner/work/degsis04.github.io/degsis04.github.io/research/basin-data-audit/scripts/malawi_maize_calendar_sensitivity_independent_QA.py\", line 41, in <genexpr>\n    s1,s2,e1,e2=(int(src[c]) for c in\n                     ~~~^^^\nTypeError: tuple indices must be integers or slices, not str\n"
+}
