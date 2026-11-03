@@ -170,8 +170,14 @@ try:
    continue
   x,y=pmap.loc[aa],pmap.loc[bb]
   both_complete=float(min(x.pct_calendar_complete,y.pct_calendar_complete))
-  comparable=(pd.notna(x.modal_planting_month)&pd.notna(y.modal_planting_month)&
-   x.modal_planting_month==y.modal_planting_month and x.modal_harvest_month==y.modal_harvest_month)
+  comparable=(
+    bool(pd.notna(x.modal_planting_month)) and
+    bool(pd.notna(y.modal_planting_month)) and
+    bool(pd.notna(x.modal_harvest_month)) and
+    bool(pd.notna(y.modal_harvest_month)) and
+    int(x.modal_planting_month) == int(y.modal_planting_month) and
+    int(x.modal_harvest_month) == int(y.modal_harvest_month)
+  )
   comparisons.append({
    "BCODE":r.BCODE,"crop":r.product,"country_a":r.country_a,"country_b":r.country_b,
    "bcu_a":r.bcu_a,"bcu_b":r.bcu_b,
@@ -194,6 +200,14 @@ try:
     "physical_phenology_confirmed":0}
  test("same_label_pair_count_22",len(cand)==22,len(cand))
  test("one_row_per_compared_pair",len(cp)==len(cand),len(cp))
+ # A second independent comparison from the saved displayed month values.
+ ref = cp.dropna(subset=["modal_plant_month_a","modal_plant_month_b","modal_harvest_month_a","modal_harvest_month_b"]).copy()
+ independently_equal = (
+   ref.modal_plant_month_a.astype(int).eq(ref.modal_plant_month_b.astype(int)) &
+   ref.modal_harvest_month_a.astype(int).eq(ref.modal_harvest_month_b.astype(int)))
+ test("independently_recomputed_month_match",
+      bool((independently_equal.to_numpy()==ref.same_modal_month_code_not_physical_calendar.to_numpy()).all()),
+      {"n_true_ref":int(independently_equal.sum()),"n_true_original":int(ref.same_modal_month_code_not_physical_calendar.sum())})
  LOG["status"]="COMPLETE" if not LOG["errors"] else "FAILED"
 except Exception as ex:
  LOG["status"]="FAILED";LOG["exception"]=repr(ex)
