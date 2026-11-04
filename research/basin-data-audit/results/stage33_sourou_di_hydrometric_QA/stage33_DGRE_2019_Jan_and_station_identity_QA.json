@@ -1,0 +1,220 @@
+{
+  "status": "PASS_SOURCE_IDENTITY_AND_MONTHLY_MATH",
+  "utc": "2026-11-04T15:02:34.297479+00:00",
+  "checks": [
+    {
+      "name": "all_three_years_present",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "annual_jan1_consistent_2017",
+      "pass": true,
+      "details": {
+        "year": "2017",
+        "start_01jan_storage_Mm3": "432.0",
+        "annual_max_storage_Mm3": "511.0",
+        "annual_min_storage_Mm3": "111.0",
+        "end_31dec_storage_Mm3": "333.0",
+        "spill_days": "0",
+        "DGRE_primary_report_year": "2017",
+        "DGRE_PDF_source": "https://dgre.gov.bf/documents/10/Document_synth%C3%A8se_du_suivi_des_ressources_en_eau_de_2017_NMNC_06_02_2019_vf.pdf",
+        "printed_page": "41",
+        "printed_table": "Table 1.14",
+        "transcription_method": "Original PDF table, manual double-check with screenshot; no image-derived digitization",
+        "reservoir_Q_only": "False",
+        "scheme_irrigation_delivery_verified": "False"
+      }
+    },
+    {
+      "name": "PEN360_percent_rounding_start_2017",
+      "pass": true,
+      "details": [
+        120.0,
+        119.88
+      ]
+    },
+    {
+      "name": "PEN360_percent_rounding_end_2017",
+      "pass": true,
+      "details": [
+        98.33333333333333,
+        98.2
+      ]
+    },
+    {
+      "name": "annual_jan1_consistent_2018",
+      "pass": true,
+      "details": {
+        "year": "2018",
+        "start_01jan_storage_Mm3": "327.0",
+        "annual_max_storage_Mm3": "808.0",
+        "annual_min_storage_Mm3": "64.0",
+        "end_31dec_storage_Mm3": "618.0",
+        "spill_days": "96",
+        "DGRE_primary_report_year": "2019",
+        "DGRE_PDF_source": "https://dgre.gov.bf/documents/18/Document_ynth%C3%A8se_Ouaga_03_10_2020vf_1.pdf",
+        "printed_page": "55",
+        "printed_table": "Table 1-14",
+        "transcription_method": "Original PDF table, manual double-check with screenshot; no image-derived digitization",
+        "reservoir_Q_only": "False",
+        "scheme_irrigation_delivery_verified": "False"
+      }
+    },
+    {
+      "name": "PEN360_percent_rounding_start_2018",
+      "pass": true,
+      "details": [
+        90.83333333333333,
+        90.7
+      ]
+    },
+    {
+      "name": "PEN360_percent_rounding_end_2018",
+      "pass": true,
+      "details": [
+        73.05555555555556,
+        73.13
+      ]
+    },
+    {
+      "name": "annual_jan1_consistent_2019",
+      "pass": true,
+      "details": {
+        "year": "2019",
+        "start_01jan_storage_Mm3": "618.0",
+        "annual_max_storage_Mm3": "618.0",
+        "annual_min_storage_Mm3": "127.0",
+        "end_31dec_storage_Mm3": "511.0",
+        "spill_days": "22",
+        "DGRE_primary_report_year": "2019",
+        "DGRE_PDF_source": "https://dgre.gov.bf/documents/18/Document_ynth%C3%A8se_Ouaga_03_10_2020vf_1.pdf",
+        "printed_page": "55",
+        "printed_table": "Table 1-14",
+        "transcription_method": "Original PDF table, manual double-check with screenshot; no image-derived digitization",
+        "reservoir_Q_only": "False",
+        "scheme_irrigation_delivery_verified": "False"
+      }
+    },
+    {
+      "name": "PEN360_percent_rounding_start_2019",
+      "pass": true,
+      "details": [
+        171.66666666666666,
+        171.53
+      ]
+    },
+    {
+      "name": "PEN360_percent_rounding_end_2019",
+      "pass": true,
+      "details": [
+        129.44444444444446,
+        129.44
+      ]
+    },
+    {
+      "name": "three_declining_january_storage",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "different_reference_volume_2019PEN_vs_2024total",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "jan2019_152_Mm3_drop",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "two_sites_gt20km_apart",
+      "pass": true,
+      "details": 25.31189380012491
+    }
+  ],
+  "provenance": {
+    "2019_january_pdf": "https://eauburkina.com/images/SNIEau/Janvier_2019.pdf",
+    "2019_table": "Tableau 11, printed page 19; screenshots independently checked",
+    "historical_atlas_pdf": "https://www.altwym.nl/wp-content/uploads/2019/05/atlas_sourou_partie-3_225-dpi-final.pdf",
+    "modern_DGRE_annual_pdf": "https://dgre.gov.bf/documents/21/DOC_SYNT_2023_DEIE_vF.pdf",
+    "2024_jan_bulletin": "https://dgre.gov.bf/documents/6/Bulletin_Janvier_2024_Vf.pdf"
+  },
+  "conditions": [
+    "January 2017/2018/2019 monthly net storage change is NOT water intake or reservoir release",
+    "PEN (normal water level) volume 360 in Jan2019 bulletin must not be equated with full reservoir capacity 603 from Jan2024",
+    "Lanfièra BFQ4048 coordinate from historic Sourou atlas may identify DIFFERENT gauge, not modern Yaran published station",
+    "Hydrological source station matching requires station ID / coordinate / rating curve / regulated regime equivalence",
+    "No interpolation, no fabricated daily hydro observations, no causal climate institutional coefficient"
+  ],
+  "stations": {
+    "historical": [
+      12.753,
+      -3.433
+    ],
+    "modern": [
+      12.980222222222222,
+      -3.447055555555556
+    ],
+    "separation_km": 25.31189380012491,
+    "same_station": "UNVERIFIED",
+    "allow_synthetic_1985_2023_series": false
+  },
+  "reproducible_monthly_values": [
+    {
+      "year": 2017,
+      "month": "Jan",
+      "storage_jan01_Mm3": 432,
+      "storage_jan31_Mm3": 354,
+      "delta_month_Mm3": -78,
+      "published_percent_jan01": 119.88,
+      "published_percent_jan31": 98.2,
+      "PEN_normal_water_reference_Mm3": 360,
+      "recomputed_percent_jan01_at_360": 120.0,
+      "recomputed_percent_jan31_at_360": 98.3333,
+      "reference_definition": "2019 report plan d'eau normal, NOT 2024 full capacity 603 Mm3",
+      "site_claim": "Yaran reservoir / Sourou (not asbuilt Di pumps)",
+      "pdf_source": "https://eauburkina.com/images/SNIEau/Janvier_2019.pdf",
+      "printed_table": "11",
+      "printed_page": "19",
+      "monthly_delta_is_observed_pump_or_treaty_release": false
+    },
+    {
+      "year": 2018,
+      "month": "Jan",
+      "storage_jan01_Mm3": 327,
+      "storage_jan31_Mm3": 263,
+      "delta_month_Mm3": -64,
+      "published_percent_jan01": 90.7,
+      "published_percent_jan31": 73.13,
+      "PEN_normal_water_reference_Mm3": 360,
+      "recomputed_percent_jan01_at_360": 90.8333,
+      "recomputed_percent_jan31_at_360": 73.0556,
+      "reference_definition": "2019 report plan d'eau normal, NOT 2024 full capacity 603 Mm3",
+      "site_claim": "Yaran reservoir / Sourou (not asbuilt Di pumps)",
+      "pdf_source": "https://eauburkina.com/images/SNIEau/Janvier_2019.pdf",
+      "printed_table": "11",
+      "printed_page": "19",
+      "monthly_delta_is_observed_pump_or_treaty_release": false
+    },
+    {
+      "year": 2019,
+      "month": "Jan",
+      "storage_jan01_Mm3": 618,
+      "storage_jan31_Mm3": 466,
+      "delta_month_Mm3": -152,
+      "published_percent_jan01": 171.53,
+      "published_percent_jan31": 129.44,
+      "PEN_normal_water_reference_Mm3": 360,
+      "recomputed_percent_jan01_at_360": 171.6667,
+      "recomputed_percent_jan31_at_360": 129.4444,
+      "reference_definition": "2019 report plan d'eau normal, NOT 2024 full capacity 603 Mm3",
+      "site_claim": "Yaran reservoir / Sourou (not asbuilt Di pumps)",
+      "pdf_source": "https://eauburkina.com/images/SNIEau/Janvier_2019.pdf",
+      "printed_table": "11",
+      "printed_page": "19",
+      "monthly_delta_is_observed_pump_or_treaty_release": false
+    }
+  ],
+  "source_date_scope": "Three January snapshots ONLY: 2017, 2018, 2019. Not a 2015-2023 daily stream."
+}
