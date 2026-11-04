@@ -1,0 +1,289 @@
+{
+  "utc": "2026-11-04T13:08:20.482839+00:00",
+  "status": "PASS_QA_CONFLICTS_EXPLICIT",
+  "checks": {
+    "nine_original_rice_years": {
+      "pass": true,
+      "details": ""
+    },
+    "annual_2022_2023_count": {
+      "pass": true,
+      "details": ""
+    },
+    "jan_2022_2024_count": {
+      "pass": true,
+      "details": ""
+    },
+    "value_units_yield_positive_2015": {
+      "pass": true,
+      "details": ""
+    },
+    "yield_production_area_identity_2015": {
+      "pass": true,
+      "details": ""
+    },
+    "qc_flag_zero_2015": {
+      "pass": true,
+      "details": ""
+    },
+    "correct_irrigated_source_scope_2015": {
+      "pass": true,
+      "details": ""
+    },
+    "value_units_yield_positive_2016": {
+      "pass": true,
+      "details": ""
+    },
+    "yield_production_area_identity_2016": {
+      "pass": true,
+      "details": ""
+    },
+    "qc_flag_zero_2016": {
+      "pass": true,
+      "details": ""
+    },
+    "correct_irrigated_source_scope_2016": {
+      "pass": true,
+      "details": ""
+    },
+    "value_units_yield_positive_2017": {
+      "pass": true,
+      "details": ""
+    },
+    "yield_production_area_identity_2017": {
+      "pass": true,
+      "details": ""
+    },
+    "qc_flag_zero_2017": {
+      "pass": true,
+      "details": ""
+    },
+    "correct_irrigated_source_scope_2017": {
+      "pass": true,
+      "details": ""
+    },
+    "value_units_yield_positive_2018": {
+      "pass": true,
+      "details": ""
+    },
+    "yield_production_area_identity_2018": {
+      "pass": true,
+      "details": ""
+    },
+    "qc_flag_zero_2018": {
+      "pass": true,
+      "details": ""
+    },
+    "correct_irrigated_source_scope_2018": {
+      "pass": true,
+      "details": ""
+    },
+    "value_units_yield_positive_2019": {
+      "pass": true,
+      "details": ""
+    },
+    "yield_production_area_identity_2019": {
+      "pass": true,
+      "details": ""
+    },
+    "qc_flag_zero_2019": {
+      "pass": true,
+      "details": ""
+    },
+    "correct_irrigated_source_scope_2019": {
+      "pass": true,
+      "details": ""
+    },
+    "value_units_yield_positive_2020": {
+      "pass": true,
+      "details": ""
+    },
+    "yield_production_area_identity_2020": {
+      "pass": true,
+      "details": ""
+    },
+    "qc_flag_zero_2020": {
+      "pass": true,
+      "details": ""
+    },
+    "correct_irrigated_source_scope_2020": {
+      "pass": true,
+      "details": ""
+    },
+    "value_units_yield_positive_2021": {
+      "pass": true,
+      "details": ""
+    },
+    "yield_production_area_identity_2021": {
+      "pass": true,
+      "details": ""
+    },
+    "qc_flag_zero_2021": {
+      "pass": true,
+      "details": ""
+    },
+    "correct_irrigated_source_scope_2021": {
+      "pass": true,
+      "details": ""
+    },
+    "value_units_yield_positive_2022": {
+      "pass": true,
+      "details": ""
+    },
+    "yield_production_area_identity_2022": {
+      "pass": true,
+      "details": ""
+    },
+    "qc_flag_zero_2022": {
+      "pass": true,
+      "details": ""
+    },
+    "correct_irrigated_source_scope_2022": {
+      "pass": true,
+      "details": ""
+    },
+    "value_units_yield_positive_2023": {
+      "pass": true,
+      "details": ""
+    },
+    "yield_production_area_identity_2023": {
+      "pass": true,
+      "details": ""
+    },
+    "qc_flag_zero_2023": {
+      "pass": true,
+      "details": ""
+    },
+    "correct_irrigated_source_scope_2023": {
+      "pass": true,
+      "details": ""
+    },
+    "exact_symmetric_decomposition_2015_2016": {
+      "pass": true,
+      "details": 1.1368683772161603e-13
+    },
+    "log_identity_2015_2016": {
+      "pass": true,
+      "details": ""
+    },
+    "exact_symmetric_decomposition_2016_2017": {
+      "pass": true,
+      "details": 0.0
+    },
+    "log_identity_2016_2017": {
+      "pass": true,
+      "details": ""
+    },
+    "exact_symmetric_decomposition_2017_2018": {
+      "pass": true,
+      "details": 0.0
+    },
+    "log_identity_2017_2018": {
+      "pass": true,
+      "details": ""
+    },
+    "exact_symmetric_decomposition_2018_2019": {
+      "pass": true,
+      "details": 0.0
+    },
+    "log_identity_2018_2019": {
+      "pass": true,
+      "details": ""
+    },
+    "exact_symmetric_decomposition_2019_2020": {
+      "pass": true,
+      "details": 3.637978807091713e-12
+    },
+    "log_identity_2019_2020": {
+      "pass": true,
+      "details": ""
+    },
+    "exact_symmetric_decomposition_2020_2021": {
+      "pass": true,
+      "details": 2.7284841053187847e-12
+    },
+    "log_identity_2020_2021": {
+      "pass": true,
+      "details": ""
+    },
+    "exact_symmetric_decomposition_2021_2022": {
+      "pass": true,
+      "details": 0.0
+    },
+    "log_identity_2021_2022": {
+      "pass": true,
+      "details": ""
+    },
+    "exact_symmetric_decomposition_2022_2023": {
+      "pass": true,
+      "details": 0.0
+    },
+    "log_identity_2022_2023": {
+      "pass": true,
+      "details": ""
+    },
+    "2022_23_production_fall": {
+      "pass": true,
+      "details": ""
+    },
+    "2022_23_area_dominant": {
+      "pass": true,
+      "details": 0.7476077841432363
+    },
+    "2021_2022_gap_minus69": {
+      "pass": true,
+      "details": ""
+    },
+    "2022_2023_boundary_consistent": {
+      "pass": true,
+      "details": ""
+    },
+    "2023_2024_gap_minus82_661": {
+      "pass": true,
+      "details": ""
+    },
+    "two_material_unreconciled_gaps": {
+      "pass": true,
+      "details": ""
+    },
+    "2022_minimum_date_typo_logged": {
+      "pass": true,
+      "details": ""
+    },
+    "2021_minimum_date_previous_year_logged": {
+      "pass": true,
+      "details": ""
+    }
+  },
+  "measurement_support": {
+    "yield": "Sourou province all Annual Plaine/Bas-fond irrigated rice; NOT Di seven-sector yield",
+    "hydrology": "Yaran regulated reservoir storage; NOT Sourou intake or irrigation scheme pumping",
+    "institution": "NO verified cross-border CTGS release to Di",
+    "cross_year": "31 December to 1 January should be same gauge/site but source metadata/rating curves could differ"
+  },
+  "counts": {
+    "rice_years": 9,
+    "exact_yoy_decompositions": 8,
+    "reservoir_annual_years": 3,
+    "reservoir_vs_rice_descriptive_years": 3,
+    "source_conflict_flags": 3
+  },
+  "2022_2023": {
+    "production_delta_t": -17474.92,
+    "area_component_t": -13064.38621928032,
+    "yield_component_t": -4410.533780719678,
+    "area_component_fraction_of_total_drop": 0.7476077841432363,
+    "area_pct": -56.80454265236883,
+    "yield_pct": -23.62121896196815,
+    "production_pct": -67.00783621407635
+  },
+  "scientific_gates": {
+    "agriculture_year_change_decomposition": "PASS mathematical, 9 province rice years, causal interpretation not permitted",
+    "annual_hydrology_2021_2023": "PARTIAL three annual summary years, with two irreconciled year boundaries and copied date errors",
+    "reservoir_to_di_actual_pump_flow": "NO",
+    "five_plus_seasons_hydrology_matched_to_di_crop": "NO",
+    "verified_treaty_release": "NO",
+    "genuine_WaPOR_scene_downloaded": "NO",
+    "approach": "Collect as-built polygon, local pump operation logs, official stage-volume series and independently QA hydro levels"
+  }
+}

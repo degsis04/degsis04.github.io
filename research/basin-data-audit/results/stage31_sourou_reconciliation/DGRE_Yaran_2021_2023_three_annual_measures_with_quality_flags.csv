@@ -1,0 +1,4 @@
+year,jan1,max,min,min_date_as_published,dec31,spill_days,source,table,year_label_warning
+2021,608.0,721.0,117.0,2020-07-10,580.0,102,https://dgre.gov.bf/documents/20/DOC_SYNT_2022_VF.pdf,Table 12 printed p49,2021 minimum date published as 2020; not corrected
+2022,511.0,884.0,105.0,2022-06-21,717.0,117,https://dgre.gov.bf/documents/21/DOC_SYNT_2023_DEIE_vF.pdf,Table 12 printed p49,2022 annual 2022 report lists min date 2021-06-21; prefer 2023 report for date with contradiction retained
+2023,717.0,726.0,143.0,2023-06-21,668.0,126,https://dgre.gov.bf/documents/21/DOC_SYNT_2023_DEIE_vF.pdf,Table 12 printed p49,2023-12-31 annual end does not match bulletin 2024-01-01
