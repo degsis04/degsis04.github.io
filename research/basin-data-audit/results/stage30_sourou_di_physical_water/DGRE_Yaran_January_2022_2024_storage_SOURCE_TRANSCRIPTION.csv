@@ -1,0 +1,4 @@
+year,volume_01jan_Mm3,volume_31jan_Mm3,reported_pct_01jan,reported_pct_31jan,jan_storage_delta_Mm3,pct_check_01jan,pct_check_31jan,storage_not_release_or_pump,source_url,source_page
+2022,511.462,393.329,84.82,65.23,-118.13299999999998,84.81956882255389,65.22868988391377,True,https://dgre.gov.bf/documents/6/Bulletin_Janvier_2024_Vf.pdf,Hydrologie printed p.24 Table 16
+2023,716.566,631.656,118.83,104.75,-84.91000000000008,118.83349917081262,104.75223880597014,True,https://dgre.gov.bf/documents/6/Bulletin_Janvier_2024_Vf.pdf,Hydrologie printed p.24 Table 16
+2024,585.339,450.701,97.07,74.74,-134.63800000000003,97.07114427860698,74.74311774461029,True,https://dgre.gov.bf/documents/6/Bulletin_Janvier_2024_Vf.pdf,Hydrologie printed p.24 Table 16
