@@ -1,0 +1,40 @@
+name: Stage30 Sourou Yaran DGRE vs province rice original water-delivery gate
+on:
+  push:
+    paths:
+      - '.github/workflows/stage30-sourou-water-hydro-QA.yml'
+      - 'research/basin-data-audit/scripts/stage30_sourou_water_storage_and_rice_source_QA.py'
+  pull_request:
+    paths:
+      - '.github/workflows/stage30-sourou-water-hydro-QA.yml'
+      - 'research/basin-data-audit/scripts/stage30_sourou_water_storage_and_rice_source_QA.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  hydro-origin-QA:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install 'requests>=2.31,<3' 'numpy>=1.26,<3' 'pandas>=2.2,<3'
+      - name: Validate 25MB pinned source and detect cross-DGRE hydro data errors
+        run: python research/basin-data-audit/scripts/stage30_sourou_water_storage_and_rice_source_QA.py
+      - name: Save derived tables and explicit source conflict
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/basin-data-audit/results/stage30_sourou_di_physical_water/
+          if ! git diff --cached --quiet; then
+            git commit -m 'stage30: pinned Sourou rice and DGRE storage cross-source contradiction QA'
+            for retry in 1 2 3 4; do git pull --rebase && git push && break || sleep 5; done
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: stage30-sourou-hydro-source-QA
+          path: research/basin-data-audit/results/stage30_sourou_di_physical_water/
