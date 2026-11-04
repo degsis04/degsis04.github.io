@@ -1,0 +1,34 @@
+name: Stage33 DGRE original Jan2019 monthly Yaran and historic station location QA
+on:
+  push:
+    paths:
+      - 'research/basin-data-audit/scripts/stage33_DGRE_Jan2019_and_station_id_QA.py'
+      - '.github/workflows/stage33-DGRE-source-station-identity.yml'
+  pull_request:
+    paths:
+      - 'research/basin-data-audit/scripts/stage33_DGRE_Jan2019_and_station_id_QA.py'
+      - '.github/workflows/stage33-DGRE-source-station-identity.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  source-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Test exact DGRE values, capacity references and independent gauge locations
+        run: python research/basin-data-audit/scripts/stage33_DGRE_Jan2019_and_station_id_QA.py
+      - name: Persist all source and spatial QA
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/basin-data-audit/results/stage33_sourou_di_hydrometric_QA/
+          if ! git diff --cached --quiet; then
+            git commit -m 'stage33: reproduce DGRE January 2017-19 storage and distinguish Lanfièra from Yaran'
+            for retry in 1 2 3 4; do git pull --rebase && git push && break || sleep 5; done
+          fi
