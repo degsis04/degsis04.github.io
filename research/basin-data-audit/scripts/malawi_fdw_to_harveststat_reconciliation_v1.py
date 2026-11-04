@@ -72,19 +72,19 @@ try:
     summary_rows=[]
     raw_dict={tuple(k):g for k,g in maize.groupby(mkey,dropna=False,sort=False)}
     indicators=["Area Harvested","Area Planted","Quantity Produced","Yield"]
-    for s in src.itertuples(index=False):
+    for _,s in src.iterrows():
         key=(s.fnid,int(s.harvest_year),s.season_name,s.crop_production_system)
         g=raw_dict.get(key)
         rec={"fnid":s.fnid,"harvest_year":int(s.harvest_year),"season_name":s.season_name,
         "crop_production_system":s.crop_production_system,
-        "hs_area_ha":float(s.area),"hs_production_t":float(s.production),"hs_yield_t_ha":float(s.yield),
+        "hs_area_ha":float(s.area),"hs_production_t":float(s.production),"hs_yield_t_ha":float(s["yield"]),
         "raw_same_key_rows":len(g) if g is not None else 0}
         if g is not None and len(g):
             rec["raw_source_documents"]=" | ".join(sorted(g.source_document.dropna().unique()))
             rec["raw_publication_names"]=" | ".join(sorted(g.publication_name.dropna().astype(str).unique())[:10])
             rec["raw_status_codes"]=" | ".join(sorted(g.status.dropna().astype(str).unique()))
         else:rec["raw_source_documents"]=rec["raw_publication_names"]=rec["raw_status_codes"]=""
-        for ind,target in [("Area Harvested",s.area),("Area Planted",s.area),("Quantity Produced",s.production),("Yield",s.yield)]:
+        for ind,target in [("Area Harvested",s.area),("Area Planted",s.area),("Quantity Produced",s.production),("Yield",s["yield"])]:
             typ={"Area Harvested":"area_harvested","Area Planted":"area_planted","Quantity Produced":"production","Yield":"yield"}[ind]
             z=g.loc[g.indicator.eq(ind)] if g is not None else pd.DataFrame(columns=maize.columns)
             vals=z.value_num.dropna().to_numpy()
