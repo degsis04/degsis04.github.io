@@ -1,0 +1,42 @@
+name: Malawi exact FDW raw to HarvestStat reconciliation and APES widget inspection
+on:
+  push:
+    paths:
+      - '.github/workflows/malawi-fdw-to-harveststat-reconciliation.yml'
+      - 'research/basin-data-audit/scripts/malawi_fdw_to_harveststat_reconciliation_v1.py'
+  pull_request:
+    paths:
+      - '.github/workflows/malawi-fdw-to-harveststat-reconciliation.yml'
+      - 'research/basin-data-audit/scripts/malawi_fdw_to_harveststat_reconciliation_v1.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  compare-source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install 'numpy>=1.26,<3' 'pandas>=2.2,<3' 'requests>=2.31,<3'
+      - name: Exact original-source provenance, values, year, APES widget discovery
+        run: python research/basin-data-audit/scripts/malawi_fdw_to_harveststat_reconciliation_v1.py
+      - name: Publish derived crosswalk and explicit unresolved defects
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/basin-data-audit/results/malawi_apes_fdw_source_audit_v1/
+          if ! git diff --cached --quiet; then
+            git commit -m 'research QA: exact MW FDW maize source-to-HarvestStat matched rows'
+            for retry in 1 2 3; do
+              git pull --rebase && git push && break || sleep 4
+            done
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: Malawi-original-FDW-APES-to-HarvestStat-audit
+          path: research/basin-data-audit/results/malawi_apes_fdw_source_audit_v1/
