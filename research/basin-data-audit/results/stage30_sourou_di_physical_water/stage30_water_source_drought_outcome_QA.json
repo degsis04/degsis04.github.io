@@ -1,0 +1,131 @@
+{
+  "run_utc": "2026-11-04T11:30:44.670300+00:00",
+  "status": "PASS_WITH_CRITICAL_DGRE_CROSS_SOURCE_CONFLICT",
+  "qa": {
+    "pinned_HarvestStat_original_SHA": {
+      "pass": true,
+      "details": {
+        "bytes": 25312039,
+        "sha": "f659e121e315b9d8656699e4b16421ed3b313e4c8d09d15199452000836dbef9"
+      }
+    },
+    "source_rows": {
+      "pass": true,
+      "details": 217487
+    },
+    "correct_nine_Sourou_BF_province_rice_years": {
+      "pass": true,
+      "details": [
+        {
+          "harvest_year": 2015,
+          "product": "Rice"
+        },
+        {
+          "harvest_year": 2016,
+          "product": "Rice"
+        },
+        {
+          "harvest_year": 2017,
+          "product": "Rice"
+        },
+        {
+          "harvest_year": 2018,
+          "product": "Rice"
+        },
+        {
+          "harvest_year": 2019,
+          "product": "Rice"
+        },
+        {
+          "harvest_year": 2020,
+          "product": "Rice"
+        },
+        {
+          "harvest_year": 2021,
+          "product": "Rice"
+        },
+        {
+          "harvest_year": 2022,
+          "product": "Rice"
+        },
+        {
+          "harvest_year": 2023,
+          "product": "Rice"
+        }
+      ]
+    },
+    "positive_area_production_yield": {
+      "pass": true,
+      "details": null
+    },
+    "source_yield_consistent": {
+      "pass": true,
+      "details": 0.0
+    },
+    "zero_qc_flags_nine": {
+      "pass": true,
+      "details": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "January_PEN_capacity_percentages_603_consistent": {
+      "pass": true,
+      "details": null
+    },
+    "2022_annual_end_to_2023_Jan_start_rounding_agrees": {
+      "pass": true,
+      "details": null
+    },
+    "critical_cross_document_storage_disagreement_flagged": {
+      "pass": true,
+      "details": -82.66099999999994
+    },
+    "capacity_convention_difference_flagged": {
+      "pass": true,
+      "details": null
+    },
+    "2_year_province_storage_join_only": {
+      "pass": true,
+      "details": null
+    }
+  },
+  "prohibitions": [
+    "Yaran is reservoir WATER LEVEL/STORAGE, not seven Di pump flows",
+    "3 to 4 m3/s is DGRE stated minimum downstream release expectation, not observed daily flow",
+    "2023 Dec31 vs 2024 Jan1 volume conflict must not be treated as measured release",
+    "Province Sourou Annual/Plaine-Bas-fond rice is NOT Di-2246ha scheme-specific yield",
+    "One or two years of reservoir storage difference cannot identify drought exposure or CTGS effect",
+    "Niassan old perimeters, old pivot Di, new seven-sector MCC Di are not conflated"
+  ],
+  "observed_source_rice_systems": "{('Rice', 'Annual', 'Plaine/Bas-fond irrigated (PS)'): 9, ('Rice', 'Main', 'All (PS)'): 27, ('Rice', 'Main', 'Bas-fonds rainfed (PS)'): 7, ('Rice', 'Main', 'Rainfed (PS)'): 2}",
+  "cross_document_2023Dec31_2024Jan1_gap_Mm3": -82.66099999999994,
+  "cross_document_2023Dec31_2024Jan1_discrepancy_verified": true,
+  "capacity_definition_conflict": {
+    "annual_2023_table_pct_implies_Mm3": 608.0,
+    "monthly_Jan2024_PEN_Mm3": 603.0,
+    "difference_Mm3": 5.0,
+    "resolution": "UNRESOLVED, no cross-document percent-of-capacity splice"
+  },
+  "counts": {
+    "9_irrigated_province_rice_years": 9,
+    "DGRE_annual_years": 2,
+    "DGRE_Jan_same_month_years": 3,
+    "descriptive_overlap_no_scheme_link": 2
+  },
+  "hydraulic_logic": [
+    "Natural Sourou is affuent-d effluent, Mouhoun flood inflow reversal; 1984 upstream Mouhoun diversion, Lery controlled division",
+    "DGRE Yaran 12°58'48.8 N 03°26'49.4 W gauges reservoir levels, not pump extraction",
+    "New Di 2246 ha seven electrically powered station sectors (Mathematica), original figures may be sector diagrams only not georeferenced",
+    "Di AMVS responsible infrastructure river-to-pumping station; WUA responsible pumps-to-farm valves and water turns",
+    "DGRE recommended minimum dry-season Lery downstream release 3-4 m3/s is NOT an observed field delivery or transboundary treaty quota",
+    "Official annual 2023 Dec31 storage 668 vs Jan2024 bulletin Jan1 585.339, unresolved cross-report reference conflict"
+  ]
+}
