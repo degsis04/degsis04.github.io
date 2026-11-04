@@ -1,0 +1,289 @@
+{
+  "status": "REAL_RASTER_STATS_PASS",
+  "run_utc": "2026-11-04T14:14:55.493189+00:00",
+  "source_prefix": "https://gismgr.fao.org/DATA/WAPOR-3/MOSAICSET/L3-AETI-A/",
+  "catalog_product": "L3-AETI-A",
+  "region": "ODN",
+  "requested_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "constraints": [
+    "FAO WaPOR Level 3 original raster 20 m Wapor V3, ODN thematic mosaic; NOT verified official service/command area polygon",
+    "AETI = evapotranspiration + interception; it measures land-atmosphere water loss, not river diversion or irrigation delivery",
+    "AETI annual pixel means mix rainfed/irrigated/nonagricultural land inside valid imagery, unless a true field mask exists",
+    "FAO data corrected/re-released for Level 3 in 2024; original URL metadata and SHA256 are recorded for each raster",
+    "Any temporal arithmetic uses only actual downloaded rasters, no fabricated values; missing years remain missing",
+    "Neither raster nor source-derived mean identifies causal transboundary institution impacts"
+  ],
+  "source_inventory": [
+    {
+      "year": 2018,
+      "status": "REAL_TIFF_STATS_PASS",
+      "file_sha256": "764548a9d0a655bf3040fe6d0c394194d3c144f81139ad1ee1cecddacd282b98",
+      "bytes": 9485794,
+      "error": null
+    },
+    {
+      "year": 2019,
+      "status": "REAL_TIFF_STATS_PASS",
+      "file_sha256": "9d509d983fd0d9942ef30bbc772a113f478d90a106b3c2897a5435a84ee35cb7",
+      "bytes": 9562439,
+      "error": null
+    },
+    {
+      "year": 2020,
+      "status": "REAL_TIFF_STATS_PASS",
+      "file_sha256": "7712fb135ca41f17e3b7473780815bb002398dba1367a0e0e54fc542e49eb0a6",
+      "bytes": 9550848,
+      "error": null
+    },
+    {
+      "year": 2021,
+      "status": "REAL_TIFF_STATS_PASS",
+      "file_sha256": "85736085df62a609d23d6ba408189fe13ecbd942d1c99765bfe5c16c504647ec",
+      "bytes": 9629003,
+      "error": null
+    },
+    {
+      "year": 2022,
+      "status": "REAL_TIFF_STATS_PASS",
+      "file_sha256": "79630cf7f168ad2e860b3495a7f61539d9c8fda391b8d2a6a5598abbc722d3c0",
+      "bytes": 9665799,
+      "error": null
+    },
+    {
+      "year": 2023,
+      "status": "REAL_TIFF_STATS_PASS",
+      "file_sha256": "022b6857a1904aa6f691778943d27961defe77623a34ea4df3358fcb1bd69abf",
+      "bytes": 9683939,
+      "error": null
+    }
+  ],
+  "qa_checks": {
+    "tiff_header_2018": {
+      "pass": true,
+      "details": null
+    },
+    "raster_has_crs_2018": {
+      "pass": true,
+      "details": null
+    },
+    "raster_single_band_2018": {
+      "pass": true,
+      "details": null
+    },
+    "raster_valid_resolution_2018": {
+      "pass": true,
+      "details": [
+        20.0,
+        20.0
+      ]
+    },
+    "raster_mali_support_latlon_2018": {
+      "pass": true,
+      "details": null
+    },
+    "valid_numeric_pixels_2018": {
+      "pass": true,
+      "details": null
+    },
+    "physically_positive_AETI_raster_2018": {
+      "pass": true,
+      "details": [
+        0,
+        336.0
+      ]
+    },
+    "tiff_header_2019": {
+      "pass": true,
+      "details": null
+    },
+    "raster_has_crs_2019": {
+      "pass": true,
+      "details": null
+    },
+    "raster_single_band_2019": {
+      "pass": true,
+      "details": null
+    },
+    "raster_valid_resolution_2019": {
+      "pass": true,
+      "details": [
+        20.0,
+        20.0
+      ]
+    },
+    "raster_mali_support_latlon_2019": {
+      "pass": true,
+      "details": null
+    },
+    "valid_numeric_pixels_2019": {
+      "pass": true,
+      "details": null
+    },
+    "physically_positive_AETI_raster_2019": {
+      "pass": true,
+      "details": [
+        0,
+        255.0
+      ]
+    },
+    "tiff_header_2020": {
+      "pass": true,
+      "details": null
+    },
+    "raster_has_crs_2020": {
+      "pass": true,
+      "details": null
+    },
+    "raster_single_band_2020": {
+      "pass": true,
+      "details": null
+    },
+    "raster_valid_resolution_2020": {
+      "pass": true,
+      "details": [
+        20.0,
+        20.0
+      ]
+    },
+    "raster_mali_support_latlon_2020": {
+      "pass": true,
+      "details": null
+    },
+    "valid_numeric_pixels_2020": {
+      "pass": true,
+      "details": null
+    },
+    "physically_positive_AETI_raster_2020": {
+      "pass": true,
+      "details": [
+        0,
+        510.0
+      ]
+    },
+    "tiff_header_2021": {
+      "pass": true,
+      "details": null
+    },
+    "raster_has_crs_2021": {
+      "pass": true,
+      "details": null
+    },
+    "raster_single_band_2021": {
+      "pass": true,
+      "details": null
+    },
+    "raster_valid_resolution_2021": {
+      "pass": true,
+      "details": [
+        20.0,
+        20.0
+      ]
+    },
+    "raster_mali_support_latlon_2021": {
+      "pass": true,
+      "details": null
+    },
+    "valid_numeric_pixels_2021": {
+      "pass": true,
+      "details": null
+    },
+    "physically_positive_AETI_raster_2021": {
+      "pass": true,
+      "details": [
+        0,
+        311.0
+      ]
+    },
+    "tiff_header_2022": {
+      "pass": true,
+      "details": null
+    },
+    "raster_has_crs_2022": {
+      "pass": true,
+      "details": null
+    },
+    "raster_single_band_2022": {
+      "pass": true,
+      "details": null
+    },
+    "raster_valid_resolution_2022": {
+      "pass": true,
+      "details": [
+        20.0,
+        20.0
+      ]
+    },
+    "raster_mali_support_latlon_2022": {
+      "pass": true,
+      "details": null
+    },
+    "valid_numeric_pixels_2022": {
+      "pass": true,
+      "details": null
+    },
+    "physically_positive_AETI_raster_2022": {
+      "pass": true,
+      "details": [
+        0,
+        473.0
+      ]
+    },
+    "tiff_header_2023": {
+      "pass": true,
+      "details": null
+    },
+    "raster_has_crs_2023": {
+      "pass": true,
+      "details": null
+    },
+    "raster_single_band_2023": {
+      "pass": true,
+      "details": null
+    },
+    "raster_valid_resolution_2023": {
+      "pass": true,
+      "details": [
+        20.0,
+        20.0
+      ]
+    },
+    "raster_mali_support_latlon_2023": {
+      "pass": true,
+      "details": null
+    },
+    "valid_numeric_pixels_2023": {
+      "pass": true,
+      "details": null
+    },
+    "physically_positive_AETI_raster_2023": {
+      "pass": true,
+      "details": [
+        0,
+        690.0
+      ]
+    },
+    "all_years_identical_common_valid_sample": {
+      "pass": true,
+      "details": null
+    }
+  },
+  "failures": [],
+  "actual_downloaded_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "same_spatial_grid_all_available_years": true,
+  "common_valid_pixels": 2462098,
+  "n_raster_comparable_years": 6
+}

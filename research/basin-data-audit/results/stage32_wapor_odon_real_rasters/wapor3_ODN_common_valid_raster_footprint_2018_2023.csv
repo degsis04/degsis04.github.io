@@ -1,0 +1,7 @@
+year,common_valid_pixels,original_raw_pixel_mean,original_raw_pixel_std,units,pixel_mask
+2018,2462098,8639.86725670546,3262.2414845045455,RAW FAO file values until publisher scaling and metadata verified,"intersection of ORIGINAL valid rasters for ALL downloaded years, not cropland mask"
+2019,2462098,9677.272077309677,3564.6434095342693,RAW FAO file values until publisher scaling and metadata verified,"intersection of ORIGINAL valid rasters for ALL downloaded years, not cropland mask"
+2020,2462098,10098.005500593395,3447.724262561822,RAW FAO file values until publisher scaling and metadata verified,"intersection of ORIGINAL valid rasters for ALL downloaded years, not cropland mask"
+2021,2462098,10575.56483413739,4012.656735718432,RAW FAO file values until publisher scaling and metadata verified,"intersection of ORIGINAL valid rasters for ALL downloaded years, not cropland mask"
+2022,2462098,10971.952211894084,3963.6003964260117,RAW FAO file values until publisher scaling and metadata verified,"intersection of ORIGINAL valid rasters for ALL downloaded years, not cropland mask"
+2023,2462098,12247.875707628209,4201.668723183232,RAW FAO file values until publisher scaling and metadata verified,"intersection of ORIGINAL valid rasters for ALL downloaded years, not cropland mask"
