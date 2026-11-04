@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "whole_model_panel_812",
+      "pass": true,
+      "info": null
+    },
+    {
+      "name": "name_based_915",
+      "pass": true,
+      "info": null
+    },
+    {
+      "name": "name_based_812",
+      "pass": true,
+      "info": null
+    },
+    {
+      "name": "model_keys_unique",
+      "pass": true,
+      "info": null
+    },
+    {
+      "name": "source_keys_unique",
+      "pass": true,
+      "info": null
+    },
+    {
+      "name": "full_join_812",
+      "pass": true,
+      "info": null
+    },
+    {
+      "name": "main_16_584",
+      "pass": true,
+      "info": null
+    },
+    {
+      "name": "cohort_count_strict16_all",
+      "pass": true,
+      "info": 584
+    },
+    {
+      "name": "cohort_count_strict16_exact_FDW_yield",
+      "pass": true,
+      "info": 570
+    },
+    {
+      "name": "cohort_count_strict16_exact_FDW_area_production",
+      "pass": true,
+      "info": 437
+    },
+    {
+      "name": "cohort_count_strict16_1998_2020",
+      "pass": true,
+      "info": 362
+    },
+    {
+      "name": "cohort_count_strict16_2018_2020_too_short",
+      "pass": true,
+      "info": 42
+    },
+    {
+      "name": "reproduces_prior_584_main_beta",
+      "pass": true,
+      "info": 0.1030478053413435
+    },
+    {
+      "name": "independent_lstsq_437_coefficient",
+      "pass": true,
+      "info": {
+        "first": 0.11130980155015581,
+        "dense": 0.11130980155015584,
+        "abs_error": 2.7755575615628914e-17
+      }
+    }
+  ],
+  "warnings": [
+    "Different subsets are not independently randomized; changes in coefficients do not imply treatment effect",
+    "Area/production matching old geography does not validate historical 2018 polygon",
+    "No treaty variables, no instrument, no field-level planting or rainfall"
+  ],
+  "counts": {
+    "cohorts": {
+      "strict16_all": 584,
+      "strict16_exact_FDW_yield": 570,
+      "strict16_exact_FDW_area_production": 437,
+      "strict16_1998_2020": 362,
+      "strict16_2018_2020_too_short": 42
+    },
+    "models": 20,
+    "all_four_positive_for_four_primary_samples": true
+  }
+}
