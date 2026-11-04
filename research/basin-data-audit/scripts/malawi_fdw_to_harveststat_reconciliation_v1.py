@@ -118,7 +118,7 @@ try:
           "yield_equal":int(d.yield_match.sum()),
           "any_area_plus_production":int(d.all_prod_area_match.sum()),
           "all_three":int(d.all_three_match.sum()),
-          "multiple_document_sources":int((d.raw_same_key_rows>0 & ~d.raw_unique_document).sum())}
+          "multiple_document_sources":int((d.raw_same_key_rows.gt(0) & ~d.raw_unique_document).sum())}
     LOG["strict_key_915"]=stats(out)
     LOG["strict_key_by_system"]={f"{x}|{y}":stats(g) for (x,y),g in out.groupby(["season_name","crop_production_system"])}
     check("all_915_audited",len(out)==915)
