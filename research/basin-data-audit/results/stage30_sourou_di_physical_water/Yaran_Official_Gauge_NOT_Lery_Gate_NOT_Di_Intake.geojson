@@ -1,0 +1,28 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "warning": "Only Yaran hydrometric gauge with officially published coordinates. NO Lery gate/Di pump/field points inferred."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yaran hydrometric monitoring station",
+        "role": "reservoir_stage_not_scheme_pump",
+        "IRD": "1202702205",
+        "coordinate_source": "DGRE Synthese 2023 printed p.46",
+        "url": "https://dgre.gov.bf/documents/21/DOC_SYNT_2023_DEIE_vF.pdf",
+        "latitude_dms": "12°58′48.8″N",
+        "longitude_dms": "03°26′49.4″W",
+        "evidence": "PRIMARY_PUBLISHED_COORDS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.447055555555556,
+          12.980222222222222
+        ]
+      }
+    }
+  ]
+}
