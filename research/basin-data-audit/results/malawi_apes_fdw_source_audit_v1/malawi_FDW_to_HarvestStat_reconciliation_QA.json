@@ -1,0 +1,532 @@
+{
+  "run_utc": "2026-11-04T00:18:15.022094+00:00",
+  "status": "COMPARISON_PASS_WITH_SOURCE_LIMITS",
+  "source_urls": {
+    "fdw_release": "https://github.com/HarvestStat/HarvestStat-Africa/releases/download/v1.2/doi_10_5061_dryad_vq83bk42w__v20260717.zip",
+    "APES_dash": "https://raw.githubusercontent.com/MaxwellMkondiwa/Malawi_APES_Data_App/fbd5629f1200c3c18b615ad87c83297c2ed0bd75/docs/index.html"
+  },
+  "method": [
+    "Strict exact fnid+harvest_year+season_name+crop_production_system keys",
+    "No stitching Main/Rainfed with Annual/All; no inferred mapping of area planted to harvested",
+    "Raw FDW values are not independently measured APES data",
+    "Zero/missing and multiple candidate values remain distinct"
+  ],
+  "checks": {
+    "sha_source_bundle_v1.2.zip": {
+      "pass": true,
+      "detail": "2ff71261f39b207c0b9d5becaa9efce891cba035d80e0df0acadc7b9b190218f"
+    },
+    "one_fdwy_zip": {
+      "pass": true,
+      "detail": [
+        "fdw_raw_data_v1.2.zip"
+      ]
+    },
+    "fdw_raw_sha": {
+      "pass": true,
+      "detail": null
+    },
+    "one_raw_mw": {
+      "pass": true,
+      "detail": [
+        "adm_crop_data_raw_MW.csv"
+      ]
+    },
+    "pilot_915": {
+      "pass": true,
+      "detail": null
+    },
+    "pilot_uniqueness": {
+      "pass": true,
+      "detail": null
+    },
+    "raw_total": {
+      "pass": true,
+      "detail": null
+    },
+    "raw_unique_ids": {
+      "pass": true,
+      "detail": null
+    },
+    "fdw_maize_product_nonempty": {
+      "pass": true,
+      "detail": 5200
+    },
+    "raw_all_date_year_readable": {
+      "pass": true,
+      "detail": null
+    },
+    "all_915_audited": {
+      "pass": true,
+      "detail": null
+    },
+    "raw_key_count_not_bigger_than_whole_file": {
+      "pass": true,
+      "detail": null
+    },
+    "sha_mkondiwa_ap_es_2023.html": {
+      "pass": true,
+      "detail": "f27ecfcfeb2bf1d710ee9e45bc8ef93deee6bfb5299f7a9bbb61b32e04e06828"
+    }
+  },
+  "warnings": [],
+  "fdw_maize": {
+    "rows": 5200,
+    "record_status": {
+      "Collected": 5099,
+      "Not Available": 85,
+      "Not Collected": 16
+    },
+    "indicator_counts": {
+      "Area Planted": 1724,
+      "Quantity Produced": 1724,
+      "Yield": 1724,
+      "Area Harvested": 28
+    },
+    "source_document_counts": {
+      "Annual Production Estimate Survey, Malawi": 3312,
+      "FEWS NET Agro-Maps, Malawi": 1476,
+      "FAO Summary spreadsheet, Malawi": 294,
+      "Alt_DS_Annual Production Estimate Survey, Malawi": 118
+    },
+    "season_counts": "{('Annual', 'All (PS)'): 412, ('Main', 'Estate (PS)'): 780, ('Main', 'Rainfed (PS)'): 2823, ('Main', 'irrigated'): 3, ('Winter', 'irrigated'): 1182}",
+    "years": [
+      1983,
+      2024
+    ],
+    "publication_names": {
+      "FEWS NET Agro-Maps, Malawi": 1476,
+      "Ministry of Agriculture summary spreadsheet, 2024, Malawi": 300,
+      "Annual Production Estimate Survey, 2012-2013, Malawi": 228,
+      "Annual Production Estimate Survey, 2010-2011, Malawi": 228,
+      "Annual Production Estimate Survey, 2008-2009, Malawi": 225,
+      "Annual Production Estimate Survey, 2013-2014, Malawi": 222,
+      "Annual Production Estimate Survey, 2016-2017, Malawi": 222,
+      "Annual Production Estimate Survey, 2015-2016, Malawi": 219,
+      "Annual Production Estimate Survey, 2011-2012, Malawi": 219,
+      "Annual Production Estimate Survey, 2009-2010, Malawi": 219,
+      "Annual Production Estimate Survey, 2014-2015, Malawi": 213,
+      "Annual Production Estimate Survey, 2017-2018, Malawi": 204,
+      "Annual Production Estimate Survey, 2006-2007, Malawi": 201,
+      "Annual Production Estimate Survey, 2007-2008, Malawi": 201,
+      "Annual Production Estimate Survey, 2018-2019, Malawi": 201,
+      "Annual Production Estimate Survey, 2005-2006, Malawi": 183,
+      "Annual Production Estimate Survey, 2019-2020, Malawi": 180,
+      "MADD APES 2023-24 3rd round tabulation sheet": 112,
+      "Annual Production Estimate Survey, 2003-2004, Malawi": 75,
+      "Annual Production Estimate Survey, 2004-2005, Malawi": 72
+    },
+    "duplicate_same_full_key_indicator_count": 0
+  },
+  "strict_key_915": {
+    "rows": 915,
+    "raw_exact_key": 161,
+    "area_harvested_equal": 0,
+    "area_planted_equal": 161,
+    "production_equal": 161,
+    "yield_equal": 142,
+    "any_area_plus_production": 161,
+    "all_three": 142,
+    "multiple_document_sources": 0
+  },
+  "strict_key_by_system": {
+    "Annual|All (PS)": {
+      "rows": 103,
+      "raw_exact_key": 103,
+      "area_harvested_equal": 0,
+      "area_planted_equal": 103,
+      "production_equal": 103,
+      "yield_equal": 84,
+      "any_area_plus_production": 103,
+      "all_three": 84,
+      "multiple_document_sources": 0
+    },
+    "Main|Rainfed (PS)": {
+      "rows": 812,
+      "raw_exact_key": 58,
+      "area_harvested_equal": 0,
+      "area_planted_equal": 58,
+      "production_equal": 58,
+      "yield_equal": 58,
+      "any_area_plus_production": 58,
+      "all_three": 58,
+      "multiple_document_sources": 0
+    }
+  },
+  "year_shift_diagnostic_not_year_mapping": [
+    {
+      "nominal_source_year_minus_hs_year": -1,
+      "raw_pair_candidates": 105,
+      "equal_production": 1
+    },
+    {
+      "nominal_source_year_minus_hs_year": 0,
+      "raw_pair_candidates": 161,
+      "equal_production": 161
+    },
+    {
+      "nominal_source_year_minus_hs_year": 1,
+      "raw_pair_candidates": 126,
+      "equal_production": 1
+    }
+  ],
+  "apes_data_widgets": [
+    {
+      "id": "Region",
+      "json_bytes": 16912,
+      "root_keys": [
+        "map",
+        "group"
+      ],
+      "x_keys": []
+    },
+    {
+      "id": "DISTRICT",
+      "json_bytes": 17995,
+      "root_keys": [
+        "items",
+        "map",
+        "group"
+      ],
+      "x_keys": []
+    },
+    {
+      "id": "crop",
+      "json_bytes": 17269,
+      "root_keys": [
+        "items",
+        "map",
+        "group"
+      ],
+      "x_keys": []
+    },
+    {
+      "id": "year",
+      "json_bytes": 17212,
+      "root_keys": [
+        "items",
+        "map",
+        "group"
+      ],
+      "x_keys": []
+    },
+    {
+      "id": "htmlwidget-d65a289717b5c014b86e",
+      "json_bytes": 156798,
+      "root_keys": [
+        "x",
+        "evals",
+        "jsHooks"
+      ],
+      "x_keys": [
+        "crosstalkOptions",
+        "style",
+        "filter",
+        "vertical",
+        "filterHTML",
+        "extensions",
+        "fillContainer",
+        "data",
+        "container",
+        "options",
+        "selection"
+      ],
+      "data_type": "list",
+      "data_n": 8,
+      "data_sample": "[['Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka'"
+    },
+    {
+      "id": "htmlwidget-8464927548482d8800e7",
+      "json_bytes": 55130460,
+      "root_keys": [
+        "x",
+        "evals",
+        "jsHooks"
+      ],
+      "x_keys": [
+        "options",
+        "calls",
+        "limits"
+      ]
+    },
+    {
+      "id": "crop",
+      "json_bytes": 17269,
+      "root_keys": [
+        "items",
+        "map",
+        "group"
+      ],
+      "x_keys": []
+    },
+    {
+      "id": "year",
+      "json_bytes": 17212,
+      "root_keys": [
+        "items",
+        "map",
+        "group"
+      ],
+      "x_keys": []
+    },
+    {
+      "id": "htmlwidget-5b1135bdd174a42aee42",
+      "json_bytes": 152884,
+      "root_keys": [
+        "x",
+        "evals",
+        "jsHooks"
+      ],
+      "x_keys": [
+        "visdat",
+        "cur_data",
+        "attrs",
+        "layout",
+        "source",
+        "config",
+        "data",
+        "highlight",
+        "shinyEvents",
+        "base_url"
+      ],
+      "data_type": "list",
+      "data_n": 28,
+      "data_sample": "[{'x': [2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2001, 2001, 2001, 2001, 2001, 2001, 2001, 2001, 2002, 2002, 2002, 2002, 2002, 2002, 2002, 2002, 2003, 2003, 2003, 2003, 2003, 2003, 2003, 2003, 2004, 2004, 2004, 2004, 2004, 2004, 2004, 2004, 2005, 2005, 2005, 2005, 2005, 2005, 2005, 2005, 2006, 2006, 2006, 2006, 2006, 2006, 2006, 2006, 2007, 2007, 2007, 2007, 2007, 2007, "
+    },
+    {
+      "id": "htmlwidget-be6e99b691e8b4ee009b",
+      "json_bytes": 177101,
+      "root_keys": [
+        "x",
+        "evals",
+        "jsHooks"
+      ],
+      "x_keys": [
+        "visdat",
+        "cur_data",
+        "attrs",
+        "layout",
+        "source",
+        "config",
+        "data",
+        "highlight",
+        "shinyEvents",
+        "base_url"
+      ],
+      "data_type": "list",
+      "data_n": 28,
+      "data_sample": "[{'x': [2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2001, 2001, 2001, 2001, 2001, 2001, 2001, 2001, 2002, 2002, 2002, 2002, 2002, 2002, 2002, 2002, 2003, 2003, 2003, 2003, 2003, 2003, 2003, 2003, 2004, 2004, 2004, 2004, 2004, 2004, 2004, 2004, 2005, 2005, 2005, 2005, 2005, 2005, 2005, 2005, 2006, 2006, 2006, 2006, 2006, 2006, 2006, 2006, 2007, 2007, 2007, 2007, 2007, 2007, "
+    },
+    {
+      "id": "htmlwidget-a8c25618bd6b8ba6bbb3",
+      "json_bytes": 145037,
+      "root_keys": [
+        "x",
+        "evals",
+        "jsHooks"
+      ],
+      "x_keys": [
+        "visdat",
+        "cur_data",
+        "attrs",
+        "layout",
+        "source",
+        "config",
+        "data",
+        "highlight",
+        "shinyEvents",
+        "base_url"
+      ],
+      "data_type": "list",
+      "data_n": 8,
+      "data_sample": "[{'x': [2000, 2000, 2001, 2001, 2002, 2002, 2003, 2003, 2004, 2004, 2005, 2005, 2006, 2006, 2007, 2007, 2008, 2008, 2009, 2009, None, 2000, 2000, 2001, 2001, 2002, 2002, 2003, 2003, 2004, 2004, 2005, 2005, 2006, 2006, 2007, 2007, 2008, 2008, 2009, 2009, None, 2000, 2001, None, 2000, 2000, 2001, 2001, 2002, 2002, 2003, 2003, 2004, 2004, 2005, 2005, 2006, 2006, 2007, 2007, 2008, "
+    },
+    {
+      "id": "htmlwidget-5565e5542114d3f03cfb",
+      "json_bytes": 150176,
+      "root_keys": [
+        "x",
+        "evals",
+        "jsHooks"
+      ],
+      "x_keys": [
+        "visdat",
+        "cur_data",
+        "attrs",
+        "layout",
+        "source",
+        "config",
+        "data",
+        "highlight",
+        "shinyEvents",
+        "base_url"
+      ],
+      "data_type": "list",
+      "data_n": 8,
+      "data_sample": "[{'fillcolor': 'rgba(102,194,165,0.5)', 'y': [1745, 1600, 722, 705, 856, 823, 956, 1047, 1115, 1323, 1064, 1088, 486, 484, 681, 474, 1345, 1499, 1196, 1150, 763, 1551, 0, 2284, 2640, 2698, 2806, 2796, 3099, 5306, 5820, 2062, 2612.2, 3171, 3553, 3784, 3686, 3845, 7352, 8186, 2406, 2815, 11112, 10076, 16486, 14990, 11640, 11490, 11336, 12829, 11961, 12797, 7655, 7655, 3291, 4149,"
+    }
+  ],
+  "apes_dash_summary": {
+    "html_bytes": 56098740,
+    "age": "2023 snapshot, not a complete primary ministry APES archive",
+    "embedded_year_items_regex": "\"Balaka\", \"Blantyre\", \"Chikwawa\", \"Chiradzulu\", \"Chitipa\", \"Dedza\", \"Dowa\", \"Karonga\", \"Kasungu\", \"Likoma\", \"Lilongwe\", \"Machinga\", \"Mangochi\", \"Mchinji\", \"Mulanje\", \"Mwanza\", \"Mzimba\", \"Neno\", \"Nkhata Bay\", \"Nkhota kota\", \"Nsanje\", \"Ntcheu\", \"Ntchisi\", \"Phalombe\", \"Rumphi\", \"Salima\", \"Thyolo\", \"Zomba\"",
+    "widgets_json": 12,
+    "widget_top_sizes": [
+      {
+        "id": "htmlwidget-8464927548482d8800e7",
+        "json_bytes": 55130460,
+        "root_keys": [
+          "x",
+          "evals",
+          "jsHooks"
+        ],
+        "x_keys": [
+          "options",
+          "calls",
+          "limits"
+        ]
+      },
+      {
+        "id": "htmlwidget-be6e99b691e8b4ee009b",
+        "json_bytes": 177101,
+        "root_keys": [
+          "x",
+          "evals",
+          "jsHooks"
+        ],
+        "x_keys": [
+          "visdat",
+          "cur_data",
+          "attrs",
+          "layout",
+          "source",
+          "config",
+          "data",
+          "highlight",
+          "shinyEvents",
+          "base_url"
+        ],
+        "data_type": "list",
+        "data_n": 28,
+        "data_sample": "[{'x': [2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2001, 2001, 2001, 2001, 2001, 2001, 2001, 2001, 2002, 2002, 2002, 2002, 2002, 2002, 2002, 2002, 2003, 2003, 2003, 2003, 2003, 2003, 2003, 2003, 2004, 2004, 2004, 2004, 2004, 2004, 2004, 2004, 2005, 2005, 2005, 2005, 2005, 2005, 2005, 2005, 2006, 2006, 2006, 2006, 2006, 2006, 2006, 2006, 2007, 2007, 2007, 2007, 2007, 2007, "
+      },
+      {
+        "id": "htmlwidget-d65a289717b5c014b86e",
+        "json_bytes": 156798,
+        "root_keys": [
+          "x",
+          "evals",
+          "jsHooks"
+        ],
+        "x_keys": [
+          "crosstalkOptions",
+          "style",
+          "filter",
+          "vertical",
+          "filterHTML",
+          "extensions",
+          "fillContainer",
+          "data",
+          "container",
+          "options",
+          "selection"
+        ],
+        "data_type": "list",
+        "data_n": 8,
+        "data_sample": "[['Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka', 'Balaka'"
+      },
+      {
+        "id": "htmlwidget-5b1135bdd174a42aee42",
+        "json_bytes": 152884,
+        "root_keys": [
+          "x",
+          "evals",
+          "jsHooks"
+        ],
+        "x_keys": [
+          "visdat",
+          "cur_data",
+          "attrs",
+          "layout",
+          "source",
+          "config",
+          "data",
+          "highlight",
+          "shinyEvents",
+          "base_url"
+        ],
+        "data_type": "list",
+        "data_n": 28,
+        "data_sample": "[{'x': [2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2001, 2001, 2001, 2001, 2001, 2001, 2001, 2001, 2002, 2002, 2002, 2002, 2002, 2002, 2002, 2002, 2003, 2003, 2003, 2003, 2003, 2003, 2003, 2003, 2004, 2004, 2004, 2004, 2004, 2004, 2004, 2004, 2005, 2005, 2005, 2005, 2005, 2005, 2005, 2005, 2006, 2006, 2006, 2006, 2006, 2006, 2006, 2006, 2007, 2007, 2007, 2007, 2007, 2007, "
+      },
+      {
+        "id": "htmlwidget-5565e5542114d3f03cfb",
+        "json_bytes": 150176,
+        "root_keys": [
+          "x",
+          "evals",
+          "jsHooks"
+        ],
+        "x_keys": [
+          "visdat",
+          "cur_data",
+          "attrs",
+          "layout",
+          "source",
+          "config",
+          "data",
+          "highlight",
+          "shinyEvents",
+          "base_url"
+        ],
+        "data_type": "list",
+        "data_n": 8,
+        "data_sample": "[{'fillcolor': 'rgba(102,194,165,0.5)', 'y': [1745, 1600, 722, 705, 856, 823, 956, 1047, 1115, 1323, 1064, 1088, 486, 484, 681, 474, 1345, 1499, 1196, 1150, 763, 1551, 0, 2284, 2640, 2698, 2806, 2796, 3099, 5306, 5820, 2062, 2612.2, 3171, 3553, 3784, 3686, 3845, 7352, 8186, 2406, 2815, 11112, 10076, 16486, 14990, 11640, 11490, 11336, 12829, 11961, 12797, 7655, 7655, 3291, 4149,"
+      },
+      {
+        "id": "htmlwidget-a8c25618bd6b8ba6bbb3",
+        "json_bytes": 145037,
+        "root_keys": [
+          "x",
+          "evals",
+          "jsHooks"
+        ],
+        "x_keys": [
+          "visdat",
+          "cur_data",
+          "attrs",
+          "layout",
+          "source",
+          "config",
+          "data",
+          "highlight",
+          "shinyEvents",
+          "base_url"
+        ],
+        "data_type": "list",
+        "data_n": 8,
+        "data_sample": "[{'x': [2000, 2000, 2001, 2001, 2002, 2002, 2003, 2003, 2004, 2004, 2005, 2005, 2006, 2006, 2007, 2007, 2008, 2008, 2009, 2009, None, 2000, 2000, 2001, 2001, 2002, 2002, 2003, 2003, 2004, 2004, 2005, 2005, 2006, 2006, 2007, 2007, 2008, 2008, 2009, 2009, None, 2000, 2001, None, 2000, 2000, 2001, 2001, 2002, 2002, 2003, 2003, 2004, 2004, 2005, 2005, 2006, 2006, 2007, 2007, 2008, "
+      },
+      {
+        "id": "DISTRICT",
+        "json_bytes": 17995,
+        "root_keys": [
+          "items",
+          "map",
+          "group"
+        ],
+        "x_keys": []
+      },
+      {
+        "id": "crop",
+        "json_bytes": 17269,
+        "root_keys": [
+          "items",
+          "map",
+          "group"
+        ],
+        "x_keys": []
+      }
+    ]
+  }
+}
