@@ -1,0 +1,32 @@
+{
+  "utc": "2026-11-04T14:28:33.168626+00:00",
+  "status": "OSM_NOT_ACCESSIBLE",
+  "scope": {
+    "di_commune_locator_lat": 13.169,
+    "lon": -3.415,
+    "source": "openadmindata.org Di commune BF610301",
+    "radius_km": 22,
+    "not_actual_di_scheme_boundary": true
+  },
+  "sources": [
+    "https://overpass.kumi.systems/api/interpreter",
+    "https://overpass-api.de/api/interpreter"
+  ],
+  "cautions": [
+    "OSM search is crowdsourced and may miss pumps not mapped; zero results does not prove absence",
+    "OSM tagging near Di does not establish identity with MCC seven 2014 as-built pumps",
+    "No latlon of pumping station may be asserted to be verified by primary engineering records",
+    "Official SCET design includes GIS but unpublished asbuilt spatial source"
+  ],
+  "attempts": [
+    {
+      "endpoint": "https://overpass.kumi.systems/api/interpreter",
+      "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='overpass.kumi.systems', port=443): Read timed out. (read timeout=60)\"))"
+    },
+    {
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "status_code": 502,
+      "size": 534
+    }
+  ]
+}
