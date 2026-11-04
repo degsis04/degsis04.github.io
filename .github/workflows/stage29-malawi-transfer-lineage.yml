@@ -1,0 +1,40 @@
+name: Stage29 Malawi effective historical weights and research geometry gate
+on:
+  push:
+    paths:
+      - 'research/basin-data-audit/scripts/stage29_effective_transfer_source_lineage_v1.py'
+      - '.github/workflows/stage29-malawi-transfer-lineage.yml'
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'research/basin-data-audit/scripts/stage29_effective_transfer_source_lineage_v1.py'
+      - '.github/workflows/stage29-malawi-transfer-lineage.yml'
+permissions:
+  contents: write
+jobs:
+  research-lineage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install 'numpy>=1.26,<3' 'pandas>=2.2,<3'
+      - name: Check effective transfer ratios vs original admin reconstruction caveats
+        run: python research/basin-data-audit/scripts/stage29_effective_transfer_source_lineage_v1.py
+      - name: Commit derived QA and source caveats
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/basin-data-audit/results/stage29_admin_lineage_design_gate/
+          if ! git diff --cached --quiet; then
+            git commit -m 'stage29 source QA: effective admin-transfer ratios, not PBR/CBR weights'
+            for retry in 1 2 3 4; do git pull --rebase && git push && break || sleep 5; done
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: stage29-malawi-source-lineage-geometry-gate
+          path: research/basin-data-audit/results/stage29_admin_lineage_design_gate/
