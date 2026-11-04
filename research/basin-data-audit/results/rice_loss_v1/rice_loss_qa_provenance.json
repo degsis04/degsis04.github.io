@@ -1,0 +1,28 @@
+{
+  "utc_created": "2026-11-04T15:13:00.817341+00:00",
+  "input_url": "https://raw.githubusercontent.com/HarvestStat/HarvestStat-Africa/5b62fb5/public/hvstat_africa_data_v1.2.csv",
+  "input_sha256": "f659e121e315b9d8656699e4b16421ed3b313e4c8d09d15199452000836dbef9",
+  "expected_sha256": "f659e121e315b9d8656699e4b16421ed3b313e4c8d09d15199452000836dbef9",
+  "input_total_rows": 217487,
+  "input_selected_rice_rows": 114,
+  "selection": {
+    "OFFICE_DU_NIGER_SEGOu": "ML2016A104",
+    "MALANVILLE": "BJ2015A20705",
+    "SOUROU_NIASSAN": "BF2020A24606"
+  },
+  "case_raw_counts": {
+    "SOUROU_NIASSAN": 45,
+    "MALANVILLE": 29,
+    "OFFICE_DU_NIGER_SEGOu": 40
+  },
+  "n_strata": 6,
+  "n_duplicate_excluded_rows": 0,
+  "n_indicators_calculated": 91,
+  "n_qc_valid": 111,
+  "reference_definition": "Median of yield for SAME fnid x crop x season_name x production system over prior five CALENDAR harvest years; at least 3 complete QC-valid years.",
+  "production_shortfall_definition": "max(0, (rolling historical median yield - current yield)*current observed area). Descriptive conditional benchmark, not actual drought-caused tonnage; not scheme-specific.",
+  "qa_two_median_algorithms": "PASS",
+  "qa_two_tonnage_algorithms": "PASS",
+  "qa_max_tonnage_abs_difference_t": 1.1641532182693481e-10,
+  "not_permitted": "No causal claim for treaty, river low-flow, irrigation water delivery, Di/Niassan, Office du Niger plots or Malanville plot; do not splice production systems or sum annual deficits as losses attributable to drought."
+}

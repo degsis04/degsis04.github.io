@@ -1,0 +1,7 @@
+case,fnid,season,system,n_raw,n_qc_valid,n_qc_excluded,first_year,last_year,n_baseline_eligible,n_yield_below_reference,mean_yield_shortfall_pct_all_eligible,sum_conditional_gap_t_not_causal,irrigation_identification,historical_baseline_interpretation
+MALANVILLE,BJ2015A20705,Annual,All (PS),29,29,0,1995,2023,26,9,6.87,30440.95,aggregate/unknown; not a scheme-specific irrigated outcome,"rolling median (prior 5 calendar years, >=3); NOT no-shock counterfactual"
+OFFICE_DU_NIGER_SEGOu,ML2016A104,Main,All (PS),40,39,1,1982,2022,36,10,4.3898,1789583.64,aggregate/unknown; not a scheme-specific irrigated outcome,"rolling median (prior 5 calendar years, >=3); NOT no-shock counterfactual"
+SOUROU_NIASSAN,BF2020A24606,Annual,Plaine/Bas-fond irrigated (PS),9,9,0,2015,2023,6,3,7.9042,4832.55,explicit broad irrigated statistical system; NOT scheme-specific,"rolling median (prior 5 calendar years, >=3); NOT no-shock counterfactual"
+SOUROU_NIASSAN,BF2020A24606,Main,All (PS),27,26,1,1984,2014,20,6,11.6322,9535.76,aggregate/unknown; not a scheme-specific irrigated outcome,"rolling median (prior 5 calendar years, >=3); NOT no-shock counterfactual"
+SOUROU_NIASSAN,BF2020A24606,Main,Bas-fonds rainfed (PS),7,6,1,2016,2022,3,1,19.101,3997.35,aggregate/unknown; not a scheme-specific irrigated outcome,"rolling median (prior 5 calendar years, >=3); NOT no-shock counterfactual"
+SOUROU_NIASSAN,BF2020A24606,Main,Rainfed (PS),2,2,0,2020,2021,0,0,,,aggregate/unknown; not a scheme-specific irrigated outcome,"rolling median (prior 5 calendar years, >=3); NOT no-shock counterfactual"
