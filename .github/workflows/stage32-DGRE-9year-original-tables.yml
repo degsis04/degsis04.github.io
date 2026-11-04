@@ -1,0 +1,39 @@
+name: Stage32 DGRE 2015-2023 original table chronology and crop overlap QA
+on:
+  push:
+    paths:
+      - 'research/basin-data-audit/scripts/stage32_dgre_9year_manual_table_source_gate.py'
+      - '.github/workflows/stage32-DGRE-9year-original-tables.yml'
+  pull_request:
+    paths:
+      - 'research/basin-data-audit/scripts/stage32_dgre_9year_manual_table_source_gate.py'
+      - '.github/workflows/stage32-DGRE-9year-original-tables.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  source-chronology:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Audit DGRE source tables and reconstruct year boundaries
+        run: python research/basin-data-audit/scripts/stage32_dgre_9year_manual_table_source_gate.py
+      - name: Preserve transparent source QA
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/basin-data-audit/results/stage32_sourou_real_hydrology/
+          if ! git diff --cached --quiet; then
+            git commit -m 'stage32 DGRE: nine source-verified years and year-boundary conflicts'
+            for retry in 1 2 3 4; do git pull --rebase && git push && break || sleep 5; done
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: stage32-DGRE-9-year-source-chronology
+          path: research/basin-data-audit/results/stage32_sourou_real_hydrology/
