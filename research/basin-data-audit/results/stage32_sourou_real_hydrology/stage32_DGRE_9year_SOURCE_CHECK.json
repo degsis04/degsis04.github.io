@@ -1,0 +1,178 @@
+{
+  "status": "PASS_9YR_SOURCE_TABLES_WITH_CONFLICTS",
+  "utc": "2026-11-04T14:22:06.393299+00:00",
+  "data_type": "DGRE table-transcribed reservoir STORAGE, not actual scheme intake Q",
+  "checks": {
+    "nine_province_2015_2023": {
+      "pass": true,
+      "details": null
+    },
+    "each_year_min_below_max_2015": {
+      "pass": true,
+      "details": null
+    },
+    "nonnegative_days_2015": {
+      "pass": true,
+      "details": null
+    },
+    "each_year_min_below_max_2016": {
+      "pass": true,
+      "details": null
+    },
+    "nonnegative_days_2016": {
+      "pass": true,
+      "details": null
+    },
+    "each_year_min_below_max_2017": {
+      "pass": true,
+      "details": null
+    },
+    "nonnegative_days_2017": {
+      "pass": true,
+      "details": null
+    },
+    "each_year_min_below_max_2018": {
+      "pass": true,
+      "details": null
+    },
+    "nonnegative_days_2018": {
+      "pass": true,
+      "details": null
+    },
+    "each_year_min_below_max_2019": {
+      "pass": true,
+      "details": null
+    },
+    "nonnegative_days_2019": {
+      "pass": true,
+      "details": null
+    },
+    "each_year_min_below_max_2020": {
+      "pass": true,
+      "details": null
+    },
+    "nonnegative_days_2020": {
+      "pass": true,
+      "details": null
+    },
+    "each_year_min_below_max_2021": {
+      "pass": true,
+      "details": null
+    },
+    "nonnegative_days_2021": {
+      "pass": true,
+      "details": null
+    },
+    "each_year_min_below_max_2022": {
+      "pass": true,
+      "details": null
+    },
+    "nonnegative_days_2022": {
+      "pass": true,
+      "details": null
+    },
+    "each_year_min_below_max_2023": {
+      "pass": true,
+      "details": null
+    },
+    "nonnegative_days_2023": {
+      "pass": true,
+      "details": null
+    },
+    "years_unique_and_complete": {
+      "pass": true,
+      "details": null
+    },
+    "reported_2021_to_2022_gap_large": {
+      "pass": true,
+      "details": {
+        "boundary": "2021-12-31 -> 2022-01-01",
+        "year_left": 2021,
+        "year_right": 2022,
+        "previous_end_Mm3": 580.0,
+        "next_start_Mm3": 511.0,
+        "reported_difference_Mm3": -69.0,
+        "flag_over_10_Mm3": true,
+        "meaning": "unreconciled cross-source and/or storage-conversion gap, not measured discharge"
+      }
+    },
+    "2015_2016_report_internal_gap_over_5": {
+      "pass": true,
+      "details": null
+    },
+    "2017_2018_gap_six": {
+      "pass": true,
+      "details": null
+    },
+    "2022_2023_continuity": {
+      "pass": true,
+      "details": null
+    },
+    "2021_contemporaneous_min": {
+      "pass": true,
+      "details": null
+    },
+    "2022_retrospective_conflicts_2021_contemporary_min": {
+      "pass": true,
+      "details": null
+    }
+  },
+  "sources": {
+    "2016": "https://dgre.gov.bf/documents/9/Document_synth%C3%A8se_du_suivi_des_ressources_en_eau_de_2016_VF.pdf",
+    "2017": "https://dgre.gov.bf/documents/10/Document_synth%C3%A8se_du_suivi_des_ressources_en_eau_de_2017_NMNC_06_02_2019_vf.pdf",
+    "2019": "https://dgre.gov.bf/documents/18/Document_ynth%C3%A8se_Ouaga_03_10_2020vf_1.pdf",
+    "2021": "https://dgre.gov.bf/documents/19/Synth%C3%A8se_annuelle_ressources_2021.pdf",
+    "2022": "https://dgre.gov.bf/documents/20/DOC_SYNT_2022_VF.pdf",
+    "2023": "https://dgre.gov.bf/documents/21/DOC_SYNT_2023_DEIE_vF.pdf",
+    "2024Jan": "https://dgre.gov.bf/documents/6/Bulletin_Janvier_2024_Vf.pdf"
+  },
+  "critical_source_conflicts": [
+    "Retrospective DGRE 2022 Table 12 reports 2021 min 117 with 2020 minimum date; contemporaneous DGRE 2021 Table 1-9 reports 2021 min 105, dated 21/06/2021",
+    "2021 Dec 31 storage 580 vs 2022 Jan 1 storage 511.462 from Jan2024 bulletin, unresolved ~68.5 Mm3 gap",
+    "2023 Dec31 storage 668 vs 2024 Jan1 585.339 from Jan2024 bulletin, unresolved ~82.7 Mm3 gap",
+    "Yearly stored reservoir volume is NOT Di pump actual m3, no route-based release allocation known",
+    "Possible use of varying height-volume curve / storage percentage capacity 608 vs 603 requires independent DGRE records",
+    "No institutional treatment and no causal inference permitted with nine province-level matched outcome years"
+  ],
+  "retrospective_2022_2021_conflicting_minimum": {
+    "2021_edition_2021_min_Mm3": 105,
+    "2022_edition_2021_min_Mm3": 117,
+    "possible_2020_row_repeat": true,
+    "decision": "USE contemporaneous 2021 report as baseline, retain 117 as an alternate unresolved value"
+  },
+  "year_boundary_jumps_over_10": [
+    {
+      "boundary": "2021-12-31 -> 2022-01-01",
+      "year_left": 2021,
+      "year_right": 2022,
+      "previous_end_Mm3": 580.0,
+      "next_start_Mm3": 511.0,
+      "reported_difference_Mm3": -69.0,
+      "flag_over_10_Mm3": true,
+      "meaning": "unreconciled cross-source and/or storage-conversion gap, not measured discharge"
+    }
+  ],
+  "report_scope": {
+    "source_report_years": [
+      2016,
+      2017,
+      2019,
+      2021,
+      2022,
+      2023
+    ],
+    "data_years": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "unmeasured_2015_to_2023_daily_stage_or_pump_flows": true,
+    "Sourou_2015_2023_rice_matches_year_label_only": 9
+  }
+}
