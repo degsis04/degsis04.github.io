@@ -1,0 +1,44 @@
+name: Stage32 real FAO WaPOR ODN 20m annual AETI original raster pilot
+on:
+  push:
+    paths:
+      - '.github/workflows/stage32-real-WaPOR-ODN-rasters.yml'
+      - 'research/basin-data-audit/scripts/stage32_wapor_ODN_real_original_rasters.py'
+  pull_request:
+    paths:
+      - '.github/workflows/stage32-real-WaPOR-ODN-rasters.yml'
+      - 'research/basin-data-audit/scripts/stage32_wapor_ODN_real_original_rasters.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  real-fao-pixels:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install raster reader and requests
+        run: pip install 'numpy>=1.26,<3' 'rasterio>=1.3,<2' 'requests>=2.31,<3'
+      - name: Retrieve FAO ORIGINAL annual WaPOR ODN TIFs and compute real spatial pixel QA
+        run: python research/basin-data-audit/scripts/stage32_wapor_ODN_real_original_rasters.py
+      - name: Preserve full audit even when data access fails
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/basin-data-audit/results/stage32_wapor_odon_real_rasters/
+          if ! git diff --cached --quiet; then
+            git commit -m 'stage32 raster QA: original FAO WaPOR ODN, pixel-level provenance, gaps'
+            for retry in 1 2 3 4 5; do
+              git pull --rebase && git push && break || sleep 5
+            done
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: stage32-fao-ODN-real-TIFF-pixel-QA
+          path: research/basin-data-audit/results/stage32_wapor_odon_real_rasters/
+          if-no-files-found: warn

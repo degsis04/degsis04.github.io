@@ -1,0 +1,18 @@
+{
+  "workspaceCode": "WAPOR-3",
+  "mosaicsetCode": "L3-AETI-A",
+  "code": "WAPOR-3.L3-AETI-A.ODN.2022",
+  "gridTile": {
+    "workspaceCode": "WAPOR-3",
+    "gridCode": "L3-GRID",
+    "code": "ODN"
+  },
+  "dimensionMembers": [
+    {
+      "workspaceCode": "SHARED",
+      "dimensionCode": "YEAR",
+      "code": "2022"
+    }
+  ],
+  "styleCode": null
+}

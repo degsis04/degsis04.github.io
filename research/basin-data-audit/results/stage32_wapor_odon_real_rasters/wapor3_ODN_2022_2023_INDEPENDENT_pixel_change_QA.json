@@ -1,0 +1,82 @@
+{
+  "time_utc": "2026-11-04T14:26:11.418011+00:00",
+  "status": "PASS_PIXELWISE_INDEPENDENT",
+  "checks": {
+    "same_original_SHA_2022": {
+      "pass": true,
+      "details": "79630cf7f168ad2e860b3495a7f61539d9c8fda391b8d2a6a5598abbc722d3c0"
+    },
+    "same_original_SHA_2023": {
+      "pass": true,
+      "details": "022b6857a1904aa6f691778943d27961defe77623a34ea4df3358fcb1bd69abf"
+    },
+    "same_crs": {
+      "pass": true,
+      "details": null
+    },
+    "same_geo_grid": {
+      "pass": true,
+      "details": null
+    },
+    "raster_scale_0_1": {
+      "pass": true,
+      "details": null
+    },
+    "common_n": {
+      "pass": true,
+      "details": 2462098
+    },
+    "mask_unchanged_2years": {
+      "pass": true,
+      "details": null
+    },
+    "scaled_mean_reproduces_prior_2022": {
+      "pass": true,
+      "details": 1097.1952211894086
+    },
+    "scaled_mean_reproduces_prior_2023": {
+      "pass": true,
+      "details": 1224.7875707628211
+    },
+    "percent_independent_from_means": {
+      "pass": true,
+      "details": 11.628956006124124
+    },
+    "diff_identity": {
+      "pass": true,
+      "details": null
+    },
+    "proportion_sums_one": {
+      "pass": true,
+      "details": null
+    }
+  },
+  "warning": "2,462,098 spatial pixels are not independent causal replicates; ODN valid-data region is not identified paddy/irrigation command polygon",
+  "year2022_2023": {
+    "source_years": [
+      2022,
+      2023
+    ],
+    "unit": "mm/year scaled original FAO product",
+    "full_valid_source_mask_Not_rice_polygon": true,
+    "pixel_area_m2": 400,
+    "common_valid_pixels": 2462098,
+    "product_valid_footprint_km2": 984.8392,
+    "2022_mean_mm_year": 1097.1952211894086,
+    "2023_mean_mm_year": 1224.7875707628211,
+    "change_mean_mm_year": 127.59234957341262,
+    "change_percent_on_region_mean": 11.628956006124124,
+    "pixel_change_median_mm_year": 116.0,
+    "pixel_change_p10_mm_year": -57.299999999999955,
+    "pixel_change_p90_mm_year": 332.60000000000014,
+    "pixel_share_positive_change": 0.8138270694342792,
+    "pixel_share_negative_change": 0.1859544177364183,
+    "pixel_share_exactly_zero": 0.00021851282930248917,
+    "pixel_change_std": 173.16373763249075,
+    "pixel_change_min": -1299.0000000000002,
+    "pixel_change_max": 1688.5,
+    "source_2022_SHA256": "79630cf7f168ad2e860b3495a7f61539d9c8fda391b8d2a6a5598abbc722d3c0",
+    "source_2023_SHA256": "022b6857a1904aa6f691778943d27961defe77623a34ea4df3358fcb1bd69abf",
+    "interpretation": "Actual ET+I total for valid product footprint, NOT river abstraction, NOT rice-crop-only"
+  }
+}

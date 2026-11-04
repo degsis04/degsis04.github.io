@@ -1,0 +1,9 @@
+boundary,year_left,year_right,previous_end_Mm3,next_start_Mm3,reported_difference_Mm3,flag_over_10_Mm3,meaning
+2015-12-31 -> 2016-01-01,2015,2016,528.43,522.79,-5.639999999999986,False,"unreconciled cross-source and/or storage-conversion gap, not measured discharge"
+2016-12-31 -> 2017-01-01,2016,2017,440.35,432.0,-8.350000000000023,False,"unreconciled cross-source and/or storage-conversion gap, not measured discharge"
+2017-12-31 -> 2018-01-01,2017,2018,333.0,327.0,-6.0,False,"unreconciled cross-source and/or storage-conversion gap, not measured discharge"
+2018-12-31 -> 2019-01-01,2018,2019,618.0,618.0,0.0,False,"unreconciled cross-source and/or storage-conversion gap, not measured discharge"
+2019-12-31 -> 2020-01-01,2019,2020,511.0,506.0,-5.0,False,"unreconciled cross-source and/or storage-conversion gap, not measured discharge"
+2020-12-31 -> 2021-01-01,2020,2021,613.0,608.0,-5.0,False,"unreconciled cross-source and/or storage-conversion gap, not measured discharge"
+2021-12-31 -> 2022-01-01,2021,2022,580.0,511.0,-69.0,True,"unreconciled cross-source and/or storage-conversion gap, not measured discharge"
+2022-12-31 -> 2023-01-01,2022,2023,717.0,717.0,0.0,False,"unreconciled cross-source and/or storage-conversion gap, not measured discharge"
