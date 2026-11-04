@@ -1,0 +1,34 @@
+name: Stage32 bounded OSM Di pump/canal candidate discovery nonverification
+on:
+  push:
+    paths:
+      - 'research/basin-data-audit/scripts/stage32_OSM_Di_pump_canal_candidate_gate.py'
+      - '.github/workflows/stage32-OSM-Di-pump-candidate.yml'
+  pull_request:
+    paths:
+      - 'research/basin-data-audit/scripts/stage32_OSM_Di_pump_canal_candidate_gate.py'
+      - '.github/workflows/stage32-OSM-Di-pump-candidate.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  bounded-osm:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install 'requests>=2.31,<3'
+      - run: python research/basin-data-audit/scripts/stage32_OSM_Di_pump_canal_candidate_gate.py
+      - name: Save warning-rich GIS candidate provenance and network limits
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/basin-data-audit/results/stage32_sourou_real_hydrology/
+          if ! git diff --cached --quiet; then
+            git commit -m 'stage32 GIS: bounded OSM candidate search, without invented verified Di pumps'
+            for try in 1 2 3; do git pull --rebase && git push && break || sleep 4; done
+          fi
