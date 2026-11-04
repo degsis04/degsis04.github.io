@@ -1,0 +1,149 @@
+{
+  "run_utc": "2026-11-04T14:58:36.859642+00:00",
+  "status": "PUBLIC_SOURCE_LINK_BUT_NO_VERIFIED_EXPORT",
+  "public_workbook_url": "https://public.tableau.com/views/IWMI_IPADT_Dashboard_20240320/Overview",
+  "endpoints": [
+    {
+      "name": "profile",
+      "url": "https://public.tableau.com/app/profile/water.eleaf/viz/IWMI_IPADT_Dashboard_20240320/Overview",
+      "status_code": 200,
+      "url_final": "https://public.tableau.com/app/profile/water.eleaf/viz/IWMI_IPADT_Dashboard_20240320/Overview",
+      "content_type": "text/html; charset=utf-8",
+      "content_disposition": "",
+      "length_header": null,
+      "bytes_received": 2385,
+      "sha256_partial_if_capped": "e3784c7fdc77748f7f9233772a361123d25c538f8d58e901237b924b440d5357",
+      "body_first100": "<!DOCTYPE html><html lang=en><head><script id=AwsWAFScript src=https://c17315bd03da.edge.captcha-sdk",
+      "signal_counts": {
+        "worksheet": 0,
+        "dashboard": 0,
+        "Zone": 0,
+        "Casier": 0,
+        "casiers": 0,
+        "volumes": 0,
+        "irrigation": 0,
+        "water supplied": 0,
+        "tableauSoftware": 0,
+        "vizql": 0
+      },
+      "viz_id_examples": [
+        "sheet"
+      ],
+      "html_document_verified": true
+    },
+    {
+      "name": "view_html",
+      "url": "https://public.tableau.com/views/IWMI_IPADT_Dashboard_20240320/Overview?:showVizHome=no",
+      "status_code": 200,
+      "url_final": "https://public.tableau.com/views/IWMI_IPADT_Dashboard_20240320/Overview?:showVizHome=no",
+      "content_type": "text/html;charset=utf-8",
+      "content_disposition": "",
+      "length_header": null,
+      "bytes_received": 6765,
+      "sha256_partial_if_capped": "90f2ea28290348891a359f9abaaf86b3fd9203efb6f1487435159d106c7c4a6e",
+      "body_first100": "<!DOCTYPE html>\n<html>\n<head>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"Expires\" content=\"T",
+      "signal_counts": {
+        "worksheet": 0,
+        "dashboard": 0,
+        "Zone": 0,
+        "Casier": 0,
+        "casiers": 0,
+        "volumes": 0,
+        "irrigation": 0,
+        "water supplied": 0,
+        "tableauSoftware": 0,
+        "vizql": 5
+      },
+      "viz_id_examples": [
+        "sheet"
+      ],
+      "html_document_verified": true
+    },
+    {
+      "name": "dashboard_csv",
+      "url": "https://public.tableau.com/views/IWMI_IPADT_Dashboard_20240320/Overview.csv?:showVizHome=no",
+      "status_code": 404,
+      "url_final": "https://public.tableau.com/views/IWMI_IPADT_Dashboard_20240320/Overview.csv?:showVizHome=no",
+      "content_type": "application/json;charset=UTF-8",
+      "content_disposition": "",
+      "length_header": null,
+      "bytes_received": 382,
+      "sha256_partial_if_capped": "2ab1bed9401bb85091671d50cd7e59b07e6ef216457cddae2ba75b637845d02b",
+      "body_first100": "\r\n{\"timeStamp\":\"2026-11-04 14:58:37.404\",\"errorResponseType\":\"Generic\",\"requestString\":\"<p class=\\\"T",
+      "signal_counts": {
+        "worksheet": 0,
+        "dashboard": 0,
+        "Zone": 0,
+        "Casier": 0,
+        "casiers": 0,
+        "volumes": 0,
+        "irrigation": 0,
+        "water supplied": 0,
+        "tableauSoftware": 0,
+        "vizql": 0
+      },
+      "viz_id_examples": []
+    },
+    {
+      "name": "dashboard_xlsx",
+      "url": "https://public.tableau.com/views/IWMI_IPADT_Dashboard_20240320/Overview.xlsx?:showVizHome=no",
+      "status_code": 404,
+      "url_final": "https://public.tableau.com/views/IWMI_IPADT_Dashboard_20240320/Overview.xlsx?:showVizHome=no",
+      "content_type": "text/html; charset=utf-8",
+      "content_disposition": "",
+      "length_header": null,
+      "bytes_received": 146,
+      "sha256_partial_if_capped": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0",
+      "body_first100": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n",
+      "signal_counts": {
+        "worksheet": 0,
+        "dashboard": 0,
+        "Zone": 0,
+        "Casier": 0,
+        "casiers": 0,
+        "volumes": 0,
+        "irrigation": 0,
+        "water supplied": 0,
+        "tableauSoftware": 0,
+        "vizql": 0
+      },
+      "viz_id_examples": []
+    },
+    {
+      "name": "twbx",
+      "url": "https://public.tableau.com/views/IWMI_IPADT_Dashboard_20240320/Overview.twbx?:showVizHome=no",
+      "status_code": 404,
+      "url_final": "https://public.tableau.com/views/IWMI_IPADT_Dashboard_20240320/Overview.twbx?:showVizHome=no",
+      "content_type": "text/html; charset=utf-8",
+      "content_disposition": "",
+      "length_header": null,
+      "bytes_received": 146,
+      "sha256_partial_if_capped": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0",
+      "body_first100": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n",
+      "signal_counts": {
+        "worksheet": 0,
+        "dashboard": 0,
+        "Zone": 0,
+        "Casier": 0,
+        "casiers": 0,
+        "volumes": 0,
+        "irrigation": 0,
+        "water supplied": 0,
+        "tableauSoftware": 0,
+        "vizql": 0
+      },
+      "viz_id_examples": []
+    }
+  ],
+  "limitations": [
+    "HTTP 200 from a Tableau page is NOT access to underlying zone, casier, or in-situ volumes",
+    "A dashboard-level export may not expose data sheets; one sheet cannot represent all 11 indicators",
+    "Tableau may have access restrictions even though FAO links public beta",
+    "Unique labels and polygons must have original source mapping/metadata before WaPOR spatial overlap",
+    "In-situ water diversion is distinct from WaPOR evapotranspiration and published screenshot values",
+    "Do not infer measured irrigation water volumes from percentage or chart graphics"
+  ],
+  "public_machine_readable_tables_found": 0,
+  "verified_in_situ_water_flow_records_count": 0,
+  "actual_individual_casier_polygon_count": 0
+}
