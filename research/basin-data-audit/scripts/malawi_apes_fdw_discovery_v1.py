@@ -57,7 +57,7 @@ try:
         LOG["malawi_raw"].update({"rows":len(d),"columns":list(d.columns),
           "row_keys_sample_types":{c:str(d[c].dtype) for c in d.columns},
           "mild_metadata_counts":small_counts(d,[c for c in d if any(s in c.lower() for s in ["crop","product","season","source","survey","system"]) and d[c].nunique()<60])})
-        LOG["malawi_raw"]["first_3_rows"]=d.head(3).replace({pd.NA:None}).where(pd.notna(d.head(3)),None).to_dict("records")
+        LOG["malawi_raw"]["first_3_rows"]=json.loads(d.head(3).to_json(orient="records"))
     a=download(APES,TMP/"mkondiwa_apes_2023_static_dashboard.html")
     # Published data embedded in pre-rendered HTML and plot crosstalk.
     bs=a.read_bytes()
