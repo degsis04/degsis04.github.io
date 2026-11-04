@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "utc": "2026-11-04T11:06:31.607147+00:00",
+  "checks": {
+    "model_812": {
+      "pass": true,
+      "info": null
+    },
+    "metadata_16": {
+      "pass": true,
+      "info": null
+    },
+    "strict16_584": {
+      "pass": true,
+      "info": null
+    },
+    "10_low_districts": {
+      "pass": true,
+      "info": null
+    },
+    "5_scalar_districts": {
+      "pass": true,
+      "info": null
+    },
+    "baseline_beta_reproduce": {
+      "pass": true,
+      "info": null
+    }
+  },
+  "limitations": [
+    "Removing districts alters climate mix and sample composition; not a randomized intervention",
+    "10 independent district IDs is too few for precise large-sample cluster inference",
+    "Source lineage direct raw numeric agreement does not validate historical physical polygon geometry",
+    "No institutional factor in these models"
+  ],
+  "samples": {
+    "strict16_all": {
+      "rows": 584,
+      "districts": 16,
+      "years": 38
+    },
+    "exclude_balaka": {
+      "rows": 548,
+      "districts": 15,
+      "years": 38
+    },
+    "low_source_reconstruction_risk_10_districts": {
+      "rows": 366,
+      "districts": 10,
+      "years": 38
+    },
+    "five_scalar_transfer_districts_only": {
+      "rows": 182,
+      "districts": 5,
+      "years": 37
+    }
+  },
+  "all_four_beta_values": {
+    "exclude_balaka": {
+      "broad": 0.10532913875704154,
+      "core": 0.09130566855548462,
+      "waha_broad": 0.09824934337135875,
+      "waha_growth": 0.10417678298840964
+    },
+    "five_scalar_transfer_districts_only": {
+      "broad": 0.09795962172269793,
+      "core": 0.07816964679992212,
+      "waha_broad": 0.07679256772123322,
+      "waha_growth": 0.08075409193447981
+    },
+    "low_source_reconstruction_risk_10_districts": {
+      "broad": 0.11189827692988052,
+      "core": 0.10032663858301111,
+      "waha_broad": 0.1090608974822161,
+      "waha_growth": 0.11430932649360478
+    },
+    "strict16_all": {
+      "broad": 0.1030478053413435,
+      "core": 0.09042224650479111,
+      "waha_broad": 0.09597296485188807,
+      "waha_growth": 0.10309369831640701
+    }
+  }
+}
