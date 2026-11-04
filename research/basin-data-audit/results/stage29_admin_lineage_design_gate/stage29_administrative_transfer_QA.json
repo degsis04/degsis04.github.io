@@ -1,0 +1,220 @@
+{
+  "status": "PASS_EFFECTIVE_SCALARS_ONLY",
+  "run_utc": "2026-11-04T11:03:57.009816+00:00",
+  "checks": {
+    "915_crosswalk": {
+      "pass": true,
+      "info": null
+    },
+    "812_main": {
+      "pass": true,
+      "info": null
+    },
+    "no_source_duplicate": {
+      "pass": true,
+      "info": null
+    },
+    "model_unique": {
+      "pass": true,
+      "info": null
+    },
+    "all_812_matched_to_model": {
+      "pass": true,
+      "info": null
+    },
+    "strict_16_count": {
+      "pass": true,
+      "info": null
+    },
+    "scalar_per_observation_area_production_factor_agree": {
+      "pass": true,
+      "info": 3.3681946121078e-12
+    },
+    "no_fabricated_original_link_ratio": {
+      "pass": true,
+      "info": null
+    },
+    "all_584_classes": {
+      "pass": true,
+      "info": null
+    },
+    "all_812_classes": {
+      "pass": true,
+      "info": null
+    }
+  },
+  "cautions": [
+    "Effective scaled ratios are NOT original PBR/CBR transfer coefficients.",
+    "Sources keyed by current district name can miss inherited records from differently named old districts.",
+    "Same values in historical administrative units are not independent spatial evidence.",
+    "Source documents do not establish natural river-flow delivery or causal institution impact."
+  ],
+  "all812_classes": {
+    "DIRECT_AREA_PRODUCTION_YIELD": 634,
+    "SCALAR_AREA_PRODUCTION": 146,
+    "NO_DIRECT_OLD_SOURCE": 22,
+    "COMPOSITE_OR_CHANGED_YIELD": 10
+  },
+  "strict584_classes": {
+    "DIRECT_AREA_PRODUCTION_YIELD": 437,
+    "SCALAR_AREA_PRODUCTION": 133,
+    "COMPOSITE_OR_CHANGED_YIELD": 10,
+    "NO_DIRECT_OLD_SOURCE": 4
+  },
+  "strict16_inferred_scalars_groups": 12,
+  "strict16_max_area_prod_diff": 3.3681946121078e-12,
+  "strict16_long_period_factor_ranges": [
+    {
+      "district": "Blantyre",
+      "old_Fnid_generation": "MW2003",
+      "years": 15,
+      "first_year": 2003,
+      "last_year": 2017,
+      "min_scaler": 0.9268292682926828,
+      "median_scaler": 0.9268292682926831,
+      "max_scaler": 0.9268292682926832,
+      "max_ratio_disagreement": 3.3306690738754696e-16,
+      "scale_span": 4.440892098500626e-16
+    },
+    {
+      "district": "Lilongwe",
+      "old_Fnid_generation": "MW2003",
+      "years": 15,
+      "first_year": 2003,
+      "last_year": 2017,
+      "min_scaler": 0.9361015924208828,
+      "median_scaler": 0.9361015924208829,
+      "max_scaler": 0.936101592420883,
+      "max_ratio_disagreement": 2.220446049250313e-16,
+      "scale_span": 2.220446049250313e-16
+    },
+    {
+      "district": "Mzimba",
+      "old_Fnid_generation": "MW2003",
+      "years": 15,
+      "first_year": 2003,
+      "last_year": 2017,
+      "min_scaler": 0.9869186046511627,
+      "median_scaler": 0.9869186046511628,
+      "max_scaler": 0.986918604654531,
+      "max_ratio_disagreement": 3.3681946121078e-12,
+      "scale_span": 3.3683056344102624e-12
+    },
+    {
+      "district": "Blantyre",
+      "old_Fnid_generation": "MW1971",
+      "years": 14,
+      "first_year": 1984,
+      "last_year": 1997,
+      "min_scaler": 0.9268292682926829,
+      "median_scaler": 0.926829268292683,
+      "max_scaler": 0.9268292682926831,
+      "max_ratio_disagreement": 2.220446049250313e-16,
+      "scale_span": 2.220446049250313e-16
+    },
+    {
+      "district": "Mzimba",
+      "old_Fnid_generation": "MW1971",
+      "years": 14,
+      "first_year": 1984,
+      "last_year": 1997,
+      "min_scaler": 0.9869186046511627,
+      "median_scaler": 0.9869186046511628,
+      "max_scaler": 0.9869186046511629,
+      "max_ratio_disagreement": 1.1102230246251565e-16,
+      "scale_span": 2.220446049250313e-16
+    },
+    {
+      "district": "Lilongwe",
+      "old_Fnid_generation": "MW1971",
+      "years": 14,
+      "first_year": 1984,
+      "last_year": 1997,
+      "min_scaler": 0.9361015924208825,
+      "median_scaler": 0.9361015924208829,
+      "max_scaler": 0.9361015924208831,
+      "max_ratio_disagreement": 3.3306690738754696e-16,
+      "scale_span": 5.551115123125783e-16
+    },
+    {
+      "district": "Mwanza",
+      "old_Fnid_generation": "MW1971",
+      "years": 13,
+      "first_year": 1985,
+      "last_year": 1997,
+      "min_scaler": 0.5332539587122695,
+      "median_scaler": 0.5332539587122697,
+      "max_scaler": 0.5332539587122698,
+      "max_ratio_disagreement": 2.220446049250313e-16,
+      "scale_span": 2.220446049250313e-16
+    },
+    {
+      "district": "Mulanje",
+      "old_Fnid_generation": "MW1971",
+      "years": 13,
+      "first_year": 1984,
+      "last_year": 1997,
+      "min_scaler": 0.5297518229193399,
+      "median_scaler": 0.5297518229193399,
+      "max_scaler": 0.52975182291934,
+      "max_ratio_disagreement": 1.1102230246251565e-16,
+      "scale_span": 1.1102230246251565e-16
+    },
+    {
+      "district": "Blantyre",
+      "old_Fnid_generation": "MW1998",
+      "years": 5,
+      "first_year": 1998,
+      "last_year": 2002,
+      "min_scaler": 0.926829268292683,
+      "median_scaler": 0.926829268292683,
+      "max_scaler": 0.9268292682926831,
+      "max_ratio_disagreement": 2.220446049250313e-16,
+      "scale_span": 1.1102230246251565e-16
+    },
+    {
+      "district": "Lilongwe",
+      "old_Fnid_generation": "MW1998",
+      "years": 5,
+      "first_year": 1998,
+      "last_year": 2002,
+      "min_scaler": 0.9361015924208828,
+      "median_scaler": 0.9361015924208829,
+      "max_scaler": 0.936101592420883,
+      "max_ratio_disagreement": 1.1102230246251565e-16,
+      "scale_span": 2.220446049250313e-16
+    },
+    {
+      "district": "Mwanza",
+      "old_Fnid_generation": "MW1998",
+      "years": 5,
+      "first_year": 1998,
+      "last_year": 2002,
+      "min_scaler": 0.5332539587122695,
+      "median_scaler": 0.5332539587122697,
+      "max_scaler": 0.5332539587122697,
+      "max_ratio_disagreement": 2.220446049250313e-16,
+      "scale_span": 1.1102230246251565e-16
+    },
+    {
+      "district": "Mzimba",
+      "old_Fnid_generation": "MW1998",
+      "years": 5,
+      "first_year": 1998,
+      "last_year": 2002,
+      "min_scaler": 0.9869186046511628,
+      "median_scaler": 0.9869186046511628,
+      "max_scaler": 0.9869186046511628,
+      "max_ratio_disagreement": 1.1102230246251565e-16,
+      "scale_span": 0.0
+    }
+  ],
+  "strict16_same_observed_old_Fnid_duplicate_years": 0,
+  "strict16_possible_identical_yield_pairs": [],
+  "strict16_risk_levels": {
+    "LOW_MATCHING_ORIGINAL_VALUES": 10,
+    "MODERATE_AREA_PROD_TRANSFORMED": 5,
+    "HIGH_SOURCE_RECONSTRUCTED": 1
+  },
+  "original_weights_reproducible_from_public_repo": "NO — old boundary shape files and 2015 hybrid cropland raster referenced in notebook/tools are not committed in pinned repo; inferred effective ratios differ from original PBR/CBR link matrix"
+}
