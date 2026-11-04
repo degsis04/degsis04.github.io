@@ -1,0 +1,916 @@
+fnid,harvest_year,season_name,crop_production_system,hs_area_ha,hs_production_t,hs_yield_t_ha,raw_same_key_rows,raw_source_documents,raw_publication_names,raw_status_codes,raw_area_harvested_n,raw_area_harvested_values,raw_area_harvested_exact_matches,raw_area_harvested_relative_error_min,raw_area_planted_n,raw_area_planted_values,raw_area_planted_exact_matches,raw_area_planted_relative_error_min,raw_production_n,raw_production_values,raw_production_exact_matches,raw_production_relative_error_min,raw_yield_n,raw_yield_values,raw_yield_exact_matches,raw_yield_relative_error_min,production_match,area_harvested_match,area_planted_match,yield_match,any_area_match,all_prod_area_match,all_three_match,raw_unique_document
+MW2018A20101,1984,Main,Rainfed (PS),41369.0,44485.0,1.0753221010901883,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,1985,Main,Rainfed (PS),191688.0,187363.0,0.9774372939359792,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,1986,Main,Rainfed (PS),193805.0,199846.0,1.0311705064368824,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,1987,Main,Rainfed (PS),206707.0,208168.0,1.007067975443502,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,1988,Main,Rainfed (PS),211262.0,219835.0,1.040579943387831,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,1989,Main,Rainfed (PS),205052.0,175712.0,0.8569143436786766,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,1990,Main,Rainfed (PS),206900.0,143826.0,0.6951474142097632,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,1991,Main,Rainfed (PS),216018.0,227210.0,1.0518104972733753,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,1992,Main,Rainfed (PS),214438.0,112386.0,0.5240955427676065,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,1993,Main,Rainfed (PS),207805.0,307798.0,1.481186689444431,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,1994,Main,Rainfed (PS),179172.0,145927.0,0.8144520349161699,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,1995,Main,Rainfed (PS),178023.0,168281.0,0.9452767339051696,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,1996,Main,Rainfed (PS),180284.0,249384.0,1.3832841516718066,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,1997,Main,Rainfed (PS),169819.0,148243.0,0.8729470789487631,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,1998,Main,Rainfed (PS),177001.0,206473.0,1.166507533855741,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,1999,Main,Rainfed (PS),139230.0,181847.0,1.306090641384759,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,2000,Main,Rainfed (PS),145614.0,185363.0,1.2729751260181026,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,2001,Main,Rainfed (PS),148267.0,135093.0,0.9111467824937444,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,2002,Main,Rainfed (PS),66480.0,74546.0,1.12132972322503,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,2003,Main,Rainfed (PS),99761.0,104089.0,1.0433836870119586,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,2004,Main,Rainfed (PS),91880.0,74363.0,0.8093491510666087,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,2005,Main,Rainfed (PS),91880.0,73242.0,0.7971484545058772,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,2006,Main,Rainfed (PS),85649.0,85372.0,0.99676587000432,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,2007,Main,Rainfed (PS),88279.0,121676.0,1.3783119428176576,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,2008,Main,Rainfed (PS),88358.0,115532.0,1.3075443083818103,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,2009,Main,Rainfed (PS),87858.0,149927.203,1.7064718409251294,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,2010,Main,Rainfed (PS),88205.0,150696.768,1.7084832832605863,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,2011,Main,Rainfed (PS),88083.0,169186.0,1.920756559154434,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,2012,Main,Rainfed (PS),87332.0,167673.0,1.919949159529153,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,2013,Main,Rainfed (PS),83678.0,151911.0,1.8154234087812808,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,2014,Main,Rainfed (PS),84600.0,174186.0,2.0589361702127658,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,2015,Main,Rainfed (PS),83231.0,142442.0,1.7114056060842715,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,2016,Main,Rainfed (PS),83882.0,134556.0,1.6041105362294652,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,2017,Main,Rainfed (PS),82609.0,154168.641,1.8662450943601787,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20101,2018,Main,Rainfed (PS),51408.0,113620.228,2.21016627762216,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2017-2018, Malawi",Collected,0,,0,,1,51408,1,0.0,1,113620.228,1,0.0,1,2.21016627762,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20101,2019,Main,Rainfed (PS),82334.0,150655.156,1.8298048922680787,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2018-2019, Malawi",Collected,0,,0,,1,82334,1,0.0,1,150655.156,1,0.0,1,1.82980489227,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20101,2020,Main,Rainfed (PS),85921.0,173005.0,2.0135356897615253,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2019-2020, Malawi",Collected,0,,0,,1,85921,1,0.0,1,173005,1,0.0,1,2.01353568976,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20101,2021,Annual,All (PS),104474.0,252608.0,2.4179030189329405,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,104474,1,0.0,1,252608,1,0.0,1,2.41790301893,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20101,2022,Annual,All (PS),105142.0,225272.0,2.142550075136482,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,105142,1,0.0,1,225272,1,0.0,1,2.14255007514,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20101,2023,Annual,All (PS),106237.0,225145.0,2.1192710637536827,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,106237,1,0.0,1,225145,1,0.0,1,2.11927106375,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20101,2024,Annual,All (PS),107428.0,193208.0,1.7984882898313288,4,"Alt_DS_Annual Production Estimate Survey, Malawi",MADD APES 2023-24 3rd round tabulation sheet,Collected | Not Available,0,,0,,1,107428,1,0.0,1,193208,1,0.0,1,1798,0,998.7284998550786,True,False,True,False,True,True,False,True
+MW2018A20102,1984,Main,Rainfed (PS),84600.0,125143.0,1.4792316784869977,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,1985,Main,Rainfed (PS),75660.0,113145.0,1.495440126883426,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,1986,Main,Rainfed (PS),71860.0,102397.0,1.424951294183134,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,1987,Main,Rainfed (PS),69070.0,95813.0,1.3871869118285798,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,1988,Main,Rainfed (PS),64579.0,78847.0,1.2209386952414871,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,1989,Main,Rainfed (PS),83682.0,129670.0,1.5495566549556654,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,1990,Main,Rainfed (PS),70097.0,83429.0,1.190193588883975,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,1991,Main,Rainfed (PS),78344.0,98070.0,1.2517869907076484,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,1992,Main,Rainfed (PS),79843.0,58767.0,0.7360319627268515,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,1993,Main,Rainfed (PS),60155.0,142443.0,2.3679328401629123,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,1994,Main,Rainfed (PS),61632.0,47705.0,0.7740297248182763,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,1995,Main,Rainfed (PS),64039.0,94434.0,1.474632645731507,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,1996,Main,Rainfed (PS),58631.0,104883.0,1.7888659582814552,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,1997,Main,Rainfed (PS),54392.0,57987.0,1.066094278570378,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,1998,Main,Rainfed (PS),53670.0,56274.0,1.0485187255449973,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,1999,Main,Rainfed (PS),56707.0,73430.0,1.2949018639674117,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,2000,Main,Rainfed (PS),61842.0,97113.0,1.5703405452605026,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,2001,Main,Rainfed (PS),61167.0,59744.0,0.976735821603152,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,2002,Main,Rainfed (PS),54872.0,59009.0,1.075393643388249,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,2003,Main,Rainfed (PS),66201.0,80123.0,1.2102989380825062,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,2004,Main,Rainfed (PS),59374.0,51567.0,0.8685114696668575,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,2005,Main,Rainfed (PS),70461.0,69037.0,0.979790238571692,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,2006,Main,Rainfed (PS),55350.0,73000.0,1.3188798554652212,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,2007,Main,Rainfed (PS),68580.0,120317.0,1.75440361621464,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,2008,Main,Rainfed (PS),66133.0,113083.0,1.709933013775271,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,2009,Main,Rainfed (PS),77218.0,186868.0,2.4200056981532803,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,2010,Main,Rainfed (PS),78761.0,185134.0,2.350579601579462,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,2011,Main,Rainfed (PS),80633.0,203640.0,2.5255168479406693,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,2012,Main,Rainfed (PS),88202.0,213111.0,2.416169701367316,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,2013,Main,Rainfed (PS),84321.0,159770.0,1.8947830315105367,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,2014,Main,Rainfed (PS),82452.0,201539.0,2.444319119002571,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,2015,Main,Rainfed (PS),83782.0,134995.0,1.6112649495118283,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,2016,Main,Rainfed (PS),90600.0,128273.0,1.4158167770419423,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,2017,Main,Rainfed (PS),131197.0,241591.0,1.841436923100376,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20102,2018,Annual,All (PS),95083.0,180736.0,1.900823491055184,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,95083,1,0.0,1,180736,1,0.0,1,1.90082349106,1,2.3362990405991883e-16,True,False,True,True,True,True,True,True
+MW2018A20102,2019,Main,Rainfed (PS),87437.0,173356.0,1.9826389286000208,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2018-2019, Malawi",Collected,0,,0,,1,87437,1,0.0,1,173356,1,0.0,1,1.9826389286,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20102,2020,Annual,All (PS),103618.0,226186.0,2.182883282827308,3,"Alt_DS_Annual Production Estimate Survey, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,103618,1,0.0,1,226186,1,0.0,1,2.18288328283,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20102,2020,Main,Rainfed (PS),49738.0,99798.0,2.006473923358398,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2019-2020, Malawi",Collected,0,,0,,1,49738,1,0.0,1,99798,1,0.0,1,2.00647392336,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20102,2021,Annual,All (PS),109138.0,284409.0,2.605957594971504,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,109138,1,0.0,1,284409,1,0.0,1,2.60595759497,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20102,2022,Annual,All (PS),110290.0,246429.0,2.2343730165926194,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,110290,1,0.0,1,246429,1,0.0,1,2.23437301659,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20102,2023,Annual,All (PS),100581.0,243861.0,2.4245235183583382,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,100581,1,0.0,1,243861,1,0.0,1,2.42452351836,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20102,2024,Annual,All (PS),113702.0,213874.0,1.881004731666989,4,"Alt_DS_Annual Production Estimate Survey, Malawi",MADD APES 2023-24 3rd round tabulation sheet,Collected | Not Available,0,,0,,1,113702,1,0.0,1,213874,1,0.0,1,1.88,0,0.0005341462730391883,True,False,True,False,True,True,False,True
+MW2018A20103,1984,Main,Rainfed (PS),51570.0,74310.0,1.440954043048284,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,1985,Main,Rainfed (PS),54060.0,77520.0,1.4339622641509433,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,1986,Main,Rainfed (PS),60000.0,78000.0,1.3,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,1987,Main,Rainfed (PS),54100.0,60095.0,1.1108133086876155,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,1989,Main,Rainfed (PS),71546.0,94235.0,1.3171246470802,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,1990,Main,Rainfed (PS),81780.0,107773.0,1.3178405478112007,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,1991,Main,Rainfed (PS),83617.0,106651.0,1.2754702991018574,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,1992,Main,Rainfed (PS),84084.0,69797.0,0.8300865800865801,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,1993,Main,Rainfed (PS),71404.0,159828.0,2.2383619965268053,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,1994,Main,Rainfed (PS),50719.0,59034.0,1.1639425067528937,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,1995,Main,Rainfed (PS),53312.0,85509.0,1.603935324129652,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,1996,Main,Rainfed (PS),52971.0,104355.0,1.970040210681316,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,1997,Main,Rainfed (PS),51019.0,96601.0,1.8934318587193009,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,1998,Main,Rainfed (PS),51937.0,104902.0,2.0197932110056414,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,1999,Main,Rainfed (PS),77805.0,167938.0,2.158447400552664,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,2000,Main,Rainfed (PS),81760.0,179864.0,2.1999021526418785,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,2001,Main,Rainfed (PS),75193.0,110138.0,1.4647374090673333,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,2002,Main,Rainfed (PS),101072.0,148888.0,1.4730884913724869,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,2003,Main,Rainfed (PS),106886.0,177164.0,1.6575042568718072,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,2004,Main,Rainfed (PS),82975.0,72920.0,0.878818921361856,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,2005,Main,Rainfed (PS),115662.0,110765.0,0.9576611160104442,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,2006,Main,Rainfed (PS),90950.0,77553.0,0.8526992853216053,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,2007,Main,Rainfed (PS),96553.0,208175.0,2.1560697233643698,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,2008,Main,Rainfed (PS),96251.0,219587.0,2.281399673769623,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,2009,Main,Rainfed (PS),95666.0,238854.0,2.4967491062655487,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,2010,Main,Rainfed (PS),102292.0,255904.0,2.501701012786924,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,2011,Main,Rainfed (PS),102058.0,272002.0,2.665170785239765,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,2012,Main,Rainfed (PS),104695.0,247876.0,2.3676011270834327,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,2013,Main,Rainfed (PS),83658.0,182111.0,2.1768509885486145,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,2014,Main,Rainfed (PS),87903.0,209569.0,2.384093830699749,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,2015,Main,Rainfed (PS),89138.0,155740.0,1.7471785321636115,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,2016,Main,Rainfed (PS),88543.0,124059.0,1.4011158420202614,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,2017,Main,Rainfed (PS),90490.0,190223.0,2.1021438833020225,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20103,2018,Annual,All (PS),101994.0,180779.0,1.7724473988666,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,101994,1,0.0,1,180779,1,0.0,1,1.77244739887,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20103,2019,Annual,All (PS),102760.0,227497.0,2.213867263526664,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,102760,1,0.0,1,227497,1,0.0,1,2.21386726353,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20103,2020,Main,Rainfed (PS),88569.0,219296.0,2.475990470706455,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2019-2020, Malawi",Collected,0,,0,,1,88569,1,0.0,1,219296,1,0.0,1,2.47599047071,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20103,2021,Annual,All (PS),116722.0,400331.0,3.429781874882199,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,116722,1,0.0,1,400331,1,0.0,1,3.42978187488,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20103,2022,Annual,All (PS),109621.0,320066.0,2.919750777679459,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,109621,1,0.0,1,320066,1,0.0,1,2.91975077768,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20103,2023,Annual,All (PS),96842.0,306017.0,3.1599615869147684,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,96842,1,0.0,1,306017,1,0.0,1,3.15996158691,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20103,2024,Annual,All (PS),103515.0,265999.0,2.569666231947061,4,"Alt_DS_Annual Production Estimate Survey, Malawi",MADD APES 2023-24 3rd round tabulation sheet,Collected | Not Available,0,,0,,1,103515,1,0.0,1,265999,1,0.0,1,2570,0,999.1298877063448,True,False,True,False,True,True,False,True
+MW2018A20104,1984,Main,Rainfed (PS),193163.6274944568,217536.9046563193,1.1261794338717417,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,1985,Main,Rainfed (PS),215855.6661963313,339872.2773634348,1.5745348887636066,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,1986,Main,Rainfed (PS),201103.6412013707,292762.02862326143,1.45577686646713,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,1987,Main,Rainfed (PS),187763.25740778068,240652.9973795605,1.2816831189550304,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,1988,Main,Rainfed (PS),228991.97984277364,426373.6811126789,1.861959014483512,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,1989,Main,Rainfed (PS),227436.1789961701,426373.6811126789,1.874695938854384,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,1990,Main,Rainfed (PS),252408.561177182,281963.1606530941,1.1170903210971748,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,1991,Main,Rainfed (PS),265150.7760532151,418963.5009070752,1.5800953221535745,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,1992,Main,Rainfed (PS),288165.7698044749,189985.56258818787,0.6592926103509661,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,1993,Main,Rainfed (PS),265005.6803063898,413763.4565611771,1.561338066726717,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,1994,Main,Rainfed (PS),170996.74178593027,130705.0570449506,0.7643716229902172,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,1995,Main,Rainfed (PS),234945.58597057045,309235.5444466841,1.3162006988521135,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,1996,Main,Rainfed (PS),223329.5013102197,370144.8667607337,1.657393513123811,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,1997,Main,Rainfed (PS),204386.54948599072,219665.5996774844,1.0747556540776229,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,1998,Main,Rainfed (PS),211239.749244104,291403.7452126587,1.3794929517546386,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,1999,Main,Rainfed (PS),220165.4779278371,407611.3968957871,1.8513865149621165,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,2000,Main,Rainfed (PS),234339.92824027417,474571.6799032453,2.0251422088712765,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,2001,Main,Rainfed (PS),206519.92501511791,288894.9929449708,1.398872253724781,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,2002,Main,Rainfed (PS),194238.2721225559,239129.9600886918,1.2311165944567874,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,2003,Main,Rainfed (PS),237224.9933481153,399048.8756299133,1.6821535960350091,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,2004,Main,Rainfed (PS),160914.92763555734,182456.4974803467,1.1338693069767714,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,2005,Main,Rainfed (PS),158343.45656117718,167763.44688570852,1.059490872115021,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,2006,Main,Rainfed (PS),149653.62547873412,206088.3821810119,1.3771025026740644,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,2007,Main,Rainfed (PS),153051.67425922194,330766.81717395684,2.161144716481446,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,2008,Main,Rainfed (PS),146717.0747833098,250495.16952227373,1.7073348135671085,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,2009,Main,Rainfed (PS),147187.93388429753,314913.9367063092,2.139536362769104,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,2010,Main,Rainfed (PS),154496.07901632736,375325.33909453737,2.4293518740684186,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,2011,Main,Rainfed (PS),157467.26547067123,428348.8554726869,2.7202406429828314,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,2012,Main,Rainfed (PS),158513.8270509978,406400.0814351946,2.563814709390908,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,2013,Main,Rainfed (PS),152034.13182826043,416248.8062890546,2.737864197226806,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,2014,Main,Rainfed (PS),153655.4597863334,422554.38661560166,2.750012184423433,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,2015,Main,Rainfed (PS),144195.21709332796,299083.52267687966,2.074157026188343,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,2016,Main,Rainfed (PS),153657.33198951825,285605.5319492038,1.8587172395306617,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,2017,Main,Rainfed (PS),156766.125377948,355298.2018947793,2.266422041357402,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20104,2018,Main,Rainfed (PS),163536.0,290886.0,1.778727619606692,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2017-2018, Malawi",Collected,0,,0,,1,163536,1,0.0,1,290886,1,0.0,1,1.77872761961,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20104,2019,Main,Rainfed (PS),165247.0,339746.30000000005,2.055990729029877,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2018-2019, Malawi",Collected,0,,0,,1,165247,1,0.0,1,339746.3,1,0.0,1,2.05599072903,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20104,2020,Main,Rainfed (PS),163544.0,353688.0,2.16264736095485,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2019-2020, Malawi",Collected,0,,0,,1,163544,1,0.0,1,353688,1,0.0,1,2.16264736095,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20104,2021,Annual,All (PS),211338.0,561721.0,2.657927112019608,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,211338,1,0.0,1,561721,1,0.0,1,2.65792711202,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20104,2022,Annual,All (PS),206268.0,499346.0,2.420860240076017,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,206268,1,0.0,1,499346,1,0.0,1,2.42086024008,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20104,2023,Annual,All (PS),207109.0,481549.0,2.3250993438237835,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,207109,1,0.0,1,481549,1,0.0,1,2.32509934382,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20104,2024,Annual,All (PS),211576.0,19638802.37,92.82150324233372,4,"Alt_DS_Annual Production Estimate Survey, Malawi",MADD APES 2023-24 3rd round tabulation sheet,Collected | Not Available,0,,0,,1,211576,1,0.0,1,19638802.37,1,0.0,1,3415,0,35.79104389296831,True,False,True,False,True,True,False,True
+MW2018A20106,1984,Main,Rainfed (PS),42560.0,61060.0,1.4346804511278195,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,1985,Main,Rainfed (PS),45505.0,72169.0,1.5859575870783431,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,1986,Main,Rainfed (PS),45474.0,58702.0,1.2908914984386683,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,1987,Main,Rainfed (PS),35939.0,37827.0,1.0525334594729958,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,1988,Main,Rainfed (PS),42974.0,54567.0,1.2697677665565226,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,1989,Main,Rainfed (PS),43301.0,75228.0,1.7373270825154157,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,1990,Main,Rainfed (PS),50181.0,75207.0,1.4987146529562982,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,1991,Main,Rainfed (PS),47871.0,74973.0,1.5661465187691923,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,1992,Main,Rainfed (PS),49165.0,25235.0,0.5132716363266552,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,1994,Main,Rainfed (PS),36416.0,50194.0,1.3783501757469243,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,1995,Main,Rainfed (PS),41798.0,62010.0,1.483563806880712,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,1996,Main,Rainfed (PS),42985.0,70709.0,1.644969175293707,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,1997,Main,Rainfed (PS),44068.0,53423.0,1.212285558682037,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,1998,Main,Rainfed (PS),45541.0,58934.0,1.2940866471970311,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,1999,Main,Rainfed (PS),49779.0,88046.0,1.7687378211695697,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,2000,Main,Rainfed (PS),54460.0,92465.0,1.6978516342269556,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,2001,Main,Rainfed (PS),57410.0,66089.0,1.1511757533530744,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,2003,Main,Rainfed (PS),116380.0,209708.0,1.8019247293349367,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,2004,Main,Rainfed (PS),59284.0,52949.0,0.8931414884285811,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,2005,Main,Rainfed (PS),86676.0,94633.0,1.0918016521297709,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,2006,Main,Rainfed (PS),64500.0,120560.0,1.8691472868217047,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,2007,Main,Rainfed (PS),73750.0,167963.0,2.277464406779661,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,2008,Main,Rainfed (PS),76532.0,165396.0,2.161135211414833,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,2009,Main,Rainfed (PS),78175.0,182230.0,2.331052126638951,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,2010,Main,Rainfed (PS),85845.0,197288.0,2.298188595724853,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,2011,Main,Rainfed (PS),86489.0,205727.0,2.378649308004486,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,2012,Main,Rainfed (PS),85450.0,193218.0,2.2611819777647746,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,2013,Main,Rainfed (PS),82384.0,189916.0,2.305253447271314,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,2014,Main,Rainfed (PS),84062.0,198313.0,2.359127786633675,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,2015,Main,Rainfed (PS),89309.0,130216.0,1.45803894344355,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,2016,Main,Rainfed (PS),84823.0,138983.0,1.6385060655718378,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,2017,Main,Rainfed (PS),89218.0,187746.0,2.1043511399045034,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20106,2018,Annual,All (PS),116617.0,215095.0,1.844456640112505,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,116617,1,0.0,1,215095,1,0.0,1,1.84445664011,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20106,2019,Main,Rainfed (PS),80785.0,154947.0,1.9180169585937985,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2018-2019, Malawi",Collected,0,,0,,1,80785,1,0.0,1,154947,1,0.0,1,1.91801695859,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20106,2020,Main,Rainfed (PS),82447.0,170967.0,2.073659441823232,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2019-2020, Malawi",Collected,0,,0,,1,82447,1,0.0,1,170967,1,0.0,1,2.07365944182,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20106,2021,Annual,All (PS),127037.0,375756.0,2.9578469264859844,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,127037,1,0.0,1,375756,1,0.0,1,2.95784692649,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20106,2022,Annual,All (PS),123604.0,338895.0,2.7417802012879844,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,123604,1,0.0,1,338895,1,0.0,1,2.74178020129,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20106,2023,Annual,All (PS),109617.0,282088.0,2.5733964622275742,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,109617,1,0.0,1,282088,1,0.0,1,2.57339646223,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20106,2024,Annual,All (PS),125564.0,231360.0,1.842566340670893,4,"Alt_DS_Annual Production Estimate Survey, Malawi",MADD APES 2023-24 3rd round tabulation sheet,Collected | Not Available,0,,0,,1,125564,1,0.0,1,231360,1,0.0,1,1843,0,999.23535615491,True,False,True,False,True,True,False,True
+MW2018A20107,1984,Main,Rainfed (PS),11390.0,13276.0,1.16558384547849,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,1985,Main,Rainfed (PS),10357.0,16068.0,1.551414502268997,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,1986,Main,Rainfed (PS),10671.0,12790.0,1.198575578671165,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,1987,Main,Rainfed (PS),9925.0,11220.0,1.1304785894206548,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,1988,Main,Rainfed (PS),2360.0,3478.0,1.473728813559322,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,1989,Main,Rainfed (PS),10300.0,15200.0,1.4757281553398058,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,1990,Main,Rainfed (PS),11700.0,14784.0,1.2635897435897436,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,1991,Main,Rainfed (PS),10186.0,14856.0,1.4584724131160416,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,1992,Main,Rainfed (PS),11649.0,6989.0,0.5999656622886085,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,1993,Main,Rainfed (PS),16307.0,40717.0,2.496903170417612,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,1994,Main,Rainfed (PS),11238.0,15839.0,1.4094144865634457,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,1995,Main,Rainfed (PS),15305.0,30208.0,1.973734073832081,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,1996,Main,Rainfed (PS),16933.0,37410.0,2.209295458572019,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,1997,Main,Rainfed (PS),16962.0,34816.0,2.052588138191251,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,1998,Main,Rainfed (PS),17234.0,28101.0,1.630555877915748,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,1999,Main,Rainfed (PS),19729.0,48220.0,2.444117796137665,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,2000,Main,Rainfed (PS),19044.0,42968.0,2.2562486872505776,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,2001,Main,Rainfed (PS),20798.0,23803.0,1.1444850466391,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,2002,Main,Rainfed (PS),31954.0,33269.0,1.0411529073042498,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,2003,Main,Rainfed (PS),26507.0,37149.0,1.40147885464217,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,2004,Main,Rainfed (PS),20399.0,18623.0,0.9129369086719936,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,2005,Main,Rainfed (PS),21399.0,17916.0,0.8372353848310669,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,2006,Main,Rainfed (PS),19609.0,34745.0,1.771890458462951,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,2007,Main,Rainfed (PS),21229.0,35993.0,1.6954637524141505,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,2008,Main,Rainfed (PS),21041.0,35007.0,1.663751722826862,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,2009,Main,Rainfed (PS),21863.0,59039.0,2.700407080455564,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,2010,Main,Rainfed (PS),21614.0,61897.0,2.8637457203664294,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,2011,Main,Rainfed (PS),21446.0,65174.0,3.038981628275669,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,2012,Main,Rainfed (PS),21261.0,62456.0,2.9375852499882416,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,2013,Main,Rainfed (PS),21778.0,63026.0,2.894021489576637,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,2014,Main,Rainfed (PS),23386.0,74511.0,3.186137005045754,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,2015,Main,Rainfed (PS),24073.0,59884.0,2.4876002160096373,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,2016,Main,Rainfed (PS),24191.0,54406.0,2.2490182299202184,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,2017,Main,Rainfed (PS),24294.0,58179.0,2.394788836749815,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20107,2018,Main,Rainfed (PS),23786.0,57042.0,2.3981333557554865,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2017-2018, Malawi",Collected,0,,0,,1,23786,1,0.0,1,57042,1,0.0,1,2.39813335576,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20107,2019,Main,Rainfed (PS),23904.0,56972.0,2.383366800535476,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2018-2019, Malawi",Collected,0,,0,,1,23904,1,0.0,1,56972,1,0.0,1,2.38336680054,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20107,2020,Main,Rainfed (PS),25357.0,71791.0,2.8312103166778404,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2019-2020, Malawi",Collected,0,,0,,1,25357,1,0.0,1,71791,1,0.0,1,2.83121031668,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20107,2021,Annual,All (PS),32368.0,96541.0,2.98260627780524,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,32368,1,0.0,1,96541,1,0.0,1,2.98260627781,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20107,2022,Annual,All (PS),31277.0,92749.0,2.965405889311634,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,31277,1,0.0,1,92749,1,0.0,1,2.96540588931,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20107,2023,Annual,All (PS),31277.0,92749.0,2.965405889311634,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,31277,1,0.0,1,92749,1,0.0,1,2.96540588931,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20108,1984,Main,Rainfed (PS),77134.0,97356.0,1.2621671377084036,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20108,1985,Main,Rainfed (PS),74338.0,87260.0,1.1738276520756543,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20108,1986,Main,Rainfed (PS),86195.0,81414.0,0.9445327455188816,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20108,1987,Main,Rainfed (PS),80680.0,89169.0,1.1052181457610313,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20108,1988,Main,Rainfed (PS),93868.0,107992.0,1.1504666126901606,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20108,1989,Main,Rainfed (PS),96038.0,103723.0,1.0800204085882672,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20108,1990,Main,Rainfed (PS),95120.0,88625.0,0.9317178301093356,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20108,1991,Main,Rainfed (PS),97557.0,100462.0,1.0297774634316348,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20108,1992,Main,Rainfed (PS),99193.0,20234.0,0.203986168378817,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20108,1993,Main,Rainfed (PS),95177.0,121009.0,1.271410109585299,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20108,1994,Main,Rainfed (PS),74002.0,40495.0,0.5472149401367531,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20108,1995,Main,Rainfed (PS),46922.0,56213.0,1.1980094625122544,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20108,1996,Main,Rainfed (PS),82508.0,132936.0,1.6111892180152227,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20108,1997,Main,Rainfed (PS),75159.0,73589.0,0.9791109514495936,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20108,1998,Main,Rainfed (PS),82506.0,83755.0,1.0151382929726325,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20108,1999,Main,Rainfed (PS),72628.0,113583.0,1.5639009748306438,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20108,2003,Main,Rainfed (PS),74939.0,79574.0,1.061850304914664,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20108,2004,Main,Rainfed (PS),85224.0,73124.0,0.8580212146813104,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20108,2005,Main,Rainfed (PS),85176.0,64995.0,0.7630670611439843,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20108,2006,Main,Rainfed (PS),77748.0,90427.0,1.1630781499202552,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20108,2007,Main,Rainfed (PS),87698.0,144462.0,1.6472667563684462,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20108,2008,Main,Rainfed (PS),89030.0,124337.0,1.3965741884757947,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20108,2009,Main,Rainfed (PS),89495.0,158407.435,1.7700143583440415,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20108,2010,Main,Rainfed (PS),89136.0,166619.776,1.869275893017412,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20108,2011,Main,Rainfed (PS),90591.0,159668.0,1.7625150401253988,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20108,2012,Main,Rainfed (PS),90474.0,137458.0,1.5193094148595176,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20108,2013,Main,Rainfed (PS),86297.0,140510.0,1.62821419052806,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20108,2014,Main,Rainfed (PS),85865.0,151826.449,1.7681994875676934,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20108,2015,Main,Rainfed (PS),85318.0,95546.338,1.119884877751471,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20108,2016,Main,Rainfed (PS),83984.0,87168.627,1.0379194489426558,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20108,2017,Main,Rainfed (PS),85182.0,135271.515,1.5880293371839125,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20108,2018,Main,Rainfed (PS),77146.0,88291.261,1.1444697197521585,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2017-2018, Malawi",Collected,0,,0,,1,77146,1,0.0,1,88291.261,1,0.0,1,1.14446971975,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20108,2019,Main,Rainfed (PS),79133.0,108008.469,1.3648979439677504,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2018-2019, Malawi",Collected,0,,0,,1,79133,1,0.0,1,108008.469,1,0.0,1,1.36489794397,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20108,2020,Annual,All (PS),85683.0,132834.0,1.5502958579881656,3,"Alt_DS_Annual Production Estimate Survey, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,85683,1,0.0,1,132834,1,0.0,1,1.55029585799,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20108,2020,Main,Rainfed (PS),210700.0,150389.0,0.7137588989084006,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2019-2020, Malawi",Collected,0,,0,,1,210700,1,0.0,1,150389,1,0.0,1,0.713758898908,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20108,2021,Annual,All (PS),88203.0,150523.0,1.7065519313402038,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,88203,1,0.0,1,150523,1,0.0,1,1.70655193134,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20108,2022,Annual,All (PS),87119.0,122403.0,1.4050092402346217,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,87119,1,0.0,1,122403,1,0.0,1,1.40500924023,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20108,2023,Annual,All (PS),90011.0,100623.0,1.1178967015142591,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,90011,1,0.0,1,100623,1,0.0,1,1.11789670151,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20108,2024,Annual,All (PS),92950.0,82869.0,0.89154384077461,4,"Alt_DS_Annual Production Estimate Survey, Malawi",MADD APES 2023-24 3rd round tabulation sheet,Collected | Not Available,0,,0,,1,92950,1,0.0,1,82869,1,0.0,1,892,0,999.5116509189202,True,False,True,False,True,True,False,True
+MW2018A20109,1984,Main,Rainfed (PS),32200.0,55930.0,1.7369565217391305,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,1985,Main,Rainfed (PS),27400.0,41000.0,1.4963503649635037,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,1986,Main,Rainfed (PS),27280.0,36600.0,1.3416422287390029,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,1987,Main,Rainfed (PS),25750.0,32200.0,1.250485436893204,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,1988,Main,Rainfed (PS),26440.0,35064.0,1.3261724659606655,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,1989,Main,Rainfed (PS),29998.0,53953.0,1.7985532368824588,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,1990,Main,Rainfed (PS),30295.0,40496.0,1.3367222313913187,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,1991,Main,Rainfed (PS),49354.0,68881.0,1.3956518215342222,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,1992,Main,Rainfed (PS),32345.0,37010.0,1.1442263100942958,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,1993,Main,Rainfed (PS),29908.0,58359.0,1.9512839374080515,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,1994,Main,Rainfed (PS),29925.0,29217.0,0.9763408521303258,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,1995,Main,Rainfed (PS),30503.0,42354.0,1.3885191620496344,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,1996,Main,Rainfed (PS),33869.0,52931.0,1.5628155540464732,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,1997,Main,Rainfed (PS),33910.0,54406.0,1.604423473901504,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,1998,Main,Rainfed (PS),34053.0,49837.0,1.4635127595219215,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,1999,Main,Rainfed (PS),27860.0,50184.0,1.8012921751615218,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,2000,Main,Rainfed (PS),30811.0,60286.0,1.9566388627438247,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,2001,Main,Rainfed (PS),30070.0,41485.0,1.379614233455271,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,2002,Main,Rainfed (PS),35328.0,44257.0,1.252745697463768,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,2003,Main,Rainfed (PS),35422.0,53553.0,1.5118570379989835,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,2004,Main,Rainfed (PS),43374.6,38772.13,0.8938902030220451,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,2005,Main,Rainfed (PS),43375.0,45136.0,1.040599423631124,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,2006,Main,Rainfed (PS),33830.0,54073.0,1.598374224061484,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,2007,Main,Rainfed (PS),35631.0,77674.0,2.1799556565911704,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,2008,Main,Rainfed (PS),38425.0,92614.0,2.4102537410540013,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,2009,Main,Rainfed (PS),38525.0,101337.0,2.6304218040233613,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,2010,Main,Rainfed (PS),39010.0,114481.0,2.934657780056396,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,2011,Main,Rainfed (PS),39715.0,95502.0,2.4046833690041547,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,2012,Main,Rainfed (PS),44436.0,134432.0,3.0252948060131426,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,2013,Main,Rainfed (PS),36399.0,105009.0,2.8849418940080773,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,2014,Main,Rainfed (PS),37127.0,118769.0,3.1989926468607752,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,2015,Main,Rainfed (PS),40563.0,103868.0,2.560658728397801,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,2016,Main,Rainfed (PS),43272.0,136944.0,3.164725457570716,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,2017,Main,Rainfed (PS),44742.0,153926.0,3.440302176925484,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20109,2018,Annual,All (PS),44820.0,128298.0,2.862516733601071,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,44820,1,0.0,1,128298,1,0.0,1,2.8625167336,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20109,2019,Main,Rainfed (PS),45286.0,150084.0,3.314136819326061,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2018-2019, Malawi",Collected,0,,0,,1,45286,1,0.0,1,150084,1,0.0,1,3.31413681933,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20109,2020,Annual,All (PS),45747.0,157332.0,3.4391763394320938,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,45747,1,0.0,1,157332,1,0.0,1,3.43917633943,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20109,2021,Annual,All (PS),49538.0,181725.0,3.668395978844524,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,49538,1,0.0,1,181725,1,0.0,1,3.66839597884,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20109,2022,Annual,All (PS),48662.0,180392.0,3.707040401134355,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,48662,1,0.0,1,180392,1,0.0,1,3.70704040113,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20109,2023,Annual,All (PS),45805.0,179258.0,3.913502892697304,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,45805,1,0.0,1,179258,1,0.0,1,3.9135028927,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20109,2024,Annual,All (PS),49343.0,137219.0,2.7809213059603186,4,"Alt_DS_Annual Production Estimate Survey, Malawi",MADD APES 2023-24 3rd round tabulation sheet,Collected | Not Available,0,,0,,1,49343,1,0.0,1,137219,1,0.0,1,2781,0,999.0282978304754,True,False,True,False,True,True,False,True
+MW2018A20110,1984,Main,Rainfed (PS),14950.0,22780.0,1.5237458193979934,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,1985,Main,Rainfed (PS),16200.0,17364.0,1.0718518518518518,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,1986,Main,Rainfed (PS),25080.0,26562.0,1.059090909090909,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,1987,Main,Rainfed (PS),20980.0,21480.0,1.0238322211630124,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,1988,Main,Rainfed (PS),22600.0,25600.0,1.1327433628318584,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,1989,Main,Rainfed (PS),23700.0,25935.0,1.0943037974683545,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,1990,Main,Rainfed (PS),23165.0,20261.0,0.8746384631987912,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,1991,Main,Rainfed (PS),23789.0,27280.0,1.1467484972045905,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,1992,Main,Rainfed (PS),24042.0,6862.0,0.2854171865901339,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,1993,Main,Rainfed (PS),24816.0,48714.0,1.9630077369439072,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,1994,Main,Rainfed (PS),23162.0,11527.0,0.4976685951126846,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,1995,Main,Rainfed (PS),25803.0,23313.0,0.9034995930705731,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,1996,Main,Rainfed (PS),40684.0,69594.0,1.7105987611837576,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,1997,Main,Rainfed (PS),42152.0,54789.0,1.2997959764661229,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,1998,Main,Rainfed (PS),44412.0,47919.0,1.0789651445555255,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,1999,Main,Rainfed (PS),33576.0,78660.0,2.342744817726948,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,2000,Main,Rainfed (PS),35880.0,70405.0,1.9622352285395763,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,2001,Main,Rainfed (PS),35897.0,48188.0,1.3423963005265065,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,2002,Main,Rainfed (PS),48207.0,49137.0,1.019291804094841,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,2003,Main,Rainfed (PS),52403.0,73908.0,1.4103772684769955,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,2004,Main,Rainfed (PS),41487.0,24625.0,0.593559428254634,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,2005,Main,Rainfed (PS),41479.0,22583.0,0.5444441765712771,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,2006,Main,Rainfed (PS),45047.0,70134.0,1.556907230226208,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,2007,Main,Rainfed (PS),40782.0,65645.0,1.6096562208817615,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,2008,Main,Rainfed (PS),38172.0,61738.0,1.6173635125222676,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,2009,Main,Rainfed (PS),35942.0,85057.0,2.3665071504089923,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,2010,Main,Rainfed (PS),37673.0,83962.0,2.2287049080243144,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,2011,Main,Rainfed (PS),38286.0,90649.0,2.3676800919396124,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,2012,Main,Rainfed (PS),35398.0,61866.0,1.7477258602180914,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,2013,Main,Rainfed (PS),36848.0,65103.0,1.7667987407729049,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,2014,Main,Rainfed (PS),38436.0,95908.0,2.495264855864294,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,2015,Main,Rainfed (PS),37121.0,51414.0,1.3850381185851677,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,2016,Main,Rainfed (PS),36540.0,54817.0,1.500191570881226,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,2017,Main,Rainfed (PS),37953.0,75638.0,1.9929386346270388,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20110,2018,Main,Rainfed (PS),36504.0,49411.0,1.3535776901161516,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2017-2018, Malawi",Collected,0,,0,,1,36504,1,0.0,1,49411,1,0.0,1,1.35357769012,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20110,2019,Main,Rainfed (PS),38036.0,73786.0,1.939899043011884,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2018-2019, Malawi",Collected,0,,0,,1,38036,1,0.0,1,73786,1,0.0,1,1.93989904301,1,2.2892387696659225e-16,True,False,True,True,True,True,True,True
+MW2018A20110,2020,Main,Rainfed (PS),39258.0,78800.0,2.007234194304345,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2019-2020, Malawi",Collected,0,,0,,1,39258,1,0.0,1,78800,1,0.0,1,2.0072341943,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20110,2021,Annual,All (PS),46265.0,114316.0,2.470895925645737,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,46265,1,0.0,1,114316,1,0.0,1,2.47089592565,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20110,2022,Annual,All (PS),45443.0,82624.0,1.8181898202143345,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,45443,1,0.0,1,82624,1,0.0,1,1.81818982021,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20110,2023,Annual,All (PS),43308.0,74235.0,1.7141174840676088,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,43308,1,0.0,1,74235,1,0.0,1,1.71411748407,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20211,1983,Main,Rainfed (PS),8810.0,13113.0,1.488422247446084,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,1984,Main,Rainfed (PS),9513.0,14589.0,1.5335856196783348,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,1985,Main,Rainfed (PS),10378.0,17647.0,1.7004239737907112,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,1986,Main,Rainfed (PS),11963.0,12692.0,1.0609378918331522,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,1987,Main,Rainfed (PS),12190.0,12028.0,0.9867104183757178,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,1988,Main,Rainfed (PS),13096.0,13636.0,1.0412339645693345,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,1989,Main,Rainfed (PS),13266.0,17151.0,1.2928539122568974,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,1990,Main,Rainfed (PS),13643.0,14735.0,1.0800410466906103,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,1991,Main,Rainfed (PS),13240.0,14653.0,1.1067220543806646,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,1992,Main,Rainfed (PS),13177.0,7906.0,0.5999848220384002,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,1993,Main,Rainfed (PS),12271.0,21006.0,1.711840925759922,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,1994,Main,Rainfed (PS),12015.0,7672.0,0.638535164377861,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,1995,Main,Rainfed (PS),14198.0,20532.0,1.446119171714326,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,1996,Main,Rainfed (PS),14808.0,24781.0,1.6734873041599136,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,1997,Main,Rainfed (PS),13751.0,12291.0,0.8938259035706494,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,1998,Main,Rainfed (PS),13288.0,17370.0,1.3071944611679711,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,1999,Main,Rainfed (PS),15777.0,29092.0,1.8439500538758955,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,2000,Main,Rainfed (PS),18367.0,26866.0,1.4627320738280611,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,2001,Main,Rainfed (PS),20102.0,17316.0,0.8614068251915232,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,2002,Main,Rainfed (PS),27529.0,28045.0,1.018743870100621,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,2003,Main,Rainfed (PS),21605.0,31145.0,1.4415644526729925,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,2004,Main,Rainfed (PS),13536.0,20449.0,1.5107121749408985,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,2005,Main,Rainfed (PS),20238.0,25091.0,1.2397964225714004,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,2006,Main,Rainfed (PS),21437.0,37118.0,1.7314922797033168,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,2007,Main,Rainfed (PS),20661.0,45674.0,2.2106384008518463,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,2008,Main,Rainfed (PS),23606.0,53739.0,2.276497500635432,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,2009,Main,Rainfed (PS),24562.0,69666.811,2.836365564693429,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,2010,Main,Rainfed (PS),24806.0,70042.0,2.823591066677417,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,2011,Main,Rainfed (PS),26018.0,80761.0,3.104043354600661,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,2012,Main,Rainfed (PS),27205.0,86748.0,3.188678551736813,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,2013,Main,Rainfed (PS),28612.0,92115.366,3.219466168041381,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,2014,Main,Rainfed (PS),29533.0,99754.404,3.377726746351539,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,2015,Main,Rainfed (PS),29315.0,85529.004,2.917584990619137,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,2016,Main,Rainfed (PS),29855.0,84681.0,2.836409311673086,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,2017,Main,Rainfed (PS),31465.0,101797.0,3.2352455108851106,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20211,2018,Main,Rainfed (PS),33954.0,102351.0,3.0144018377805266,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2017-2018, Malawi",Collected,0,,0,,1,33954,1,0.0,1,102351,1,0.0,1,3.01440183778,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20211,2019,Main,Rainfed (PS),33893.0,107987.0,3.1861151270173784,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2018-2019, Malawi",Collected,0,,0,,1,33893,1,0.0,1,107987,1,0.0,1,3.18611512702,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20211,2020,Main,Rainfed (PS),35185.0,117167.0,3.330027000142106,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2019-2020, Malawi",Collected,0,,0,,1,35185,1,0.0,1,117167,1,0.0,1,3.33002700014,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20211,2021,Annual,All (PS),39583.0,144644.0,3.654194982694591,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,39583,1,0.0,1,144644,1,0.0,1,3.65419498269,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20211,2022,Annual,All (PS),28572.0,61786.0,2.162466750664987,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,28572,1,0.0,1,61786,1,0.0,1,2.16246675066,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20211,2023,Annual,All (PS),37151.0,124132.0,3.341282872601006,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,37151,1,0.0,1,124132,1,0.0,1,3.3412828726,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20211,2024,Annual,All (PS),39328.0,136221.0,3.46371541903987,4,"Alt_DS_Annual Production Estimate Survey, Malawi",MADD APES 2023-24 3rd round tabulation sheet,Collected | Not Available,0,,0,,1,39328,1,0.0,1,136221,1,0.0,1,3464,0,999.0821606066611,True,False,True,False,True,True,False,True
+MW2018A20212,1983,Main,Rainfed (PS),18310.0,24763.0,1.352430365920262,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,1984,Main,Rainfed (PS),4790.0,6235.0,1.301670146137787,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,1985,Main,Rainfed (PS),5784.0,5221.0,0.9026625172890732,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,1986,Main,Rainfed (PS),7169.0,7365.0,1.0273399358348445,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,1987,Main,Rainfed (PS),7325.0,6761.0,0.9230034129692832,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,1988,Main,Rainfed (PS),7406.0,5960.0,0.8047529030515798,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,1989,Main,Rainfed (PS),8662.0,7488.0,0.8644654814130686,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,1990,Main,Rainfed (PS),6992.0,4916.0,0.7030892448512586,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,1991,Main,Rainfed (PS),8567.0,6951.0,0.8113692074238357,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,1992,Main,Rainfed (PS),7804.0,1531.0,0.1961814454126089,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,1993,Main,Rainfed (PS),9704.0,11645.0,1.2000206100577082,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,1994,Main,Rainfed (PS),8603.0,8322.0,0.967336975473672,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,1995,Main,Rainfed (PS),8920.0,12764.0,1.4309417040358745,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,1996,Main,Rainfed (PS),13323.0,16352.0,1.2273511971778128,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,1997,Main,Rainfed (PS),10103.0,3556.0,0.3519746609917846,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,1998,Main,Rainfed (PS),11126.0,16595.0,1.4915513212295524,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,1999,Main,Rainfed (PS),16128.0,23738.0,1.4718501984126984,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,2000,Main,Rainfed (PS),13483.0,13547.0,1.004746718089446,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,2001,Main,Rainfed (PS),18529.0,24121.0,1.3017971827945385,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,2002,Main,Rainfed (PS),19354.0,19968.0,1.031724708070683,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,2003,Main,Rainfed (PS),21827.0,17370.0,0.7958033628075319,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,2004,Main,Rainfed (PS),24241.0,21914.0,0.9040056103296068,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,2005,Main,Rainfed (PS),20746.0,17839.0,0.8598766027185963,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,2006,Main,Rainfed (PS),21963.0,35977.0,1.6380731229795564,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,2007,Main,Rainfed (PS),19719.0,29613.0,1.501749581621786,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,2008,Main,Rainfed (PS),19775.0,33449.0,1.691479140328698,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,2009,Main,Rainfed (PS),20378.0,49823.0,2.4449406222396703,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,2010,Main,Rainfed (PS),21049.0,46561.0,2.2120290750154403,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,2011,Main,Rainfed (PS),22942.0,56817.0,2.4765495597593934,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,2012,Main,Rainfed (PS),22791.0,40633.0,1.7828528805230135,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,2013,Main,Rainfed (PS),24344.0,52932.0,2.174334538284588,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,2014,Main,Rainfed (PS),23794.0,32276.0,1.3564764226275532,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,2015,Main,Rainfed (PS),23647.0,34243.0,1.4480906668922062,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,2016,Main,Rainfed (PS),24680.0,38159.0,1.5461507293354944,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,2017,Main,Rainfed (PS),24016.0,34037.0,1.417263491005996,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20212,2018,Main,Rainfed (PS),24703.0,42674.0,1.7274824920050196,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2017-2018, Malawi",Collected,0,,0,,1,24703,1,0.0,1,42674,1,0.0,1,1.72748249201,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20212,2019,Main,Rainfed (PS),22817.0,35980.0,1.5768944208265767,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2018-2019, Malawi",Collected,0,,0,,1,22817,1,0.0,1,35980,1,0.0,1,1.57689442083,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20212,2020,Main,Rainfed (PS),23880.0,49680.0,2.080402010050251,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2019-2020, Malawi",Collected,0,,0,,1,23880,1,0.0,1,49680,1,0.0,1,2.08040201005,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20212,2021,Annual,All (PS),32195.0,95207.0,2.95719832272092,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,32195,1,0.0,1,95207,1,0.0,1,2.95719832272,1,1.5017227841569173e-16,True,False,True,True,True,True,True,True
+MW2018A20212,2022,Annual,All (PS),36044.0,97025.0,2.69184885140384,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,36044,1,0.0,1,97025,1,0.0,1,2.6918488514,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20212,2023,Annual,All (PS),21522.0,7598.0,0.3530341046371155,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,21522,1,0.0,1,7598,1,0.0,1,0.353034104637,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20212,2024,Annual,All (PS),30657.0,70353.0,2.294842939622272,4,"Alt_DS_Annual Production Estimate Survey, Malawi",MADD APES 2023-24 3rd round tabulation sheet,Collected | Not Available,0,,0,,1,30657,1,0.0,1,70353,1,0.0,1,2295,0,999.068440578227,True,False,True,False,True,True,False,True
+MW2018A20214,1984,Main,Rainfed (PS),69380.37790697675,99357.04360465116,1.432062588904694,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,1985,Main,Rainfed (PS),64178.32994186047,69360.63953488372,1.080748589091021,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,1986,Main,Rainfed (PS),76891.81540697675,88124.92296511628,1.1460897690955063,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,1987,Main,Rainfed (PS),75107.46656976744,75584.14825581395,1.0063466617610344,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,1988,Main,Rainfed (PS),71161.76598837209,91684.73837209302,1.2883988627695722,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,1989,Main,Rainfed (PS),78783.73837209302,85360.56395348837,1.0834794808839003,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,1990,Main,Rainfed (PS),90204.36046511628,110039.45058139534,1.219890590809628,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,1991,Main,Rainfed (PS),85019.09011627907,103776.46511627908,1.2206254498177511,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,1992,Main,Rainfed (PS),79919.6816860465,74740.3328488372,0.935193074747774,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,1993,Main,Rainfed (PS),86634.67587209302,119733.95203488372,1.3820557511135414,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,1994,Main,Rainfed (PS),64654.02470930232,63395.70348837209,0.980537619636397,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,1995,Main,Rainfed (PS),63913.835755813954,61533.388081395344,0.96275536202344,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,1996,Main,Rainfed (PS),52076.73401162791,53238.33720930232,1.0223056076714612,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,1997,Main,Rainfed (PS),65273.80959302325,63445.04941860465,0.9719832474031964,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,1998,Main,Rainfed (PS),71003.85901162791,82449.15406976744,1.1611925776634928,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,1999,Main,Rainfed (PS),79278.18459302325,149067.1468023256,1.8803047467290768,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,2000,Main,Rainfed (PS),85705.98546511628,128880.71366279067,1.5037539439441745,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,2001,Main,Rainfed (PS),87230.77470930232,88507.84738372093,1.014640162014776,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,2002,Main,Rainfed (PS),73948.82412790698,85378.32848837209,1.1545596498018122,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,2003,Main,Rainfed (PS),121318.94331395348,94984.00726744186,0.7829280792665566,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,2004,Main,Rainfed (PS),106877.36337209302,114478.61046511628,1.0711212070844185,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,2005,Main,Rainfed (PS),113014.02325581395,103002.72093023256,0.9114153975129244,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,2006,Main,Rainfed (PS),128271.78488372092,324033.011627907,2.526144092573785,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,2007,Main,Rainfed (PS),123754.65843023256,275939.4811046512,2.2297300530324176,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,2008,Main,Rainfed (PS),115198.07412790698,183932.0203488372,1.5966588134504174,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,2009,Main,Rainfed (PS),117402.33880178005,270562.74854651163,2.304577160113691,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,2010,Main,Rainfed (PS),114147.00581395348,229636.2209302325,2.011758602801314,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,2011,Main,Rainfed (PS),120998.19476744186,269143.55959302327,2.22436012463092,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,2012,Main,Rainfed (PS),133308.03052325582,289041.8125,2.168225060151768,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,2013,Main,Rainfed (PS),121692.98546511628,204009.8924418605,1.676430992814624,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,2014,Main,Rainfed (PS),111702.40843023256,226075.41860465115,2.0239081840912503,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,2015,Main,Rainfed (PS),112182.05087209302,158453.72965116278,1.4124695387484714,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,2016,Main,Rainfed (PS),111308.62790697676,146890.99127906977,1.319673003262874,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,2017,Main,Rainfed (PS),116304.84412790698,195220.4601301744,1.6785238963518965,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20214,2018,Main,Rainfed (PS),118475.0,187749.356,1.5847170795526482,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2017-2018, Malawi",Collected,0,,0,,1,118475,1,0.0,1,187749.356,1,0.0,1,1.58471707955,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20214,2019,Annual,All (PS),128881.82,218160.88348,1.6927203811988376,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,128881.82,1,0.0,1,218160.88348,1,0.0,1,1.6927203812,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20214,2020,Main,Rainfed (PS),121942.0,207248.0,1.699562086893769,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2019-2020, Malawi",Collected,0,,0,,1,121942,1,0.0,1,207248,1,0.0,1,1.69956208689,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20214,2021,Annual,All (PS),136202.0,306933.0,2.253513164270716,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,136202,1,0.0,1,306933,1,0.0,1,2.25351316427,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20214,2022,Annual,All (PS),129071.0,254153.0,1.9690945293675568,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,129071,1,0.0,1,254153,1,0.0,1,1.96909452937,1,2.255296549895435e-16,True,False,True,True,True,True,True,True
+MW2018A20214,2023,Annual,All (PS),126895.0,241274.0,1.901367272154144,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,126895,1,0.0,1,241274,1,0.0,1,1.90136727215,1,1.1678154356441987e-16,True,False,True,True,True,True,True,True
+MW2018A20214,2024,Annual,All (PS),126224.0,231559.0,1.834508492838129,4,"Alt_DS_Annual Production Estimate Survey, Malawi",MADD APES 2023-24 3rd round tabulation sheet,Collected | Not Available,0,,0,,1,126224,1,0.0,1,231559,1,0.0,1,1.83,0,0.002457602598041908,True,False,True,False,True,True,False,True
+MW2018A20216,1984,Main,Rainfed (PS),3743.200486766049,4361.125646486158,1.165079365079365,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,1985,Main,Rainfed (PS),3855.1003954974144,4096.724977182842,1.0626765990238891,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,1986,Main,Rainfed (PS),3718.4438697900814,3958.0879221174328,1.0644474034620506,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,1987,Main,Rainfed (PS),4030.377243687253,4349.242470337695,1.0791154791154791,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,1988,Main,Rainfed (PS),4258.138119866139,5424.669911773654,1.273953488372093,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,1989,Main,Rainfed (PS),4010.571950106481,4015.5232735016734,1.0012345679012344,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,1990,Main,Rainfed (PS),2891.5728627928206,2693.519926985093,0.9315068493150686,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,1992,Main,Rainfed (PS),3730.327045938546,2893.5533921508977,0.7756835678258561,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,1993,Main,Rainfed (PS),4788.919987830849,5211.763005780347,1.0882961124896608,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,1994,Main,Rainfed (PS),4406.677821721935,4133.364770307271,0.9379775280898875,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,1995,Main,Rainfed (PS),5385.059324612109,7131.886218436264,1.3243839646929016,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,1996,Main,Rainfed (PS),6117.8551871007,9108.454517797383,1.488831337002266,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,1997,Main,Rainfed (PS),7374.501064800731,11430.625190142988,1.5500201423391968,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,1998,Main,Rainfed (PS),6228.0,9164.0,1.4714193962748876,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,1999,Main,Rainfed (PS),10350.0,21683.0,2.094975845410628,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,2000,Main,Rainfed (PS),10101.0,20902.0,2.0693000693000694,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,2001,Main,Rainfed (PS),11320.0,20794.0,1.836925795053004,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,2002,Main,Rainfed (PS),15788.0,18811.0,1.1914745376235116,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,2003,Main,Rainfed (PS),10833.0,14324.0,1.3222560694175205,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,2004,Main,Rainfed (PS),12976.0,16715.0,1.2881473489519113,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,2005,Main,Rainfed (PS),11407.0,16413.0,1.438853335671079,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,2006,Main,Rainfed (PS),11278.0,26945.0,2.389164745522256,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,2007,Main,Rainfed (PS),11590.0,30347.0,2.6183779119930977,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,2008,Main,Rainfed (PS),13046.0,28919.0,2.2166947723440136,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,2009,Main,Rainfed (PS),14088.0,40682.0,2.8877058489494605,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,2010,Main,Rainfed (PS),14117.0,40071.0,2.838492597577389,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,2011,Main,Rainfed (PS),14439.0,43925.0,3.042108179236789,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,2012,Main,Rainfed (PS),15082.0,41836.0,2.773902665428988,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,2013,Main,Rainfed (PS),13811.0,35612.0,2.578524364636884,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,2014,Main,Rainfed (PS),14064.0,32407.0,2.3042519908987487,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,2015,Main,Rainfed (PS),14062.0,24986.0,1.776845398947518,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,2016,Main,Rainfed (PS),14102.0,23762.0,1.6850092185505603,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,2017,Main,Rainfed (PS),14251.0,25094.0,1.7608588870956423,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20216,2018,Main,Rainfed (PS),14214.0,24455.0,1.7204868439566623,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2017-2018, Malawi",Collected,0,,0,,1,14214,1,0.0,1,24455,1,0.0,1,1.72048684396,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20216,2019,Annual,All (PS),16376.0,29138.0,1.7793111871030778,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,16376,1,0.0,1,29138,1,0.0,1,1.7793111871,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20216,2020,Main,Rainfed (PS),14534.0,26323.0,1.811132516857025,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2019-2020, Malawi",Collected,0,,0,,1,14534,1,0.0,1,26323,1,0.0,1,1.81113251686,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20216,2021,Annual,All (PS),18087.0,36570.1,2.0218997069718583,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,18087,1,0.0,1,36570.1,1,0.0,1,2.02189970697,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20216,2022,Annual,All (PS),18021.0,35989.0,1.9970589867376949,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,18021,1,0.0,1,35989,1,0.0,1,1.99705898674,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20216,2023,Annual,All (PS),15841.0,30994.0,1.956568398459693,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,15841,1,0.0,1,30994,1,0.0,1,1.95656839846,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20216,2024,Annual,All (PS),18997.0,40423.0,2.1278622940464285,4,"Alt_DS_Annual Production Estimate Survey, Malawi",MADD APES 2023-24 3rd round tabulation sheet,Collected | Not Available,0,,0,,1,18997,1,0.0,1,40423,1,0.0,1,2428,0,1140.0512826855997,True,False,True,False,True,True,False,True
+MW2018A20217,1984,Main,Rainfed (PS),19230.0,33560.0,1.7451898075923038,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,1985,Main,Rainfed (PS),20623.0,31411.0,1.5231052708141395,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,1986,Main,Rainfed (PS),22350.0,31826.0,1.423982102908277,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,1987,Main,Rainfed (PS),20446.0,23769.0,1.1625256773941113,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,1988,Main,Rainfed (PS),21600.0,26500.0,1.226851851851852,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,1989,Main,Rainfed (PS),24220.0,30288.0,1.2505367464905035,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,1990,Main,Rainfed (PS),24007.0,35541.0,1.480443204065481,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,1991,Main,Rainfed (PS),25030.0,33553.0,1.3405113863363962,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,1992,Main,Rainfed (PS),23057.0,17108.0,0.7419872489916295,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,1993,Main,Rainfed (PS),29106.0,56619.0,1.945269016697588,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,1994,Main,Rainfed (PS),20356.0,16782.0,0.8244252308901553,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,1995,Main,Rainfed (PS),22830.0,32187.0,1.409855453350854,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,1996,Main,Rainfed (PS),23694.0,45021.0,1.9001012914661937,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,1997,Main,Rainfed (PS),24426.0,37270.0,1.5258331286334237,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,1998,Main,Rainfed (PS),25449.0,45436.0,1.7853746709104483,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,1999,Main,Rainfed (PS),29667.0,66823.0,2.2524353658947653,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,2000,Main,Rainfed (PS),30351.0,60603.0,1.9967381634872,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,2001,Main,Rainfed (PS),39650.0,61059.0,1.5399495586380831,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,2003,Main,Rainfed (PS),16305.0,17342.0,1.0636001226617602,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,2004,Main,Rainfed (PS),16558.0,19193.0,1.159137577002053,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,2005,Main,Rainfed (PS),16559.0,17562.0,1.0605712905368685,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,2006,Main,Rainfed (PS),13369.0,29240.0,2.1871493754207494,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,2007,Main,Rainfed (PS),13458.0,38093.0,2.83050973398722,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,2008,Main,Rainfed (PS),13071.0,30929.0,2.3662305867951954,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,2009,Main,Rainfed (PS),13697.0,44529.0,3.2510038694604657,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,2010,Main,Rainfed (PS),13683.0,36394.0,2.6597968281809545,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,2011,Main,Rainfed (PS),14067.0,40479.0,2.877585839198124,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,2012,Main,Rainfed (PS),15636.0,40666.0,2.600793041698644,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,2013,Main,Rainfed (PS),13365.0,28747.0,2.150916573138795,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,2014,Main,Rainfed (PS),15013.0,32303.0,2.151668553919936,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,2015,Main,Rainfed (PS),14858.0,20441.0,1.3757571678557006,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,2016,Main,Rainfed (PS),15070.0,23873.0,1.5841406768414068,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,2017,Main,Rainfed (PS),18796.0,48468.0,2.5786337518620983,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20217,2018,Main,Rainfed (PS),18171.0,45199.0,2.487425017885642,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2017-2018, Malawi",Collected,0,,0,,1,18171,1,0.0,1,45199,1,0.0,1,2.48742501789,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20217,2019,Annual,All (PS),22269.0,59991.5,2.693946742107863,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,22269,1,0.0,1,59991.5,1,0.0,1,2.69394674211,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20217,2020,Main,Rainfed (PS),19816.0,56470.0,2.849717400080743,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2019-2020, Malawi",Collected,0,,0,,1,19816,1,0.0,1,56470,1,0.0,1,2.84971740008,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20217,2021,Annual,All (PS),25881.0,90703.3,3.504628878327731,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,25881,1,0.0,1,90703.3,1,0.0,1,3.50462887833,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20217,2022,Annual,All (PS),24246.0,75233.0,3.102903571723171,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,24246,1,0.0,1,75233,1,0.0,1,3.10290357172,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20217,2023,Annual,All (PS),25209.0,77211.0,3.0628347018921813,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,25209,1,0.0,1,77211,1,0.0,1,3.06283470189,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20217,2024,Annual,All (PS),25522.0,77270.0,3.0275840451375284,4,"Alt_DS_Annual Production Estimate Survey, Malawi",MADD APES 2023-24 3rd round tabulation sheet,Collected | Not Available,0,,0,,1,25522,1,0.0,1,77270,1,0.0,1,3028,0,999.1373883784133,True,False,True,False,True,True,False,True
+MW2018A20318,1984,Main,Rainfed (PS),16823.757618638272,13449.850308451494,0.7994557823129251,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,1985,Main,Rainfed (PS),17588.26578797503,17024.269342093063,0.9679333680374804,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,1986,Main,Rainfed (PS),17629.00903771813,13366.07486235052,0.7581863979848866,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,1987,Main,Rainfed (PS),13961.658771516462,11563.758297872184,0.8282510328546134,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,1988,Main,Rainfed (PS),65870.60190010254,62162.72302838544,0.9437096555252316,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,1989,Main,Rainfed (PS),40463.567309849706,42390.53573032777,1.047622306894553,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,1990,Main,Rainfed (PS),65009.09714903703,48350.80963986431,0.7437545168335032,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,1991,Main,Rainfed (PS),61685.97923525521,68210.75503202398,1.1057740491057924,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,1992,Main,Rainfed (PS),64114.42820720648,6582.005268779079,0.1026602818246651,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,1993,Main,Rainfed (PS),66761.86480766803,85366.0022177519,1.27866413653483,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,1994,Main,Rainfed (PS),60073.78379905977,20166.529708865964,0.3356960130282587,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,1995,Main,Rainfed (PS),74910.49656710603,91613.70226364063,1.2229755035941003,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,1996,Main,Rainfed (PS),73559.29306622164,72695.88306477277,0.9882623939755432,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,1997,Main,Rainfed (PS),74840.58734401346,48484.50257751699,0.6478370132860174,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,1998,Main,Rainfed (PS),56889.0,36724.0,0.6455378016839811,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,1999,Main,Rainfed (PS),63358.0,112198.0,1.7708576659616782,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,2000,Main,Rainfed (PS),64043.0,94498.0,1.475539871648736,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,2001,Main,Rainfed (PS),63377.0,55925.0,0.8824179118607697,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,2002,Main,Rainfed (PS),47073.0,47535.0,1.0098145433688102,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,2003,Main,Rainfed (PS),66490.0,77006.0,1.1581591216724318,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,2004,Main,Rainfed (PS),45848.0,29375.0,0.6407040656080963,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,2005,Main,Rainfed (PS),45579.0,21521.0,0.4721692007284056,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,2006,Main,Rainfed (PS),57149.0,73414.0,1.2846069047577386,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,2007,Main,Rainfed (PS),58197.0,91274.0,1.5683626303761362,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,2008,Main,Rainfed (PS),54823.0,54712.0,0.9979753023366106,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,2009,Main,Rainfed (PS),53519.0,78446.0,1.4657598236140437,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,2010,Main,Rainfed (PS),58696.0,57252.0,0.9753986643042116,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,2011,Main,Rainfed (PS),59833.0,59324.0,0.9914929888188792,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,2012,Main,Rainfed (PS),50960.0,28591.0,0.5610478806907379,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,2013,Main,Rainfed (PS),52980.0,69198.0,1.3061155152887882,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,2014,Main,Rainfed (PS),53944.0,70276.0,1.3027584161352517,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,2015,Main,Rainfed (PS),52442.0,31159.0,0.5941611685290417,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,2016,Main,Rainfed (PS),52142.0,17618.0,0.3378850063288711,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,2017,Main,Rainfed (PS),53826.0,53271.0,0.9896889978820644,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20318,2018,Main,Rainfed (PS),53543.0,35658.0,0.665969407765721,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2017-2018, Malawi",Collected,0,,0,,1,53543,1,0.0,1,35658,1,0.0,1,0.665969407766,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20318,2019,Main,Rainfed (PS),55463.0,43548.0,0.785172096713124,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2018-2019, Malawi",Collected,0,,0,,1,55463,1,0.0,1,43548,1,0.0,1,0.785172096713,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20318,2020,Annual,All (PS),58208.0,65150.0,1.1192619571192963,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,58208,1,0.0,1,65150,1,0.0,1,1.11926195712,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20318,2021,Annual,All (PS),61625.0,66494.0,1.0790101419878295,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,61625,1,0.0,1,66494,1,0.0,1,1.07901014199,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20318,2022,Annual,All (PS),62264.0,56010.0,0.8995567261981241,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,62264,1,0.0,1,56010,1,0.0,1,0.899556726198,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20318,2023,Annual,All (PS),63664.0,69876.0,1.09757476752953,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,63664,1,0.0,1,69876,1,0.0,1,1.09757476753,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20318,2024,Annual,All (PS),62819.0,36948.0,0.5881660007322626,4,"Alt_DS_Annual Production Estimate Survey, Malawi",MADD APES 2023-24 3rd round tabulation sheet,Collected | Not Available,0,,0,,1,62819,1,0.0,1,36948,1,0.0,1,0.588166000732,1,7.550405995878284e-16,True,False,True,True,True,True,True,True
+MW2018A20319,1984,Main,Rainfed (PS),116984.39024390244,83739.02439024391,0.7158136586911742,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,1985,Main,Rainfed (PS),98484.87804878048,84434.14634146342,0.8573310747223792,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,1986,Main,Rainfed (PS),96214.14634146342,92577.26829268291,0.9622001733937,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,1987,Main,Rainfed (PS),107037.65853658535,100398.78048780488,0.9379762399556664,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,1988,Main,Rainfed (PS),110179.60975609756,110489.17073170732,1.0028096031225289,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,1989,Main,Rainfed (PS),105287.8048780488,68692.87804878049,0.6524295774647886,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,1990,Main,Rainfed (PS),108179.51219512196,77123.31707317074,0.7129198080877313,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,1991,Main,Rainfed (PS),115297.56097560975,113610.73170731709,0.9853697749196144,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,1992,Main,Rainfed (PS),120117.07317073172,32615.12195121952,0.2715277777777777,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,1993,Main,Rainfed (PS),116663.70731707316,210901.8536585366,1.8077760299982524,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,1994,Main,Rainfed (PS),104491.65853658535,97630.34146341465,0.934336221960068,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,1995,Main,Rainfed (PS),115249.36585365854,113421.65853658535,0.9841412809212852,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,1996,Main,Rainfed (PS),123810.48780487804,229103.8536585366,1.8504397948871507,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,1997,Main,Rainfed (PS),120453.51219512196,138155.0243902439,1.1469572108984862,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,1998,Main,Rainfed (PS),120042.9268292683,187458.63414634147,1.5615966646077826,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,1999,Main,Rainfed (PS),77488.48780487805,144241.51219512196,1.861457311676196,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,2000,Main,Rainfed (PS),77778.58536585367,129533.65853658535,1.6654154601460929,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,2001,Main,Rainfed (PS),83897.51219512196,101294.0975609756,1.207355199346008,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,2002,Main,Rainfed (PS),30856.926829268297,35676.439024390245,1.1561889886762982,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,2003,Main,Rainfed (PS),13198.975609756098,31776.34146341464,2.407485429394004,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,2004,Main,Rainfed (PS),66736.34146341463,34379.80487804878,0.5151586695368378,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,2005,Main,Rainfed (PS),36121.317073170736,14373.268292682927,0.3979165062992327,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,2006,Main,Rainfed (PS),38242.82926829269,87812.43902439025,2.296180505065193,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,2007,Main,Rainfed (PS),38403.17073170731,82287.60975609756,2.142729576445035,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,2008,Main,Rainfed (PS),38326.24390243903,69591.90243902439,1.815776745985684,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,2009,Main,Rainfed (PS),38508.82926829269,100429.36585365854,2.6079568702014484,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,2010,Main,Rainfed (PS),39634.9268292683,58777.65853658537,1.4829763352352443,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,2011,Main,Rainfed (PS),40548.78048780488,80826.0,1.9933028571428573,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,2012,Main,Rainfed (PS),40517.26829268293,66289.60975609756,1.6360828987098543,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,2013,Main,Rainfed (PS),40821.26829268293,94561.60975609756,2.3164789755698845,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,2014,Main,Rainfed (PS),41311.56097560976,98642.43902439025,2.387768379960963,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,2015,Main,Rainfed (PS),41168.82926829269,74782.14634146342,1.816474931898512,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,2016,Main,Rainfed (PS),41682.29268292683,48935.65853658537,1.174015520423365,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,2017,Main,Rainfed (PS),41480.24390243903,88948.73170731707,2.1443637582393027,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20319,2018,Main,Rainfed (PS),45214.0,47779.0,1.0567302163046843,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2017-2018, Malawi",Collected,0,,0,,1,45214,1,0.0,1,47779,1,0.0,1,1.0567302163,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20319,2019,Main,Rainfed (PS),46326.0,114926.0,2.48080991236023,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2018-2019, Malawi",Collected,0,,0,,1,46326,1,0.0,1,114926,1,0.0,1,2.48080991236,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20319,2020,Main,Rainfed (PS),46426.0,122638.0,2.641580149054409,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2019-2020, Malawi",Collected,0,,0,,1,46426,1,0.0,1,122638,1,0.0,1,2.64158014905,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20319,2021,Annual,All (PS),52270.0,175173.0,3.3513105031566863,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,52270,1,0.0,1,175173,1,0.0,1,3.35131050316,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20319,2022,Annual,All (PS),43316.0,90163.0,2.0815172222735248,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,43316,1,0.0,1,90163,1,0.0,1,2.08151722227,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20319,2023,Annual,All (PS),46973.0,80244.0,1.7083005130606943,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,46973,1,0.0,1,80244,1,0.0,1,1.70830051306,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20319,2024,Annual,All (PS),48385.0,28338.0,0.5856773793531053,4,"Alt_DS_Annual Production Estimate Survey, Malawi",MADD APES 2023-24 3rd round tabulation sheet,Collected | Not Available,0,,0,,1,48385,1,0.0,1,28338,1,0.0,1,586,0,999.5508504481616,True,False,True,False,True,True,False,True
+MW2018A20321,1984,Main,Rainfed (PS),12000.0,9600.0,0.8,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,1985,Main,Rainfed (PS),17200.0,17200.0,1.0,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,1986,Main,Rainfed (PS),18100.0,18100.0,1.0,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,1987,Main,Rainfed (PS),4204.0,2982.0,0.7093244529019981,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,1988,Main,Rainfed (PS),22657.0,23151.0,1.0218034161627754,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,1989,Main,Rainfed (PS),21254.0,14098.0,0.663310435682695,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,1990,Main,Rainfed (PS),25041.0,21219.0,0.847370312687193,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,1992,Main,Rainfed (PS),24561.0,3993.0,0.1625748137290827,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,1993,Main,Rainfed (PS),34892.0,31304.0,0.8971684053651267,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,1994,Main,Rainfed (PS),50911.0,34113.0,0.6700516587770816,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,1995,Main,Rainfed (PS),50256.0,16388.0,0.3260904170646291,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,1996,Main,Rainfed (PS),54947.0,71507.0,1.301381331100879,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,1997,Main,Rainfed (PS),59501.0,44918.0,0.7549116821566024,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,1998,Main,Rainfed (PS),66302.0,91183.0,1.3752677143977556,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,1999,Main,Rainfed (PS),65023.0,84062.0,1.2928040847084878,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,2000,Main,Rainfed (PS),73670.0,99480.0,1.350346138183793,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,2001,Main,Rainfed (PS),75096.0,76267.0,1.0155933738148504,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,2002,Main,Rainfed (PS),72663.0,74328.0,1.0229140002477188,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,2003,Main,Rainfed (PS),77248.0,88177.0,1.1414793910521954,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,2004,Main,Rainfed (PS),61107.0,24077.0,0.3940137791087764,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,2005,Main,Rainfed (PS),56534.0,21657.0,0.3830792089715923,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,2006,Main,Rainfed (PS),44250.0,35237.0,0.796316384180791,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,2007,Main,Rainfed (PS),38818.0,35666.0,0.9188005564428872,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,2008,Main,Rainfed (PS),32722.0,35797.0,1.0939734735040645,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,2009,Main,Rainfed (PS),29036.0,13677.0,0.4710359553657529,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,2010,Main,Rainfed (PS),30492.0,4583.0,0.1503017184835366,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,2011,Main,Rainfed (PS),30701.0,18531.0,0.6035959740725058,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,2012,Main,Rainfed (PS),23881.0,15993.0,0.6696955738871907,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,2013,Main,Rainfed (PS),28082.0,24906.0,0.8869026422619471,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,2014,Main,Rainfed (PS),31272.0,37973.0,1.2142811460731644,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,2015,Main,Rainfed (PS),28195.0,23160.0,0.8214222379854584,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,2016,Main,Rainfed (PS),33106.0,3574.0,0.1079562617048269,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,2017,Main,Rainfed (PS),35553.0,23532.0,0.6618850729896212,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20321,2018,Main,Rainfed (PS),39752.0,18224.0,0.4584423425236466,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2017-2018, Malawi",Collected,0,,0,,1,39752,1,0.0,1,18224,1,0.0,1,0.458442342524,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20321,2019,Main,Rainfed (PS),40417.0,50554.0,1.2508103025954425,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2018-2019, Malawi",Collected,0,,0,,1,40417,1,0.0,1,50554,1,0.0,1,1.2508103026,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20321,2020,Main,Rainfed (PS),38927.0,54134.0,1.3906543016415345,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2019-2020, Malawi",Collected,0,,0,,1,38927,1,0.0,1,54134,1,0.0,1,1.39065430164,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20321,2021,Annual,All (PS),68198.0,88829.0,1.3025162028211972,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,68198,1,0.0,1,88829,1,0.0,1,1.30251620282,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20321,2022,Annual,All (PS),66398.0,71926.0,1.0832555197445706,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,66398,1,0.0,1,71926,1,0.0,1,1.08325551974,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20321,2023,Annual,All (PS),69025.0,91668.0,1.3280405650126763,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,69025,1,0.0,1,91668,1,0.0,1,1.32804056501,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20321,2024,Annual,All (PS),59032.0,46631.0,0.7899274969508063,4,"Alt_DS_Annual Production Estimate Survey, Malawi",MADD APES 2023-24 3rd round tabulation sheet,Collected | Not Available,0,,0,,1,59032,1,0.0,1,46631,1,0.0,1,790,0,999.091784435247,True,False,True,False,True,True,False,True
+MW2018A20324,1984,Main,Rainfed (PS),108000.0,83720.0,0.7751851851851852,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,1985,Main,Rainfed (PS),111820.0,107432.0,0.960758361652656,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,1986,Main,Rainfed (PS),117958.0,94010.0,0.7969785855982637,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,1987,Main,Rainfed (PS),134401.0,101990.0,0.7588485204723179,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,1989,Main,Rainfed (PS),73824.0,65138.0,0.8823417858690941,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,1990,Main,Rainfed (PS),87508.0,100414.0,1.1474836586369246,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,1991,Main,Rainfed (PS),86779.0,90893.0,1.047407782988972,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,1992,Main,Rainfed (PS),86354.0,27591.0,0.319510387474813,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,1993,Main,Rainfed (PS),87770.0,120754.0,1.375800387376097,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,1994,Main,Rainfed (PS),70737.0,25976.0,0.3672194184090362,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,1995,Main,Rainfed (PS),94566.0,103148.0,1.090751432861705,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,1996,Main,Rainfed (PS),101996.0,201700.0,1.977528530530609,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,1997,Main,Rainfed (PS),96416.0,109364.0,1.134293063391968,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,1998,Main,Rainfed (PS),109385.0,119220.0,1.0899117794944462,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,1999,Main,Rainfed (PS),127159.0,263463.0,2.071917835151268,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,2000,Main,Rainfed (PS),132252.0,271076.0,2.049693010313644,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,2001,Main,Rainfed (PS),131194.0,166080.0,1.2659115508331171,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,2002,Main,Rainfed (PS),85952.0,83883.0,0.9759284251675354,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,2003,Main,Rainfed (PS),167760.0,245325.0,1.462356938483548,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,2004,Main,Rainfed (PS),104732.0,85310.0,0.8145552457701563,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,2005,Main,Rainfed (PS),104217.0,82611.0,0.7926825757793834,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,2006,Main,Rainfed (PS),101295.0,155223.0,1.5323856063971568,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,2007,Main,Rainfed (PS),104636.0,185926.0,1.7768836729232769,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,2008,Main,Rainfed (PS),100807.0,130518.0,1.2947315166605493,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,2009,Main,Rainfed (PS),100428.0,178806.0,1.7804397180069302,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,2010,Main,Rainfed (PS),96525.0,149686.0,1.5507485107485108,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,2011,Main,Rainfed (PS),97269.0,133162.0,1.3690075974873803,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,2012,Main,Rainfed (PS),95336.0,113408.0,1.1895611311571703,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,2013,Main,Rainfed (PS),90775.0,115384.0,1.2710988708344808,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,2014,Main,Rainfed (PS),83392.0,126666.0,1.518922678434382,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,2015,Main,Rainfed (PS),88834.0,58690.911,0.6606807190940406,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,2016,Main,Rainfed (PS),88031.0,33654.0,0.3822971453238064,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,2017,Main,Rainfed (PS),89988.0,108968.0,1.210917011157043,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20324,2018,Main,Rainfed (PS),94764.0,64593.0,0.6816196023806509,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2017-2018, Malawi",Collected,0,,0,,1,94764,1,0.0,1,64593,1,0.0,1,0.681619602381,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20324,2019,Main,Rainfed (PS),97186.0,82323.0,0.8470664499001914,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2018-2019, Malawi",Collected,0,,0,,1,97186,1,0.0,1,82323,1,0.0,1,0.8470664499,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20324,2020,Annual,All (PS),109063.0,123699.0,1.1341976655694417,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,109063,1,0.0,1,123699,1,0.0,1,1.13419766557,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20324,2021,Annual,All (PS),116966.0,160183.0,1.36948343963203,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,116966,1,0.0,1,160183,1,0.0,1,1.36948343963,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20324,2022,Annual,All (PS),117780.0,126952.0,1.0778740023773137,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,117780,1,0.0,1,126952,1,0.0,1,1.07787400238,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20324,2023,Annual,All (PS),113662.0,100407.0,0.8833823089511006,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,113662,1,0.0,1,100407,1,0.0,1,0.883382308951,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20324,2024,Annual,All (PS),115781.0,87990.0,0.7599692522952816,4,"Alt_DS_Annual Production Estimate Survey, Malawi",MADD APES 2023-24 3rd round tabulation sheet,Collected | Not Available,0,,0,,1,115781,1,0.0,1,87990,1,0.0,1,0.759969252295,1,5.843515491038766e-16,True,False,True,True,True,True,True,True
+MW2018A20325,1984,Main,Rainfed (PS),48504.07690649476,52701.83035130761,1.0865443425076453,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,1985,Main,Rainfed (PS),24663.125867832787,20337.70223369638,0.8246198126986856,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,1986,Main,Rainfed (PS),23934.187359495776,21756.907367297288,0.9090305444887118,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,1987,Main,Rainfed (PS),23921.473315745712,19385.208456087403,0.8103685003100363,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,1988,Main,Rainfed (PS),23921.473315745712,26791.66869232269,1.1199840552750464,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,1990,Main,Rainfed (PS),23921.473315745712,23258.224033450697,0.9722738949419788,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,1991,Main,Rainfed (PS),22913.885348553125,19160.063931346685,0.8361770009710086,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,1992,Main,Rainfed (PS),24279.585548039184,5424.128914871121,0.223402862628731,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,1993,Main,Rainfed (PS),22913.885348553125,18627.13359748983,0.8129190363896981,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,1994,Main,Rainfed (PS),20282.078292289847,16402.70569305152,0.8087290393355273,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,1995,Main,Rainfed (PS),20474.907955832485,14739.814720907712,0.7198965071151359,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,1996,Main,Rainfed (PS),25521.85357278504,33450.119354595874,1.310646158955518,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,1997,Main,Rainfed (PS),25095.93310715789,17729.734009464468,0.7064783737572035,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,1998,Main,Rainfed (PS),47524.0,58430.0,1.2294840501641275,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,1999,Main,Rainfed (PS),52372.0,56606.0,1.0808447261895668,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,2000,Main,Rainfed (PS),53873.0,72217.0,1.3405045198893697,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,2001,Main,Rainfed (PS),53667.0,60946.0,1.1356326979335531,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,2002,Main,Rainfed (PS),55294.0,55224.0,0.9987340398596593,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,2003,Main,Rainfed (PS),57523.0,55731.0,0.9688472437112112,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,2004,Main,Rainfed (PS),51231.0,19588.0,0.382346626066249,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,2005,Main,Rainfed (PS),57479.0,16148.0,0.2809373858278676,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,2006,Main,Rainfed (PS),50855.0,67782.0,1.3328482941696982,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,2007,Main,Rainfed (PS),53549.0,80397.0,1.501372574651254,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,2008,Main,Rainfed (PS),52635.0,74074.578,1.40732550584212,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,2009,Main,Rainfed (PS),54247.0,145305.0,2.678581304035246,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,2010,Main,Rainfed (PS),56358.0,76854.0,1.3636750771851378,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,2011,Main,Rainfed (PS),57342.0,145023.0,2.5290886261379093,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,2012,Main,Rainfed (PS),58227.0,99637.0,1.7111820976522918,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,2013,Main,Rainfed (PS),59415.0,147686.0,2.4856686022048304,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,2014,Main,Rainfed (PS),59371.0,136329.0,2.296222061275707,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,2015,Main,Rainfed (PS),56080.0,66145.0,1.1794757489300998,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,2016,Main,Rainfed (PS),57599.0,46282.0,0.8035208944599732,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,2017,Main,Rainfed (PS),56708.0,104569.0,1.843990265923679,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20325,2018,Main,Rainfed (PS),57340.0,69907.0,1.2191663760027904,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2017-2018, Malawi",Collected,0,,0,,1,57340,1,0.0,1,69907,1,0.0,1,1.219166376,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20325,2019,Main,Rainfed (PS),58257.0,118732.0,2.038072677961446,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2018-2019, Malawi",Collected,0,,0,,1,58257,1,0.0,1,118732,1,0.0,1,2.03807267796,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20325,2020,Main,Rainfed (PS),57837.0,121002.0,2.092120960630738,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2019-2020, Malawi",Collected,0,,0,,1,57837,1,0.0,1,121002,1,0.0,1,2.09212096063,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20325,2021,Annual,All (PS),64813.0,145509.0,2.245058861648126,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,64813,1,0.0,1,145509,1,0.0,1,2.24505886165,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20325,2022,Annual,All (PS),62700.0,66810.0,1.0655502392344498,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,62700,1,0.0,1,66810,1,0.0,1,1.06555023923,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20325,2023,Annual,All (PS),60655.0,58403.0,0.9628719808754432,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,60655,1,0.0,1,58403,1,0.0,1,0.962871980875,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20325,2024,Annual,All (PS),60676.0,31181.0,0.5138934669391522,4,"Alt_DS_Annual Production Estimate Survey, Malawi",MADD APES 2023-24 3rd round tabulation sheet,Collected | Not Available,0,,0,,1,60676,1,0.0,1,31181,1,0.0,1,514,0,999.2073057310542,True,False,True,False,True,True,False,True
+MW2018A20326,1985,Main,Rainfed (PS),8333.692866755351,9823.604427397431,1.1787816739186074,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,1986,Main,Rainfed (PS),10681.07679300676,10823.455599982935,1.0133300049925111,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,1987,Main,Rainfed (PS),10901.84393191364,7759.911607180948,0.7117980825670125,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,1988,Main,Rainfed (PS),13377.74206221471,10460.30965409988,0.7819189221509146,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,1989,Main,Rainfed (PS),13043.925084060827,6746.195831668923,0.517190629982421,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,1990,Main,Rainfed (PS),13330.282459889317,8512.866196882673,0.6386110888871109,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,1991,Main,Rainfed (PS),13944.591020325852,12237.111844529163,0.8775525812619502,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,1992,Main,Rainfed (PS),13957.389115334949,915.597047108967,0.0655994498357148,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,1993,Main,Rainfed (PS),11795.044312756692,16297.840740123098,1.3817532438175324,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,1994,Main,Rainfed (PS),12749.568898851656,6096.692509957379,0.4781881299928897,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,1995,Main,Rainfed (PS),13974.986495972453,12569.329060806907,0.8994161865150531,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,1996,Main,Rainfed (PS),16100.003521440844,19765.05797967028,1.227643084260731,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,1997,Main,Rainfed (PS),17714.163254462885,17791.485078476166,1.0043649718534575,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,1998,Main,Rainfed (PS),18189.82578563423,23371.987756400067,1.284893436134971,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,1999,Main,Rainfed (PS),20383.632571776507,34762.292314494145,1.705402223675605,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,2000,Main,Rainfed (PS),18971.576089106416,34155.44930947958,1.800348539786941,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,2001,Main,Rainfed (PS),19438.17330297965,18203.15713460204,0.9364643915285856,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,2002,Main,Rainfed (PS),18419.658241839217,17549.387781220794,0.9527531700538476,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,2003,Main,Rainfed (PS),15697.0,15693.0,0.9997451742371154,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,2004,Main,Rainfed (PS),35599.0,24411.0,0.6857215090311526,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,2005,Main,Rainfed (PS),35354.0,23487.0,0.664337840131244,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,2006,Main,Rainfed (PS),15072.0,23470.0,1.557192144373673,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,2007,Main,Rainfed (PS),16454.0,30852.0,1.8750455816214904,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,2008,Main,Rainfed (PS),17257.0,26232.0,1.520078808599409,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,2009,Main,Rainfed (PS),17912.0,35302.0,1.970857525681108,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,2010,Main,Rainfed (PS),15631.0,8223.0,0.5260699891241764,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,2011,Main,Rainfed (PS),15625.0,29801.0,1.907264,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,2012,Main,Rainfed (PS),16091.0,28425.0,1.766515443415574,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,2013,Main,Rainfed (PS),16364.0,40260.0,2.4602786604742115,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,2014,Main,Rainfed (PS),17082.0,38816.0,2.2723334504156423,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,2015,Main,Rainfed (PS),18231.0,29305.0,1.6074269102078875,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,2016,Main,Rainfed (PS),18757.0,13966.0,0.7445753585328144,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,2017,Main,Rainfed (PS),19187.0,46675.0,2.432636681086152,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20326,2018,Main,Rainfed (PS),19827.0,25464.0,1.284309275230746,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2017-2018, Malawi",Collected,0,,0,,1,19827,1,0.0,1,25464,1,0.0,1,1.28430927523,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20326,2019,Main,Rainfed (PS),20529.0,53081.0,2.5856593112182766,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2018-2019, Malawi",Collected,0,,0,,1,20529,1,0.0,1,53081,1,0.0,1,2.58565931122,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20326,2020,Main,Rainfed (PS),20611.0,58954.0,2.8603173062927563,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2019-2020, Malawi",Collected,0,,0,,1,20611,1,0.0,1,58954,1,0.0,1,2.86031730629,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20326,2021,Annual,All (PS),24797.0,71289.0,2.874904222284954,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,24797,1,0.0,1,71289,1,0.0,1,2.87490422228,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20326,2022,Annual,All (PS),24650.0,56279.0,2.283123732251521,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,24650,1,0.0,1,56279,1,0.0,1,2.28312373225,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20326,2023,Annual,All (PS),20814.0,31658.0,1.5209954838089748,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,20814,1,0.0,1,31658,1,0.0,1,1.52099548381,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20326,2024,Annual,All (PS),23243.0,16860.0,0.7253796842059975,4,"Alt_DS_Annual Production Estimate Survey, Malawi",MADD APES 2023-24 3rd round tabulation sheet,Collected | Not Available,0,,0,,1,23243,1,0.0,1,16860,1,0.0,1,725,0,998.476571767497,True,False,True,False,True,True,False,True
+MW2018A20327,1985,Main,Rainfed (PS),7294.307133244652,8598.39557260257,1.1787816739186077,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20327,1986,Main,Rainfed (PS),9348.92320699324,9473.544400017065,1.0133300049925114,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20327,1987,Main,Rainfed (PS),9542.156068086362,6792.088392819053,0.7117980825670123,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20327,1988,Main,Rainfed (PS),11709.257937785294,9155.69034590012,0.7819189221509147,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20327,1989,Main,Rainfed (PS),11417.074915939174,5904.804168331078,0.5171906299824209,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20327,1990,Main,Rainfed (PS),11667.717540110683,7451.133803117329,0.6386110888871112,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20327,1991,Main,Rainfed (PS),12205.408979674152,10710.88815547084,0.8775525812619505,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20327,1992,Main,Rainfed (PS),12216.610884665057,801.4029528910332,0.0655994498357148,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20327,1993,Main,Rainfed (PS),10323.95568724331,14265.159259876906,1.3817532438175324,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20327,1994,Main,Rainfed (PS),11159.431101148348,5336.307490042622,0.4781881299928896,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20327,1995,Main,Rainfed (PS),12232.013504027553,11001.670939193094,0.8994161865150532,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20327,1996,Main,Rainfed (PS),14091.996478559158,17299.94202032973,1.227643084260731,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20327,1997,Main,Rainfed (PS),15504.836745537115,15572.514921523838,1.0043649718534575,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20327,1998,Main,Rainfed (PS),15921.174214365774,20457.012243599936,1.284893436134971,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20327,1999,Main,Rainfed (PS),17841.367428223497,30426.707685505866,1.7054022236756052,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20327,2000,Main,Rainfed (PS),16605.423910893587,29895.550690520424,1.800348539786941,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20327,2001,Main,Rainfed (PS),17013.82669702035,15932.842865397966,0.9364643915285856,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20327,2002,Main,Rainfed (PS),16122.341758160785,15360.61221877921,0.9527531700538476,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20327,2005,Main,Rainfed (PS),10327.0,12741.0,1.233756173138375,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20327,2006,Main,Rainfed (PS),17844.0,14902.0,0.8351266532167675,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20327,2007,Main,Rainfed (PS),18638.0,25671.0,1.377347354866402,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20327,2008,Main,Rainfed (PS),21478.0,27101.0,1.2618027749324892,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20327,2009,Main,Rainfed (PS),22368.0,34579.0,1.5459138054363375,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20327,2010,Main,Rainfed (PS),22423.0,18678.0,0.8329839896534807,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20327,2011,Main,Rainfed (PS),23055.0,31877.0,1.382650184341791,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20327,2012,Main,Rainfed (PS),22453.0,27691.0,1.2332873112724358,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20327,2013,Main,Rainfed (PS),22825.0,39086.0,1.712420591456736,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20327,2014,Main,Rainfed (PS),22856.0,41994.0,1.837329366468324,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20327,2015,Main,Rainfed (PS),22958.0,31393.0,1.3674100531405176,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20327,2016,Main,Rainfed (PS),22879.0,18326.0,0.8009965470518816,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20327,2017,Main,Rainfed (PS),22881.0,39932.0,1.7452034439054238,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20327,2018,Main,Rainfed (PS),31382.0,34365.0,1.0950544898349373,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2017-2018, Malawi",Collected,0,,0,,1,31382,1,0.0,1,34365,1,0.0,1,1.09505448983,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20327,2019,Main,Rainfed (PS),23272.0,41287.0,1.7741062220694397,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2018-2019, Malawi",Collected,0,,0,,1,23272,1,0.0,1,41287,1,0.0,1,1.77410622207,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20327,2020,Main,Rainfed (PS),23362.0,44698.0,1.913277972776304,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2019-2020, Malawi",Collected,0,,0,,1,23362,1,0.0,1,44698,1,0.0,1,1.91327797278,1,2.321090903511826e-16,True,False,True,True,True,True,True,True
+MW2018A20327,2021,Annual,All (PS),25106.0,53040.0,2.1126423962399428,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,25106,1,0.0,1,53040,1,0.0,1,2.11264239624,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20327,2022,Annual,All (PS),25152.0,44134.0,1.754691475826972,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,25152,1,0.0,1,44134,1,0.0,1,1.75469147583,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20327,2023,Annual,All (PS),25228.0,48272.0,1.913429522752497,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,25228,1,0.0,1,48272,1,0.0,1,1.91342952275,1,1.1604535326998448e-16,True,False,True,True,True,True,True,True
+MW2018A20327,2024,Annual,All (PS),25189.0,18546.0,0.736273770296558,4,"Alt_DS_Annual Production Estimate Survey, Malawi",MADD APES 2023-24 3rd round tabulation sheet,Collected | Not Available,0,,0,,1,25189,1,0.0,1,18546,1,0.0,1,736,0,998.6281677989863,True,False,True,False,True,True,False,True
+MW2018A20328,1984,Main,Rainfed (PS),3000.0,2100.0,0.7,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,1985,Main,Rainfed (PS),3300.0,2970.0,0.9,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,1986,Main,Rainfed (PS),3140.0,3140.0,1.0,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,1987,Main,Rainfed (PS),24923.0,15200.0,0.6098784255506962,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,1988,Main,Rainfed (PS),4011.0,3422.0,0.8531538269758165,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,1989,Main,Rainfed (PS),2951.0,1862.0,0.6309725516773975,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,1990,Main,Rainfed (PS),4628.0,3360.0,0.7260155574762316,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,1991,Main,Rainfed (PS),14007.0,13678.0,0.976511744127936,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,1992,Main,Rainfed (PS),5287.0,1318.0,0.2492907130697938,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,1993,Main,Rainfed (PS),13783.0,13331.0,0.9672059783791628,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,1994,Main,Rainfed (PS),9700.0,5354.0,0.551958762886598,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,1995,Main,Rainfed (PS),14874.0,8051.0,0.5412800860562055,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,1996,Main,Rainfed (PS),14760.0,13639.0,0.9240514905149052,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,1997,Main,Rainfed (PS),14742.0,9703.0,0.6581874915208249,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,1998,Main,Rainfed (PS),17761.0,15111.0,0.8507966893755983,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,1999,Main,Rainfed (PS),21021.0,27727.0,1.319014319014319,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,2000,Main,Rainfed (PS),24842.0,31591.0,1.27167699863135,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,2001,Main,Rainfed (PS),24059.0,25416.0,1.0564030092688808,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,2002,Main,Rainfed (PS),24028.0,24903.0,1.0364158481771266,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,2003,Main,Rainfed (PS),29832.0,30931.0,1.0368396352909628,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,2004,Main,Rainfed (PS),28267.0,20806.0,0.7360526408886687,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,2005,Main,Rainfed (PS),21043.0,10564.0,0.5020196740008553,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,2006,Main,Rainfed (PS),14873.0,11252.0,0.7565386942782223,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,2007,Main,Rainfed (PS),11353.0,12659.0,1.1150356733902933,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,2008,Main,Rainfed (PS),11578.0,14156.0,1.222663672482294,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,2009,Main,Rainfed (PS),12380.0,11216.189,0.905992649434572,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,2010,Main,Rainfed (PS),11719.0,1400.0,0.1194641180988139,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,2011,Main,Rainfed (PS),11405.0,10063.0,0.8823323103901798,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,2012,Main,Rainfed (PS),8009.0,4750.0,0.5930827818703958,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,2013,Main,Rainfed (PS),8044.0,8590.0,1.0678766782695177,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,2014,Main,Rainfed (PS),8933.0,10951.0,1.2259039516399866,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,2015,Main,Rainfed (PS),9090.0,7272.0,0.8,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,2016,Main,Rainfed (PS),8911.0,272.0,0.030524071372461,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,2017,Main,Rainfed (PS),10086.0,4061.0,0.4026373190561174,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20328,2018,Main,Rainfed (PS),9127.0,6498.0,0.7119535444286184,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2017-2018, Malawi",Collected,0,,0,,1,9127,1,0.0,1,6498,1,0.0,1,0.711953544429,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20328,2019,Main,Rainfed (PS),9507.0,6478.0,0.6813926580414431,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2018-2019, Malawi",Collected,0,,0,,1,9507,1,0.0,1,6478,1,0.0,1,0.681392658041,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20328,2020,Main,Rainfed (PS),9486.0,8512.0,0.8973223698081383,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2019-2020, Malawi",Collected,0,,0,,1,9486,1,0.0,1,8512,1,0.0,1,0.897322369808,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20328,2021,Annual,All (PS),22729.0,44271.0,1.947775969026354,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,22729,1,0.0,1,44271,1,0.0,1,1.94777596903,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20328,2022,Annual,All (PS),23916.0,46309.0,1.9363187824050845,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,23916,1,0.0,1,46309,1,0.0,1,1.93631878241,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20328,2023,Annual,All (PS),23916.0,49217.0,2.0579110219100185,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,23916,1,0.0,1,49217,1,0.0,1,2.05791102191,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20328,2024,Annual,All (PS),26893.0,41569.0,1.5457182166362995,4,"Alt_DS_Annual Production Estimate Survey, Malawi",MADD APES 2023-24 3rd round tabulation sheet,Collected | Not Available,0,,0,,1,26893,1,0.0,1,41569,1,0.0,1,1546,0,999.1822993095816,True,False,True,False,True,True,False,True
+MW2018A20330,1999,Main,Rainfed (PS),40971.0,62713.0,1.5306680334871006,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20330,2000,Main,Rainfed (PS),41094.0,69691.0,1.6958923443811749,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20330,2001,Main,Rainfed (PS),41948.0,40119.0,0.956398398016592,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20330,2002,Main,Rainfed (PS),51866.0,53970.0,1.0405660741140632,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20330,2003,Main,Rainfed (PS),44180.0,71759.0,1.6242417383431418,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20330,2004,Main,Rainfed (PS),96271.0,95455.0,0.9915239272470422,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20330,2005,Main,Rainfed (PS),48500.0,41215.0,0.8497938144329897,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20330,2006,Main,Rainfed (PS),49001.0,87811.0,1.7920246525581112,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20330,2007,Main,Rainfed (PS),49829.0,114752.0,2.302915972626382,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20330,2008,Main,Rainfed (PS),48451.0,94269.0,1.9456564363996616,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20330,2009,Main,Rainfed (PS),47505.0,145243.0,3.0574255341543,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20330,2010,Main,Rainfed (PS),46093.0,73558.0,1.5958605428156118,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20330,2011,Main,Rainfed (PS),46524.0,122023.0,2.622796836041613,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20330,2012,Main,Rainfed (PS),45956.0,93617.0,2.037100705022195,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20330,2013,Main,Rainfed (PS),48077.0,123891.0,2.576928676914117,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20330,2014,Main,Rainfed (PS),48797.0,128953.0,2.6426419656946125,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20330,2015,Main,Rainfed (PS),49189.0,90226.0,1.83427189005672,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20330,2016,Main,Rainfed (PS),48537.0,49725.0,1.024476172816614,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20330,2017,Main,Rainfed (PS),48575.0,108840.0,2.240658775090067,0,,,,0,,0,,0,,0,,0,,0,,0,,0,,False,False,False,False,False,False,False,False
+MW2018A20330,2018,Main,Rainfed (PS),50121.0,97133.0,1.9379701123281656,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2017-2018, Malawi",Collected,0,,0,,1,50121,1,0.0,1,97133,1,0.0,1,1.93797011233,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20330,2019,Main,Rainfed (PS),50509.0,111257.0,2.202716347581619,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2018-2019, Malawi",Collected,0,,0,,1,50509,1,0.0,1,111257,1,0.0,1,2.20271634758,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20330,2020,Main,Rainfed (PS),50967.0,129799.0,2.546726313104558,3,"Annual Production Estimate Survey, Malawi","Annual Production Estimate Survey, 2019-2020, Malawi",Collected,0,,0,,1,50967,1,0.0,1,129799,1,0.0,1,2.5467263131,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20330,2021,Annual,All (PS),56517.0,150734.0,2.6670559300741368,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,56517,1,0.0,1,150734,1,0.0,1,2.66705593007,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20330,2022,Annual,All (PS),56465.0,117638.0,2.083379084388559,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,56465,1,0.0,1,117638,1,0.0,1,2.08337908439,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20330,2023,Annual,All (PS),1569.0,87399.0,55.70363288718929,3,"FAO Summary spreadsheet, Malawi","Ministry of Agriculture summary spreadsheet, 2024, Malawi",Collected,0,,0,,1,1569,1,0.0,1,87399,1,0.0,1,55.7036328872,1,0.0,True,False,True,True,True,True,True,True
+MW2018A20330,2024,Annual,All (PS),56676.0,57501.0,1.0145564260004234,4,"Alt_DS_Annual Production Estimate Survey, Malawi",MADD APES 2023-24 3rd round tabulation sheet,Collected | Not Available,0,,0,,1,56676,1,0.0,1,57501,1,0.0,1,1015,0,999.4372097876559,True,False,True,False,True,True,False,True

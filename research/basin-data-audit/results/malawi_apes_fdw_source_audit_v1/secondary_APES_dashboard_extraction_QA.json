@@ -1,0 +1,143 @@
+{
+  "utc": "2026-11-04T00:21:25.950666+00:00",
+  "status": "SECONDARY_APES_EXTRACT_PASS_NOT_PRIMARY",
+  "scope": [
+    "Secondary publicly distributed APES dashboard, published 2023",
+    "No primary APES questionnaire/yearly methodology accessible",
+    "Dashboard says 1982-2019 but HTML coverage empirically checked, not assumed",
+    "Maize type categories Local, Hybrid, Composite may not be exhaustive or identically measured"
+  ],
+  "checks": {
+    "published_dashboard_html_sha": {
+      "pass": true,
+      "detail": null
+    },
+    "original_static_datatable_exists": {
+      "pass": true,
+      "detail": null
+    },
+    "8_original_columns": {
+      "pass": true,
+      "detail": 8
+    },
+    "column_lengths_identical": {
+      "pass": true,
+      "detail": [
+        2240,
+        2240,
+        2240,
+        2240,
+        2240,
+        2240,
+        2240,
+        2240
+      ]
+    },
+    "all_core_columns_have_names": {
+      "pass": true,
+      "detail": null
+    },
+    "year_between_1980_2025": {
+      "pass": true,
+      "detail": null
+    },
+    "dashboard_has_maize_categories": {
+      "pass": true,
+      "detail": null
+    },
+    "812_main": {
+      "pass": true,
+      "detail": null
+    }
+  },
+  "table": {
+    "rows": 2240,
+    "districts": 28,
+    "crop_values": {
+      "Rice": 280,
+      "Cassava": 280,
+      "Groundnuts": 280,
+      "Composite Maize": 280,
+      "Local Maize": 280,
+      "Hybrid Maize": 280,
+      "Pulses": 280,
+      "Cotton": 280
+    },
+    "year_min": 2000,
+    "year_max": 2009,
+    "year_values": [
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009
+    ],
+    "duplicates_district_year_crop": 0,
+    "regions": {
+      "South": 1040,
+      "Central": 720,
+      "North": 480
+    },
+    "negative_area_rows": 0,
+    "missing_area": 584,
+    "negative_production_rows": 0,
+    "missing_production": 584,
+    "yield_units_unverified": true
+  },
+  "unit_scenarios": [
+    {
+      "factor": 1,
+      "median_relative_error": 999.0,
+      "fraction_within_1percent": 0.0
+    },
+    {
+      "factor": 1000,
+      "median_relative_error": 999999.0,
+      "fraction_within_1percent": 0.0
+    },
+    {
+      "factor": 0.001,
+      "median_relative_error": 1.7466640714899224e-11,
+      "fraction_within_1percent": 0.9723756906077348
+    }
+  ],
+  "maize": {
+    "rows": 840,
+    "types": {
+      "Composite Maize": 280,
+      "Local Maize": 280,
+      "Hybrid Maize": 280
+    },
+    "districts": 28,
+    "n_unique_district_year": 280,
+    "years": [
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009
+    ]
+  },
+  "comparison": {
+    "candidate_overlap": 86,
+    "production_exact": 0,
+    "area_exact": 0,
+    "both_exact": 0,
+    "median_rel_error_prod": 0.6043786425119098,
+    "median_rel_error_area": 0.4936650107784249,
+    "types_count_dist": {
+      "3": 86
+    },
+    "warning": "Candidate sum of maize subtypes is not a validated official aggregate or independent raw APES proof."
+  }
+}

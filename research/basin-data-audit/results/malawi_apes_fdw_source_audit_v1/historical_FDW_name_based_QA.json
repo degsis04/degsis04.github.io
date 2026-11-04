@@ -1,0 +1,792 @@
+{
+  "utc": "2026-11-04T00:20:25.305322+00:00",
+  "status": "PASS_UNVERIFIED_HISTORICAL_GEOGRAPHY",
+  "constraints": [
+    "no automated old-FNID to new-FNID geographic equivalence",
+    "area planted != area harvested",
+    "raw FDW are not original ministry APES microdata or primary year-by-year official reports",
+    "name agreement does not prove boundary equivalence; year shift only diagnostic, never applied"
+  ],
+  "checks": {
+    "outer_sha256": {
+      "pass": true,
+      "detail": null
+    },
+    "outer_crc": {
+      "pass": true,
+      "detail": null
+    },
+    "raw_sha256": {
+      "pass": true,
+      "detail": null
+    },
+    "inner_crc": {
+      "pass": true,
+      "detail": null
+    },
+    "pilot_915": {
+      "pass": true,
+      "detail": null
+    },
+    "23_district_labels": {
+      "pass": true,
+      "detail": null
+    },
+    "all_pilot_23_labels": {
+      "pass": true,
+      "detail": null
+    },
+    "district_name_no_dup_across_current_fnid": {
+      "pass": true,
+      "detail": null
+    },
+    "all_maize_years_present": {
+      "pass": true,
+      "detail": null
+    },
+    "district_labels_present": {
+      "pass": true,
+      "detail": null
+    },
+    "915_names_audited": {
+      "pass": true,
+      "detail": null
+    },
+    "all_matched_raw_values_exact_area_prod_only_when_true": {
+      "pass": true,
+      "detail": null
+    }
+  },
+  "name_crosswalk": {
+    "source_district_region_pairs": 28,
+    "pairs_with_multiple_source_fnids": 28
+  },
+  "summary_915": {
+    "n": 915,
+    "keys_found": 893,
+    "area_planted_equal": 737,
+    "area_harvested_equal": 0,
+    "production_equal": 737,
+    "reported_yield_equal": 864,
+    "area_and_production_exact": 737,
+    "three_exact": 718,
+    "found_but_old_fnid": 732,
+    "multiple_possible_numeric_sources": 0
+  },
+  "by_system": {
+    "Annual/All (PS)": {
+      "n": 103,
+      "keys_found": 103,
+      "area_planted_equal": 103,
+      "area_harvested_equal": 0,
+      "production_equal": 103,
+      "reported_yield_equal": 84,
+      "area_and_production_exact": 103,
+      "three_exact": 84,
+      "found_but_old_fnid": 0,
+      "multiple_possible_numeric_sources": 0
+    },
+    "Main/Rainfed (PS)": {
+      "n": 812,
+      "keys_found": 790,
+      "area_planted_equal": 634,
+      "area_harvested_equal": 0,
+      "production_equal": 634,
+      "reported_yield_equal": 780,
+      "area_and_production_exact": 634,
+      "three_exact": 634,
+      "found_but_old_fnid": 732,
+      "multiple_possible_numeric_sources": 0
+    }
+  },
+  "by_year_1983_1999": [
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 1983,
+      "hs_rows": 2,
+      "found": 2,
+      "area_planted_exact": 2,
+      "production_exact": 2,
+      "reported_yield_exact": 2,
+      "three_exact": 2,
+      "old_fnid": 2
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 1984,
+      "hs_rows": 20,
+      "found": 19,
+      "area_planted_exact": 14,
+      "production_exact": 14,
+      "reported_yield_exact": 19,
+      "three_exact": 14,
+      "old_fnid": 20
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 1985,
+      "hs_rows": 22,
+      "found": 20,
+      "area_planted_exact": 14,
+      "production_exact": 14,
+      "reported_yield_exact": 20,
+      "three_exact": 14,
+      "old_fnid": 22
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 1986,
+      "hs_rows": 22,
+      "found": 20,
+      "area_planted_exact": 14,
+      "production_exact": 14,
+      "reported_yield_exact": 20,
+      "three_exact": 14,
+      "old_fnid": 22
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 1987,
+      "hs_rows": 22,
+      "found": 20,
+      "area_planted_exact": 14,
+      "production_exact": 14,
+      "reported_yield_exact": 20,
+      "three_exact": 14,
+      "old_fnid": 22
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 1988,
+      "hs_rows": 20,
+      "found": 19,
+      "area_planted_exact": 12,
+      "production_exact": 12,
+      "reported_yield_exact": 18,
+      "three_exact": 12,
+      "old_fnid": 20
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 1989,
+      "hs_rows": 21,
+      "found": 20,
+      "area_planted_exact": 14,
+      "production_exact": 14,
+      "reported_yield_exact": 19,
+      "three_exact": 14,
+      "old_fnid": 21
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 1990,
+      "hs_rows": 22,
+      "found": 21,
+      "area_planted_exact": 14,
+      "production_exact": 14,
+      "reported_yield_exact": 20,
+      "three_exact": 14,
+      "old_fnid": 22
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 1991,
+      "hs_rows": 20,
+      "found": 19,
+      "area_planted_exact": 13,
+      "production_exact": 13,
+      "reported_yield_exact": 18,
+      "three_exact": 13,
+      "old_fnid": 20
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 1992,
+      "hs_rows": 22,
+      "found": 21,
+      "area_planted_exact": 14,
+      "production_exact": 14,
+      "reported_yield_exact": 20,
+      "three_exact": 14,
+      "old_fnid": 22
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 1993,
+      "hs_rows": 21,
+      "found": 20,
+      "area_planted_exact": 13,
+      "production_exact": 13,
+      "reported_yield_exact": 19,
+      "three_exact": 13,
+      "old_fnid": 21
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 1994,
+      "hs_rows": 22,
+      "found": 21,
+      "area_planted_exact": 14,
+      "production_exact": 14,
+      "reported_yield_exact": 20,
+      "three_exact": 14,
+      "old_fnid": 22
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 1995,
+      "hs_rows": 22,
+      "found": 21,
+      "area_planted_exact": 14,
+      "production_exact": 14,
+      "reported_yield_exact": 20,
+      "three_exact": 14,
+      "old_fnid": 22
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 1996,
+      "hs_rows": 22,
+      "found": 21,
+      "area_planted_exact": 14,
+      "production_exact": 14,
+      "reported_yield_exact": 20,
+      "three_exact": 14,
+      "old_fnid": 22
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 1997,
+      "hs_rows": 22,
+      "found": 21,
+      "area_planted_exact": 14,
+      "production_exact": 14,
+      "reported_yield_exact": 20,
+      "three_exact": 14,
+      "old_fnid": 22
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 1998,
+      "hs_rows": 22,
+      "found": 21,
+      "area_planted_exact": 17,
+      "production_exact": 17,
+      "reported_yield_exact": 21,
+      "three_exact": 17,
+      "old_fnid": 22
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 1999,
+      "hs_rows": 23,
+      "found": 22,
+      "area_planted_exact": 18,
+      "production_exact": 18,
+      "reported_yield_exact": 22,
+      "three_exact": 18,
+      "old_fnid": 23
+    }
+  ],
+  "by_year_2000_2020": [
+    {
+      "season_name": "Annual",
+      "system": "All (PS)",
+      "harvest_year": 2018,
+      "hs_rows": 4,
+      "found": 4,
+      "area_planted_exact": 4,
+      "production_exact": 4,
+      "reported_yield_exact": 4,
+      "three_exact": 4,
+      "old_fnid": 0
+    },
+    {
+      "season_name": "Annual",
+      "system": "All (PS)",
+      "harvest_year": 2019,
+      "hs_rows": 4,
+      "found": 4,
+      "area_planted_exact": 4,
+      "production_exact": 4,
+      "reported_yield_exact": 4,
+      "three_exact": 4,
+      "old_fnid": 0
+    },
+    {
+      "season_name": "Annual",
+      "system": "All (PS)",
+      "harvest_year": 2020,
+      "hs_rows": 5,
+      "found": 5,
+      "area_planted_exact": 5,
+      "production_exact": 5,
+      "reported_yield_exact": 5,
+      "three_exact": 5,
+      "old_fnid": 0
+    },
+    {
+      "season_name": "Annual",
+      "system": "All (PS)",
+      "harvest_year": 2021,
+      "hs_rows": 23,
+      "found": 23,
+      "area_planted_exact": 23,
+      "production_exact": 23,
+      "reported_yield_exact": 23,
+      "three_exact": 23,
+      "old_fnid": 0
+    },
+    {
+      "season_name": "Annual",
+      "system": "All (PS)",
+      "harvest_year": 2022,
+      "hs_rows": 23,
+      "found": 23,
+      "area_planted_exact": 23,
+      "production_exact": 23,
+      "reported_yield_exact": 23,
+      "three_exact": 23,
+      "old_fnid": 0
+    },
+    {
+      "season_name": "Annual",
+      "system": "All (PS)",
+      "harvest_year": 2023,
+      "hs_rows": 23,
+      "found": 23,
+      "area_planted_exact": 23,
+      "production_exact": 23,
+      "reported_yield_exact": 23,
+      "three_exact": 23,
+      "old_fnid": 0
+    },
+    {
+      "season_name": "Annual",
+      "system": "All (PS)",
+      "harvest_year": 2024,
+      "hs_rows": 21,
+      "found": 21,
+      "area_planted_exact": 21,
+      "production_exact": 21,
+      "reported_yield_exact": 2,
+      "three_exact": 2,
+      "old_fnid": 0
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 2000,
+      "hs_rows": 22,
+      "found": 21,
+      "area_planted_exact": 17,
+      "production_exact": 17,
+      "reported_yield_exact": 21,
+      "three_exact": 17,
+      "old_fnid": 22
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 2001,
+      "hs_rows": 22,
+      "found": 21,
+      "area_planted_exact": 17,
+      "production_exact": 17,
+      "reported_yield_exact": 21,
+      "three_exact": 17,
+      "old_fnid": 22
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 2002,
+      "hs_rows": 20,
+      "found": 19,
+      "area_planted_exact": 15,
+      "production_exact": 15,
+      "reported_yield_exact": 19,
+      "three_exact": 15,
+      "old_fnid": 20
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 2003,
+      "hs_rows": 22,
+      "found": 22,
+      "area_planted_exact": 19,
+      "production_exact": 19,
+      "reported_yield_exact": 22,
+      "three_exact": 19,
+      "old_fnid": 22
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 2004,
+      "hs_rows": 22,
+      "found": 22,
+      "area_planted_exact": 19,
+      "production_exact": 19,
+      "reported_yield_exact": 22,
+      "three_exact": 19,
+      "old_fnid": 22
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 2005,
+      "hs_rows": 23,
+      "found": 23,
+      "area_planted_exact": 20,
+      "production_exact": 20,
+      "reported_yield_exact": 23,
+      "three_exact": 20,
+      "old_fnid": 23
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 2006,
+      "hs_rows": 23,
+      "found": 23,
+      "area_planted_exact": 20,
+      "production_exact": 20,
+      "reported_yield_exact": 23,
+      "three_exact": 20,
+      "old_fnid": 23
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 2007,
+      "hs_rows": 23,
+      "found": 23,
+      "area_planted_exact": 20,
+      "production_exact": 20,
+      "reported_yield_exact": 23,
+      "three_exact": 20,
+      "old_fnid": 23
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 2008,
+      "hs_rows": 23,
+      "found": 23,
+      "area_planted_exact": 20,
+      "production_exact": 20,
+      "reported_yield_exact": 23,
+      "three_exact": 20,
+      "old_fnid": 23
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 2009,
+      "hs_rows": 23,
+      "found": 23,
+      "area_planted_exact": 20,
+      "production_exact": 20,
+      "reported_yield_exact": 23,
+      "three_exact": 20,
+      "old_fnid": 23
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 2010,
+      "hs_rows": 23,
+      "found": 23,
+      "area_planted_exact": 20,
+      "production_exact": 20,
+      "reported_yield_exact": 23,
+      "three_exact": 20,
+      "old_fnid": 23
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 2011,
+      "hs_rows": 23,
+      "found": 23,
+      "area_planted_exact": 20,
+      "production_exact": 20,
+      "reported_yield_exact": 23,
+      "three_exact": 20,
+      "old_fnid": 23
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 2012,
+      "hs_rows": 23,
+      "found": 23,
+      "area_planted_exact": 20,
+      "production_exact": 20,
+      "reported_yield_exact": 23,
+      "three_exact": 20,
+      "old_fnid": 23
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 2013,
+      "hs_rows": 23,
+      "found": 23,
+      "area_planted_exact": 20,
+      "production_exact": 20,
+      "reported_yield_exact": 23,
+      "three_exact": 20,
+      "old_fnid": 23
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 2014,
+      "hs_rows": 23,
+      "found": 23,
+      "area_planted_exact": 20,
+      "production_exact": 20,
+      "reported_yield_exact": 23,
+      "three_exact": 20,
+      "old_fnid": 23
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 2015,
+      "hs_rows": 23,
+      "found": 23,
+      "area_planted_exact": 20,
+      "production_exact": 20,
+      "reported_yield_exact": 23,
+      "three_exact": 20,
+      "old_fnid": 23
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 2016,
+      "hs_rows": 23,
+      "found": 23,
+      "area_planted_exact": 20,
+      "production_exact": 20,
+      "reported_yield_exact": 23,
+      "three_exact": 20,
+      "old_fnid": 23
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 2017,
+      "hs_rows": 23,
+      "found": 23,
+      "area_planted_exact": 20,
+      "production_exact": 20,
+      "reported_yield_exact": 23,
+      "three_exact": 20,
+      "old_fnid": 23
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 2018,
+      "hs_rows": 19,
+      "found": 19,
+      "area_planted_exact": 19,
+      "production_exact": 19,
+      "reported_yield_exact": 19,
+      "three_exact": 19,
+      "old_fnid": 0
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 2019,
+      "hs_rows": 19,
+      "found": 19,
+      "area_planted_exact": 19,
+      "production_exact": 19,
+      "reported_yield_exact": 19,
+      "three_exact": 19,
+      "old_fnid": 0
+    },
+    {
+      "season_name": "Main",
+      "system": "Rainfed (PS)",
+      "harvest_year": 2020,
+      "hs_rows": 20,
+      "found": 20,
+      "area_planted_exact": 20,
+      "production_exact": 20,
+      "reported_yield_exact": 20,
+      "three_exact": 20,
+      "old_fnid": 0
+    }
+  ],
+  "yield_status": {
+    "derived_computed_only_count": 19,
+    "source_yield_reported_equal": 864
+  },
+  "raw_name_unmatched_district_examples": [
+    {
+      "fnid_harmonized": "MW2018A20318",
+      "district": "Balaka",
+      "harvest_year": 1984,
+      "season_name": "Main",
+      "system": "Rainfed (PS)"
+    },
+    {
+      "fnid_harmonized": "MW2018A20318",
+      "district": "Balaka",
+      "harvest_year": 1985,
+      "season_name": "Main",
+      "system": "Rainfed (PS)"
+    },
+    {
+      "fnid_harmonized": "MW2018A20318",
+      "district": "Balaka",
+      "harvest_year": 1986,
+      "season_name": "Main",
+      "system": "Rainfed (PS)"
+    },
+    {
+      "fnid_harmonized": "MW2018A20318",
+      "district": "Balaka",
+      "harvest_year": 1987,
+      "season_name": "Main",
+      "system": "Rainfed (PS)"
+    },
+    {
+      "fnid_harmonized": "MW2018A20327",
+      "district": "Neno",
+      "harvest_year": 1985,
+      "season_name": "Main",
+      "system": "Rainfed (PS)"
+    },
+    {
+      "fnid_harmonized": "MW2018A20327",
+      "district": "Neno",
+      "harvest_year": 1986,
+      "season_name": "Main",
+      "system": "Rainfed (PS)"
+    },
+    {
+      "fnid_harmonized": "MW2018A20327",
+      "district": "Neno",
+      "harvest_year": 1987,
+      "season_name": "Main",
+      "system": "Rainfed (PS)"
+    },
+    {
+      "fnid_harmonized": "MW2018A20327",
+      "district": "Neno",
+      "harvest_year": 1988,
+      "season_name": "Main",
+      "system": "Rainfed (PS)"
+    },
+    {
+      "fnid_harmonized": "MW2018A20327",
+      "district": "Neno",
+      "harvest_year": 1989,
+      "season_name": "Main",
+      "system": "Rainfed (PS)"
+    },
+    {
+      "fnid_harmonized": "MW2018A20327",
+      "district": "Neno",
+      "harvest_year": 1990,
+      "season_name": "Main",
+      "system": "Rainfed (PS)"
+    },
+    {
+      "fnid_harmonized": "MW2018A20327",
+      "district": "Neno",
+      "harvest_year": 1991,
+      "season_name": "Main",
+      "system": "Rainfed (PS)"
+    },
+    {
+      "fnid_harmonized": "MW2018A20327",
+      "district": "Neno",
+      "harvest_year": 1992,
+      "season_name": "Main",
+      "system": "Rainfed (PS)"
+    },
+    {
+      "fnid_harmonized": "MW2018A20327",
+      "district": "Neno",
+      "harvest_year": 1993,
+      "season_name": "Main",
+      "system": "Rainfed (PS)"
+    },
+    {
+      "fnid_harmonized": "MW2018A20327",
+      "district": "Neno",
+      "harvest_year": 1994,
+      "season_name": "Main",
+      "system": "Rainfed (PS)"
+    },
+    {
+      "fnid_harmonized": "MW2018A20327",
+      "district": "Neno",
+      "harvest_year": 1995,
+      "season_name": "Main",
+      "system": "Rainfed (PS)"
+    },
+    {
+      "fnid_harmonized": "MW2018A20327",
+      "district": "Neno",
+      "harvest_year": 1996,
+      "season_name": "Main",
+      "system": "Rainfed (PS)"
+    },
+    {
+      "fnid_harmonized": "MW2018A20327",
+      "district": "Neno",
+      "harvest_year": 1997,
+      "season_name": "Main",
+      "system": "Rainfed (PS)"
+    },
+    {
+      "fnid_harmonized": "MW2018A20327",
+      "district": "Neno",
+      "harvest_year": 1998,
+      "season_name": "Main",
+      "system": "Rainfed (PS)"
+    },
+    {
+      "fnid_harmonized": "MW2018A20327",
+      "district": "Neno",
+      "harvest_year": 1999,
+      "season_name": "Main",
+      "system": "Rainfed (PS)"
+    },
+    {
+      "fnid_harmonized": "MW2018A20327",
+      "district": "Neno",
+      "harvest_year": 2000,
+      "season_name": "Main",
+      "system": "Rainfed (PS)"
+    }
+  ]
+}
