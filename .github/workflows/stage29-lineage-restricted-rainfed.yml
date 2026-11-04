@@ -1,0 +1,40 @@
+name: Stage29 source-transformation cohort Malawi rainfed sensitivity
+on:
+  push:
+    paths:
+      - 'research/basin-data-audit/scripts/stage29_lineage_restricted_rainfed_v1.py'
+      - '.github/workflows/stage29-lineage-restricted-rainfed.yml'
+  pull_request:
+    paths:
+      - 'research/basin-data-audit/scripts/stage29_lineage_restricted_rainfed_v1.py'
+      - '.github/workflows/stage29-lineage-restricted-rainfed.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  model:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install 'numpy>=1.26,<3' 'pandas>=2.2,<3'
+      - name: Quantify sensitivity to removing source-transformed district observations
+        run: python research/basin-data-audit/scripts/stage29_lineage_restricted_rainfed_v1.py
+      - name: Persist verified restricted model and QA
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/basin-data-audit/results/stage29_admin_lineage_design_gate/
+          if ! git diff --cached --quiet; then
+            git commit -m 'stage29 robustness: restriction to historically source-identifiable districts'
+            for try in 1 2 3; do git pull --rebase && git push && break || sleep 5; done
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: stage29-lineage-restricted-rainfed-qa
+          path: research/basin-data-audit/results/stage29_admin_lineage_design_gate/
